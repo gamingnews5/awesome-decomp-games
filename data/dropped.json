@@ -32,7 +32,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -692,8 +692,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Baroque (Baroque (SaturnRecomp))",
@@ -763,13 +763,13 @@
  },
  {
   "title": "Beetle Adventure Racing!",
-  "url": "https://github.com/bryankruman/BeetleDecomp",
+  "url": "https://github.com/bryankruman/BeetleRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Beetle Adventure Racing!",
-  "url": "https://github.com/bryankruman/BeetleRecomp",
+  "url": "https://github.com/bryankruman/BeetleDecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -1081,6 +1081,12 @@
  },
  {
   "title": "Burnout 3: Takedown",
+  "url": "https://github.com/stevencol/takedawn-eu",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Burnout 3: Takedown",
   "url": "https://github.com/Almirante-Ming/b3_decompiled",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
@@ -1094,12 +1100,6 @@
  {
   "title": "Burnout 3: Takedown",
   "url": "https://github.com/matheuz232/Burnout-3-Recompiled",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Burnout 3: Takedown",
-  "url": "https://github.com/stevencol/takedawn-eu",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -2995,13 +2995,13 @@
  },
  {
   "title": "Final Fantasy IX",
-  "url": "https://github.com/maurizi/ff9-ds",
+  "url": "https://github.com/maurizi/ff9-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Final Fantasy IX",
-  "url": "https://github.com/maurizi/ff9-decomp",
+  "url": "https://github.com/maurizi/ff9-ds",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -3380,6 +3380,12 @@
  {
   "title": "Gauntlet Legends",
   "url": "https://github.com/Auxnon/gauntlet-legends-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Gekitotsu Pennant Race 2",
+  "url": "https://github.com/antxiko/PennantRace2-disassembly",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -6246,6 +6252,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Nox",
+  "url": "https://github.com/sookyboo/nox-decomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "NW4C",
   "url": "https://github.com/ctrdecomp/NintendoWare4Ctr",
   "status": 200,
@@ -6980,7 +6992,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -7672,6 +7684,12 @@
   "url": "https://rvgl.org",
   "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
+ },
+ {
+  "title": "S4 League",
+  "url": "https://github.com/ufodriverr/s4league-bevy-public-v1",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Saint Seiya: The Hades",
@@ -9612,12 +9630,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "The Simpsons Game",
-  "url": "https://github.com/codepdbh/the-simpsons-game-android",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "The Sims 2",
   "url": "https://github.com/DaniKH1/ts2psp-decomp",
   "status": 404,
@@ -9748,6 +9760,12 @@
   "url": "https://github.com/phobos665/Rainbow-six-three-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Tomba!",
@@ -10340,7 +10358,7 @@
  {
   "title": "VoxeLibre",
   "url": "https://git.minetest.land/VoxeLibre/VoxeLibre",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -10622,6 +10640,12 @@
  {
   "title": "X JAPAN Virtual Shock 001",
   "url": "https://github.com/vs-sr-dev/pc-xjapan",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "X-COM: Apocalypse",
+  "url": "https://github.com/ayrtondenner/ReverseApoc",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },

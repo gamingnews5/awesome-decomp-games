@@ -9,24 +9,24 @@
 
 > A rated, auto-refreshed list of **decompiled, recompiled and reverse-engineered games**: matching decompilations, static recompilations, source ports, engine remakes, disassemblies and browser ports.
 
-**2469 projects** covering **2090 games** · updated 2026-10-25 · browse and filter on the **[website](https://gamingnews5.github.io/awesome-decomp-games/)** · data in [`data/games.json`](data/games.json)
+**2477 projects** covering **2096 games** · updated 2026-10-25 · browse and filter on the **[website](https://gamingnews5.github.io/awesome-decomp-games/)** · data in [`data/games.json`](data/games.json)
 
 > [!IMPORTANT]
 > This list only links to source code and project pages. It does **not** host or link to ROMs, ISOs, game assets or other copyrighted material. Most projects need files from a copy of the game you own. See the [disclaimer](#disclaimer).
 
 ## Contents
 
-- [Play in your browser](#play-in-your-browser) (76)
+- [Play in your browser](#play-in-your-browser) (75)
 - [Top playable picks](#top-playable-picks)
-- [Static recompilations](#static-recompilations) (700)
-- [Source ports](#source-ports) (288)
+- [Static recompilations](#static-recompilations) (705)
+- [Source ports](#source-ports) (290)
 - [Engine remakes & reimplementations](#engine-remakes--reimplementations) (245)
 - [Browser ports](#browser-ports) (72)
 - [Decompilations](#decompilations) (689)
-- [Disassemblies](#disassemblies) (110)
+- [Disassemblies](#disassemblies) (109)
 - [Tools & launchers](#tools--launchers) (11)
 - [Mods & mashups](#mods--mashups) (18)
-- [Inactive / unmaintained](#inactive--unmaintained) (354)
+- [Inactive / unmaintained](#inactive--unmaintained) (356)
 - [How entries are rated](#how-entries-are-rated)
 - [Sources](#sources)
 - [Contributing](#contributing)
@@ -35,7 +35,7 @@
 
 ## Play in your browser
 
-76 games you can launch straight from a browser tab (WebAssembly/JS ports and recompilations). Links are re-checked daily in a real browser; ones that are taken down or broken are hidden. Some ask for files from your own copy of the game. Never install a launcher or extension a site pushes on you.
+75 games you can launch straight from a browser tab (WebAssembly/JS ports and recompilations). Links are re-checked daily in a real browser; ones that are taken down or broken are hidden. Some ask for files from your own copy of the game. Never install a launcher or extension a site pushes on you.
 
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="https://dusklight.pages.dev/"><img src="screenshots/twilitrealm-dusklight.jpg" width="240" alt="The Legend of Zelda: Twilight Princess (Dusklight)"></a><br><b>The Legend of Zelda: Twilight Princess (Dusklight)</b><br><a href="https://dusklight.pages.dev/"><b>▶ Play in browser</b></a><br><sub>GameCube · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html"><img src="screenshots/browser-wszqkzqk-pvz-portable.jpg" width="240" alt="Plants vs. Zombies (PvZ-Portable)"></a><br><b>Plants vs. Zombies (PvZ-Portable)</b><br><a href="https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://rgc.zone/ports/ac-webport-main/index.html"><img src="screenshots/browser-flyngmt-acgc-pc-port.jpg" width="240" alt="Animal Crossing"></a><br><b>Animal Crossing</b><br><a href="https://rgc.zone/ports/ac-webport-main/index.html"><b>▶ Play in browser</b></a><br><sub>GameCube · needs your game files</sub></td></tr>
@@ -43,27 +43,26 @@
 <tr><td align="center" valign="top" width="33%"><a href="https://perfectdark.royal-cake-5abc.workers.dev/"><img src="screenshots/browser-perfect-dark-pc-port-perfect-dark.jpg" width="240" alt="Perfect Dark"></a><br><b>Perfect Dark</b><br><a href="https://perfectdark.royal-cake-5abc.workers.dev/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://ydubr-gt2.surge.sh/"><img src="screenshots/browser-dubrovskiy-yevhen-stakelogic-gt-2-pc.jpg" width="240" alt="Gran Turismo 2 (gt-2-pc)"></a><br><b>Gran Turismo 2 (gt-2-pc)</b><br><a href="https://ydubr-gt2.surge.sh/"><b>▶ Play in browser</b></a><br><sub>PS1 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://dos.zone/revcdos"><img src="screenshots/browser-lolendor-revcdos.jpg" width="240" alt="Grand Theft Auto: Vice City (reVCDOS)"></a><br><b>Grand Theft Auto: Vice City (reVCDOS)</b><br><a href="https://dos.zone/revcdos"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://celeste.r58playz.dev/"><img src="screenshots/browser-mercuryworkshop-celeste-wasm.jpg" width="240" alt="Celeste (celeste-wasm / Webleste)"></a><br><b>Celeste (celeste-wasm / Webleste)</b><br><a href="https://celeste.r58playz.dev/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://oldkid.net/booym/"><img src="screenshots/browser-booym-decomp.jpg" width="240" alt="Booym (decomp)"></a><br><b>Booym (decomp)</b><br><a href="https://oldkid.net/booym/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://vel.gg/bsz"><img src="screenshots/browser-call-of-duty-black-ops-zombies.jpg" width="240" alt="Call of Duty: Black Ops Zombies"></a><br><b>Call of Duty: Black Ops Zombies</b><br><a href="https://vel.gg/bsz"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://generals.wasm.ltd"><img src="screenshots/browser-command-conquer-generals-zero-hour.jpg" width="240" alt="Command & Conquer: Generals Zero Hour"></a><br><b>Command & Conquer: Generals Zero Hour</b><br><a href="https://generals.wasm.ltd"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://chronodivide.com/"><img src="screenshots/browser-command-conquer-red-alert-2.jpg" width="240" alt="Command & Conquer: Red Alert 2"></a><br><b>Command & Conquer: Red Alert 2</b><br><a href="https://chronodivide.com/"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://csjs.live"><img src="screenshots/browser-counter-strike-1-6.jpg" width="240" alt="Counter-Strike 1.6"></a><br><b>Counter-Strike 1.6</b><br><a href="https://csjs.live"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://bunnyhop.lol"><img src="screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg" width="240" alt="Counter-Strike: Source Bunnyhop (bunnyhop.lol)"></a><br><b>Counter-Strike: Source Bunnyhop (bunnyhop.lol)</b><br><a href="https://bunnyhop.lol"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="http://surfd.net"><img src="screenshots/browser-counter-strike-source-surf-surfd.jpg" width="240" alt="Counter-Strike: Source Surf (Surfd)"></a><br><b>Counter-Strike: Source Surf (Surfd)</b><br><a href="http://surfd.net"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://crashbash.app/"><img src="screenshots/browser-crash-bash-online.jpg" width="240" alt="Crash Bash Online"></a><br><b>Crash Bash Online</b><br><a href="https://crashbash.app/"><b>▶ Play in browser</b></a><br><sub>PS1 · plays instantly · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://wasm.rip/files/cuphead/index.html"><img src="screenshots/browser-cuphead.jpg" width="240" alt="Cuphead"></a><br><b>Cuphead</b><br><a href="https://wasm.rip/files/cuphead/index.html"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5"><img src="screenshots/browser-cyberpunk-2077.jpg" width="240" alt="Cyberpunk 2077"></a><br><b>Cyberpunk 2077</b><br><a href="https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="http://johnimril.github.io/diablo_web/"><img src="screenshots/browser-diablo.jpg" width="240" alt="Diablo (diablo_web)"></a><br><b>Diablo (diablo_web)</b><br><a href="http://johnimril.github.io/diablo_web/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://bunnyhop.lol"><img src="screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg" width="240" alt="Counter-Strike: Source Bunnyhop (bunnyhop.lol)"></a><br><b>Counter-Strike: Source Bunnyhop (bunnyhop.lol)</b><br><a href="https://bunnyhop.lol"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://surfd.net"><img src="screenshots/browser-counter-strike-source-surf-surfd.jpg" width="240" alt="Counter-Strike: Source Surf (Surfd)"></a><br><b>Counter-Strike: Source Surf (Surfd)</b><br><a href="https://surfd.net"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://crashbash.app/"><img src="screenshots/browser-crash-bash-online.jpg" width="240" alt="Crash Bash Online"></a><br><b>Crash Bash Online</b><br><a href="https://crashbash.app/"><b>▶ Play in browser</b></a><br><sub>PS1 · plays instantly · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://wasm.rip/files/cuphead/index.html"><img src="screenshots/browser-cuphead.jpg" width="240" alt="Cuphead"></a><br><b>Cuphead</b><br><a href="https://wasm.rip/files/cuphead/index.html"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5"><img src="screenshots/browser-cyberpunk-2077.jpg" width="240" alt="Cyberpunk 2077"></a><br><b>Cyberpunk 2077</b><br><a href="https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://johnimril.github.io/diablo_web/"><img src="screenshots/browser-diablo.jpg" width="240" alt="Diablo (diablo_web)"></a><br><b>Diablo (diablo_web)</b><br><a href="https://johnimril.github.io/diablo_web/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://silentspacemarine.com/"><img src="screenshots/browser-doom-multiplayer-silent-space-marine.jpg" width="240" alt="Doom Multiplayer (Silent Space Marine)"></a><br><b>Doom Multiplayer (Silent Space Marine)</b><br><a href="https://silentspacemarine.com/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://fifastreet2.fun/"><img src="screenshots/browser-fifa-street-2-fifa-street-2-online.jpg" width="240" alt="FIFA Street 2 (FIFA Street 2 Online)"></a><br><b>FIFA Street 2 (FIFA Street 2 Online)</b><br><a href="https://fifastreet2.fun/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://f12006.online/"><img src="screenshots/browser-formula-one-06.jpg" width="240" alt="Formula One 06"></a><br><b>Formula One 06</b><br><a href="https://f12006.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://goldenweb64.com/"><img src="screenshots/browser-goldeneye-007-goldenweb64.jpg" width="240" alt="GoldenEye 007 (GoldenWeb64)"></a><br><b>GoldenEye 007 (GoldenWeb64)</b><br><a href="https://goldenweb64.com/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://wasmarcade.com/gta3"><img src="screenshots/browser-grand-theft-auto-iii.jpg" width="240" alt="Grand Theft Auto III"></a><br><b>Grand Theft Auto III</b><br><a href="https://wasmarcade.com/gta3"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://web.archive.org/web/20261006055917/https://playgta5.com/"><img src="screenshots/browser-grand-theft-auto-v.jpg" width="240" alt="Grand Theft Auto V"></a><br><b>Grand Theft Auto V</b><br><a href="https://web.archive.org/web/20261006055917/https://playgta5.com/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="screenshots/browser-grand-theft-auto-vice-city.jpg" width="240" alt="Grand Theft Auto: Vice City"></a><br><b>Grand Theft Auto: Vice City</b><br><a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="http://pixelsuft.github.io/hl/"><img src="screenshots/browser-half-life-pixelsuft.jpg" width="240" alt="Half-Life (pixelsuft)"></a><br><b>Half-Life (pixelsuft)</b><br><a href="http://pixelsuft.github.io/hl/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="http://x8bitrain.github.io/webXash/"><img src="screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="240" alt="Half-Life and Counter-Strike 1.6 (WebXash)"></a><br><b>Half-Life and Counter-Strike 1.6 (WebXash)</b><br><a href="http://x8bitrain.github.io/webXash/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://mitchellhynes.com/halo/halo.html"><img src="screenshots/browser-halo-combat-evolved.jpg" width="240" alt="Halo: Combat Evolved"></a><br><b>Halo: Combat Evolved</b><br><a href="https://mitchellhynes.com/halo/halo.html"><b>▶ Play in browser</b></a><br><sub>Xbox · needs your game files · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://hcemobile.com/"><img src="screenshots/browser-halo-combat-evolved-mobile-hcemobile.jpg" width="240" alt="Halo: Combat Evolved Mobile (HCEMobile)"></a><br><b>Halo: Combat Evolved Mobile (HCEMobile)</b><br><a href="https://hcemobile.com/"><b>▶ Play in browser</b></a><br><sub>Xbox · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://hp2.mihaimateias.com/"><img src="screenshots/browser-harry-potter-and-the-chamber-of-secrets-hp2-web.jpg" width="240" alt="Harry Potter and the Chamber of Secrets (hp2 web)"></a><br><b>Harry Potter and the Chamber of Secrets (hp2 web)</b><br><a href="https://hp2.mihaimateias.com/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://dos.zone/homm3/"><img src="screenshots/browser-caiiiycuk-vcmi-wasm.jpg" width="240" alt="Heroes of Might and Magic III (vcmi-wasm)"></a><br><b>Heroes of Might and Magic III (vcmi-wasm)</b><br><a href="https://dos.zone/homm3/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://replicom.dev/"><img src="screenshots/browser-kingdom-hearts-chain-of-memories-replicom.jpg" width="240" alt="Kingdom Hearts: Chain of Memories (RepliCoM)"></a><br><b>Kingdom Hearts: Chain of Memories (RepliCoM)</b><br><a href="https://replicom.dev/"><b>▶ Play in browser</b></a><br><sub>GBA · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://isle.pizza/"><img src="screenshots/browser-lego-island.jpg" width="240" alt="LEGO Island"></a><br><b>LEGO Island</b><br><a href="https://isle.pizza/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://wasmarcade.com/minecraft"><img src="screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg" width="240" alt="Minecraft 1.8.8 (EaglercraftX)"></a><br><b>Minecraft 1.8.8 (EaglercraftX)</b><br><a href="https://wasmarcade.com/minecraft"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://vel.gg/bo1z/moon"><img src="screenshots/browser-moon-black-ops-zombies-vel-gg.jpg" width="240" alt="Moon (Black Ops Zombies, vel.gg)"></a><br><b>Moon (Black Ops Zombies, vel.gg)</b><br><a href="https://vel.gg/bo1z/moon"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://zombies.concentric.live/"><img src="screenshots/browser-nacht-der-untoten.jpg" width="240" alt="Nacht der Untoten"></a><br><b>Nacht der Untoten</b><br><a href="https://zombies.concentric.live/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://nba2k12.online/"><img src="screenshots/browser-nba-2k12.jpg" width="240" alt="NBA 2K12"></a><br><b>NBA 2K12</b><br><a href="https://nba2k12.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://nfsmwonline.com"><img src="screenshots/browser-need-for-speed-most-wanted.jpg" width="240" alt="Need for Speed: Most Wanted"></a><br><b>Need for Speed: Most Wanted</b><br><a href="https://nfsmwonline.com"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://nfsu2.xyz/"><img src="screenshots/browser-need-for-speed-underground-2-underground-2-revived.jpg" width="240" alt="Need for Speed: Underground 2 (Underground 2 Revived)"></a><br><b>Need for Speed: Underground 2 (Underground 2 Revived)</b><br><a href="https://nfsu2.xyz/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://www.netquake.io/"><img src="screenshots/browser-netquake-io.jpg" width="240" alt="NetQuake.io"></a><br><b>NetQuake.io</b><br><a href="https://www.netquake.io/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td><td align="center" valign="top" width="33%"><a href="https://yikes.pw/portal/"><img src="screenshots/browser-weliveinhell-source-engine.jpg" width="240" alt="Portal (source-engine Emscripten port)"></a><br><b>Portal (source-engine Emscripten port)</b><br><a href="https://yikes.pw/portal/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="http://pes6.optijuegos.net"><img src="screenshots/browser-pro-evolution-soccer-6.jpg" width="240" alt="Pro Evolution Soccer 6"></a><br><b>Pro Evolution Soccer 6</b><br><a href="http://pes6.optijuegos.net"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="http://q2.pieter.com"><img src="screenshots/browser-quake-ii.jpg" width="240" alt="Quake II (q2.pieter.com)"></a><br><b>Quake II (q2.pieter.com)</b><br><a href="http://q2.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://q3.pieter.com"><img src="screenshots/browser-quake-iii-arena-q3-pieter-com.jpg" width="240" alt="Quake III Arena (q3.pieter.com)"></a><br><b>Quake III Arena (q3.pieter.com)</b><br><a href="https://q3.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://q3js.com/"><img src="screenshots/quake-iii-arena.jpg" width="240" alt="Quake III Arena (q3js)"></a><br><b>Quake III Arena (q3js)</b><br><a href="https://q3js.com/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="http://q1.pieter.com"><img src="screenshots/browser-quakeworld.jpg" width="240" alt="QuakeWorld (q1.pieter.com)"></a><br><b>QuakeWorld (q1.pieter.com)</b><br><a href="http://q1.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="http://rtcw.pieter.com"><img src="screenshots/browser-return-to-castle-wolfenstein.jpg" width="240" alt="Return to Castle Wolfenstein (rtcw.pieter.com)"></a><br><b>Return to Castle Wolfenstein (rtcw.pieter.com)</b><br><a href="http://rtcw.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="http://skate.aaddpp.lol"><img src="screenshots/browser-skate-3.jpg" width="240" alt="Skate 3 (fan browser game)"></a><br><b>Skate 3 (fan browser game)</b><br><a href="http://skate.aaddpp.lol"><b>▶ Play in browser</b></a><br><sub>Xbox 360 · needs your game files</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://ssx3.online/"><img src="screenshots/browser-ssx-3.jpg" width="240" alt="SSX 3"></a><br><b>SSX 3</b><br><a href="https://ssx3.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://jk.q3js.com"><img src="screenshots/browser-star-wars-jedi-knight-jedi-academy.jpg" width="240" alt="Star Wars Jedi Knight: Jedi Academy"></a><br><b>Star Wars Jedi Knight: Jedi Academy</b><br><a href="https://jk.q3js.com"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://olivers.tools/play/"><img src="screenshots/browser-super-mario-64-multiplayer.jpg" width="240" alt="Super Mario 64 Multiplayer"></a><br><b>Super Mario 64 Multiplayer</b><br><a href="https://olivers.tools/play/"><b>▶ Play in browser</b></a><br><sub>N64 · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://smz.fun/"><img src="screenshots/browser-super-mario-zombies.jpg" width="240" alt="Super Mario Zombies"></a><br><b>Super Mario Zombies</b><br><a href="https://smz.fun/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://smash.fun/"><img src="screenshots/browser-super-smash-bros-smash-fun.jpg" width="240" alt="Super Smash Bros. (Smash.fun)"></a><br><b>Super Smash Bros. (Smash.fun)</b><br><a href="https://smash.fun/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://tf2.riddy.workers.dev/"><img src="screenshots/browser-team-fortress-2-web-build.jpg" width="240" alt="Team Fortress 2 (web build)"></a><br><b>Team Fortress 2 (web build)</b><br><a href="https://tf2.riddy.workers.dev/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://tekken5.online/"><img src="screenshots/browser-tekken-5.jpg" width="240" alt="Tekken 5"></a><br><b>Tekken 5</b><br><a href="https://tekken5.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://tkdr-recomp.pages.dev/"><img src="screenshots/browser-tekken-5-dark-resurrection-tkdr-recomp.jpg" width="240" alt="Tekken 5: Dark Resurrection (tkdr recomp)"></a><br><b>Tekken 5: Dark Resurrection (tkdr recomp)</b><br><a href="https://tkdr-recomp.pages.dev/"><b>▶ Play in browser</b></a><br><sub>PSP · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://playterraria.lol/"><img src="screenshots/browser-terraria.jpg" width="240" alt="Terraria"></a><br><b>Terraria</b><br><a href="https://playterraria.lol/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://playnolf.com/"><img src="screenshots/browser-the-operative-no-one-lives-forever-playnolf-com.jpg" width="240" alt="The Operative: No One Lives Forever (playnolf.com)"></a><br><b>The Operative: No One Lives Forever (playnolf.com)</b><br><a href="https://playnolf.com/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="http://shar-wasm.cjoseph.workers.dev/?skipmovie"><img src="screenshots/browser-the-simpsons-hit-run.jpg" width="240" alt="The Simpsons: Hit & Run"></a><br><b>The Simpsons: Hit & Run</b><br><a href="http://shar-wasm.cjoseph.workers.dev/?skipmovie"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="http://ut.pieter.com"><img src="screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg" width="240" alt="Urban Terror (ut.pieter.com)"></a><br><b>Urban Terror (ut.pieter.com)</b><br><a href="http://ut.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://smackdownvsraw.online/"><img src="screenshots/browser-wwe-smackdown-vs-raw.jpg" width="240" alt="WWE SmackDown! vs. RAW"></a><br><b>WWE SmackDown! vs. RAW</b><br><a href="https://smackdownvsraw.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://z2rs.com/"><img src="screenshots/browser-troyedwardsjr-z2rs.jpg" width="240" alt="Zelda II: The Adventure of Link (z2rs)"></a><br><b>Zelda II: The Adventure of Link (z2rs)</b><br><a href="https://z2rs.com/"><b>▶ Play in browser</b></a><br><sub>NES · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://tanepiper.github.io/unbanished/"><img src="screenshots/browser-tanepiper-unbanished.jpg" width="240" alt="Banished (Un-Banished)"></a><br><b>Banished (Un-Banished)</b><br><a href="https://tanepiper.github.io/unbanished/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://froydinger.github.io/claude-of-duty/"><img src="screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg" width="240" alt="Claude of Duty: Vibe Slops II (froydinger mirror)"></a><br><b>Claude of Duty: Vibe Slops II (froydinger mirror)</b><br><a href="https://froydinger.github.io/claude-of-duty/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://goofyahhbro69420.github.io/Black-Ops-2/"><img src="screenshots/browser-claude-of-duty-vibe-slops-ii-goofyahhbro69420-mirr.jpg" width="240" alt="Claude of Duty: Vibe Slops II (GoofyAhhBro69420 mirror)"></a><br><b>Claude of Duty: Vibe Slops II (GoofyAhhBro69420 mirror)</b><br><a href="https://goofyahhbro69420.github.io/Black-Ops-2/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://d07riv.github.io/diabloweb/"><img src="screenshots/browser-d07riv-diabloweb.jpg" width="240" alt="Diablo (diabloweb)"></a><br><b>Diablo (diabloweb)</b><br><a href="https://d07riv.github.io/diabloweb/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><img src="screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg" width="240" alt="Kino der Toten (GoofyAhhBro69420 mirror)"></a><br><b>Kino der Toten (GoofyAhhBro69420 mirror)</b><br><a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://solid7s.github.io/Virtual-On-Web/"><img src="screenshots/browser-solid7s-virtual-on-web.jpg" width="240" alt="Cyber Troopers Virtual-On (Virtual-On-Web)"></a><br><b>Cyber Troopers Virtual-On (Virtual-On-Web)</b><br><a href="https://solid7s.github.io/Virtual-On-Web/"><b>▶ Play in browser</b></a><br><sub>Arcade · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://terraria.mercurywork.shop/"><img src="screenshots/browser-mercuryworkshop-terraria-wasm.jpg" width="240" alt="Terraria (terraria-wasm / Terrarium)"></a><br><b>Terraria (terraria-wasm / Terrarium)</b><br><a href="https://terraria.mercurywork.shop/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://akratch.github.io/golden-balloon/"><img src="screenshots/browser-akratch-goldenballoon.jpg" width="240" alt="Diddy Kong Racing"></a><br><b>Diddy Kong Racing</b><br><a href="https://akratch.github.io/golden-balloon/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://opensro.online/"><img src="screenshots/browser-opensro-dev-opensro.jpg" width="240" alt="Silkroad Online (OpenSRO)"></a><br><b>Silkroad Online (OpenSRO)</b><br><a href="https://opensro.online/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://dragonballbt3.online/"><img src="screenshots/browser-stufno102-tenkaichi3decomp.jpg" width="240" alt="Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)"></a><br><b>Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)</b><br><a href="https://dragonballbt3.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly</sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://monkeyball-online.pages.dev/"><img src="screenshots/browser-camthesaxman-smb-decomp.jpg" width="240" alt="Super Monkey Ball"></a><br><b>Super Monkey Ball</b><br><a href="https://monkeyball-online.pages.dev/"><b>▶ Play in browser</b></a><br><sub>GameCube · plays instantly</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://goldenweb64.com/"><img src="screenshots/browser-goldeneye-007-goldenweb64.jpg" width="240" alt="GoldenEye 007 (GoldenWeb64)"></a><br><b>GoldenEye 007 (GoldenWeb64)</b><br><a href="https://goldenweb64.com/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://wasmarcade.com/gta3"><img src="screenshots/browser-grand-theft-auto-iii.jpg" width="240" alt="Grand Theft Auto III"></a><br><b>Grand Theft Auto III</b><br><a href="https://wasmarcade.com/gta3"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><img src="screenshots/browser-grand-theft-auto-vice-city.jpg" width="240" alt="Grand Theft Auto: Vice City"></a><br><b>Grand Theft Auto: Vice City</b><br><a href="https://joncodeofficial.github.io/gta-vice-city-wasm/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://pixelsuft.github.io/hl/"><img src="screenshots/browser-half-life-pixelsuft.jpg" width="240" alt="Half-Life (pixelsuft)"></a><br><b>Half-Life (pixelsuft)</b><br><a href="https://pixelsuft.github.io/hl/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://x8bitrain.github.io/webXash/"><img src="screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg" width="240" alt="Half-Life and Counter-Strike 1.6 (WebXash)"></a><br><b>Half-Life and Counter-Strike 1.6 (WebXash)</b><br><a href="https://x8bitrain.github.io/webXash/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td><td align="center" valign="top" width="33%"><a href="https://mitchellhynes.com/halo/halo.html"><img src="screenshots/browser-halo-combat-evolved.jpg" width="240" alt="Halo: Combat Evolved"></a><br><b>Halo: Combat Evolved</b><br><a href="https://mitchellhynes.com/halo/halo.html"><b>▶ Play in browser</b></a><br><sub>Xbox · needs your game files · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://hcemobile.com/"><img src="screenshots/browser-halo-combat-evolved-mobile-hcemobile.jpg" width="240" alt="Halo: Combat Evolved Mobile (HCEMobile)"></a><br><b>Halo: Combat Evolved Mobile (HCEMobile)</b><br><a href="https://hcemobile.com/"><b>▶ Play in browser</b></a><br><sub>Xbox · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://hp2.mihaimateias.com/"><img src="screenshots/browser-harry-potter-and-the-chamber-of-secrets-hp2-web.jpg" width="240" alt="Harry Potter and the Chamber of Secrets (hp2 web)"></a><br><b>Harry Potter and the Chamber of Secrets (hp2 web)</b><br><a href="https://hp2.mihaimateias.com/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://dos.zone/homm3/"><img src="screenshots/browser-caiiiycuk-vcmi-wasm.jpg" width="240" alt="Heroes of Might and Magic III (vcmi-wasm)"></a><br><b>Heroes of Might and Magic III (vcmi-wasm)</b><br><a href="https://dos.zone/homm3/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://replicom.dev/"><img src="screenshots/browser-kingdom-hearts-chain-of-memories-replicom.jpg" width="240" alt="Kingdom Hearts: Chain of Memories (RepliCoM)"></a><br><b>Kingdom Hearts: Chain of Memories (RepliCoM)</b><br><a href="https://replicom.dev/"><b>▶ Play in browser</b></a><br><sub>GBA · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://isle.pizza/"><img src="screenshots/browser-lego-island.jpg" width="240" alt="LEGO Island"></a><br><b>LEGO Island</b><br><a href="https://isle.pizza/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://wasmarcade.com/minecraft"><img src="screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg" width="240" alt="Minecraft 1.8.8 (EaglercraftX)"></a><br><b>Minecraft 1.8.8 (EaglercraftX)</b><br><a href="https://wasmarcade.com/minecraft"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://vel.gg/bo1z/moon"><img src="screenshots/browser-moon-black-ops-zombies-vel-gg.jpg" width="240" alt="Moon (Black Ops Zombies, vel.gg)"></a><br><b>Moon (Black Ops Zombies, vel.gg)</b><br><a href="https://vel.gg/bo1z/moon"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://zombies.concentric.live/"><img src="screenshots/browser-nacht-der-untoten.jpg" width="240" alt="Nacht der Untoten"></a><br><b>Nacht der Untoten</b><br><a href="https://zombies.concentric.live/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://nba2k12.online/"><img src="screenshots/browser-nba-2k12.jpg" width="240" alt="NBA 2K12"></a><br><b>NBA 2K12</b><br><a href="https://nba2k12.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://nfsmwonline.com"><img src="screenshots/browser-need-for-speed-most-wanted.jpg" width="240" alt="Need for Speed: Most Wanted"></a><br><b>Need for Speed: Most Wanted</b><br><a href="https://nfsmwonline.com"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://nfsu2.xyz/"><img src="screenshots/browser-need-for-speed-underground-2-underground-2-revived.jpg" width="240" alt="Need for Speed: Underground 2 (Underground 2 Revived)"></a><br><b>Need for Speed: Underground 2 (Underground 2 Revived)</b><br><a href="https://nfsu2.xyz/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://www.netquake.io/"><img src="screenshots/browser-netquake-io.jpg" width="240" alt="NetQuake.io"></a><br><b>NetQuake.io</b><br><a href="https://www.netquake.io/"><b>▶ Play in browser</b></a><br><sub>PC · free demo, no game files needed</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://yikes.pw/portal/"><img src="screenshots/browser-weliveinhell-source-engine.jpg" width="240" alt="Portal (source-engine Emscripten port)"></a><br><b>Portal (source-engine Emscripten port)</b><br><a href="https://yikes.pw/portal/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://pes6.optijuegos.net"><img src="screenshots/browser-pro-evolution-soccer-6.jpg" width="240" alt="Pro Evolution Soccer 6"></a><br><b>Pro Evolution Soccer 6</b><br><a href="https://pes6.optijuegos.net"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://q2.pieter.com"><img src="screenshots/browser-quake-ii.jpg" width="240" alt="Quake II (q2.pieter.com)"></a><br><b>Quake II (q2.pieter.com)</b><br><a href="https://q2.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://q3.pieter.com"><img src="screenshots/browser-quake-iii-arena-q3-pieter-com.jpg" width="240" alt="Quake III Arena (q3.pieter.com)"></a><br><b>Quake III Arena (q3.pieter.com)</b><br><a href="https://q3.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://q3js.com/"><img src="screenshots/quake-iii-arena.jpg" width="240" alt="Quake III Arena (q3js)"></a><br><b>Quake III Arena (q3js)</b><br><a href="https://q3js.com/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://q1.pieter.com"><img src="screenshots/browser-quakeworld.jpg" width="240" alt="QuakeWorld (q1.pieter.com)"></a><br><b>QuakeWorld (q1.pieter.com)</b><br><a href="https://q1.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://rtcw.pieter.com"><img src="screenshots/browser-return-to-castle-wolfenstein.jpg" width="240" alt="Return to Castle Wolfenstein (rtcw.pieter.com)"></a><br><b>Return to Castle Wolfenstein (rtcw.pieter.com)</b><br><a href="https://rtcw.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://skate.aaddpp.lol"><img src="screenshots/browser-skate-3.jpg" width="240" alt="Skate 3 (fan browser game)"></a><br><b>Skate 3 (fan browser game)</b><br><a href="https://skate.aaddpp.lol"><b>▶ Play in browser</b></a><br><sub>Xbox 360 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://ssx3.online/"><img src="screenshots/browser-ssx-3.jpg" width="240" alt="SSX 3"></a><br><b>SSX 3</b><br><a href="https://ssx3.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://jk.q3js.com"><img src="screenshots/browser-star-wars-jedi-knight-jedi-academy.jpg" width="240" alt="Star Wars Jedi Knight: Jedi Academy"></a><br><b>Star Wars Jedi Knight: Jedi Academy</b><br><a href="https://jk.q3js.com"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://olivers.tools/play/"><img src="screenshots/browser-super-mario-64-multiplayer.jpg" width="240" alt="Super Mario 64 Multiplayer"></a><br><b>Super Mario 64 Multiplayer</b><br><a href="https://olivers.tools/play/"><b>▶ Play in browser</b></a><br><sub>N64 · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://smz.fun/"><img src="screenshots/browser-super-mario-zombies.jpg" width="240" alt="Super Mario Zombies"></a><br><b>Super Mario Zombies</b><br><a href="https://smz.fun/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://smash.fun/"><img src="screenshots/browser-super-smash-bros-smash-fun.jpg" width="240" alt="Super Smash Bros. (Smash.fun)"></a><br><b>Super Smash Bros. (Smash.fun)</b><br><a href="https://smash.fun/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://tf2.riddy.workers.dev/"><img src="screenshots/browser-team-fortress-2-web-build.jpg" width="240" alt="Team Fortress 2 (web build)"></a><br><b>Team Fortress 2 (web build)</b><br><a href="https://tf2.riddy.workers.dev/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://tekken5.online/"><img src="screenshots/browser-tekken-5.jpg" width="240" alt="Tekken 5"></a><br><b>Tekken 5</b><br><a href="https://tekken5.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://tkdr-recomp.pages.dev/"><img src="screenshots/browser-tekken-5-dark-resurrection-tkdr-recomp.jpg" width="240" alt="Tekken 5: Dark Resurrection (tkdr recomp)"></a><br><b>Tekken 5: Dark Resurrection (tkdr recomp)</b><br><a href="https://tkdr-recomp.pages.dev/"><b>▶ Play in browser</b></a><br><sub>PSP · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://playterraria.lol/"><img src="screenshots/browser-terraria.jpg" width="240" alt="Terraria"></a><br><b>Terraria</b><br><a href="https://playterraria.lol/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly · multiplayer</sub></td><td align="center" valign="top" width="33%"><a href="https://playnolf.com/"><img src="screenshots/browser-the-operative-no-one-lives-forever-playnolf-com.jpg" width="240" alt="The Operative: No One Lives Forever (playnolf.com)"></a><br><b>The Operative: No One Lives Forever (playnolf.com)</b><br><a href="https://playnolf.com/"><b>▶ Play in browser</b></a><br><sub>PC · plays instantly</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://shar-wasm.cjoseph.workers.dev/?skipmovie"><img src="screenshots/browser-the-simpsons-hit-run.jpg" width="240" alt="The Simpsons: Hit & Run"></a><br><b>The Simpsons: Hit & Run</b><br><a href="https://shar-wasm.cjoseph.workers.dev/?skipmovie"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://ut.pieter.com"><img src="screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg" width="240" alt="Urban Terror (ut.pieter.com)"></a><br><b>Urban Terror (ut.pieter.com)</b><br><a href="https://ut.pieter.com"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://smackdownvsraw.online/"><img src="screenshots/browser-wwe-smackdown-vs-raw.jpg" width="240" alt="WWE SmackDown! vs. RAW"></a><br><b>WWE SmackDown! vs. RAW</b><br><a href="https://smackdownvsraw.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly · multiplayer</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://z2rs.com/"><img src="screenshots/browser-troyedwardsjr-z2rs.jpg" width="240" alt="Zelda II: The Adventure of Link (z2rs)"></a><br><b>Zelda II: The Adventure of Link (z2rs)</b><br><a href="https://z2rs.com/"><b>▶ Play in browser</b></a><br><sub>NES · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://tanepiper.github.io/unbanished/"><img src="screenshots/browser-tanepiper-unbanished.jpg" width="240" alt="Banished (Un-Banished)"></a><br><b>Banished (Un-Banished)</b><br><a href="https://tanepiper.github.io/unbanished/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://froydinger.github.io/claude-of-duty/"><img src="screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg" width="240" alt="Claude of Duty: Vibe Slops II (froydinger mirror)"></a><br><b>Claude of Duty: Vibe Slops II (froydinger mirror)</b><br><a href="https://froydinger.github.io/claude-of-duty/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://goofyahhbro69420.github.io/Black-Ops-2/"><img src="screenshots/browser-claude-of-duty-vibe-slops-ii-goofyahhbro69420-mirr.jpg" width="240" alt="Claude of Duty: Vibe Slops II (GoofyAhhBro69420 mirror)"></a><br><b>Claude of Duty: Vibe Slops II (GoofyAhhBro69420 mirror)</b><br><a href="https://goofyahhbro69420.github.io/Black-Ops-2/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://d07riv.github.io/diabloweb/"><img src="screenshots/browser-d07riv-diabloweb.jpg" width="240" alt="Diablo (diabloweb)"></a><br><b>Diablo (diabloweb)</b><br><a href="https://d07riv.github.io/diabloweb/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><img src="screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg" width="240" alt="Kino der Toten (GoofyAhhBro69420 mirror)"></a><br><b>Kino der Toten (GoofyAhhBro69420 mirror)</b><br><a href="https://goofyahhbro69420.github.io/COD-ZOMBIES/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://solid7s.github.io/Virtual-On-Web/"><img src="screenshots/browser-solid7s-virtual-on-web.jpg" width="240" alt="Cyber Troopers Virtual-On (Virtual-On-Web)"></a><br><b>Cyber Troopers Virtual-On (Virtual-On-Web)</b><br><a href="https://solid7s.github.io/Virtual-On-Web/"><b>▶ Play in browser</b></a><br><sub>Arcade · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://terraria.mercurywork.shop/"><img src="screenshots/browser-mercuryworkshop-terraria-wasm.jpg" width="240" alt="Terraria (terraria-wasm / Terrarium)"></a><br><b>Terraria (terraria-wasm / Terrarium)</b><br><a href="https://terraria.mercurywork.shop/"><b>▶ Play in browser</b></a><br><sub>PC · needs your game files</sub></td><td align="center" valign="top" width="33%"><a href="https://akratch.github.io/golden-balloon/"><img src="screenshots/browser-akratch-goldenballoon.jpg" width="240" alt="Diddy Kong Racing"></a><br><b>Diddy Kong Racing</b><br><a href="https://akratch.github.io/golden-balloon/"><b>▶ Play in browser</b></a><br><sub>N64 · needs your game files</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://opensro.online/"><img src="screenshots/browser-opensro-dev-opensro.jpg" width="240" alt="Silkroad Online (OpenSRO)"></a><br><b>Silkroad Online (OpenSRO)</b><br><a href="https://opensro.online/"><b>▶ Play in browser</b></a><br><sub>PC</sub></td><td align="center" valign="top" width="33%"><a href="https://dragonballbt3.online/"><img src="screenshots/browser-stufno102-tenkaichi3decomp.jpg" width="240" alt="Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)"></a><br><b>Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)</b><br><a href="https://dragonballbt3.online/"><b>▶ Play in browser</b></a><br><sub>PS2 · plays instantly</sub></td><td align="center" valign="top" width="33%"><a href="https://monkeyball-online.pages.dev/"><img src="screenshots/browser-camthesaxman-smb-decomp.jpg" width="240" alt="Super Monkey Ball"></a><br><b>Super Monkey Ball</b><br><a href="https://monkeyball-online.pages.dev/"><b>▶ Play in browser</b></a><br><sub>GameCube · plays instantly</sub></td></tr>
 </table>
 
 ## Top playable picks
@@ -235,22 +234,22 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Sonic Unleashed (Unleashed Recompiled)](https://github.com/hedge-dev/UnleashedRecomp) | Xbox 360 | 4.5 | 5.3k | 2026-06-29 |  | [release](https://github.com/hedge-dev/UnleashedRecomp/releases/tag/v1.0.3) · [video](https://www.youtube.com/watch?v=yDlVr1Jv-WU) |
 | [BloodBorne for Windows](https://github.com/Supermedo/bloodborne_pc) ⚠️ | PS4 | 4.3 | 4.6k | 2026-10-23 |  | [release](https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9.4) |
 | [Blue Dragon](https://github.com/zolaware/reblue) | Xbox 360 | 4.3 | 843 | 2026-10-05 |  | [release](https://github.com/zolaware/reblue/releases/tag/v1.3.1) |
-| [Castlevania: Symphony of the Night](https://github.com/BlackLabelHQ/SymphonyRecomp) | PS1 | 4.3 | 975 | 2026-10-21 |  | [release](https://github.com/BlackLabelHQ/SymphonyRecomp/releases/tag/v0.5.1b) |
+| [Castlevania: Symphony of the Night](https://github.com/BlackLabelHQ/SymphonyRecomp) | PS1 | 4.3 | 976 | 2026-10-21 |  | [release](https://github.com/BlackLabelHQ/SymphonyRecomp/releases/tag/v0.5.1b) |
 | [Condemned 2: Bloodshot](https://github.com/psxrestore/Condemned2Recomp) | Xbox 360 | 4.3 | 260 | 2026-10-25 |  | [release](https://github.com/psxrestore/Condemned2Recomp/releases/tag/0.4.0) |
 | [Dinosaur Planet](https://github.com/DinosaurPlanetRecomp/dino-recomp) | N64 | 4.3 | 332 | 2026-10-17 |  | [release](https://github.com/DinosaurPlanetRecomp/dino-recomp/releases/tag/v0.3.0) |
 | [Donkey Kong 64](https://github.com/Rainchus/Donkey-Kong-64-Recompiled) | N64 | 4.3 | 543 | 2026-09-30 |  | [release](https://github.com/Rainchus/Donkey-Kong-64-Recompiled/releases/tag/v1.0.3) |
 | [Mystical Ninja Starring Goemon](https://github.com/klorfmorf/Goemon64Recomp) | N64 | 4.3 | 326 | 2026-09-19 |  | [release](https://github.com/klorfmorf/Goemon64Recomp/releases/tag/v0.2.0-dev) |
-| [Need for Speed: Most Wanted](https://github.com/codepdbh/nfsmw-android) | Xbox 360 | 4.3 | 251 | 2026-10-22 |  | [release](https://github.com/codepdbh/nfsmw-android/releases/tag/v0.6.0) |
-| [Need for Speed: Underground 2](https://github.com/codepdbh/nfsu2-recompiled) | PC | 4.3 | 247 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfsu2-recompiled/releases/tag/v0.14.10) |
+| [Need for Speed: Most Wanted](https://github.com/codepdbh/nfsmw-android) | Xbox 360 | 4.3 | 250 | 2026-10-22 |  | [release](https://github.com/codepdbh/nfsmw-android/releases/tag/v0.6.0) |
+| [Need for Speed: Underground 2](https://github.com/codepdbh/nfsu2-recompiled) | PC | 4.3 | 250 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfsu2-recompiled/releases/tag/v0.14.10) |
 | [OpenCE](https://github.com/OpenCommunityEdition/OpenCE) ⚠️ | Xbox | 4.3 | 1.8k | 2026-10-24 |  | [release](https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-273) |
 | [Pokemon Gold / Silver / Crystal (Gen2Recomped)](https://github.com/UNDERdecoded/Gen2Recomped) | Game Boy Color | 4.3 | 417 | 2026-10-20 |  | [release](https://github.com/UNDERdecoded/Gen2Recomped/releases/tag/v0.8.45) · [reddit](https://www.reddit.com/r/decomps/comments/1vjmmj4/ "u/thc_delta_9 · 376 upvotes · 100 comments") |
 | [Pokemon RBY / GSC / FRLF / RSE (G1R Deluxe)](https://github.com/bryanthaboi/gen1recomp) ⚠️ | Game Boy | 4.3 | 4.0k | 2026-10-23 |  | [release](https://github.com/bryanthaboi/gen1recomp/releases/tag/v0.3.96) |
-| [Project Gotham Racing 4](https://github.com/beatrixzy/PGR4-Recomp) | Xbox 360 | 4.3 | 211 | 2026-10-24 |  | [release](https://github.com/beatrixzy/PGR4-Recomp/releases/tag/v1.2.2) |
+| [Project Gotham Racing 4](https://github.com/beatrixzy/PGR4-Recomp) | Xbox 360 | 4.3 | 212 | 2026-10-24 |  | [release](https://github.com/beatrixzy/PGR4-Recomp/releases/tag/v1.2.2) |
 | [Skate 3](https://github.com/mchughalex/skate3recomp) | Xbox 360 | 4.3 | 1.7k | 2026-07-24 |  | [release](https://github.com/mchughalex/skate3recomp/releases/tag/v2.0.2) · [video](https://youtu.be/ETXCOsip1Uo) |
 | [Sonic Unleashed](https://github.com/SansNope/UnleashedRecomp-Android) | Xbox 360 | 4.3 | 228 | 2026-10-10 |  | [release](https://github.com/SansNope/UnleashedRecomp-Android/releases/tag/v0.6.1) |
 | [The Legend of Zelda: Breath of the Wild (Savage Wind Recomp)](https://github.com/Revivedx/SavageWindRecomp) ⚠️ | Switch | 4.3 | 1.3k | 2026-10-24 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xc9xtg/ "u/ReviveDx · 1730 upvotes · 359 comments") |
 | [The Legend of Zelda: Link's Awakening (LAS Recomp)](https://github.com/peiikai/LASRecomp) ⚠️ | Switch | 4.3 | 1.8k | 2026-10-25 |  | [release](https://github.com/peiikai/LASRecomp/releases/tag/beta_5.2) |
-| [Viva Pinata: Trouble In Paradise](https://github.com/SolarCookies/TiP-Recomp) | Xbox 360 | 4.3 | 229 | 2026-10-03 |  | [release](https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.14.0) |
+| [Viva Pinata: Trouble In Paradise](https://github.com/SolarCookies/TiP-Recomp) | Xbox 360 | 4.3 | 228 | 2026-10-03 |  | [release](https://github.com/SolarCookies/TiP-Recomp/releases/tag/1.14.0) |
 | [ZeldaWWHDRecomp](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp) ⚠️ | Wii U | 4.3 | 1.0k | 2026-10-21 |  | [release](https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/releases/tag/v0.4.0) |
 | [Gran Turismo 4 / God of War II (PS2 Web Recomp)](https://github.com/snuri00/ps2-web-recomp) | PS2 | 4.2 | 1.3k | 2026-10-24 |  |  |
 | [Sonic Adventure](https://github.com/sonicfreak1337/SARecomp) ⚠️ | Dreamcast | 4.2 | 106 | 2026-10-18 |  | [release](https://github.com/sonicfreak1337/SARecomp/releases/tag/v0.52.1) |
@@ -258,105 +257,107 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [ACE COMBAT X](https://github.com/sal063/Ace-Combat-X-Recompilation) | PSP | 4.2 | 86 | 2026-08-28 |  | [release](https://github.com/sal063/Ace-Combat-X-Recompilation/releases/tag/V1.5-release) |
 | [Alone in the Dark (AloneInTheDarkReHaunted)](https://github.com/spacefarergames/AloneInTheDarkReHaunted) | DOS | 4.2 | 127 | 2026-08-10 |  | [release](https://github.com/spacefarergames/AloneInTheDarkReHaunted/releases/tag/2.4.0.1008) |
 | [Army of Two](https://github.com/OpenPortroid/ArmyOfTwoRecompilation) | Xbox 360 | 4.2 | 113 | 2026-10-24 |  | [release](https://github.com/OpenPortroid/ArmyOfTwoRecompilation/releases/tag/v1.3.5) |
-| [Banjo-Kazooie Nuts and Bolts](https://github.com/masterspike52/reNut) | Xbox 360 | 4.2 | 179 | 2026-10-25 |  | [release](https://github.com/masterspike52/reNut/releases/tag/beta11) |
-| [Bayonetta 2 (B2recomp)](https://github.com/K0NL/B2recomp) ⚠️ | Switch | 4.2 | 435 | 2026-10-23 |  | [release](https://github.com/K0NL/B2recomp/releases/tag/v0.3.3) |
+| [Banjo-Kazooie Nuts and Bolts](https://github.com/masterspike52/reNut) | Xbox 360 | 4.2 | 180 | 2026-10-25 |  | [release](https://github.com/masterspike52/reNut/releases/tag/beta11) |
+| [Bayonetta 2 (B2recomp)](https://github.com/K0NL/B2recomp) ⚠️ | Switch | 4.2 | 436 | 2026-10-23 |  | [release](https://github.com/K0NL/B2recomp/releases/tag/v0.3.3) |
 | [Bloody Roar 2](https://github.com/novapowers0/BloodyRoar2Recomp) | PS1 | 4.2 | 79 | 2026-10-13 |  | [release](https://github.com/novapowers0/BloodyRoar2Recomp/releases/tag/v0.7.1) |
-| [Call of Duty 3](https://github.com/FrankHUN88453/CoD3Recomp) ⚠️ | Xbox 360 | 4.2 | 343 | 2026-10-21 |  |  |
+| [Call of Duty 3](https://github.com/FrankHUN88453/CoD3Recomp) ⚠️ | Xbox 360 | 4.2 | 341 | 2026-10-21 |  |  |
 | [Call of Duty: Modern Warfare 2](https://github.com/PaulCombal/mw2-recompiled) | Xbox 360 | 4.2 | 132 | 2026-10-24 |  | [release](https://github.com/PaulCombal/mw2-recompiled/releases/tag/v0.7.2) |
 | [Castlevania: Symphony of the Night (NocturneRecomp)](https://github.com/birabittoh/NocturneRecomp) ⚠️ | Xbox 360 | 4.2 | 385 | 2026-10-23 |  | [release](https://github.com/birabittoh/NocturneRecomp/releases/tag/v1.4.5) |
-| [Conker's Bad Fur Day](https://github.com/sciaschi/CBFD-Recompiled) ⚠️ | N64 | 4.2 | 307 | 2026-10-14 |  | [release](https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6) |
-| [Dante's Inferno](https://github.com/florinp93/hells-gate-recomp) ⚠️ | Xbox 360 | 4.2 | 699 | 2026-10-16 |  | [release](https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta) |
+| [Conker's Bad Fur Day](https://github.com/sciaschi/CBFD-Recompiled) ⚠️ | N64 | 4.2 | 308 | 2026-10-14 |  | [release](https://github.com/sciaschi/CBFD-Recompiled/releases/tag/V0.1.6) |
+| [Dante's Inferno](https://github.com/florinp93/hells-gate-recomp) ⚠️ | Xbox 360 | 4.2 | 700 | 2026-10-16 |  | [release](https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta) |
 | [Dead or Alive Xtreme Beach Volleyball](https://github.com/NoRain211/doaxvb-re) ⚠️ | Xbox | 4.2 | 217 | 2026-10-24 |  | [release](https://github.com/NoRain211/doaxvb-re/releases/tag/v0.5.3) |
-| [Def Jam Vendetta](https://github.com/jcsix694/def-jam-vendetta-recomp) | PS2 | 4.2 | 30 | 2026-10-23 |  | [release](https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.4.3) |
+| [Def Jam Vendetta](https://github.com/jcsix694/def-jam-vendetta-recomp) | PS2 | 4.2 | 31 | 2026-10-23 |  | [release](https://github.com/jcsix694/def-jam-vendetta-recomp/releases/tag/v0.4.3) |
 | [Destroy All Humans: Path of the Furon](https://github.com/masterspike52/reDAHM) | Xbox 360 | 4.2 | 46 | 2026-09-21 |  | [release](https://github.com/masterspike52/reDAHM/releases/tag/new) |
 | [Diddy Kong Racing](https://github.com/ThatGuyMcd/DKR-R) ⚠️ | N64 | 4.2 | 236 | 2026-10-25 |  | [release](https://github.com/ThatGuyMcd/DKR-R/releases/tag/Version1.0.10) |
-| [DoDonPachi Saidaioujou](https://github.com/eandis/SDOJ-Recomp) | Xbox 360 | 4.2 | 165 | 2026-10-24 |  | [release](https://github.com/eandis/SDOJ-Recomp/releases/tag/v1.51.2) |
+| [DoDonPachi Saidaioujou](https://github.com/eandis/SDOJ-Recomp) | Xbox 360 | 4.2 | 166 | 2026-10-24 |  | [release](https://github.com/eandis/SDOJ-Recomp/releases/tag/v1.51.2) |
 | [Donkey Kong Country](https://github.com/elliotttate/DKC1Recomp) ⚠️ | SNES | 4.2 | 265 | 2026-09-15 |  | [release](https://github.com/elliotttate/DKC1Recomp/releases/tag/v0.0.17) |
 | [Dragon Ball Z: Budokai HD Collection](https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection) ⚠️ | Xbox 360 | 4.2 | 209 | 2026-10-24 |  | [release](https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection/releases/tag/v1.5.5.4) |
-| [Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)](https://github.com/GoldieLeGenie/DQIV-Recompiled) | DS | 4.2 | 52 | 2026-10-23 |  | [release](https://github.com/GoldieLeGenie/DQIV-Recompiled/releases/tag/1.5) |
+| [Dragon Quest IV: Chapters of the Chosen (DQIV-Recompiled)](https://github.com/GoldieLeGenie/DQIV-Recompiled) | DS | 4.2 | 52 | 2026-10-25 |  | [release](https://github.com/GoldieLeGenie/DQIV-Recompiled/releases/tag/1.5) |
 | [Dragon Quest IX: Sentinels of the Starry Skies (DQIX Enhanced)](https://github.com/sackchief/dqix-enhanced) | DS | 4.2 | 63 | 2026-10-25 |  | [release](https://github.com/sackchief/dqix-enhanced/releases/tag/v31) · [reddit](https://www.reddit.com/r/decomps/comments/1x9fm5s/ "None · None upvotes · None comments") |
-| [DriveClub (DriveClub Recomp)](https://github.com/OverkillLabs3/driveclub-recomp) ⚠️ | PS4 | 4.2 | 689 | 2026-10-24 |  | [release](https://github.com/OverkillLabs3/driveclub-recomp/releases/tag/v0.3.1) |
-| [Eternal Sonata](https://github.com/birabittoh/EternalSonataReprise) | Xbox 360 | 4.2 | 162 | 2026-10-24 |  | [release](https://github.com/birabittoh/EternalSonataReprise/releases/tag/v1.3.4) |
-| [Fable 2](https://github.com/himdo/Fable-2-Recomp) ⚠️ | Xbox 360 | 4.2 | 533 | 2026-10-21 |  | [release](https://github.com/himdo/Fable-2-Recomp/releases/tag/1.5.0) |
+| [DriveClub (DriveClub Recomp)](https://github.com/OverkillLabs3/driveclub-recomp) ⚠️ | PS4 | 4.2 | 702 | 2026-10-24 |  | [release](https://github.com/OverkillLabs3/driveclub-recomp/releases/tag/v0.3.1) |
+| [Eternal Sonata](https://github.com/birabittoh/EternalSonataReprise) | Xbox 360 | 4.2 | 163 | 2026-10-24 |  | [release](https://github.com/birabittoh/EternalSonataReprise/releases/tag/v1.3.4) |
+| [Fable 2](https://github.com/himdo/Fable-2-Recomp) ⚠️ | Xbox 360 | 4.2 | 535 | 2026-10-21 |  | [release](https://github.com/himdo/Fable-2-Recomp/releases/tag/1.5.0) |
 | [Fate/unlimited codes](https://github.com/elprogramadorloco-arch/fuc-recomp) | PSP | 4.2 | 33 | 2026-10-17 |  | [release](https://github.com/elprogramadorloco-arch/fuc-recomp/releases/tag/v0.0.5) |
-| [Forza Horizon](https://github.com/arcanite24/pinyon-shift) ⚠️ | Xbox 360 | 4.2 | 892 | 2026-10-21 |  | [release](https://github.com/arcanite24/pinyon-shift/releases/tag/v0.6.1) |
-| [Forza Horizon 1](https://github.com/Dyotson/ForzaHorizon1-ReImagined) ⚠️ | Xbox 360 | 4.2 | 304 | 2026-10-25 |  | [release](https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.34) |
-| [Forza Horizon 2](https://github.com/Gabrick75/fh2-recompiled) | Xbox 360 | 4.2 | 120 | 2026-10-24 |  |  |
+| [Forza Horizon](https://github.com/arcanite24/pinyon-shift) ⚠️ | Xbox 360 | 4.2 | 894 | 2026-10-21 |  | [release](https://github.com/arcanite24/pinyon-shift/releases/tag/v0.6.1) |
+| [Forza Horizon 1](https://github.com/Dyotson/ForzaHorizon1-ReImagined) ⚠️ | Xbox 360 | 4.2 | 306 | 2026-10-25 |  | [release](https://github.com/Dyotson/ForzaHorizon1-ReImagined/releases/tag/v0.1.34) |
+| [Forza Horizon 2](https://github.com/Gabrick75/fh2-recompiled) | Xbox 360 | 4.2 | 122 | 2026-10-24 |  |  |
 | [GoldenEye 007 (goldeneye-metal)](https://github.com/ysrdevs/goldeneye-metal) | N64 | 4.2 | 88 | 2026-10-09 |  | [release](https://github.com/ysrdevs/goldeneye-metal/releases/tag/v0.5.1) |
 | [Grand Theft Auto IV](https://github.com/KoreanSeats1/Theft4) | Xbox 360 | 4.2 | 98 | 2026-10-15 |  | [release](https://github.com/KoreanSeats1/Theft4/releases/tag/v0.3.2) |
 | [Harvest Moon 64](https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp) | N64 | 4.2 | 173 | 2026-09-25 |  | [release](https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp/releases/tag/v1.2.2) |
-| [Ico-PC](https://github.com/nathanialf/ico-pc) ⚠️ | PS2 | 4.2 | 438 | 2026-10-24 |  | [release](https://github.com/nathanialf/ico-pc/releases/tag/v0.8.6) |
-| [inFamous (inFamous PC Enhanced)](https://github.com/ibrahimpuri/inFamous-PC-Enhanced) | PS3 | 4.2 | 57 | 2026-10-20 |  | [release](https://github.com/ibrahimpuri/inFamous-PC-Enhanced/releases/tag/v1.5) · [reddit](https://www.reddit.com/r/decomps/comments/1xauud0/ "u/Typical-End-3418 · 121 upvotes · 73 comments") |
-| [King Kong Recompiled](https://github.com/TekRantGaming/king-kong-recompiled) ⚠️ | Xbox 360 | 4.2 | 211 | 2026-10-23 |  | [release](https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v1.9.13) |
+| [Ico-PC](https://github.com/nathanialf/ico-pc) ⚠️ | PS2 | 4.2 | 440 | 2026-10-24 |  | [release](https://github.com/nathanialf/ico-pc/releases/tag/v0.8.6) |
+| [inFamous (inFamous PC Enhanced)](https://github.com/ibrahimpuri/inFamous-PC-Enhanced) | PS3 | 4.2 | 58 | 2026-10-20 |  | [release](https://github.com/ibrahimpuri/inFamous-PC-Enhanced/releases/tag/v1.5) · [reddit](https://www.reddit.com/r/decomps/comments/1xauud0/ "u/Typical-End-3418 · 121 upvotes · 73 comments") |
+| [King Kong Recompiled](https://github.com/TekRantGaming/king-kong-recompiled) ⚠️ | Xbox 360 | 4.2 | 213 | 2026-10-23 |  | [release](https://github.com/TekRantGaming/king-kong-recompiled/releases/tag/v1.9.13) |
 | [LCS Recomp](https://github.com/elmasas/lcs-recomp) ⚠️ | PSP | 4.2 | 259 | 2026-10-18 |  | [release](https://github.com/elmasas/lcs-recomp/releases/tag/v0.1.6) |
 | [Lego Dimensions](https://github.com/NeverCookFirst/DimensionsRecomp) ⚠️ | Xbox 360 | 4.2 | 229 | 2026-10-19 |  |  |
-| [Lost Odyssey](https://github.com/freefrank/LostOdysseyRecomp) ⚠️ | Xbox 360 | 4.2 | 802 | 2026-10-23 |  | [release](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.6) |
-| [Luigi's Mansion (Luigi's Mansion Recompiled)](https://github.com/rob646464/luigis-mansion-recompiled) ⚠️ | GameCube | 4.2 | 245 | 2026-10-22 |  | [release](https://github.com/rob646464/luigis-mansion-recompiled/releases/tag/v1.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xar6pz/ "u/chicagogamecollector · 69 upvotes · 13 comments") |
-| [Mario Kart Wii](https://github.com/dorPXP/driftdroid) | Wii | 4.2 | 109 | 2026-10-09 |  | [release](https://github.com/dorPXP/driftdroid/releases/tag/v1.3.0) |
+| [Lost Odyssey](https://github.com/freefrank/LostOdysseyRecomp) ⚠️ | Xbox 360 | 4.2 | 806 | 2026-10-25 |  | [release](https://github.com/freefrank/LostOdysseyRecomp/releases/tag/v1.0.6) |
+| [Luigi's Mansion (Luigi's Mansion Recompiled)](https://github.com/rob646464/luigis-mansion-recompiled) ⚠️ | GameCube | 4.2 | 250 | 2026-10-22 |  | [release](https://github.com/rob646464/luigis-mansion-recompiled/releases/tag/v1.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xar6pz/ "u/chicagogamecollector · 69 upvotes · 13 comments") |
+| [Mario Kart Wii](https://github.com/dorPXP/driftdroid) | Wii | 4.2 | 110 | 2026-10-09 |  | [release](https://github.com/dorPXP/driftdroid/releases/tag/v1.3.0) |
 | [Mass Effect (masseffect-nx)](https://github.com/nebadasSwifty/masseffect-nx) | Xbox 360 | 4.2 | 37 | 2026-10-09 |  | [release](https://github.com/nebadasSwifty/masseffect-nx/releases/tag/v0.2.1) |
 | [Mega Man X](https://github.com/mstan/MegaManXSNESRecomp) ⚠️ | SNES | 4.2 | 207 | 2026-10-23 |  | [release](https://github.com/mstan/MegaManXSNESRecomp/releases/tag/v2.3.3) |
 | [MeleePC](https://github.com/999sian/melee-pc) ⚠️ | GameCube | 4.2 | 551 | 2026-10-20 |  | [release](https://github.com/999sian/melee-pc/releases/tag/v0.4.2) |
+| [Metroid Dread (Metroid-Dread-Recomp)](https://github.com/yozander2009-stack/Metroid-Dread-Recomp) ⚠️ | Switch | 4.2 | 202 | 2026-10-24 |  | [release](https://github.com/yozander2009-stack/Metroid-Dread-Recomp/releases/tag/v0.4.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xddck5/ "u/TheCrach · 398 upvotes · 128 comments") |
 | [Metroid Prime Hunters](https://github.com/mstan/MetroidPrimeHuntersRecomp) ⚠️ | DS | 4.2 | 269 | 2026-10-24 |  | [release](https://github.com/mstan/MetroidPrimeHuntersRecomp/releases/tag/v0.7.3-alpha) |
 | [Metroid Prime Hunters (HuntersRecomp (AYN Thor))](https://github.com/aabrole/HuntersRecomp) | DS | 4.2 | 39 | 2026-09-06 |  | [release](https://github.com/aabrole/HuntersRecomp/releases/tag/v0.2.5) |
-| [Midnight Club: Los Angeles](https://github.com/holdmysocks/mcla-recomp) | Xbox 360 | 4.2 | 159 | 2026-10-24 |  | [release](https://github.com/holdmysocks/mcla-recomp/releases/tag/v1.0.7) |
-| [Monster Hunter Portable 3rd HD Ver. (Yakumo)](https://github.com/TeamGDB/Yakumo) ⚠️ | PSP | 4.2 | 522 | 2026-10-21 |  | [release](https://github.com/TeamGDB/Yakumo/releases/tag/v0.7.5) |
+| [Midnight Club: Los Angeles](https://github.com/holdmysocks/mcla-recomp) | Xbox 360 | 4.2 | 160 | 2026-10-24 |  | [release](https://github.com/holdmysocks/mcla-recomp/releases/tag/v1.0.7) |
+| [Monster Hunter Portable 3rd HD Ver. (Yakumo)](https://github.com/TeamGDB/Yakumo) ⚠️ | PSP | 4.2 | 523 | 2026-10-21 |  | [release](https://github.com/TeamGDB/Yakumo/releases/tag/v0.7.5) |
 | [Need for Speed: Carbon](https://github.com/Sampreeth004/nfs-carbon-recomp) | Xbox 360 | 4.2 | 50 | 2026-10-07 |  | [release](https://github.com/Sampreeth004/nfs-carbon-recomp/releases/tag/v0.3.12) |
 | [Need for Speed: Most Wanted](https://github.com/codepdbh/nfsmwpc-recompiled) | PC | 4.2 | 72 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfsmwpc-recompiled/releases/tag/v0.1.8) |
-| [Need for Speed: Underground](https://github.com/codepdbh/nfsu1-recompiled) | PC | 4.2 | 54 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfsu1-recompiled/releases/tag/v0.2.6) |
-| [Ocarina of Time 3D (TriAevum Recomp)](https://github.com/coccofresco/TriAevum) ⚠️ | 3DS | 4.2 | 562 | 2026-10-22 |  |  |
-| [Perfect Dark Remaster](https://github.com/nikolaygorb/PerfectDarkRemasterRecomp) | Xbox 360 | 4.2 | 36 | 2026-10-23 |  | [release](https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/tag/1.5) |
+| [Need for Speed: Underground](https://github.com/codepdbh/nfsu1-recompiled) | PC | 4.2 | 55 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfsu1-recompiled/releases/tag/v0.2.6) |
+| [Ocarina of Time 3D (TriAevum Recomp)](https://github.com/coccofresco/TriAevum) ⚠️ | 3DS | 4.2 | 564 | 2026-10-22 |  |  |
+| [Perfect Dark Remaster](https://github.com/nikolaygorb/PerfectDarkRemasterRecomp) | Xbox 360 | 4.2 | 37 | 2026-10-23 |  | [release](https://github.com/nikolaygorb/PerfectDarkRemasterRecomp/releases/tag/1.5) |
 | [Perfect Dark Zero](https://github.com/nikolaygorb/PerfectDarkZeroRecomp) | Xbox 360 | 4.2 | 53 | 2026-10-23 |  | [release](https://github.com/nikolaygorb/PerfectDarkZeroRecomp/releases/tag/1.8) |
-| [Pokémon: Let's Go, Eevee! (letsgo-recomp)](https://github.com/raulzrrs/letsgo-recomp) | Switch | 4.2 | 181 | 2026-10-24 |  | [release](https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.7.3) · [reddit](https://www.reddit.com/r/decomps/comments/1x95bv5/ "None · None upvotes · None comments") |
+| [Pokémon: Let's Go, Eevee! (letsgo-recomp)](https://github.com/raulzrrs/letsgo-recomp) | Switch | 4.2 | 182 | 2026-10-25 |  | [release](https://github.com/raulzrrs/letsgo-recomp/releases/tag/v0.7.4) · [reddit](https://www.reddit.com/r/decomps/comments/1x95bv5/ "None · None upvotes · None comments") |
 | [Rockstar Table Tennis](https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC) | Xbox 360 | 4.2 | 49 | 2026-10-19 |  | [release](https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC/releases/tag/v1.0.1) |
 | [Silent Hill 2 (sh2-nx)](https://github.com/cutarev/sh2-nx) | PS2 | 4.2 | 46 | 2026-10-22 |  | [release](https://github.com/cutarev/sh2-nx/releases/tag/v1.02) |
-| [Silent Hill: Downpour](https://github.com/LittleBitUA/DownpourRecomp) ⚠️ | Xbox 360 | 4.2 | 334 | 2026-09-02 |  | [release](https://github.com/LittleBitUA/DownpourRecomp/releases/tag/v1.1.8) |
+| [Silent Hill: Downpour](https://github.com/LittleBitUA/DownpourRecomp) ⚠️ | Xbox 360 | 4.2 | 333 | 2026-09-02 |  | [release](https://github.com/LittleBitUA/DownpourRecomp/releases/tag/v1.1.8) |
 | [Skate 3](https://github.com/andrewnakas/skate3-android) | Xbox 360 | 4.2 | 46 | 2026-09-24 |  | [release](https://github.com/andrewnakas/skate3-android/releases/tag/v0.2.0) |
 | [Skate 3 (skate3-ios-setup)](https://github.com/andrewnakas/skate3-ios-setup) | Xbox 360 | 4.2 | 118 | 2026-09-24 |  | [release](https://github.com/andrewnakas/skate3-ios-setup/releases/tag/v2.7.1) |
 | [Snowboard Kids 2](https://github.com/cdlewis/snowboardkids2-recomp) | N64 | 4.2 | 110 | 2026-10-25 |  | [release](https://github.com/cdlewis/snowboardkids2-recomp/releases/tag/v2.0.2) |
 | [Sonic Adventure 2: Battle (OpenSA2)](https://github.com/kittycache9/OpenSA2) | GameCube | 4.2 | 32 | 2026-10-22 |  |  |
-| [SpeedBreaker](https://github.com/SpeedBreakerProject/speedbreaker) ⚠️ | Xbox 360 | 4.2 | 473 | 2026-10-24 |  | [release](https://github.com/SpeedBreakerProject/speedbreaker/releases/tag/v0.1.9) |
-| [Spider-Man: Web of Shadows](https://github.com/toowasmir/WebOfShadowsRecomp) | Xbox 360 | 4.2 | 51 | 2026-10-20 |  | [release](https://github.com/toowasmir/WebOfShadowsRecomp/releases/tag/v2.0.4) |
+| [SpeedBreaker](https://github.com/SpeedBreakerProject/speedbreaker) ⚠️ | Xbox 360 | 4.2 | 480 | 2026-10-24 |  | [release](https://github.com/SpeedBreakerProject/speedbreaker/releases/tag/v0.1.9) |
+| [Spider-Man: Web of Shadows](https://github.com/toowasmir/WebOfShadowsRecomp) | Xbox 360 | 4.2 | 52 | 2026-10-20 |  | [release](https://github.com/toowasmir/WebOfShadowsRecomp/releases/tag/v2.0.4) |
 | [Super Mario Bros. Wonder (SMW)](https://github.com/iHaiDeeZ/SMW) | Switch | 4.2 | 51 | 2026-10-19 |  | [release](https://github.com/iHaiDeeZ/SMW/releases/tag/v00.30) |
-| [Super Smash Bros. Ultimate (ssbu-recomp)](https://github.com/OpenSmash-Ultimate/ssbu-recomp) ⚠️ | Switch | 4.2 | 462 | 2026-10-21 |  |  |
+| [Super Smash Bros. Ultimate (ssbu-recomp)](https://github.com/OpenSmash-Ultimate/ssbu-recomp) ⚠️ | Switch | 4.2 | 463 | 2026-10-21 |  |  |
 | [Syphon Filter (PC Recomp)](https://github.com/Madxbio97/SF-pc-port) | PS1 | 4.2 | 136 | 2026-08-13 |  | [release](https://github.com/Madxbio97/SF-pc-port/releases/tag/0.2.0-beta.2) |
-| [The Darkness](https://github.com/portingpete/The-Darkness-Recomp) ⚠️ | Xbox 360 | 4.2 | 338 | 2026-10-16 |  |  |
+| [The Darkness](https://github.com/portingpete/The-Darkness-Recomp) ⚠️ | Xbox 360 | 4.2 | 341 | 2026-10-16 |  |  |
+| [The Legend of Zelda: Breath of the Wild (BOTWRecompAndroid)](https://github.com/mamcjr/BOTWRecompAndroid) | Switch | 4.2 | 125 | 2026-10-25 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xe9on9/ "u/Mamcjr · 239 upvotes · 52 comments") |
 | [The Legend of Zelda: Majora's Mask (MMRecompRando)](https://github.com/RecompRando/MMRecompRando) | N64 | 4.2 | 47 | 2026-08-04 |  | [release](https://github.com/RecompRando/MMRecompRando/releases/tag/v0.9.5a) |
-| [The Legend of Zelda: Skyward Sword HD (Sky Recomp)](https://github.com/Apolinario-coder/SkyRecomp) ⚠️ | Switch | 4.2 | 419 | 2026-10-25 |  | [release](https://github.com/Apolinario-coder/SkyRecomp/releases/tag/v2.0.0) |
-| [The Legend of Zelda: The Wind Waker](https://github.com/chrissotraidis/bluewake) ⚠️ | GameCube | 4.2 | 483 | 2026-10-25 |  | [release](https://github.com/chrissotraidis/bluewake/releases/tag/v0.9.0) |
+| [The Legend of Zelda: Skyward Sword HD (Sky Recomp)](https://github.com/Apolinario-coder/SkyRecomp) ⚠️ | Switch | 4.2 | 421 | 2026-10-25 |  | [release](https://github.com/Apolinario-coder/SkyRecomp/releases/tag/v2.0.0) |
+| [The Legend of Zelda: The Wind Waker](https://github.com/chrissotraidis/bluewake) ⚠️ | GameCube | 4.2 | 484 | 2026-10-25 |  | [release](https://github.com/chrissotraidis/bluewake/releases/tag/v0.9.0) |
 | [Ultimate MK3 iOS](https://github.com/MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled) | Mobile | 4.2 | 50 | 2026-10-23 |  |  |
-| [Underworld Exhumed](https://github.com/abedegno/underworld-exhumed) | DOS | 4.2 | 69 | 2026-10-15 |  | [release](https://github.com/abedegno/underworld-exhumed/releases/tag/uw1-v1.0.2) |
+| [Underworld Exhumed](https://github.com/abedegno/underworld-exhumed) | DOS | 4.2 | 70 | 2026-10-15 |  | [release](https://github.com/abedegno/underworld-exhumed/releases/tag/uw1-v1.0.2) |
 | [Wet](https://github.com/nikolaygorb/WetRecomp) | Xbox 360 | 4.2 | 50 | 2026-10-23 |  | [release](https://github.com/nikolaygorb/WetRecomp/releases/tag/1.5) |
 | [WWE SmackDown vs. Raw 2008](https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP) | Xbox 360 | 4.2 | 34 | 2026-10-24 |  | [release](https://github.com/nefariousjosiah/WWE-SVR2008-RECOMP/releases/tag/v2.2.1) |
 | [WWE SmackDown vs. Raw 2009](https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP) | Xbox 360 | 4.2 | 30 | 2026-10-24 |  | [release](https://github.com/nefariousjosiah/WWE-SVR2009-RECOMP/releases/tag/v2.1.1) |
 | [WWE SmackDown vs. Raw 2010](https://github.com/nefariousjosiah/WWE-SVR2010-RECOMP) | Xbox 360 | 4.2 | 35 | 2026-10-24 |  | [release](https://github.com/nefariousjosiah/WWE-SVR2010-RECOMP/releases/tag/v2.1.3) |
 | [Yu-Gi-Oh! Forbidden Memories](https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled) ⚠️ | PS1 | 4.2 | 243 | 2026-10-23 |  | [release](https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled/releases/tag/v0.3.0) |
-| [Grand Theft Auto IV (Liberty Recompiled, OZORDI)](https://github.com/OZORDI/LibertyRecomp) | Xbox 360 | 4.1 | 399 | 2026-09-23 |  | [release](https://github.com/OZORDI/LibertyRecomp/releases/tag/v1.0.1) |
+| [Grand Theft Auto IV (Liberty Recompiled, OZORDI)](https://github.com/OZORDI/LibertyRecomp) | Xbox 360 | 4.1 | 400 | 2026-09-23 |  | [release](https://github.com/OZORDI/LibertyRecomp/releases/tag/v1.0.1) |
 | [Star Fox 64](https://github.com/sonicdcer/Starfox64Recomp) | N64 | 4.1 | 399 | 2026-08-11 |  | [release](https://github.com/sonicdcer/Starfox64Recomp/releases/tag/1.0.3) |
-| [Black (Black - XBE Recomp)](https://github.com/TGP482/BLACK-XBERecomp) | og xbox | 4.0 | 736 | 2026-10-23 |  | [release](https://github.com/TGP482/BLACK-XBERecomp/releases/tag/V2) |
+| [Black (Black - XBE Recomp)](https://github.com/TGP482/BLACK-XBERecomp) | og xbox | 4.0 | 738 | 2026-10-25 |  | [release](https://github.com/TGP482/BLACK-XBERecomp/releases/tag/V2) |
 | [Jet Force Gemini](https://github.com/VibinToast/JetForceGemini-Recomp) ⚠️ | N64 | 4.0 | 24 | 2026-10-24 |  | [release](https://github.com/VibinToast/JetForceGemini-Recomp/releases/tag/v1.2.3) |
 | [Mario Kart 64](https://github.com/sonicdcer/MarioKart64Recomp) | N64 | 4.0 | 620 | 2026-08-11 |  | [release](https://github.com/sonicdcer/MarioKart64Recomp/releases/tag/v0.9.2) |
-| [2014 FIFA World Cup Brazil](https://github.com/HossEz/fifa-world-cup-2014-recompiled) ⚠️ | Xbox 360 | 4.0 | 64 | 2026-10-22 |  | [release](https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/tag/v0.1.8) |
+| [2014 FIFA World Cup Brazil](https://github.com/HossEz/fifa-world-cup-2014-recompiled) ⚠️ | Xbox 360 | 4.0 | 65 | 2026-10-22 |  | [release](https://github.com/HossEz/fifa-world-cup-2014-recompiled/releases/tag/v0.1.8) |
 | [Ace Combat 5: The Unsung War](https://github.com/sal063/Ace-Combat-5-Static-recompilation) ⚠️ | PS2 | 4.0 | 108 | 2026-10-24 |  | [release](https://github.com/sal063/Ace-Combat-5-Static-recompilation/releases/tag/V3.0) |
 | [AeroGauge](https://github.com/alondero/aerogauge-recomp) ⚠️ | N64 | 4.0 | 41 | 2026-10-24 |  | [release](https://github.com/alondero/aerogauge-recomp/releases/tag/v0.6.2) |
-| [Alien Resurrection (AlienReRecomp)](https://github.com/DiegoDeDios/AlienReRecomp) ⚠️ | PS1 | 4.0 | 30 | 2026-10-25 |  | [release](https://github.com/DiegoDeDios/AlienReRecomp/releases/tag/v0.1.8) |
+| [Alien Resurrection (AlienReRecomp)](https://github.com/DiegoDeDios/AlienReRecomp) ⚠️ | PS1 | 4.0 | 31 | 2026-10-25 |  | [release](https://github.com/DiegoDeDios/AlienReRecomp/releases/tag/v0.1.8) |
 | [Ape Escape](https://github.com/mstan/ApeEscapeRecomp) ⚠️ | PS1 | 4.0 | 92 | 2026-10-03 |  | [release](https://github.com/mstan/ApeEscapeRecomp/releases/tag/v0.5.2) |
 | [Automobili Lamborghini](https://github.com/alondero/automobililamborghini-recomp) ⚠️ | N64 | 4.0 | 47 | 2026-10-24 |  | [release](https://github.com/alondero/automobililamborghini-recomp/releases/tag/v0.9.0) |
 | [Beetle Adventure Racing!](https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp) ⚠️ | N64 | 4.0 | 67 | 2026-09-20 |  | [release](https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp/releases/tag/v0.4.2-alpha) |
 | [Blinx 2: Masters of Time and Space](https://github.com/apexJCL/blinx2-recomp) | Xbox | 4.0 | 13 | 2026-10-22 |  | [release](https://github.com/apexJCL/blinx2-recomp/releases/tag/v2026.10.3) |
 | [Bloody Roar Extreme (Bloody Roar Extreme - XBE Recomp)](https://github.com/bromurok/BloodyRoarExtremeRecomp) | Xbox | 4.0 | 17 | 2026-10-23 |  | [release](https://github.com/bromurok/BloodyRoarExtremeRecomp/releases/tag/v1.0.4) |
 | [Bomberman Hero](https://github.com/RevoSucks/BMHeroRecomp) | N64 | 4.0 | 126 | 2026-05-12 |  |  |
-| [Burnout 2: Point of Impact](https://github.com/timftw21/burnout2-recompilation) ⚠️ | Xbox | 4.0 | 35 | 2026-10-24 |  | [release](https://github.com/timftw21/burnout2-recompilation/releases/tag/v1.9) |
-| [Burnout Revenge](https://github.com/shipa-2/Xerenge) ⚠️ | Xbox 360 | 4.0 | 159 | 2026-10-25 |  | [release](https://github.com/shipa-2/Xerenge/releases/tag/v0.4.8) |
+| [Burnout 2: Point of Impact](https://github.com/timftw21/burnout2-recompilation) ⚠️ | Xbox | 4.0 | 36 | 2026-10-24 |  | [release](https://github.com/timftw21/burnout2-recompilation/releases/tag/v1.9) |
+| [Burnout Revenge](https://github.com/shipa-2/Xerenge) ⚠️ | Xbox 360 | 4.0 | 161 | 2026-10-25 |  | [release](https://github.com/shipa-2/Xerenge/releases/tag/v0.4.8) |
 | [Castlevania: Legacy of Darkness](https://github.com/fliperama86/cvlod_recomp) ⚠️ | N64 | 4.0 | 138 | 2026-10-23 |  | [release](https://github.com/fliperama86/cvlod_recomp/releases/tag/v0.2.29) |
-| [Championship Manager: Season 01/02 (02: Bosman Edition)](https://github.com/maxevans60/cm0102-bosman-edition) ⚠️ | PC | 4.0 | 30 | 2026-10-25 |  |  |
-| [Command & Conquer: Red Alert 2 (redalert2-recomp)](https://github.com/sp00nznet/redalert2-recomp) ⚠️ | PC | 4.0 | 87 | 2026-10-25 |  | [release](https://github.com/sp00nznet/redalert2-recomp/releases/tag/v0.1.1) |
+| [Championship Manager: Season 01/02 (02: Bosman Edition)](https://github.com/maxevans60/cm0102-bosman-edition) ⚠️ | PC | 4.0 | 31 | 2026-10-25 |  |  |
+| [Command & Conquer: Red Alert 2 (redalert2-recomp)](https://github.com/sp00nznet/redalert2-recomp) ⚠️ | PC | 4.0 | 88 | 2026-10-25 |  | [release](https://github.com/sp00nznet/redalert2-recomp/releases/tag/v0.1.1) |
 | [Conker's Bad Fur Day Reloaded](https://github.com/DahSidiAbdallah/ConkerBFDReloaded) ⚠️ | N64 | 4.0 | 123 | 2026-10-23 |  | [release](https://github.com/DahSidiAbdallah/ConkerBFDReloaded/releases/tag/v1.4.6) |
 | [Crackdown](https://github.com/saulob/crackdown-xbox360-recompiled) ⚠️ | Xbox 360 | 4.0 | 59 | 2026-10-23 |  | [release](https://github.com/saulob/crackdown-xbox360-recompiled/releases/tag/v0.6.1) |
 | [Crash Bandicoot 2](https://github.com/Zumbo06/Crash2Recomp) ⚠️ | PS1 | 4.0 | 91 | 2026-10-08 |  | [release](https://github.com/Zumbo06/Crash2Recomp/releases/tag/v0.9.6) |
-| [Crash of the Titans (CrashRecomp Definitive Edition)](https://github.com/VitoMiguelF/crashott-pc) ⚠️ | Xbox 360 | 4.0 | 68 | 2026-10-25 |  | [release](https://github.com/VitoMiguelF/crashott-pc/releases/tag/v1.04) · [reddit](https://www.reddit.com/r/decomps/comments/1xcrmq9/ "u/VitoMigs98 · 58 upvotes · 5 comments") |
-| [Dark Cloud 2 (DC2-PS2RECOMP)](https://github.com/Red-tv141/DC2-PS2RECOMP) ⚠️ | PS2 | 4.0 | 36 | 2026-10-10 |  | [release](https://github.com/Red-tv141/DC2-PS2RECOMP/releases/tag/0.9.5) |
-| [Darkwatch (Darkwatch: Darker Edition)](https://github.com/linkssy2/DarkwatchDarkerEdition) ⚠️ | og xbox | 4.0 | 122 | 2026-10-23 |  | [release](https://github.com/linkssy2/DarkwatchDarkerEdition/releases/tag/v0.5) |
-| [Dead or Alive 3](https://github.com/parkerallan/doa3-recomp) ⚠️ | Xbox | 4.0 | 79 | 2026-10-24 |  | [release](https://github.com/parkerallan/doa3-recomp/releases/tag/v1.0.7) |
+| [Crash of the Titans (CrashRecomp Definitive Edition)](https://github.com/VitoMiguelF/crashott-pc) ⚠️ | Xbox 360 | 4.0 | 73 | 2026-10-25 |  | [release](https://github.com/VitoMiguelF/crashott-pc/releases/tag/v1.04) · [reddit](https://www.reddit.com/r/decomps/comments/1xcrmq9/ "u/VitoMigs98 · 58 upvotes · 5 comments") |
+| [Dark Cloud 2 (DC2-PS2RECOMP)](https://github.com/Red-tv141/DC2-PS2RECOMP) ⚠️ | PS2 | 4.0 | 35 | 2026-10-10 |  | [release](https://github.com/Red-tv141/DC2-PS2RECOMP/releases/tag/0.9.5) |
+| [Darkwatch (Darkwatch: Darker Edition)](https://github.com/linkssy2/DarkwatchDarkerEdition) ⚠️ | og xbox | 4.0 | 123 | 2026-10-23 |  | [release](https://github.com/linkssy2/DarkwatchDarkerEdition/releases/tag/v0.5) |
+| [Dead or Alive 3](https://github.com/parkerallan/doa3-recomp) ⚠️ | Xbox | 4.0 | 81 | 2026-10-24 |  | [release](https://github.com/parkerallan/doa3-recomp/releases/tag/v1.0.7) |
 | [Dead Rising 2: Case West](https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp) ⚠️ | Xbox 360 | 4.0 | 97 | 2026-10-20 |  | [release](https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp/releases/tag/v1.1.2) |
 | [Dead Rising 2: Case Zero](https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp) ⚠️ | Xbox 360 | 4.0 | 102 | 2026-10-20 |  | [release](https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp/releases/tag/v1.1.3) |
 | [Deadly Premonition](https://github.com/LittleBitUA/DPRecomp) ⚠️ | Xbox 360 | 4.0 | 179 | 2026-10-03 |  | [release](https://github.com/LittleBitUA/DPRecomp/releases/tag/v2.0.14) |
@@ -368,11 +369,11 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [DQ8 Recompiled](https://github.com/Sinan-Karakaya/DQ8-Recompiled) ⚠️ | PS2 | 4.0 | 83 | 2026-10-23 |  | [release](https://github.com/Sinan-Karakaya/DQ8-Recompiled/releases/tag/f6dfd96) |
 | [Dragon Ball Z: Burst Limit](https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled) ⚠️ | Xbox 360 | 4.0 | 104 | 2026-10-22 |  | [release](https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled/releases/tag/v0.7.2-alpha) |
 | [Dragon Quest IX: Sentinels of the Starry Skies (DQ9-Decomp)](https://github.com/0bAndyWirus/DQ9-Decomp) | DS | 4.0 | 13 | 2026-10-21 |  |  |
-| [Drakengard 3 (Drakengard 3 Recompiled)](https://github.com/soyjxck/dod3-recomp) ⚠️ | PS3 | 4.0 | 156 | 2026-10-22 |  |  |
+| [Drakengard 3 (Drakengard 3 Recompiled)](https://github.com/soyjxck/dod3-recomp) ⚠️ | PS3 | 4.0 | 162 | 2026-10-22 |  |  |
 | [Earthbound Companion](https://github.com/rages4calm/earthbound-companion) ⚠️ | SNES | 4.0 | 37 | 2026-10-22 |  | [release](https://github.com/rages4calm/earthbound-companion/releases/tag/v1.0.12) |
-| [Earthworm Jim HD Recompiled](https://github.com/TekRantGaming/earthworm-jim-hd-recompiled) ⚠️ | Xbox 360 | 4.0 | 92 | 2026-10-18 |  | [release](https://github.com/TekRantGaming/earthworm-jim-hd-recompiled/releases/tag/v0.9.6) |
+| [Earthworm Jim HD Recompiled](https://github.com/TekRantGaming/earthworm-jim-hd-recompiled) ⚠️ | Xbox 360 | 4.0 | 93 | 2026-10-18 |  | [release](https://github.com/TekRantGaming/earthworm-jim-hd-recompiled/releases/tag/v0.9.6) |
 | [Enchanted Arms (EnchantedArmsRecomp)](https://github.com/IAndrewJJ/EnchantedArmsRecomp) | Xbox 360 | 4.0 | 16 | 2026-10-23 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xdfygn/ "u/heyitsfishGaming · 17 upvotes · 5 comments") |
-| [Eternal Darkness: Sanity's Requiem](https://github.com/griches/EternalDarknessRecomp) ⚠️ | GameCube | 4.0 | 155 | 2026-10-24 |  | [release](https://github.com/griches/EternalDarknessRecomp/releases/tag/v0.9.6) |
+| [Eternal Darkness: Sanity's Requiem](https://github.com/griches/EternalDarknessRecomp) ⚠️ | GameCube | 4.0 | 156 | 2026-10-24 |  | [release](https://github.com/griches/EternalDarknessRecomp/releases/tag/v0.9.6) |
 | [F-Zero](https://github.com/craigshaw/FZeroRecomp) ⚠️ | SNES | 4.0 | 43 | 2026-10-18 |  | [release](https://github.com/craigshaw/FZeroRecomp/releases/tag/v0.6.0) |
 | [F-Zero](https://github.com/mstan/FZeroSNESRecomp) ⚠️ | SNES | 4.0 | 83 | 2026-09-22 |  | [release](https://github.com/mstan/FZeroSNESRecomp/releases/tag/v1.8.3) |
 | [Far Cry Instincts (fci-recomp)](https://github.com/VinceIP/fci-recomp) ⚠️ | og xbox | 4.0 | 54 | 2026-10-24 |  | [release](https://github.com/VinceIP/fci-recomp/releases/tag/v0.2.1) |
@@ -380,47 +381,47 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Final Fantasy XI](https://github.com/rubymatrix/xi-on-anything) | PC | 4.0 | 18 | 2026-10-25 |  | [release](https://github.com/rubymatrix/xi-on-anything/releases/tag/v0.2.4) |
 | [Fire Emblem: The Sacred Stones](https://github.com/Lordingard/SacredStonesRecomp) | GBA | 4.0 | 22 | 2026-10-17 |  | [release](https://github.com/Lordingard/SacredStonesRecomp/releases/tag/v0.1.20) |
 | [Flame](https://github.com/DiaLight/Flame) | PC | 4.0 | 127 | 2026-02-28 |  | [release](https://github.com/DiaLight/Flame/releases/tag/v260206) |
-| [Forza Motorsport 2 (Forza Motorsport 2 ReGPU)](https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU) ⚠️ | Xbox 360 | 4.0 | 41 | 2026-10-25 |  | [release](https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.7.3) |
+| [Forza Motorsport 2 (Forza Motorsport 2 ReGPU)](https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU) ⚠️ | Xbox 360 | 4.0 | 41 | 2026-10-25 |  | [release](https://github.com/zer0ducksgiven/Forza-Motorsport-2-ReGPU/releases/tag/v0.7.7) |
 | [Genma Onimusha (Genma Onimusha - PC port)](https://github.com/rafaelkenedy/genma-recomp) | Xbox | 4.0 | 16 | 2026-10-25 |  | [release](https://github.com/rafaelkenedy/genma-recomp/releases/tag/v0.5.1) |
-| [Geometry Wars: Retro Evolved 2](https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled) ⚠️ | Xbox 360 | 4.0 | 52 | 2026-10-24 |  | [release](https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/tag/v0.6.0) |
-| [God of War: Chains of Olympus (God of War PSP: native PC ports)](https://github.com/DrummingBird1/gow-psp-recomp) ⚠️ | PSP | 4.0 | 101 | 2026-10-23 |  | [release](https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.2.1) |
+| [Geometry Wars: Retro Evolved 2](https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled) ⚠️ | Xbox 360 | 4.0 | 53 | 2026-10-24 |  | [release](https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled/releases/tag/v0.6.0) |
+| [God of War: Chains of Olympus (God of War PSP: native PC ports)](https://github.com/DrummingBird1/gow-psp-recomp) ⚠️ | PSP | 4.0 | 105 | 2026-10-23 |  | [release](https://github.com/DrummingBird1/gow-psp-recomp/releases/tag/v1.2.1) |
 | [God of War: Ghost of Sparta](https://github.com/arnaldolima1/gow-ghost-of-sparta-pc) ⚠️ | PSP | 4.0 | 49 | 2026-10-16 |  |  |
 | [Golden Sun (GSRecomp (Golden Sun Recompiled))](https://github.com/Shmargus/GSRecomp) ⚠️ | GBA | 4.0 | 64 | 2026-10-24 |  |  |
-| [GoldenEye 007 (GoldenEye 007 XBLA PC Recomp)](https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp) ⚠️ | Xbox 360 | 4.0 | 55 | 2026-10-25 |  | [release](https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/tag/v0.9.6c) · [reddit](https://www.reddit.com/r/decomps/comments/1x6fo2x/ "u/CaiusSmokes · 19 upvotes · 2 comments") |
+| [GoldenEye 007 (GoldenEye 007 XBLA PC Recomp)](https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp) ⚠️ | Xbox 360 | 4.0 | 56 | 2026-10-25 |  | [release](https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp/releases/tag/v0.9.6c) · [reddit](https://www.reddit.com/r/decomps/comments/1x6fo2x/ "u/CaiusSmokes · 19 upvotes · 2 comments") |
 | [GoldenEye 007 (XBLA Remaster)](https://github.com/SunJaycy/GoldenEye-Recomp) ⚠️ | Xbox 360 | 4.0 | 908 | 2026-06-18 |  | [release](https://github.com/SunJaycy/GoldenEye-Recomp/releases/tag/Goldeneye1.2.4) |
 | [Halo: Combat Evolved (HaloPad)](https://github.com/chrissotraidis/projectreach) ⚠️ | Xbox | 4.0 | 130 | 2026-10-21 |  | [release](https://github.com/chrissotraidis/projectreach/releases/tag/v0.3.11) |
 | [Hard Corps: Uprising](https://github.com/saulob/hard-corps-uprising-recompiled) ⚠️ | Xbox 360 | 4.0 | 46 | 2026-10-23 |  | [release](https://github.com/saulob/hard-corps-uprising-recompiled/releases/tag/v0.7.0) |
 | [Import Tuner Challenge](https://github.com/Spooky098529/ITC-Recomp) | Xbox 360 | 4.0 | 14 | 2026-10-25 |  | [release](https://github.com/Spooky098529/ITC-Recomp/releases/tag/v0.5.0) |
 | [International Superstar Soccer Deluxe](https://github.com/sergiomanzur/issd-native) ⚠️ | SNES | 4.0 | 31 | 2026-10-22 |  |  |
 | [Jet Force Gemini](https://github.com/TK22-26/JetForceGemini-Recomp) ⚠️ | N64 | 4.0 | 69 | 2026-10-22 |  | [release](https://github.com/TK22-26/JetForceGemini-Recomp/releases/tag/v1.4.0) |
-| [Kameo: Elements of Power](https://github.com/MaxDeadBear/KameoRePowered) ⚠️ | Xbox 360 | 4.0 | 67 | 2026-10-21 |  | [release](https://github.com/MaxDeadBear/KameoRePowered/releases/tag/v0.2.1) |
-| [Killer Instinct](https://github.com/thefixinhixon/UltraCombo) ⚠️ | Arcade | 4.0 | 40 | 2026-10-23 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xc4kgj/ "u/HBum187 · 107 upvotes · 32 comments") |
-| [Killzone](https://github.com/drakolordx7/KillzoneRecomp) ⚠️ | PS2 | 4.0 | 120 | 2026-10-25 |  |  |
+| [Kameo: Elements of Power](https://github.com/MaxDeadBear/KameoRePowered) ⚠️ | Xbox 360 | 4.0 | 66 | 2026-10-21 |  | [release](https://github.com/MaxDeadBear/KameoRePowered/releases/tag/v0.2.1) |
+| [Killer Instinct](https://github.com/thefixinhixon/UltraCombo) ⚠️ | Arcade | 4.0 | 41 | 2026-10-23 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xc4kgj/ "u/HBum187 · 107 upvotes · 32 comments") |
+| [Killzone](https://github.com/drakolordx7/KillzoneRecomp) ⚠️ | PS2 | 4.0 | 122 | 2026-10-25 |  |  |
 | [King's Field](https://github.com/Voicedrew11/verdite2) ⚠️ | PS1 | 4.0 | 58 | 2026-10-24 |  | [release](https://github.com/Voicedrew11/verdite2/releases/tag/v0.5.1) |
 | [Knuckles' Chaotix](https://github.com/YuutaTsubasa/ChaotixRecompiled) ⚠️ | 32X | 4.0 | 49 | 2026-10-24 |  | [release](https://github.com/YuutaTsubasa/ChaotixRecompiled/releases/tag/v0.15.3) |
 | [Mario Kart: Super Circuit](https://github.com/mstan/MarioKartSuperCircuitRecomp) ⚠️ | GBA | 4.0 | 72 | 2026-10-19 |  | [release](https://github.com/mstan/MarioKartSuperCircuitRecomp/releases/tag/v0.1.8) |
 | [Medal of Honor](https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp) | PS1 | 4.0 | 16 | 2026-10-23 |  | [release](https://github.com/FractalEngineer/Medal-Of-Honor-PSX-Recomp/releases/tag/v0.1.6) |
 | [Mega Man X2](https://github.com/mstan/MegaManX2Recomp) ⚠️ | SNES | 4.0 | 48 | 2026-10-18 |  | [release](https://github.com/mstan/MegaManX2Recomp/releases/tag/v0.1.4) |
-| [Mega Man X4](https://github.com/mstan/MegaManX4Recomp) ⚠️ | PS1 | 4.0 | 108 | 2026-10-25 |  | [release](https://github.com/mstan/MegaManX4Recomp/releases/tag/v1.0.7) |
+| [Mega Man X4](https://github.com/mstan/MegaManX4Recomp) ⚠️ | PS1 | 4.0 | 109 | 2026-10-25 |  | [release](https://github.com/mstan/MegaManX4Recomp/releases/tag/v1.0.7) |
 | [Mega Man X5](https://github.com/mstan/MegaManX5Recomp) ⚠️ | PS1 | 4.0 | 57 | 2026-09-12 |  | [release](https://github.com/mstan/MegaManX5Recomp/releases/tag/v0.1.0-alpha) |
 | [Mega Man X6](https://github.com/mstan/MegaManX6Recomp) ⚠️ | PS1 | 4.0 | 77 | 2026-10-09 |  | [release](https://github.com/mstan/MegaManX6Recomp/releases/tag/v1.2.0) |
-| [Metroid Dread (Metroid-Dread-Recomp)](https://github.com/yozander2009-stack/Metroid-Dread-Recomp) ⚠️ | Switch | 4.0 | 195 | 2026-10-24 |  | [release](https://github.com/yozander2009-stack/Metroid-Dread-Recomp/releases/tag/v0.4.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xddck5/ "u/TheCrach · 398 upvotes · 128 comments") |
 | [Midtown Madness 3](https://github.com/lakshya16157/midtown-madness-3-PC-Native) | Xbox | 4.0 | 28 | 2026-10-24 |  | [release](https://github.com/lakshya16157/midtown-madness-3-PC-Native/releases/tag/v1.7) |
 | [Mischief Makers](https://github.com/ThiagoLira/trouble-makers-pc-recomp) ⚠️ | N64 | 4.0 | 97 | 2026-10-05 |  |  |
-| [Monster Hunter Freedom Unite (MHForever)](https://github.com/Mango77x/MHForever) ⚠️ | PSP | 4.0 | 38 | 2026-10-23 |  | [release](https://github.com/Mango77x/MHForever/releases/tag/0.4.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xbv3o9/ "u/Mango420x · 103 upvotes · 22 comments") |
+| [Monster Hunter Freedom Unite (MHForever)](https://github.com/Mango77x/MHForever) ⚠️ | PSP | 4.0 | 38 | 2026-10-25 |  | [release](https://github.com/Mango77x/MHForever/releases/tag/0.4.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xbv3o9/ "u/Mango420x · 103 upvotes · 22 comments") |
+| [Monster Hunter Generations Ultimate (MHGURecomp)](https://github.com/morerokk/MHGURecomp) | Switch | 4.0 | 12 | 2026-10-24 |  | [release](https://github.com/morerokk/MHGURecomp/releases/tag/0.9.7) · [reddit](https://www.reddit.com/r/decomps/comments/1xf17xf/ "u/Rokuro142 · 48 upvotes · 20 comments") |
 | [MOTHER 3](https://github.com/josiahg2502-glitch/Mother3Recomp) ⚠️ | GBA | 4.0 | 65 | 2026-10-21 |  | [release](https://github.com/josiahg2502-glitch/Mother3Recomp/releases/tag/v1.0.7) |
 | [Muscle March](https://github.com/tmcleroy/muscle-march-recomp) | Wii | 4.0 | 14 | 2026-10-15 |  |  |
-| [Naruto: Rise of a Ninja](https://github.com/jorjbarbosa/naruto-rise-recomp) ⚠️ | Xbox 360 | 4.0 | 152 | 2026-10-23 |  | [release](https://github.com/jorjbarbosa/naruto-rise-recomp/releases/tag/v0.3.0-beta) |
+| [Naruto: Rise of a Ninja](https://github.com/jorjbarbosa/naruto-rise-recomp) ⚠️ | Xbox 360 | 4.0 | 159 | 2026-10-23 |  | [release](https://github.com/jorjbarbosa/naruto-rise-recomp/releases/tag/v0.3.0-beta) |
 | [Need for Speed: Carbon (nfs-carbon-mac)](https://github.com/vasist15-source/nfs-carbon-mac) ⚠️ | PC | 4.0 | 36 | 2026-10-23 |  | [release](https://github.com/vasist15-source/nfs-carbon-mac/releases/tag/v0.5.0) |
 | [Need for Speed: Most Wanted (nfs-most-wanted-mac)](https://github.com/elforeign/nfs-most-wanted-mac) ⚠️ | PC | 4.0 | 118 | 2026-10-16 |  | [release](https://github.com/elforeign/nfs-most-wanted-mac/releases/tag/v3.0.4) |
-| [New Super Mario Bros. U](https://github.com/nsmbu-recomp/nsmbu-recomp) ⚠️ | Wii U | 4.0 | 53 | 2026-10-24 |  | [release](https://github.com/nsmbu-recomp/nsmbu-recomp/releases/tag/v0.6.2) |
-| [New Super Mario Bros. Wii (NSMB Wii Multiplayer Decompilation)](https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation) ⚠️ | Wii | 4.0 | 101 | 2026-10-23 |  | [release](https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation/releases/tag/v0.2.2) |
-| [Ninja Gaiden Black (Ninja Gaiden Black Recompiled)](https://github.com/gamboozino/ngbrecomp) ⚠️ | og xbox | 4.0 | 157 | 2026-10-24 |  |  |
+| [New Super Mario Bros. U](https://github.com/nsmbu-recomp/nsmbu-recomp) ⚠️ | Wii U | 4.0 | 60 | 2026-10-24 |  | [release](https://github.com/nsmbu-recomp/nsmbu-recomp/releases/tag/v0.6.2) |
+| [New Super Mario Bros. Wii (NSMB Wii Multiplayer Decompilation)](https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation) ⚠️ | Wii | 4.0 | 102 | 2026-10-23 |  | [release](https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation/releases/tag/v0.2.2) |
+| [Ninja Gaiden Black (Ninja Gaiden Black Recompiled)](https://github.com/gamboozino/ngbrecomp) ⚠️ | og xbox | 4.0 | 156 | 2026-10-24 |  |  |
 | [Ogre Battle 64: Person of Lordly Caliber](https://github.com/lfarroco/ogre-battle-64-recomp) ⚠️ | N64 | 4.0 | 79 | 2026-10-14 |  | [release](https://github.com/lfarroco/ogre-battle-64-recomp/releases/tag/v0.8.3) |
 | [OpenSpideyPS1](https://github.com/GTTeancum/SpideyPS1recomp) ⚠️ | PS1 | 4.0 | 43 | 2026-09-14 |  | [release](https://github.com/GTTeancum/SpideyPS1recomp/releases/tag/sm2-v1.1) |
-| [OpenXWA](https://github.com/elyosh/OpenXWA) ⚠️ | PC | 4.0 | 160 | 2026-10-12 |  | [release](https://github.com/elyosh/OpenXWA/releases/tag/v0.0.17) |
+| [OpenXWA](https://github.com/elyosh/OpenXWA) ⚠️ | PC | 4.0 | 161 | 2026-10-12 |  | [release](https://github.com/elyosh/OpenXWA/releases/tag/v0.0.17) |
 | [Pac-Man](https://github.com/Mr-Shizzy/PacManRecomp) | NES | 4.0 | 14 | 2026-10-06 |  | [release](https://github.com/Mr-Shizzy/PacManRecomp/releases/tag/v1.1.1) |
-| [Perfect Dark (Dab's Mod)](https://github.com/DabDavis/perfect-dark-dabs-mod) ⚠️ | N64 | 4.0 | 196 | 2026-10-21 |  | [release](https://github.com/DabDavis/perfect-dark-dabs-mod/releases/tag/v3.15.1) |
+| [Perfect Dark (Dab's Mod)](https://github.com/DabDavis/perfect-dark-dabs-mod) ⚠️ | N64 | 4.0 | 197 | 2026-10-21 |  | [release](https://github.com/DabDavis/perfect-dark-dabs-mod/releases/tag/v3.15.1) |
 | [Pokémon Emerald](https://github.com/mstan/EmeraldRecomp) ⚠️ | GBA | 4.0 | 41 | 2026-10-19 |  | [release](https://github.com/mstan/EmeraldRecomp/releases/tag/v0.1.2) |
 | [Pokémon FireRed and Pokémon LeafGreen](https://github.com/mstan/FireRedLeafGreenRecomp) ⚠️ | GBA | 4.0 | 31 | 2026-10-23 |  | [release](https://github.com/mstan/FireRedLeafGreenRecomp/releases/tag/v0.0.5) |
 | [Pokémon Snap](https://github.com/JackandBeans/Snap64Recomp) ⚠️ | N64 | 4.0 | 122 | 2026-10-25 |  | [release](https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6) |
@@ -429,7 +430,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Quest 64 (Quest 64 Tale: Recompiled)](https://github.com/boricuapab/quest64tale-recompiled) | N64 | 4.0 | 14 | 2026-10-19 |  | [release](https://github.com/boricuapab/quest64tale-recompiled/releases/tag/v1.1.2) |
 | [RalliSport Challenge 2 (RalliSport Challenge 2 — static recompilation)](https://github.com/Mortify7612/RallisportChallenge2-decomp) ⚠️ | og xbox | 4.0 | 63 | 2026-10-22 |  | [release](https://github.com/Mortify7612/RallisportChallenge2-decomp/releases/tag/v0.7.0) |
 | [Resident Evil Gaiden](https://github.com/sergiomanzur/regaiden-recomp) ⚠️ | Game Boy Color | 4.0 | 55 | 2026-09-16 |  | [release](https://github.com/sergiomanzur/regaiden-recomp/releases/tag/v0.4.1) |
-| [Ridge Racer 6](https://github.com/Sirhalo23/RidgeRacer6-Recompilation) ⚠️ | Xbox 360 | 4.0 | 108 | 2026-10-11 |  | [release](https://github.com/Sirhalo23/RidgeRacer6-Recompilation/releases/tag/v0.1.5) |
+| [Ridge Racer 6](https://github.com/Sirhalo23/RidgeRacer6-Recompilation) ⚠️ | Xbox 360 | 4.0 | 109 | 2026-10-11 |  | [release](https://github.com/Sirhalo23/RidgeRacer6-Recompilation/releases/tag/v0.1.5) |
 | [Road Rash 64](https://github.com/linkssy2/RoadRash64Recompiled) ⚠️ | N64 | 4.0 | 77 | 2026-10-16 |  | [release](https://github.com/linkssy2/RoadRash64Recompiled/releases/tag/v1.4.8) |
 | [Road Trip](https://github.com/silentsudin/RoadTripAdventure-recomp) | PS2 | 4.0 | 17 | 2026-10-11 |  | [release](https://github.com/silentsudin/RoadTripAdventure-recomp/releases/tag/v0.2.3) |
 | [Roll Away / Kula World (PSX PC recomp)](https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp) | PS1 | 4.0 | 9 | 2026-10-24 |  | [release](https://github.com/Bitsandbreakpoints/roll-away-psx-pc-recomp/releases/tag/v2.3.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xdli8m/ "u/BitsandBreakpoints · 21 upvotes · 2 comments") |
@@ -438,35 +439,36 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Sega Superstars Tennis](https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch) | Xbox 360 | 4.0 | 16 | 2026-10-24 |  | [release](https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch/releases/tag/v0.6.1) |
 | [Shin Megami Tensei IV (smt4-recomp)](https://github.com/Invictus-potens/smt4-recomp) | 3DS | 4.0 | 23 | 2026-10-23 |  |  |
 | [Silent Hill 3 (sh3-nx, Switch)](https://github.com/cutarev/sh3-nx) ⚠️ | PC | 4.0 | 35 | 2026-10-22 |  | [release](https://github.com/cutarev/sh3-nx/releases/tag/v0.06) · [reddit](https://www.reddit.com/r/decomps/comments/1x18i88/ "u/DiscordFul · 308 upvotes · 31 comments") |
-| [Skies of Arcadia Legends](https://github.com/ogdanimal/SkiesOfArcadiaLegends-Recomp) ⚠️ | GameCube | 4.0 | 120 | 2026-10-22 |  |  |
+| [Skies of Arcadia Legends](https://github.com/ogdanimal/SkiesOfArcadiaLegends-Recomp) ⚠️ | GameCube | 4.0 | 122 | 2026-10-22 |  |  |
 | [Sonic Adventure 2: Battle (sa2-nx)](https://github.com/ChanseyIsTheBest/sa2-nx) | GameCube | 4.0 | 15 | 2026-10-20 |  | [release](https://github.com/ChanseyIsTheBest/sa2-nx/releases/tag/v1.0.3.1) |
 | [Sonic Free Riders](https://github.com/YuutaTsubasa/Free-Riders-Recompiled) ⚠️ | Xbox 360 | 4.0 | 98 | 2026-10-25 |  | [release](https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.33) |
-| [SoulCalibur](https://github.com/enrique363/voldorium) | Dreamcast | 4.0 | 22 | 2026-10-24 |  | [release](https://github.com/enrique363/voldorium/releases/tag/v1.0.10) |
+| [SoulCalibur](https://github.com/enrique363/voldorium) | Dreamcast | 4.0 | 24 | 2026-10-24 |  | [release](https://github.com/enrique363/voldorium/releases/tag/v1.0.10) |
 | [Soulcalibur II](https://github.com/jackpoison-prog/RingOut) ⚠️ | GameCube | 4.0 | 177 | 2026-10-21 |  | [release](https://github.com/jackpoison-prog/RingOut/releases/tag/v1.6.10) |
 | [Space Station Silicon Valley](https://github.com/Cellenseres/SSSV_Recomp) | N64 | 4.0 | 106 | 2026-04-26 |  | [release](https://github.com/Cellenseres/SSSV_Recomp/releases/tag/v0.2.0) |
 | [Spider-Man 3 (Xbox 360 recomp)](https://github.com/b4ttycre4se/Spider-Man-3-Recomp) | Xbox 360 | 4.0 | 13 | 2026-10-22 |  |  |
 | [Spider-Man: Edge of Time](https://github.com/GenryTheFox0/Project-2099) ⚠️ | Xbox 360 | 4.0 | 75 | 2026-10-21 |  | [release](https://github.com/GenryTheFox0/Project-2099/releases/tag/v2.0.0-beta.5) |
-| [SSX 3](https://github.com/koenhendriks/SSX3-recomp) ⚠️ | Xbox | 4.0 | 46 | 2026-10-24 |  | [release](https://github.com/koenhendriks/SSX3-recomp/releases/tag/v0.2.3) |
+| [SSX 3](https://github.com/koenhendriks/SSX3-recomp) ⚠️ | Xbox | 4.0 | 47 | 2026-10-24 |  | [release](https://github.com/koenhendriks/SSX3-recomp/releases/tag/v0.2.3) |
 | [Starfox Recomp](https://github.com/mstan/StarFoxSNESRecomp) ⚠️ | SNES | 4.0 | 30 | 2026-10-18 |  | [release](https://github.com/mstan/StarFoxSNESRecomp/releases/tag/v0.3.2) |
 | [Street Fighter Alpha 2 (CPS-2 Recomp)](https://github.com/tmcleroy/cps2recomp) ⚠️ | Arcade | 4.0 | 77 | 2026-10-25 |  | [release](https://github.com/tmcleroy/cps2recomp/releases/tag/v0.4.0-beta.5) |
 | [Street Fighter Alpha 3](https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp) ⚠️ | PS1 | 4.0 | 80 | 2026-10-10 |  | [release](https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp/releases/tag/v0.2.16) |
 | [Stunts (Stunts HD)](https://github.com/mr-finster/stunts-hd) ⚠️ | PC | 4.0 | 30 | 2026-10-23 |  | [release](https://github.com/mr-finster/stunts-hd/releases/tag/v1.5.21) |
 | [Super Mario Bros.](https://github.com/mstan/SuperMarioBrosNESRecomp) ⚠️ | NES | 4.0 | 42 | 2026-10-23 |  | [release](https://github.com/mstan/SuperMarioBrosNESRecomp/releases/tag/v1.12.3) |
 | [Super Mario Bros. 35 (SM35 Recomp)](https://github.com/sm35recomp/sm35recomp) | Switch | 4.0 | 11 | 2026-10-21 |  | [release](https://github.com/sm35recomp/sm35recomp/releases/tag/v0.4.0) |
-| [Super Mario Maker 2 (SMM2 Recomp)](https://github.com/smm2recomp/smm2recomp) ⚠️ | Switch | 4.0 | 168 | 2026-10-25 |  | [release](https://github.com/smm2recomp/smm2recomp/releases/tag/v0.5.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xbafzk/ "u/My_Work_Computer_SFW · 466 upvotes · 51 comments") |
-| [Super Mario World](https://github.com/mstan/SuperMarioWorldRecomp) ⚠️ | SNES | 4.0 | 133 | 2026-10-23 |  | [release](https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.1) |
+| [Super Mario Maker 2 (SMM2 Recomp)](https://github.com/smm2recomp/smm2recomp) ⚠️ | Switch | 4.0 | 168 | 2026-10-25 |  | [release](https://github.com/smm2recomp/smm2recomp/releases/tag/v0.5.5) · [reddit](https://www.reddit.com/r/decomps/comments/1xbafzk/ "u/My_Work_Computer_SFW · 466 upvotes · 51 comments") |
+| [Super Mario World](https://github.com/mstan/SuperMarioWorldRecomp) ⚠️ | SNES | 4.0 | 135 | 2026-10-23 |  | [release](https://github.com/mstan/SuperMarioWorldRecomp/releases/tag/v0.15.1) |
 | [Super Metroid](https://github.com/mstan/SuperMetroidRecomp) ⚠️ | SNES | 4.0 | 124 | 2026-10-24 |  | [release](https://github.com/mstan/SuperMetroidRecomp/releases/tag/v0.3.15) |
+| [Super Paper Mario](https://github.com/josiahg2502-glitch/NewSuperPaperBros) ⚠️ | Wii | 4.0 | 130 | 2026-10-25 |  | [release](https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/tag/v1.0.4) |
 | [Super Robot Wars 64](https://github.com/dyzz/srw64-recomp) ⚠️ | N64 | 4.0 | 30 | 2026-10-25 |  | [release](https://github.com/dyzz/srw64-recomp/releases/tag/v0.4.10) |
 | [Super Smash Bros. Melee (Melee Unlocked)](https://github.com/Hero88go/melee-unlocked) ⚠️ | GameCube | 4.0 | 131 | 2026-10-25 |  | [release](https://github.com/Hero88go/melee-unlocked/releases/tag/v0.9.56) |
 | [Syphon Filter 2](https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp) ⚠️ | PS1 | 4.0 | 44 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp/releases/tag/v0.2.0) |
 | [Tekken 3](https://github.com/FishB0nes98/Tekken3Recompiled) ⚠️ | PS1 | 4.0 | 67 | 2026-09-23 |  |  |
-| [Tekken 5: Dark Resurrection Online (T5DROnline)](https://github.com/TheWishin/T5DROnline) ⚠️ | PS3 | 4.0 | 77 | 2026-10-21 |  | [release](https://github.com/TheWishin/T5DROnline/releases/tag/v1.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1x98vgt/ "None · None upvotes · None comments") |
-| [Tekken Tag Tournament 2](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc) ⚠️ | Xbox 360 | 4.0 | 172 | 2026-10-23 |  | [release](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/tag/v0.1.7) |
+| [Tekken 5: Dark Resurrection Online (T5DROnline)](https://github.com/TheWishin/T5DROnline) ⚠️ | PS3 | 4.0 | 79 | 2026-10-21 |  | [release](https://github.com/TheWishin/T5DROnline/releases/tag/v1.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1x98vgt/ "None · None upvotes · None comments") |
+| [Tekken Tag Tournament 2](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc) ⚠️ | Xbox 360 | 4.0 | 176 | 2026-10-23 |  | [release](https://github.com/shihabal3amri/tekken-tag-tournament-2-pc/releases/tag/v0.1.7) |
 | [The Binding of Isaac (IsaacRecomp)](https://github.com/whylurking/IsaacRecomp) ⚠️ | PC | 4.0 | 55 | 2026-10-20 |  | [release](https://github.com/whylurking/IsaacRecomp/releases/tag/v1.4.0) |
 | [The Darkness](https://github.com/invinceble55-wq/Estacado-The-Darkness-Recomp) ⚠️ | Xbox 360 | 4.0 | 103 | 2026-10-12 |  |  |
-| [The Legend of Zelda](https://github.com/mstan/LegendOfZeldaNESRecomp) ⚠️ | NES | 4.0 | 40 | 2026-10-19 |  | [release](https://github.com/mstan/LegendOfZeldaNESRecomp/releases/tag/v1.9.4) |
-| [The Legend of Zelda: A Link to the Past](https://github.com/mstan/ZeldaAlttPSNESRecomp) ⚠️ | SNES | 4.0 | 58 | 2026-10-24 |  | [release](https://github.com/mstan/ZeldaAlttPSNESRecomp/releases/tag/v0.6.6) |
-| [The Legend of Zelda: Link's Awakening (LAS Recomp for Android)](https://github.com/Nycolazs/LASRecomp-Android-Plus) ⚠️ | Switch | 4.0 | 150 | 2026-10-23 |  | [release](https://github.com/Nycolazs/LASRecomp-Android-Plus/releases/tag/android-v1.2.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xb3107/ "u/Nycolazs · 504 upvotes · 133 comments") |
+| [The Legend of Zelda](https://github.com/mstan/LegendOfZeldaNESRecomp) ⚠️ | NES | 4.0 | 42 | 2026-10-19 |  | [release](https://github.com/mstan/LegendOfZeldaNESRecomp/releases/tag/v1.9.4) |
+| [The Legend of Zelda: A Link to the Past](https://github.com/mstan/ZeldaAlttPSNESRecomp) ⚠️ | SNES | 4.0 | 59 | 2026-10-24 |  | [release](https://github.com/mstan/ZeldaAlttPSNESRecomp/releases/tag/v0.6.6) |
+| [The Legend of Zelda: Link's Awakening (LAS Recomp for Android)](https://github.com/Nycolazs/LASRecomp-Android-Plus) ⚠️ | Switch | 4.0 | 153 | 2026-10-23 |  | [release](https://github.com/Nycolazs/LASRecomp-Android-Plus/releases/tag/android-v1.2.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xb3107/ "u/Nycolazs · 504 upvotes · 133 comments") |
 | [The Legend of Zelda: Majora's Mask (Zelda64 Recompiled [Android])](https://github.com/linkzenic/Zelda64Recomp-Android) | N64 | 4.0 | 44 | 2026-07-09 |  | [release](https://github.com/linkzenic/Zelda64Recomp-Android/releases/tag/0.6.10) |
 | [The Legend of Zelda: Oracle of Ages / Oracle of Seasons](https://github.com/ZakyPew/epoch-equinox) | Game Boy Color | 4.0 | 22 | 2026-09-27 |  | [release](https://github.com/ZakyPew/epoch-equinox/releases/tag/v0.7.3) |
 | [The Legend of Zelda: The Wind Waker HD](https://github.com/centollOS/SwitchWakerHD) ⚠️ | Wii U | 4.0 | 184 | 2026-10-24 |  | [release](https://github.com/centollOS/SwitchWakerHD/releases/tag/v0.4.7) · [reddit](https://www.reddit.com/r/decomps/comments/1x07qo0/ "u/ShallotImpressive158 · 351 upvotes · 152 comments") |
@@ -479,38 +481,40 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Urban Reign](https://github.com/thiagordsfx/urban-reign-recomp) ⚠️ | PS2 | 4.0 | 57 | 2026-10-23 |  | [release](https://github.com/thiagordsfx/urban-reign-recomp/releases/tag/v1.4.0) |
 | [Virtua Fighter (Virtua Fighter Recomp)](https://github.com/mr-finster/vf1-recomp) ⚠️ | Arcade | 4.0 | 61 | 2026-10-25 |  | [release](https://github.com/mr-finster/vf1-recomp/releases/tag/v1.4.2) |
 | [Virtua Fighter 2](https://github.com/mr-finster/vf2-recomp) ⚠️ | Arcade | 4.0 | 67 | 2026-10-25 |  | [release](https://github.com/mr-finster/vf2-recomp/releases/tag/v0.1.15) |
-| [Virtua Fighter 3](https://github.com/mr-finster/vf3-recomp) ⚠️ | Arcade | 4.0 | 42 | 2026-10-25 |  | [release](https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.10-alpha) · [reddit](https://www.reddit.com/r/decomps/comments/1x9mwqp/ "None · None upvotes · None comments") |
+| [Virtua Fighter 3](https://github.com/mr-finster/vf3-recomp) ⚠️ | Arcade | 4.0 | 44 | 2026-10-25 |  | [release](https://github.com/mr-finster/vf3-recomp/releases/tag/v0.1.10-alpha) · [reddit](https://www.reddit.com/r/decomps/comments/1x9mwqp/ "None · None upvotes · None comments") |
 | [Wave Race 64](https://github.com/danielgomesvieira2000/wave-race-64-recomp) ⚠️ | N64 | 4.0 | 94 | 2026-10-15 |  | [release](https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/tag/v1.0.2) |
-| [wc1-re](https://github.com/neuromancer/wc1-re) ⚠️ | PC | 4.0 | 58 | 2026-10-25 |  | [release](https://github.com/neuromancer/wc1-re/releases/tag/v0.0.13) |
+| [wc1-re](https://github.com/neuromancer/wc1-re) ⚠️ | PC | 4.0 | 59 | 2026-10-25 |  | [release](https://github.com/neuromancer/wc1-re/releases/tag/v0.0.13) |
+| [wc2-re](https://github.com/neuromancer/wc2-re) ⚠️ | DOS | 4.0 | 30 | 2026-09-29 |  | [release](https://github.com/neuromancer/wc2-re/releases/tag/v0.0.14) |
 | [Wet](https://github.com/Supermedo/wet-recomp) ⚠️ | Xbox 360 | 4.0 | 93 | 2026-10-11 |  | [release](https://github.com/Supermedo/wet-recomp/releases/tag/v0.6.0) |
 | [Wii Party](https://github.com/arelkair/wiiparty-recomp) | Wii | 4.0 | 21 | 2026-10-22 |  | [release](https://github.com/arelkair/wiiparty-recomp/releases/tag/v0.1.18-alpha) |
 | [Wild 9](https://github.com/plinkr/Wild9Recomp) | PS1 | 4.0 | 10 | 2026-10-25 |  | [release](https://github.com/plinkr/Wild9Recomp/releases/tag/v0.1.8) |
-| [WWE '12 (wwe12-pc)](https://github.com/iMrBurn/wwe12-pc) ⚠️ | Xbox 360 | 4.0 | 49 | 2026-10-25 |  | [release](https://github.com/iMrBurn/wwe12-pc/releases/tag/v0.9.0-beta) |
-| [WWE '13 (WWE '13 Recomp)](https://github.com/PromethenDev/wwe13-recomp) ⚠️ | Xbox 360 | 4.0 | 109 | 2026-10-13 |  | [release](https://github.com/PromethenDev/wwe13-recomp/releases/tag/v1.5) |
-| [WWE 2K14 (wwe2k14-recomp)](https://github.com/PromethenDev/wwe2k14-recomp) ⚠️ | Xbox 360 | 4.0 | 73 | 2026-10-25 |  | [release](https://github.com/PromethenDev/wwe2k14-recomp/releases/tag/v1.2.1) |
-| [WWE All Stars (WWE All Stars Recomp)](https://github.com/shaneomac1337/WWE-AllStars-Recomp) ⚠️ | Xbox 360 | 4.0 | 43 | 2026-10-24 |  | [release](https://github.com/shaneomac1337/WWE-AllStars-Recomp/releases/tag/v1.6.0) |
+| [WWE '12 (wwe12-pc)](https://github.com/iMrBurn/wwe12-pc) ⚠️ | Xbox 360 | 4.0 | 50 | 2026-10-25 |  | [release](https://github.com/iMrBurn/wwe12-pc/releases/tag/v0.9.0-beta) |
+| [WWE '13 (WWE '13 Recomp)](https://github.com/PromethenDev/wwe13-recomp) ⚠️ | Xbox 360 | 4.0 | 110 | 2026-10-13 |  | [release](https://github.com/PromethenDev/wwe13-recomp/releases/tag/v1.5) |
+| [WWE 2K14 (wwe2k14-recomp)](https://github.com/PromethenDev/wwe2k14-recomp) ⚠️ | Xbox 360 | 4.0 | 76 | 2026-10-25 |  | [release](https://github.com/PromethenDev/wwe2k14-recomp/releases/tag/v1.2.1) |
+| [WWE All Stars (WWE All Stars Recomp)](https://github.com/shaneomac1337/WWE-AllStars-Recomp) ⚠️ | Xbox 360 | 4.0 | 43 | 2026-10-24 |  | [release](https://github.com/shaneomac1337/WWE-AllStars-Recomp/releases/tag/v1.6.1) |
 | [WWE SmackDown vs. Raw 2007](https://github.com/HollywoodAkeem/SVR07-Recomp) | Xbox 360 | 4.0 | 158 | 2026-05-27 |  | [release](https://github.com/HollywoodAkeem/SVR07-Recomp/releases/tag/v1.0) |
-| [WWE SmackDown vs. Raw 2011](https://github.com/KaikoClanworth1/wwe-svr2011-pc) ⚠️ | Xbox 360 | 4.0 | 129 | 2026-10-25 |  | [release](https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.5) |
+| [WWE SmackDown vs. Raw 2011](https://github.com/KaikoClanworth1/wwe-svr2011-pc) ⚠️ | Xbox 360 | 4.0 | 130 | 2026-10-25 |  | [release](https://github.com/KaikoClanworth1/wwe-svr2011-pc/releases/tag/v2.1.5) |
 | [WWE SmackDown vs. Raw 2011 (SVR2011-Recomp)](https://github.com/shaneomac1337/SVR2011-Recomp) | Xbox 360 | 4.0 | 18 | 2026-10-02 |  | [release](https://github.com/shaneomac1337/SVR2011-Recomp/releases/tag/v0.5.0) |
 | [Xenogears](https://github.com/OpokXeno/xenogears-recomp) ⚠️ | PS1 | 4.0 | 65 | 2026-10-25 |  |  |
 | [Yoshi's Story (DinoTale)](https://github.com/wootbeer/dinotale) ⚠️ | N64 | 4.0 | 32 | 2026-10-21 |  | [release](https://github.com/wootbeer/dinotale/releases/tag/0.1.6) |
 | [Yu-Gi-Oh! Forbidden Memories](https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp) ⚠️ | PS1 | 4.0 | 145 | 2026-09-26 |  | [release](https://github.com/Unchiga/YuGiOhForbiddenMemoriesRecomp/releases/tag/v0.6.2) |
-| [ZeldaWWHDRecompAndroid](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED) ⚠️ | Wii U | 4.0 | 83 | 2026-10-11 |  | [release](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/releases/tag/1.7) |
+| [ZeldaWWHDRecompAndroid](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED) ⚠️ | Wii U | 4.0 | 84 | 2026-10-11 |  | [release](https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED/releases/tag/1.7) |
 | [Alexbeav's PS1 recomps (psxrecomp-ports)](https://github.com/alexbeavs-ps1-ports/psxrecomp-ports) | PS1 | 3.9 | 114 | 2026-10-07 |  | [release](https://github.com/alexbeavs-ps1-ports/psxrecomp-ports/releases/tag/v0.3.4) · [reddit](https://www.reddit.com/r/decomps/comments/1vxga5x/ "u/Alexbeav · 126 upvotes · 126 comments") |
 | [Army of Two](https://github.com/nikolaygorb/ArmyOfTwoRecomp) | Xbox 360 | 3.9 | 87 | 2026-10-18 |  | [release](https://github.com/nikolaygorb/ArmyOfTwoRecomp/releases/tag/1.3) |
-| [Asura's Wrath](https://github.com/PauloUbirajara/asuras-wrath-recomp) | Xbox 360 | 3.9 | 70 | 2026-09-11 |  |  |
-| [Burnout 3: Takedown](https://github.com/xenophobentx/takedawn) ⚠️ | Xbox | 3.9 | 394 | 2026-10-23 |  | [release](https://github.com/xenophobentx/takedawn/releases/tag/v0.2.1) |
+| [Asura's Wrath](https://github.com/PauloUbirajara/asuras-wrath-recomp) | Xbox 360 | 3.9 | 71 | 2026-09-11 |  |  |
+| [Burnout 3: Takedown](https://github.com/xenophobentx/takedawn) ⚠️ | Xbox | 3.9 | 397 | 2026-10-23 |  | [release](https://github.com/xenophobentx/takedawn/releases/tag/v0.2.1) |
 | [F-15 II](https://github.com/neuviemeporte/f15se2-re) | DOS | 3.9 | 147 | 2026-09-06 |  | [release](https://github.com/neuviemeporte/f15se2-re/releases/tag/v0.9.3) |
 | [Grand Theft Auto: Vice City Stories](https://github.com/codepdbh/PSPRecomp-VCS-Android) | PSP | 3.9 | 40 | 2026-10-22 |  |  |
-| [Initial D Arcade Stage Ver.3](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-) | Arcade | 3.9 | 160 | 2026-09-21 |  | [release](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-/releases/tag/v2489-verified-vulkan-checkpoint) |
+| [Initial D Arcade Stage Ver.3](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-) | Arcade | 3.9 | 159 | 2026-09-21 |  | [release](https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-/releases/tag/v2489-verified-vulkan-checkpoint) |
 | [Mega Man 64](https://github.com/MegaMan64Recomp/MegaMan64Recompiled) | N64 | 3.9 | 277 | 2026-04-30 |  | [release](https://github.com/MegaMan64Recomp/MegaMan64Recompiled/releases/tag/v0.9.1) |
 | [Metal Gear Solid 2: Sons of Liberty HD (Android ARM64 recomp)](https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android) | NVIDIA Shield | 3.9 | 35 | 2026-10-24 |  | [release](https://github.com/luisxl15/METAL-GEAR-SOLID-2-Sons-of-Liberty-for-Android/releases/tag/beta3) · [reddit](https://www.reddit.com/r/decomps/comments/1xatuu3/ "u/Entire-Flamingo7406 · 65 upvotes · 12 comments") |
 | [Need for Speed: Carbon](https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP) | Xbox 360 | 3.9 | 99 | 2026-10-22 |  | [release](https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3) |
 | [Need for Speed: Most Wanted (nfsmw-ios)](https://github.com/bep1s69/nfsmw-ios) | PC | 3.9 | 42 | 2026-10-14 |  | [release](https://github.com/bep1s69/nfsmw-ios/releases/tag/v0.3.0) |
 | [Resident Evil 3: Nemesis](https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3) | PS1 | 3.9 | 84 | 2026-10-20 |  | [release](https://github.com/BrazilianHobbyist/Project-RE-Visited-RE3/releases/tag/v1.7.0) |
-| [SSX Tricky](https://github.com/GiZcesi/OpenTricky) | Xbox | 3.9 | 117 | 2026-10-14 |  |  |
-| [Street Fighter EX Plus Alpha](https://github.com/guimaraf/plusalpha-recomp) | PS1 | 3.9 | 40 | 2026-10-22 |  | [release](https://github.com/guimaraf/plusalpha-recomp/releases/tag/v0.2.4-alpha) |
+| [SSX Tricky](https://github.com/GiZcesi/OpenTricky) | Xbox | 3.9 | 118 | 2026-10-14 |  |  |
+| [Street Fighter EX Plus Alpha](https://github.com/guimaraf/plusalpha-recomp) | PS1 | 3.9 | 41 | 2026-10-22 |  | [release](https://github.com/guimaraf/plusalpha-recomp/releases/tag/v0.2.4-alpha) |
 | [Super Mario Galaxy ( PS4 recomp)](https://github.com/chrissotraidis/galaxypad) | Wii | 3.9 | 99 | 2026-10-24 |  | [release](https://github.com/chrissotraidis/galaxypad/releases/tag/v0.2.2) |
+| [Super Smash Bros. Brawl](https://github.com/josiahg2502-glitch/BrawlRecompiled) | Wii | 3.9 | 88 | 2026-10-24 |  | [release](https://github.com/josiahg2502-glitch/BrawlRecompiled/releases/tag/v0.4.0) |
 | [The Simpsons Game](https://github.com/YesterMester/TheSimpsonsGameRecomp) ⚠️ | Xbox 360 | 3.9 | 380 | 2026-10-11 |  | [release](https://github.com/YesterMester/TheSimpsonsGameRecomp/releases/tag/v0.0.6.5) |
 | [ActRaiser](https://github.com/DerrickGold/ar-recomp) ⚠️ | SNES | 3.8 | 24 | 2026-10-24 |  |  |
 | [BattleTanx: Global Assault (BTGARecomp)](https://github.com/wootbeer/btgarecomp) ⚠️ | N64 | 3.8 | 12 | 2026-10-24 |  | [release](https://github.com/wootbeer/btgarecomp/releases/tag/v0.1.5) |
@@ -521,12 +525,12 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Dr. Mario](https://github.com/mstan/DrMarioNesRecomp) ⚠️ | NES | 3.8 | 14 | 2026-10-19 |  | [release](https://github.com/mstan/DrMarioNesRecomp/releases/tag/v1.3.1) |
 | [Dragon Age: Origins](https://github.com/96dot/Dragon-Age-Origins-Recomp) ⚠️ | Xbox 360 | 3.8 | 29 | 2026-10-24 |  |  |
 | [Dragon Ball Z: Super Saiya Densetsu](https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust) ⚠️ | SNES | 3.8 | 17 | 2026-10-22 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x6fj6g/ "u/Jackrushante · 42 upvotes · 17 comments") |
-| [Edge Of Time Recomp](https://github.com/goliathret/EdgeOfTimeRecomp) | Xbox 360 | 3.8 | 439 | 2026-10-08 |  | [release](https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0) |
+| [Edge Of Time Recomp](https://github.com/goliathret/EdgeOfTimeRecomp) | Xbox 360 | 3.8 | 440 | 2026-10-08 |  | [release](https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0) |
 | [Jet Moto 2](https://github.com/goodshepherd23/JetMoto2-Recomp) ⚠️ | PS1 | 3.8 | 10 | 2026-10-21 |  | [release](https://github.com/goodshepherd23/JetMoto2-Recomp/releases/tag/v0.1.5) |
 | [Legend of Legaia](https://github.com/SamSteProjects/legend-of-legaia-recomp) ⚠️ | PS1 | 3.8 | 18 | 2026-08-27 |  |  |
 | [Mario's Tennis](https://github.com/mstan/MarioTennisVirtualBoyRecomp) ⚠️ | Virtual Boy | 3.8 | 20 | 2026-10-19 |  | [release](https://github.com/mstan/MarioTennisVirtualBoyRecomp/releases/tag/v0.2.3) |
 | [Marvel vs. Capcom: Clash of Super Heroes (Marvel vs. Capcom: Clash of Super Heroes Recompiled)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp) ⚠️ | PS1 | 3.8 | 10 | 2026-10-10 |  | [release](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/tag/v0.3.19) |
-| [MediEvil](https://github.com/BlackLabelHQ/MediEvilRecomp) | PS1 | 3.8 | 210 | 2026-10-03 |  | [release](https://github.com/BlackLabelHQ/MediEvilRecomp/releases/tag/v0.2b) |
+| [MediEvil](https://github.com/BlackLabelHQ/MediEvilRecomp) | PS1 | 3.8 | 211 | 2026-10-03 |  | [release](https://github.com/BlackLabelHQ/MediEvilRecomp/releases/tag/v0.2b) |
 | [MediEvil II](https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp) ⚠️ | PS1 | 3.8 | 13 | 2026-10-20 |  | [release](https://github.com/alexbeavs-ps1-ports/medievil-ii-recomp/releases/tag/v0.2.4-alpha) |
 | [Mega Man 3](https://github.com/mstan/Megaman3NESRecomp) ⚠️ | NES | 3.8 | 11 | 2026-10-19 |  | [release](https://github.com/mstan/Megaman3NESRecomp/releases/tag/v0.1.3) |
 | [Mega Man Legends](https://github.com/alexbeavs-ps1-ports/mega-man-legends-recomp) ⚠️ | PS1 | 3.8 | 9 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/mega-man-legends-recomp/releases/tag/v0.3.6) |
@@ -537,7 +541,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [MLB Power Pros 2008](https://github.com/HopeAero/MLBPowerPros2008Recomp) ⚠️ | Wii | 3.8 | 6 | 2026-10-24 |  | [release](https://github.com/HopeAero/MLBPowerPros2008Recomp/releases/tag/v0.1.5) |
 | [Mystical Ninja Starring Goemon](https://github.com/ogdanimal/Goemon64Recomp-Android) ⚠️ | N64 | 3.8 | 17 | 2026-10-12 |  | [release](https://github.com/ogdanimal/Goemon64Recomp-Android/releases/tag/v1.0.8) |
 | [NBA Street V3](https://github.com/recomp-code/street-recomp-v3) ⚠️ | GameCube | 3.8 | 22 | 2026-10-23 |  | [release](https://github.com/recomp-code/street-recomp-v3/releases/tag/v1.4.1) |
-| [Need for Speed: Most Wanted](https://github.com/StevensND/nfsmw-nx) | Xbox 360 | 3.8 | 251 | 2026-10-10 |  | [release](https://github.com/StevensND/nfsmw-nx/releases/tag/v1.0.0) |
+| [Need for Speed: Most Wanted](https://github.com/StevensND/nfsmw-nx) | Xbox 360 | 3.8 | 252 | 2026-10-10 |  | [release](https://github.com/StevensND/nfsmw-nx/releases/tag/v1.0.0) |
 | [NHL: Legacy Edition](https://github.com/puckhead73/nhl-legacy-recomp) ⚠️ | Xbox 360 | 3.8 | 51 | 2026-07-22 |  | [release](https://github.com/puckhead73/nhl-legacy-recomp/releases/tag/v0.6.0) |
 | [Pokémon Ruby and Pokémon Sapphire](https://github.com/mstan/RubySapphireRecomp) ⚠️ | GBA | 3.8 | 23 | 2026-10-23 |  | [release](https://github.com/mstan/RubySapphireRecomp/releases/tag/v0.0.6) |
 | [Quest 64](https://github.com/Rainchus/Quest64-Recomp) | N64 | 3.8 | 281 | 2026-09-29 |  | [release](https://github.com/Rainchus/Quest64-Recomp/releases/tag/v0.1) |
@@ -552,13 +556,13 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Super Mario RPG: Legend of the Seven Stars](https://github.com/mstan/SuperMarioRPGRecomp) ⚠️ | SNES | 3.8 | 12 | 2026-09-22 |  | [release](https://github.com/mstan/SuperMarioRPGRecomp/releases/tag/v0.0.5) |
 | [The Legend of Zelda: The Minish Cap](https://github.com/mstan/MinishCapRecomp) ⚠️ | GBA | 3.8 | 25 | 2026-10-19 |  | [release](https://github.com/mstan/MinishCapRecomp/releases/tag/v0.0.6) |
 | [The Urbz: Sims in the City](https://github.com/abilliontokens/urbz-recomp) ⚠️ | Xbox | 3.8 | 16 | 2026-10-20 |  | [release](https://github.com/abilliontokens/urbz-recomp/releases/tag/v0.6.0) |
+| [TimeSplitters 2](https://github.com/phobos665/split2-recomp) ⚠️ | Xbox | 3.8 | 27 | 2026-10-25 |  | [release](https://github.com/phobos665/split2-recomp/releases/tag/v0.4.1) |
 | [Tomba! 2: The Evil Swine Return](https://github.com/mstan/Tomba2Recomp) ⚠️ | PS1 | 3.8 | 20 | 2026-10-25 |  | [release](https://github.com/mstan/Tomba2Recomp/releases/tag/v0.2.1) |
-| [VagrantStory](https://github.com/riotashley81-jpg/vagrantstory_recomp) ⚠️ | PS1 | 3.8 | 9 | 2026-10-25 |  | [release](https://github.com/riotashley81-jpg/vagrantstory_recomp/releases/tag/v0.1.10) |
+| [VagrantStory](https://github.com/riotashley81-jpg/vagrantstory_recomp) ⚠️ | PS1 | 3.8 | 9 | 2026-10-25 |  | [release](https://github.com/riotashley81-jpg/vagrantstory_recomp/releases/tag/v0.1.11) |
 | [Wario Land: Super Mario Land 3](https://github.com/GABRIELNNK/Bigodao) ⚠️ | Game Boy | 3.8 | 22 | 2026-10-25 |  | [release](https://github.com/GABRIELNNK/Bigodao/releases/tag/1.1.1) |
 | [WarioWare: Twisted!](https://github.com/mstan/WarioWareTwistedRecomp) ⚠️ | GBA | 3.8 | 22 | 2026-10-19 |  |  |
 | [Wayne Gretzky's 3D Hockey](https://github.com/geno55/wg3d-recomp) ⚠️ | N64 | 3.8 | 2 | 2026-10-24 |  | [release](https://github.com/geno55/wg3d-recomp/releases/tag/v0.8.0) |
-| [wc2-re](https://github.com/neuromancer/wc2-re) ⚠️ | DOS | 3.8 | 29 | 2026-09-29 |  | [release](https://github.com/neuromancer/wc2-re/releases/tag/v0.0.14) |
-| [Yo-kai Watch (Clockwork)](https://github.com/clockwork-recompdev/clockwork) ⚠️ | 3DS | 3.8 | 10 | 2026-10-20 |  | [release](https://github.com/clockwork-recompdev/clockwork/releases/tag/v0.4.1) |
+| [Yo-kai Watch (Clockwork)](https://github.com/clockwork-recompdev/clockwork) ⚠️ | 3DS | 3.8 | 11 | 2026-10-20 |  | [release](https://github.com/clockwork-recompdev/clockwork/releases/tag/v0.4.1) |
 | [Yoshi](https://github.com/mstan/YoshiNESRecomp) ⚠️ | NES | 3.8 | 9 | 2026-10-19 |  | [release](https://github.com/mstan/YoshiNESRecomp/releases/tag/v1.2.1) |
 | [Zero Racers](https://github.com/mstan/ZeroRacersVirtualBoyRecomp) ⚠️ | Virtual Boy | 3.8 | 3 | 2026-10-23 |  | [release](https://github.com/mstan/ZeroRacersVirtualBoyRecomp/releases/tag/v0.1.0) |
 | [Ace Combat 3: Electrosphere](https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp) | PS1 | 3.7 | 23 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp/releases/tag/v0.3.6) |
@@ -576,7 +580,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Final Fantasy Tactics Advance](https://github.com/james2doyle/ffta-recomp) ⚠️ | GBA | 3.7 | 41 | 2026-10-25 |  | [release](https://github.com/james2doyle/ffta-recomp/releases/tag/v2.1) |
 | [Final Fantasy Tactics Advance](https://github.com/Jorge262007/FFTARecomp) ⚠️ | GBA | 3.7 | 173 | 2026-10-18 |  | [release](https://github.com/Jorge262007/FFTARecomp/releases/tag/v3.0) |
 | [Final Fantasy XIV (1.0)](https://github.com/swstegall/meteor-decomp) | PC | 3.7 | 13 | 2026-09-16 |  | [release](https://github.com/swstegall/meteor-decomp/releases/tag/v0.1.4) |
-| [Gears of War: Judgment (Gears of War: Judgement Recomp)](https://github.com/OverkillLabs3/gears-judgement-recomp) ⚠️ | Xbox 360 | 3.7 | 109 | 2026-10-11 |  | [release](https://github.com/OverkillLabs3/gears-judgement-recomp/releases/tag/v0.2.1) |
+| [Gears of War: Judgment (Gears of War: Judgement Recomp)](https://github.com/OverkillLabs3/gears-judgement-recomp) ⚠️ | Xbox 360 | 3.7 | 110 | 2026-10-11 |  | [release](https://github.com/OverkillLabs3/gears-judgement-recomp/releases/tag/v0.2.1) |
 | [GoldenEye 007 Reloaded](https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp) | Xbox 360 | 3.7 | 13 | 2026-10-23 |  | [release](https://github.com/nikolaygorb/GoldenEye007ReloadedRecomp/releases/tag/1.3) |
 | [Grand Theft Auto: Liberty City Stories](https://github.com/codepdbh/PSPRecomp-LCS-Android) | PSP | 3.7 | 11 | 2026-10-22 |  |  |
 | [Guitar Hero II (reGH2)](https://github.com/jillsandwich1998/reGH2) | PS2 | 3.7 | 14 | 2026-10-21 |  |  |
@@ -584,24 +588,24 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Klonoa: Door to Phantomile](https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile) ⚠️ | PS1 | 3.7 | 40 | 2026-10-10 |  | [release](https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile/releases/tag/v0.1.4) |
 | [MediEvil](https://github.com/alexbeavs-ps1-ports/medievil-recomp) | PS1 | 3.7 | 13 | 2026-10-17 |  | [release](https://github.com/alexbeavs-ps1-ports/medievil-recomp/releases/tag/v0.1.4) |
 | [Midnight Club 3: DUB Edition (mcdub3-nx)](https://github.com/laureladastra/mcdub3-nx) ⚠️ | Xbox | 3.7 | 58 | 2026-10-25 |  | [release](https://github.com/laureladastra/mcdub3-nx/releases/tag/v0.3.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xcj55g/ "u/laurekamalandua · 76 upvotes · 14 comments") |
-| [Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst](https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo) ⚠️ | Xbox 360 | 3.7 | 60 | 2026-10-19 |  | [release](https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo/releases/tag/v0.3.1) |
+| [Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst](https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo) ⚠️ | Xbox 360 | 3.7 | 61 | 2026-10-19 |  | [release](https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo/releases/tag/v0.3.1) |
 | [Need for Speed III: Hot Pursuit](https://github.com/codepdbh/NFS3-HP-AndroidEvolved) | PC | 3.7 | 13 | 2026-10-22 |  | [release](https://github.com/codepdbh/NFS3-HP-AndroidEvolved/releases/tag/v0.3.2) |
-| [Need for Speed: Carbon](https://github.com/codepdbh/nfscarbonpc-androidevolved) | PC | 3.7 | 12 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfscarbonpc-androidevolved/releases/tag/v0.1.2) |
-| [OpenXW](https://github.com/elyosh/OpenXW) ⚠️ | PC | 3.7 | 121 | 2026-10-06 |  | [release](https://github.com/elyosh/OpenXW/releases/tag/v0.0.3) |
+| [Need for Speed: Carbon](https://github.com/codepdbh/nfscarbonpc-androidevolved) | PC | 3.7 | 15 | 2026-10-23 |  | [release](https://github.com/codepdbh/nfscarbonpc-androidevolved/releases/tag/v0.1.2) |
+| [OpenXW](https://github.com/elyosh/OpenXW) ⚠️ | PC | 3.7 | 122 | 2026-10-06 |  | [release](https://github.com/elyosh/OpenXW/releases/tag/v0.0.3) |
 | [Parasite Eve](https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp) | PS1 | 3.7 | 27 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp/releases/tag/v0.4.0) |
 | [Pokémon Stadium](https://github.com/chrissotraidis/annepad) | N64 | 3.7 | 26 | 2026-10-19 |  | [release](https://github.com/chrissotraidis/annepad/releases/tag/v0.2.3) |
-| [Project Gotham Racing 2](https://github.com/hk21x/pgr2-recomp) ⚠️ | Xbox | 3.7 | 46 | 2026-10-25 |  | [release](https://github.com/hk21x/pgr2-recomp/releases/tag/v1.0.3) |
+| [Project Gotham Racing 2](https://github.com/hk21x/pgr2-recomp) ⚠️ | Xbox | 3.7 | 47 | 2026-10-25 |  | [release](https://github.com/hk21x/pgr2-recomp/releases/tag/v1.0.3) |
 | [Prototype (Prototype and Prototype 2 for Nintendo Switch)](https://github.com/fungalspores/prototype-switch) | Xbox 360 | 3.7 | 29 | 2026-10-24 |  | [release](https://github.com/fungalspores/prototype-switch/releases/tag/v1.4.0) |
-| [Ratchet & Clank (rac-rs)](https://github.com/AsobiCodes/rac-rs) ⚠️ | PS2 | 3.7 | 131 | 2026-10-22 |  | [release](https://github.com/AsobiCodes/rac-rs/releases/tag/v0.3.1) |
+| [Ratchet & Clank (rac-rs)](https://github.com/AsobiCodes/rac-rs) ⚠️ | PS2 | 3.7 | 133 | 2026-10-22 |  | [release](https://github.com/AsobiCodes/rac-rs/releases/tag/v0.3.1) |
 | [Real Steel](https://github.com/tokeneffortports/ReCompiledSteel) | Xbox 360 | 3.7 | 10 | 2026-10-20 |  | [release](https://github.com/tokeneffortports/ReCompiledSteel/releases/tag/v0.2.0) |
 | [Rocket: Robot on Wheels](https://github.com/ThatGuyMcd/Rocket-R) ⚠️ | N64 | 3.7 | 42 | 2026-10-06 |  | [release](https://github.com/ThatGuyMcd/Rocket-R/releases/tag/v.1.0.1) |
-| [Sin and Punishment (SnPRecompiled)](https://github.com/wootbeer/snprecomp) ⚠️ | N64 | 3.7 | 57 | 2026-10-24 |  | [release](https://github.com/wootbeer/snprecomp/releases/tag/0.2.2) · [reddit](https://www.reddit.com/r/decomps/comments/1xc531r/ "u/DarkDigital · 52 upvotes · 24 comments") |
+| [Sin and Punishment (SnPRecompiled)](https://github.com/wootbeer/snprecomp) ⚠️ | N64 | 3.7 | 59 | 2026-10-25 |  | [release](https://github.com/wootbeer/snprecomp/releases/tag/0.2.2) · [reddit](https://www.reddit.com/r/decomps/comments/1xc531r/ "u/DarkDigital · 52 upvotes · 24 comments") |
 | [SSX On Tour (PSP recomp)](https://github.com/highcmd/ssx-on-tour-psp-recomp) | PSP | 3.7 | 1 | 2026-10-22 |  | [release](https://github.com/highcmd/ssx-on-tour-psp-recomp/releases/tag/v0.2.2) |
+| [Star Wars Episode I: Racer](https://github.com/sp00nznet/racer) | N64 | 3.7 | 12 | 2026-10-25 |  | [release](https://github.com/sp00nznet/racer/releases/tag/v0.3.0) |
 | [Star Wars: Shadows of the Empire](https://github.com/GTTeancum/SotE-Recomp) ⚠️ | N64 | 3.7 | 43 | 2026-10-22 |  | [release](https://github.com/GTTeancum/SotE-Recomp/releases/tag/0.9.6) |
 | [Super Mario Sunshine](https://github.com/chrissotraidis/sunpad) ⚠️ | GameCube | 3.7 | 197 | 2026-10-19 |  | [release](https://github.com/chrissotraidis/sunpad/releases/tag/v0.2.2) |
-| [Super Paper Mario](https://github.com/josiahg2502-glitch/NewSuperPaperBros) ⚠️ | Wii | 3.7 | 127 | 2026-10-23 |  | [release](https://github.com/josiahg2502-glitch/NewSuperPaperBros/releases/tag/v1.0.3) |
-| [Tekken Tag Tournament 2 Wii U Edition](https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition) ⚠️ | Wii U | 3.7 | 36 | 2026-10-24 |  | [release](https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.2.0) |
-| [The 3rd Birthday](https://github.com/BasedYuki/the-3rd-birthday-recomp) | PSP | 3.7 | 12 | 2026-10-24 |  | [release](https://github.com/BasedYuki/the-3rd-birthday-recomp/releases/tag/v0.9.2) |
+| [Tekken Tag Tournament 2 Wii U Edition](https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition) ⚠️ | Wii U | 3.7 | 38 | 2026-10-24 |  | [release](https://github.com/Petexy/Tekken-Tag-2-Ultimate-Edition/releases/tag/v0.2.0) |
+| [The 3rd Birthday](https://github.com/BasedYuki/the-3rd-birthday-recomp) | PSP | 3.7 | 12 | 2026-10-25 |  | [release](https://github.com/BasedYuki/the-3rd-birthday-recomp/releases/tag/v0.9.3) |
 | [The World Is Not Enough (I Could Have Given You the World)](https://github.com/riseio/TWIPE_00Sheven) ⚠️ | N64 | 3.7 | 70 | 2026-10-17 |  | [release](https://github.com/riseio/TWIPE_00Sheven/releases/tag/ICHGYTW_0.1.96) |
 | [Tony Hawk's Project 8](https://github.com/theokyr/Project8Recomp) ⚠️ | Xbox 360 | 3.7 | 49 | 2026-08-24 |  | [release](https://github.com/theokyr/Project8Recomp/releases/tag/v0.3.0) |
 | [ToyStory2](https://github.com/PeriBluGaming/ToyStory2Recomp) | PS1 | 3.7 | 10 | 2026-10-23 |  | [release](https://github.com/PeriBluGaming/ToyStory2Recomp/releases/tag/v0.4.0) |
@@ -612,27 +616,28 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Wipeout XL (Wipeout XL Recompiled)](https://github.com/NJH-1001/Wipeout2K97XL) ⚠️ | PS1 | 3.7 | 48 | 2026-10-23 |  | [release](https://github.com/NJH-1001/Wipeout2K97XL/releases/tag/v0.2.0) |
 | [WWF No Mercy](https://github.com/jessetbh/WWFNoMercyRecomp) ⚠️ | N64 | 3.7 | 37 | 2026-10-17 |  |  |
 | [X-Men Legends](https://github.com/GTTeancum/XML1-recomp) | Xbox | 3.7 | 13 | 2026-10-22 |  | [release](https://github.com/GTTeancum/XML1-recomp/releases/tag/0.9.2) |
-| [007: From Russia with Love (XBE Recomp)](https://github.com/TGP482/007FRWL-XBERecomp) | Xbox | 3.5 | 70 | 2026-10-24 |  | [release](https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V1) · [reddit](https://www.reddit.com/r/decomps/comments/1xe5xap/ "u/Flaky_Improvement_84 · 49 upvotes · 14 comments") |
+| [007: From Russia with Love (XBE Recomp)](https://github.com/TGP482/007FRWL-XBERecomp) | Xbox | 3.5 | 73 | 2026-10-24 |  | [release](https://github.com/TGP482/007FRWL-XBERecomp/releases/tag/V1) · [reddit](https://www.reddit.com/r/decomps/comments/1xe5xap/ "u/Flaky_Improvement_84 · 49 upvotes · 14 comments") |
 | [Bomberman 64](https://github.com/RevoSucks/BM64Recomp) | N64 | 3.5 | 308 | 2026-03-24 |  | [release](https://github.com/RevoSucks/BM64Recomp/releases/tag/v1.0.0) |
 | [Castlevania Chronicles](https://github.com/Spicywonda/castlevania-chronicles-recomp) | PS1 | 3.5 | 34 | 2026-10-12 |  | [release](https://github.com/Spicywonda/castlevania-chronicles-recomp/releases/tag/v0.3.10) |
 | [Conker's Bad Fur Day](https://github.com/Conker64Recomp/conker64-recompiled) | N64 | 3.5 | 36 | 2026-09-02 |  |  |
 | [Fight Night Champion](https://github.com/whompay/FNCReborn) | Xbox 360 | 3.5 | 83 | 2026-10-07 |  | [release](https://github.com/whompay/FNCReborn/releases/tag/v1.0) |
-| [Grand Theft Auto IV (GTA IV for PS5)](https://github.com/elripalda/gta4-ps5) | Xbox 360 | 3.5 | 39 | 2026-10-22 |  | [release](https://github.com/elripalda/gta4-ps5/releases/tag/v1.0.1) |
-| [inFamous](https://github.com/whompay/inFAMOUSreborn) ⚠️ | PS3 | 3.5 | 317 | 2026-10-23 |  | [release](https://github.com/whompay/inFAMOUSreborn/releases/tag/1.1) |
+| [Grand Theft Auto IV (GTA IV for PS5)](https://github.com/elripalda/gta4-ps5) | Xbox 360 | 3.5 | 40 | 2026-10-22 |  | [release](https://github.com/elripalda/gta4-ps5/releases/tag/v1.0.1) |
+| [inFamous](https://github.com/whompay/inFAMOUSreborn) ⚠️ | PS3 | 3.5 | 318 | 2026-10-23 |  | [release](https://github.com/whompay/inFAMOUSreborn/releases/tag/1.1) |
 | [Kirby's Return to Dream Land (Kirby Wii Recomp)](https://github.com/ExpansionPak/ModernGekko) | Wii | 3.5 | 178 | 2026-09-17 |  | [release](https://github.com/ExpansionPak/ModernGekko/releases/tag/kirby) |
 | [Mario Kart Wii (mkwii-ps5)](https://github.com/Phi1ow/mkwii-ps5) | Wii | 3.5 | 58 | 2026-09-22 |  |  |
 | [Mortal Kombat vs. DC Universe](https://github.com/KawaiiBunga/MKVDCU-Recomp) | Xbox 360 | 3.5 | 46 | 2026-10-22 |  | [release](https://github.com/KawaiiBunga/MKVDCU-Recomp/releases/tag/v0.2.1) |
-| [Mortal Kombat: Shaolin Monks](https://github.com/OAleex/ShaolinMonksRecomp) ⚠️ | Xbox | 3.5 | 213 | 2026-10-19 |  | [release](https://github.com/OAleex/ShaolinMonksRecomp/releases/tag/0.2.0) |
+| [Mortal Kombat: Shaolin Monks](https://github.com/OAleex/ShaolinMonksRecomp) ⚠️ | Xbox | 3.5 | 215 | 2026-10-19 |  | [release](https://github.com/OAleex/ShaolinMonksRecomp/releases/tag/0.2.0) |
+| [Naruto: The Broken Bond](https://github.com/jorjbarbosa/broken-bond-recomp) | Xbox 360 | 3.5 | 31 | 2026-10-24 |  | [release](https://github.com/jorjbarbosa/broken-bond-recomp/releases/tag/v0.1.0-beta) |
 | [Need for Speed III: Hot Pursuit (nfs3recompiled-android)](https://github.com/ZloiKILLER/nfs3recompiled-android) | PC | 3.5 | 49 | 2026-10-24 |  | [release](https://github.com/ZloiKILLER/nfs3recompiled-android/releases/tag/v0.77) |
 | [Pandora's Tower (pandora-tower-pc)](https://github.com/RecompPort/pandora-tower-pc) | Wii | 3.5 | 32 | 2026-10-14 |  | [release](https://github.com/RecompPort/pandora-tower-pc/releases/tag/recompiled) · [reddit](https://www.reddit.com/r/decomps/comments/1xdhul0/ "u/Jane_Gomes · 5 upvotes · 4 comments") |
 | [Project Gotham Racing 4 (MTR-PGR4)](https://github.com/MissingThePixel/MTR-PGR4) | Xbox 360 | 3.5 | 30 | 2026-10-11 |  | [release](https://github.com/MissingThePixel/MTR-PGR4/releases/tag/v0.1.1) |
 | [Skate 2](https://github.com/christianortel/skate2-recompile-pc) | Xbox 360 | 3.5 | 77 | 2026-10-12 |  | [release](https://github.com/christianortel/skate2-recompile-pc/releases/tag/v0.1.1) |
 | [Sonic CD (Little Planet)](https://github.com/carl0srmz/littleplanet) | Sega CD/32X | 3.5 | 50 | 2026-10-19 |  | [release](https://github.com/carl0srmz/littleplanet/releases/tag/1.0) |
-| [Super Smash Bros. Ultimate (WindowSmash)](https://github.com/OpenSmash-Ultimate/WindowSmash) ⚠️ | Switch | 3.5 | 400 | 2026-10-22 |  |  |
-| [Tekken 6 (Tekken 6 Recomp)](https://github.com/mahmoud-mess/tekken6-recomp) | Xbox 360 | 3.5 | 49 | 2026-10-16 |  | [release](https://github.com/mahmoud-mess/tekken6-recomp/releases/tag/Iterate) |
+| [Super Smash Bros. Ultimate (WindowSmash)](https://github.com/OpenSmash-Ultimate/WindowSmash) ⚠️ | Switch | 3.5 | 402 | 2026-10-22 |  |  |
+| [Tekken 6 (Tekken 6 Recomp)](https://github.com/mahmoud-mess/tekken6-recomp) | Xbox 360 | 3.5 | 51 | 2026-10-16 |  | [release](https://github.com/mahmoud-mess/tekken6-recomp/releases/tag/Iterate) |
 | [The Binding of Isaac: Repentance](https://github.com/0xl0cal/repentogxm) | PC | 3.5 | 33 | 2026-10-09 |  | [release](https://github.com/0xl0cal/repentogxm/releases/tag/v0.1.1-alpha) |
-| [The Legend of Zelda: Breath of the Wild (BotW-Native)](https://github.com/ryderclanky/BotW-Native) | Wii U | 3.5 | 153 | 2026-10-25 |  | [release](https://github.com/ryderclanky/BotW-Native/releases/tag/v0.1.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xdrs2h/ "u/Latter_Emergency_786 · 252 upvotes · 57 comments") |
-| [Tom Clancy's Splinter Cell: Double Agent](https://github.com/TGP482/SCDA-XBERecomp) ⚠️ | Xbox | 3.5 | 348 | 2026-10-25 |  | [release](https://github.com/TGP482/SCDA-XBERecomp/releases/tag/V2) |
+| [The Legend of Zelda: Breath of the Wild (BotW-Native)](https://github.com/ryderclanky/BotW-Native) | Wii U | 3.5 | 170 | 2026-10-25 |  | [release](https://github.com/ryderclanky/BotW-Native/releases/tag/v0.1.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xdrs2h/ "u/Latter_Emergency_786 · 252 upvotes · 57 comments") |
+| [Tom Clancy's Splinter Cell: Double Agent](https://github.com/TGP482/SCDA-XBERecomp) ⚠️ | Xbox | 3.5 | 350 | 2026-10-25 |  | [release](https://github.com/TGP482/SCDA-XBERecomp/releases/tag/V2) |
 | [Alien Resurrection](https://github.com/Heromachine/AlienResurrection-Recompilation) ⚠️ | PS1 | 3.5 | 26 | 2026-10-13 |  | [release](https://github.com/Heromachine/AlienResurrection-Recompilation/releases/tag/v0.3.0) |
 | [Alien Resurrection](https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp) ⚠️ | PS1 | 3.5 | 5 | 2026-10-02 |  | [release](https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp/releases/tag/v0.1.4) |
 | [Alley Cat](https://github.com/petarov/alleycat.exe) ⚠️ | DOS | 3.5 | 5 | 2026-10-18 |  | [release](https://github.com/petarov/alleycat.exe/releases/tag/1.3) |
@@ -660,20 +665,19 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Super Mario Advance 2: Super Mario World](https://github.com/mstan/SuperMarioAdvance2Recomp) ⚠️ | GBA | 3.5 | 22 | 2026-10-19 |  |  |
 | [Super Mario Advance 4: Super Mario Bros. 3](https://github.com/mstan/SuperMarioAdvance4Recomp) ⚠️ | GBA | 3.5 | 17 | 2026-10-19 |  |  |
 | [Super Mario Land 2: 6 Golden Coins (SuperMarioLand2Recomp)](https://github.com/mstan/SuperMarioLand2Recomp) ⚠️ | Game Boy | 3.5 | 15 | 2026-10-19 |  | [release](https://github.com/mstan/SuperMarioLand2Recomp/releases/tag/v0.2.0) |
-| [TimeSplitters 2](https://github.com/phobos665/split2-recomp) ⚠️ | Xbox | 3.5 | 26 | 2026-10-24 |  | [release](https://github.com/phobos665/split2-recomp/releases/tag/v0.3) |
 | [WCW/nWo Revenge](https://github.com/jessetbh/WCWnWoRevengeRecomp) ⚠️ | N64 | 3.5 | 26 | 2026-10-17 |  |  |
 | [X-Men: Destiny](https://github.com/florinp93/xmd-recompiled) ⚠️ | Xbox 360 | 3.5 | 29 | 2026-09-02 |  | [release](https://github.com/florinp93/xmd-recompiled/releases/tag/v0.1.0-alpha.3) |
 | [Yoshi's Cookie](https://github.com/mstan/YoshisCookieRecomp) ⚠️ | NES | 3.5 | 10 | 2026-10-19 |  | [release](https://github.com/mstan/YoshisCookieRecomp/releases/tag/v1.1.1) |
 | [Daytona Arcade Recomp](https://github.com/alphanu1/daytona-arcade-recomp) | Arcade | 3.4 | 223 | 2026-10-23 |  |  |
-| [Fable II](https://github.com/Fable2Recomp/Fable2Recomp) | Xbox 360 | 3.4 | 396 | 2026-09-12 |  |  |
-| [God of War: Chains of Olympus (PSP Web Recomp)](https://github.com/snuri00/psp-web-recomp) | PSP | 3.4 | 391 | 2026-10-15 |  |  |
-| [Midnight Club: Los Angeles](https://github.com/mzzvxm/LARecomp) | Xbox 360 | 3.4 | 201 | 2026-10-19 |  |  |
+| [Fable II](https://github.com/Fable2Recomp/Fable2Recomp) | Xbox 360 | 3.4 | 398 | 2026-09-12 |  |  |
+| [God of War: Chains of Olympus (PSP Web Recomp)](https://github.com/snuri00/psp-web-recomp) | PSP | 3.4 | 392 | 2026-10-15 |  |  |
+| [Midnight Club: Los Angeles](https://github.com/mzzvxm/LARecomp) | Xbox 360 | 3.4 | 202 | 2026-10-19 |  |  |
 | [Parasite Eve HD Remaster](https://github.com/faligame/Parasite-Eve-HD-Remaster) | PS1 | 3.4 | 201 | 2026-10-16 |  |  |
 | [Parasite Eve II](https://github.com/faligame/Parasite-Eve-2-HD-Remaster) | PS1 | 3.4 | 238 | 2026-10-16 |  |  |
 | [Sonic the Hedgehog 2006 (Marathon Recompiled)](https://github.com/sonicnext-dev/MarathonRecomp) | Xbox 360 | 3.4 | 705 | 2026-10-25 |  | [video](https://www.youtube.com/watch?v=kQVbKhjSBmk) |
 | [The Legend of Zelda: The Wind Waker](https://github.com/elliotttate/Wind-Waker-Recomp) | GameCube | 3.4 | 578 | 2026-10-04 |  |  |
 | [3 on 3 NHL Arcade](https://github.com/Wndwsqrrl/3on3NHL-recomp) | Xbox 360 | 3.4 | 10 | 2026-10-12 |  | [release](https://github.com/Wndwsqrrl/3on3NHL-recomp/releases/tag/v0.1.1) |
-| [50 Cent: Blood on the Sand](https://github.com/nlwstein/skullburglar) ⚠️ | Xbox 360 | 3.4 | 52 | 2026-10-24 |  |  |
+| [50 Cent: Blood on the Sand](https://github.com/nlwstein/skullburglar) ⚠️ | Xbox 360 | 3.4 | 55 | 2026-10-25 |  |  |
 | [Ace Combat 3](https://github.com/sal063/Ace-Combat-3-static-recompilation) | PS1 | 3.4 | 25 | 2026-10-02 |  | [release](https://github.com/sal063/Ace-Combat-3-static-recompilation/releases/tag/V0.5-BETA) |
 | [Ace Combat Infinity (static recomp)](https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp) | PS3 | 3.4 | 13 | 2026-10-22 |  | [release](https://github.com/The-OPERATIONS-Team/Ace-combat-infinity-recomp/releases/tag/v0.1.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xcqams/ "u/NaturalAilment · 8 upvotes · 3 comments") |
 | [Adventure Island II](https://github.com/Junior-Jones/Adventure-Island-II-NES-Static-Recomp) | NES | 3.4 | 3 | 2026-10-07 |  | [release](https://github.com/Junior-Jones/Adventure-Island-II-NES-Static-Recomp/releases/tag/v1.0.0) |
@@ -682,24 +686,24 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Banjo-Kazooie (Banjo: Recompiled [Android Port])](https://github.com/AurelioB/BanjoRecomp-Android) | N64 | 3.4 | 111 | 2026-07-13 |  | [release](https://github.com/AurelioB/BanjoRecomp-Android/releases/tag/android-v0.1.1) |
 | [Battle Arena Toshinden](https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp) | Game Boy | 3.4 | 4 | 2026-08-30 |  | [release](https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp/releases/tag/Battle_Arena_Toshiden_G_B) |
 | [Betrayal at Krondor](https://github.com/canassa/betrayal-at-krondor) ⚠️ | DOS | 3.4 | 32 | 2026-08-02 |  | [release](https://github.com/canassa/betrayal-at-krondor/releases/tag/toolchain-v1) |
-| [Blast Corps](https://github.com/SlaveOfIDO/blastcorps-recomp) | N64 | 3.4 | 22 | 2026-10-23 |  | [release](https://github.com/SlaveOfIDO/blastcorps-recomp/releases/tag/1.0.0) |
+| [Blast Corps](https://github.com/SlaveOfIDO/blastcorps-recomp) | N64 | 3.4 | 23 | 2026-10-23 |  | [release](https://github.com/SlaveOfIDO/blastcorps-recomp/releases/tag/1.0.0) |
 | [Burnout 3: Takedown](https://github.com/sp00nznet/burnout3) ⚠️ | Xbox | 3.4 | 142 | 2026-10-20 |  | [release](https://github.com/sp00nznet/burnout3/releases/tag/v0.1.0) |
 | [Burnout CRASH!](https://github.com/kiesxoxo/burnout-crash-recomp) | Xbox 360 | 3.4 | 17 | 2026-10-08 |  | [release](https://github.com/kiesxoxo/burnout-crash-recomp/releases/tag/v0.1.1) |
-| [Call of Duty 3](https://github.com/jxnplays/cod3-recomp) | Xbox 360 | 3.4 | 10 | 2026-10-18 |  | [release](https://github.com/jxnplays/cod3-recomp/releases/tag/remaster-pass-2026-10-15) |
+| [Call of Duty 3](https://github.com/jxnplays/cod3-recomp) | Xbox 360 | 3.4 | 11 | 2026-10-18 |  | [release](https://github.com/jxnplays/cod3-recomp/releases/tag/remaster-pass-2026-10-15) |
 | [Castlevania 64](https://github.com/RevoSucks/CV64Recomp) | N64 | 3.4 | 16 | 2026-10-06 |  | [release](https://github.com/RevoSucks/CV64Recomp/releases/tag/v0.5.0) |
 | [Castlevania 64 (CV64-Recomp)](https://github.com/spacefarergames/CV64-Recomp) | N64 | 3.4 | 32 | 2026-02-15 |  | [release](https://github.com/spacefarergames/CV64-Recomp/releases/tag/Releases) |
-| [Civilization Revolution](https://github.com/ReRevvedRecomp/rerevved) | Xbox 360 | 3.4 | 10 | 2026-10-24 |  | [release](https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.5.1) |
+| [Civilization Revolution](https://github.com/ReRevvedRecomp/rerevved) | Xbox 360 | 3.4 | 11 | 2026-10-24 |  | [release](https://github.com/ReRevvedRecomp/rerevved/releases/tag/v0.5.1) |
 | [Conan](https://github.com/crazyriddler/Conan2007Recomp) | Xbox 360 | 3.4 | 15 | 2026-09-27 |  | [release](https://github.com/crazyriddler/Conan2007Recomp/releases/tag/Release-FIXED) |
 | [Crash of the Titans (MojoRecomp)](https://github.com/OAleex/MojoRecomp) ⚠️ | Xbox 360 | 3.4 | 63 | 2026-10-06 |  | [release](https://github.com/OAleex/MojoRecomp/releases/tag/v1.1.0) |
 | [Crash: Mind over Mutant](https://github.com/Maxilure/MindOver-Recomp) ⚠️ | Xbox 360 | 3.4 | 34 | 2026-10-25 |  | [release](https://github.com/Maxilure/MindOver-Recomp/releases/tag/v0.1.0-alpha) |
 | [Dead or Alive ++ (Jiggle-or-Physics)](https://github.com/3dge7161/Jiggle-or-Physics) | Arcade | 3.4 | 23 | 2026-10-02 |  |  |
 | [Dead Space 2](https://github.com/bifftannen1/Dead-Space-2-Recomp) | Xbox 360 | 3.4 | 13 | 2026-10-17 |  |  |
-| [Demon's Souls](https://github.com/JonathanDC64/DemonsSoulsRecomp) ⚠️ | PS3 | 3.4 | 102 | 2026-10-25 |  | [release](https://github.com/JonathanDC64/DemonsSoulsRecomp/releases/tag/llvm-22.1.8-1) |
+| [Demon's Souls](https://github.com/JonathanDC64/DemonsSoulsRecomp) ⚠️ | PS3 | 3.4 | 104 | 2026-10-25 |  | [release](https://github.com/JonathanDC64/DemonsSoulsRecomp/releases/tag/llvm-22.1.8-1) |
 | [Dr. Mario 64](https://github.com/theboy181/drmario64_recomp_plus) | N64 | 3.4 | 156 | 2025-12-18 |  | [release](https://github.com/theboy181/drmario64_recomp_plus/releases/tag/1.0.0) |
 | [Dragon Ball Z: Budokai HD Collection](https://github.com/WistfulHopes/DBZ1) | Xbox 360 | 3.4 | 130 | 2026-02-20 |  | [release](https://github.com/WistfulHopes/DBZ1/releases/tag/v0.0.2) |
 | [Ecstatica (EcstaticaRecompiled)](https://github.com/spacefarergames/EcstaticaRecompiled) | DOS | 3.4 | 38 | 2026-05-20 |  |  |
 | [Einhänder](https://github.com/strider973/Einhander-Recompiled) ⚠️ | PS1 | 3.4 | 92 | 2026-08-29 |  | [release](https://github.com/strider973/Einhander-Recompiled/releases/tag/v0.1.3) |
-| [F.E.A.R.](https://github.com/Juansolo457/fear360-recomp) | Xbox 360 | 3.4 | 25 | 2026-10-24 |  | [release](https://github.com/Juansolo457/fear360-recomp/releases/tag/v0.1.0) |
+| [F.E.A.R.](https://github.com/Juansolo457/fear360-recomp) | Xbox 360 | 3.4 | 27 | 2026-10-24 |  | [release](https://github.com/Juansolo457/fear360-recomp/releases/tag/v0.1.0) |
 | [Forza Horizon](https://github.com/deivid22srk/pinyon-shift-android) | Xbox 360 | 3.4 | 21 | 2026-10-03 |  | [release](https://github.com/deivid22srk/pinyon-shift-android/releases/tag/Log) |
 | [Forza Motorsport 4](https://github.com/Alexbeav/fm4-recomp) ⚠️ | Xbox 360 | 3.4 | 122 | 2026-10-15 |  | [release](https://github.com/Alexbeav/fm4-recomp/releases/tag/v0.1.0-alpha.2) |
 | [Frontschweine](https://github.com/Nero2611/FrontschweineRecomp) | PS1 | 3.4 | 10 | 2026-10-13 |  | [release](https://github.com/Nero2611/FrontschweineRecomp/releases/tag/v0.1.0) |
@@ -723,10 +727,9 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Metal Gear Solid (mgsone-recomp)](https://github.com/coccofresco/mgsone-recomp) | PS1 | 3.4 | 14 | 2026-10-10 |  |  |
 | [Midnight Club: Los Angeles](https://github.com/luisxl15/Midnight-Club-L.A-RECOMP) | Xbox 360 | 3.4 | 15 | 2026-08-30 |  | [release](https://github.com/luisxl15/Midnight-Club-L.A-RECOMP/releases/tag/v1.0) |
 | [Minecraft: Xbox 360 Edition](https://github.com/DevZer0D4Y/MCX360-EDITION) | Xbox 360 | 3.4 | 27 | 2026-10-15 |  | [release](https://github.com/DevZer0D4Y/MCX360-EDITION/releases/tag/R2) |
-| [Naruto: The Broken Bond](https://github.com/jorjbarbosa/broken-bond-recomp) | Xbox 360 | 3.4 | 29 | 2026-10-24 |  | [release](https://github.com/jorjbarbosa/broken-bond-recomp/releases/tag/v0.1.0-beta) |
 | [Need for Speed II: Special Edition / Need for Speed III: Hot Pursuit](https://github.com/motor-dev/nfs-recompiled) | PC | 3.4 | 81 | 2026-03-04 |  | [release](https://github.com/motor-dev/nfs-recompiled/releases/tag/v1.0.1) |
 | [Need for Speed: Most Wanted](https://github.com/madelrandel-blip/NFSMW-Recompiled) ⚠️ | Xbox 360 | 3.4 | 172 | 2026-10-25 |  | [release](https://github.com/madelrandel-blip/NFSMW-Recompiled/releases/tag/v1.0.1) |
-| [New Super Mario Bros. Wii](https://github.com/ral1009/NSMBWiicompiled) | Wii | 3.4 | 11 | 2026-10-17 |  | [release](https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.1.0) |
+| [New Super Mario Bros. Wii](https://github.com/ral1009/NSMBWiicompiled) | Wii | 3.4 | 12 | 2026-10-17 |  | [release](https://github.com/ral1009/NSMBWiicompiled/releases/tag/v0.1.0) |
 | [Nightmare Creatures II](https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp) | PS1 | 3.4 | 14 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/nightmare-creatures-ii-recomp/releases/tag/v0.1.0) |
 | [Pilotwings 64](https://github.com/danielgomesvieira2000/pilotwings-64-recomp) ⚠️ | N64 | 3.4 | 81 | 2026-09-17 |  | [release](https://github.com/danielgomesvieira2000/pilotwings-64-recomp/releases/tag/v0.1.1) |
 | [Pirates of the Caribbean: At World's End](https://github.com/ElGuslml/PiratesAtWorldsEndRecomp) | Xbox 360 | 3.4 | 12 | 2026-10-25 |  | [release](https://github.com/ElGuslml/PiratesAtWorldsEndRecomp/releases/tag/v0.2.0) |
@@ -737,6 +740,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Puyo Puyo BOX](https://github.com/kirby1237/PuyoPuyoBoxRecomp) | PS1 | 3.4 | 11 | 2026-09-07 |  | [release](https://github.com/kirby1237/PuyoPuyoBoxRecomp/releases/tag/v.0.1.1) |
 | [Rayman Legends](https://github.com/edeegg/Legends-Recomp) | Xbox 360 | 3.4 | 12 | 2026-10-14 |  | [release](https://github.com/edeegg/Legends-Recomp/releases/tag/0.2.0) |
 | [re-stunts](https://github.com/CommonLoon102/restunts-bb11) | DOS | 3.4 | 15 | 2026-10-06 |  | [release](https://github.com/CommonLoon102/restunts-bb11/releases/tag/v1.2.0) |
+| [Resident Evil Code: Veronica X HD (RE-Code-Veronica-Recomp)](https://github.com/kastieloficial/RE-Code-Veronica-Recomp) ⚠️ | PS3 | 3.4 | 30 | 2026-10-25 |  | [release](https://github.com/kastieloficial/RE-Code-Veronica-Recomp/releases/tag/v1.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xehgen/ "u/Senior-Source-7659 · 214 upvotes · 34 comments") |
 | [Resident Evil Outbreak](https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled) | PS2 | 3.4 | 18 | 2026-10-13 |  | [release](https://github.com/RaccoonRecomp/ResidentEvilOutbreakRecompiled/releases/tag/v1.5.1) |
 | [Ridge Racer](https://github.com/kazuyette/rr-decomp) ⚠️ | PS1 | 3.4 | 44 | 2026-10-10 |  | [release](https://github.com/kazuyette/rr-decomp/releases/tag/v0.1.0) |
 | [Ridge Racer V](https://github.com/danisandoval/fukami) ⚠️ | PS2 | 3.4 | 82 | 2026-10-14 |  | [release](https://github.com/danisandoval/fukami/releases/tag/v1.1.0) |
@@ -746,21 +750,21 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Simpsons Wrestling Recompiled](https://github.com/TekRantGaming/simpsons-wrestling-recompiled) ⚠️ | PS1 | 3.4 | 31 | 2026-10-13 |  | [release](https://github.com/TekRantGaming/simpsons-wrestling-recompiled/releases/tag/v1.0.0) |
 | [Sonic Advance](https://github.com/smiluredev/SonicAdvanceRecomp) | GBA | 3.4 | 17 | 2026-08-24 |  | [release](https://github.com/smiluredev/SonicAdvanceRecomp/releases/tag/V1) |
 | [Sonic and the Black Knight](https://github.com/yunophilia/BlackKnightRecomp) | Wii | 3.4 | 15 | 2026-10-23 |  | [release](https://github.com/yunophilia/BlackKnightRecomp/releases/tag/v1.0.1) |
-| [Sonic Generations (Sonic-Generations-recomp-android-and-pc-edition)](https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition) | Xbox 360 | 3.4 | 15 | 2026-09-14 |  | [release](https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition/releases/tag/PC) |
+| [Sonic Generations (Sonic-Generations-recomp-android-and-pc-edition)](https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition) | Xbox 360 | 3.4 | 16 | 2026-09-14 |  | [release](https://github.com/Player124413/Sonic-Generations-recomp-android-and-pc-edition/releases/tag/PC) |
 | [SoulCalibur II HD Online (Soulcalibur2HD-recomp)](https://github.com/n0madic/Soulcalibur2HD-recomp) ⚠️ | Xbox 360 | 3.4 | 40 | 2026-10-21 |  | [release](https://github.com/n0madic/Soulcalibur2HD-recomp/releases/tag/v0.2.0) |
 | [SSX Tricky](https://github.com/reindance/ssx-tricky-recomp) | Xbox | 3.4 | 14 | 2026-10-11 |  |  |
-| [Star Wars Episode I: Racer](https://github.com/sp00nznet/racer) | N64 | 3.4 | 12 | 2026-10-25 |  | [release](https://github.com/sp00nznet/racer/releases/tag/v0.2.0) |
 | [StarCraft 64](https://github.com/n0madic/StarCraft64-recomp) | N64 | 3.4 | 29 | 2026-10-16 |  | [release](https://github.com/n0madic/StarCraft64-recomp/releases/tag/v0.1.0) |
 | [Strider 2](https://github.com/strider973/STRIDER-2-Recompiled) ⚠️ | PS1 | 3.4 | 39 | 2026-08-29 |  | [release](https://github.com/strider973/STRIDER-2-Recompiled/releases/tag/v0.1.2) |
 | [Super Bomberman](https://github.com/elliotttate/BombermanRecomp) | SNES | 3.4 | 12 | 2026-08-26 |  | [release](https://github.com/elliotttate/BombermanRecomp/releases/tag/v0.1.1) |
 | [Super Mario All-Stars (SuperMarioAllStarsRecomp)](https://github.com/TanookiStudios/SuperMarioAllStarsRecomp) ⚠️ | SNES | 3.4 | 51 | 2026-10-21 |  | [release](https://github.com/TanookiStudios/SuperMarioAllStarsRecomp/releases/tag/v0.2.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xb8tct/ "u/maddietendo · 126 upvotes · 67 comments") |
 | [Super Mario Galaxy (PS5_MarioGalaxy)](https://github.com/griches/PS5_MarioGalaxy) | Wii | 3.4 | 26 | 2026-10-21 |  | [release](https://github.com/griches/PS5_MarioGalaxy/releases/tag/v1.1.0) |
 | [Super Mario Land 3: Wario Land](https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-) | Game Boy | 3.4 | 4 | 2026-08-30 |  | [release](https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-/releases/tag/recomp) |
-| [Super Street Fighter II Turbo HD Remix](https://github.com/saulob/ssf2t-hd-remix-recompiled) ⚠️ | Xbox 360 | 3.4 | 65 | 2026-10-23 |  | [release](https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/tag/v0.2.0) |
+| [Super Street Fighter II Turbo HD Remix](https://github.com/saulob/ssf2t-hd-remix-recompiled) ⚠️ | Xbox 360 | 3.4 | 66 | 2026-10-23 |  | [release](https://github.com/saulob/ssf2t-hd-remix-recompiled/releases/tag/v0.2.0) |
 | [Tekken 3](https://github.com/Mabec-games/Tekken-3-for-Linux) | PS1 | 3.4 | 11 | 2026-10-22 |  | [release](https://github.com/Mabec-games/Tekken-3-for-Linux/releases/tag/v1.0) |
-| [Tekken 6](https://github.com/GenryTheFox0/Project-Iron-6) | Xbox 360 | 3.4 | 17 | 2026-09-24 |  | [release](https://github.com/GenryTheFox0/Project-Iron-6/releases/tag/v1.0.0-beta.1) |
-| [The Legend of Zelda: Echoes of Wisdom (EoWRecomp)](https://github.com/Nycolazs/EoWRecomp) ⚠️ | Switch | 3.4 | 43 | 2026-10-21 |  |  |
+| [Tekken 6](https://github.com/GenryTheFox0/Project-Iron-6) | Xbox 360 | 3.4 | 18 | 2026-09-24 |  | [release](https://github.com/GenryTheFox0/Project-Iron-6/releases/tag/v1.0.0-beta.1) |
+| [The Legend of Zelda: Echoes of Wisdom (EoWRecomp)](https://github.com/Nycolazs/EoWRecomp) ⚠️ | Switch | 3.4 | 45 | 2026-10-21 |  |  |
 | [The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)](https://github.com/griches/PS5_WindWakerHD) | Wii U | 3.4 | 24 | 2026-10-13 |  | [release](https://github.com/griches/PS5_WindWakerHD/releases/tag/v1.1.0) |
+| [The Simpsons Game](https://github.com/codepdbh/the-simpsons-game-android) | Xbox 360 | 3.4 | 10 | 2026-10-22 |  |  |
 | [The Simpsons Game (the-simpsons-game-nx)](https://github.com/R-drg/the-simpsons-game-nx) | Xbox 360 | 3.4 | 18 | 2026-10-06 |  | [release](https://github.com/R-drg/the-simpsons-game-nx/releases/tag/v1.0.1) |
 | [TimeSplitters](https://github.com/GTTeancum/Timesplitters) ⚠️ | PS2 | 3.4 | 32 | 2026-10-23 |  | [release](https://github.com/GTTeancum/Timesplitters/releases/tag/v1.0) |
 | [Valkyrie Profile](https://github.com/Ed1z19/ValkyrieRecomp) ⚠️ | PS1 | 3.4 | 118 | 2026-09-06 |  | [release](https://github.com/Ed1z19/ValkyrieRecomp/releases/tag/v1.0.1) |
@@ -769,7 +773,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [WWE 2K14 (WWE2K14-PC)](https://github.com/itsbybanshee/wwe2k14-pc) | Xbox 360 | 3.4 | 24 | 2026-10-20 |  | [release](https://github.com/itsbybanshee/wwe2k14-pc/releases/tag/v1.1.0) |
 | [Yoshi's Island: Super Mario Advance 3 (SMA3 Recomp Android – Yoshi's Island: Super Mario Advance 3 PC port)](https://github.com/Edwin2929/sma3-recomp-android.) | GBA | 3.4 | 17 | 2026-10-25 |  | [release](https://github.com/Edwin2929/sma3-recomp-android./releases/tag/Descarga) |
 | [Pokémon Red and Blue (PokemonRedAndBlueRecomp)](https://github.com/mstan/PokemonRedAndBlueRecomp) ⚠️ | Game Boy | 3.3 | 10 | 2026-07-23 |  | [release](https://github.com/mstan/PokemonRedAndBlueRecomp/releases/tag/v0.1.1) |
-| [God of War: Ascension](https://github.com/arnaldolima1/gow-ascension-pc) ⚠️ | PS3 | 3.2 | 260 | 2026-10-24 |  |  |
+| [God of War: Ascension](https://github.com/arnaldolima1/gow-ascension-pc) ⚠️ | PS3 | 3.2 | 265 | 2026-10-24 |  |  |
 | [GoldenEye 007](https://github.com/kholdfuzion/GoldenRecomp) | N64 | 3.2 | 219 | 2026-07-05 |  |  |
 | [Ape Escape](https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux) ⚠️ | PS1 | 3.1 | 22 | 2026-10-19 |  | [release](https://github.com/NVDEMU/ApeEscapeRecomp-MacWindowsLinux/releases/tag/macos-nightly) |
 | [Apocalypse](https://github.com/alexbeavs-ps1-ports/apocalypse-recomp) ⚠️ | PS1 | 3.1 | 6 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/apocalypse-recomp/releases/tag/v0.1.1) |
@@ -795,7 +799,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Final Fantasy VIII](https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp) ⚠️ | PS1 | 3.1 | 14 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp/releases/tag/v0.1.1) |
 | [Go Go Ackman](https://github.com/catmidori/gogoackman1recomp) ⚠️ | SNES | 3.1 | 2 | 2026-10-16 |  | [release](https://github.com/catmidori/gogoackman1recomp/releases/tag/v1.0) |
 | [GoldenEye 007 (GoldenEye-Recomp-Server (online play for GoldenEye recomp))](https://github.com/SunJaycy/GoldenEye-Recomp-Server) | N64 | 3.1 | 18 | 2026-06-12 |  | [release](https://github.com/SunJaycy/GoldenEye-Recomp-Server/releases/tag/GEserver1.0) |
-| [Gran Turismo 2 (gt2-multiplayer)](https://github.com/ianitsky/gt2-multiplayer) ⚠️ | PS1 | 3.1 | 28 | 2026-09-13 |  | [release](https://github.com/ianitsky/gt2-multiplayer/releases/tag/1.0.1) |
+| [Gran Turismo 2 (gt2-multiplayer)](https://github.com/ianitsky/gt2-multiplayer) ⚠️ | PS1 | 3.1 | 29 | 2026-09-13 |  | [release](https://github.com/ianitsky/gt2-multiplayer/releases/tag/1.0.1) |
 | [Hybrid Heaven](https://github.com/ogdanimal/HybridHeaven-Recomp) ⚠️ | N64 | 3.1 | 13 | 2026-10-12 |  | [release](https://github.com/ogdanimal/HybridHeaven-Recomp/releases/tag/v1.0.1) |
 | [NBA JAM: On Fire Edition](https://github.com/GTTeancum/OpenJam) ⚠️ | Xbox 360 | 3.1 | 29 | 2026-09-26 |  | [release](https://github.com/GTTeancum/OpenJam/releases/tag/v1.0) |
 | [PaRappaTheRapper](https://github.com/kirby1237/PaRappaTheRapperRecomp) ⚠️ | PS1 | 3.1 | 6 | 2026-10-08 |  | [release](https://github.com/kirby1237/PaRappaTheRapperRecomp/releases/tag/v0.1.1) |
@@ -809,8 +813,8 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Sonic 06 Demo](https://github.com/PranchaD/re-Sonic06Demo) | Xbox 360 | 3.1 | 16 | 2026-02-26 |  | [release](https://github.com/PranchaD/re-Sonic06Demo/releases/tag/v0.1) |
 | [Soulcalibur IV](https://github.com/FluffyQuack/rexglue-SoulCaliburIV) | Xbox 360 | 3.1 | 29 | 2026-07-07 |  | [release](https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases/tag/v0.9.1) |
 | [Space Channel 5](https://github.com/ZoomiesZaggy/Space-Channel-5) ⚠️ | Dreamcast | 3.1 | 23 | 2026-10-18 |  | [release](https://github.com/ZoomiesZaggy/Space-Channel-5/releases/tag/v0.1.0-preview.2) |
-| [SSX 3](https://github.com/bertibertig/SSX3-Recomp) ⚠️ | Xbox | 3.1 | 5 | 2026-10-23 |  | [release](https://github.com/bertibertig/SSX3-Recomp/releases/tag/v0.2.0) |
-| [Street Fighter EX 2 Plus](https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled) ⚠️ | PS1 | 3.1 | 26 | 2026-08-29 |  | [release](https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/tag/v0.1.0) |
+| [SSX 3](https://github.com/bertibertig/SSX3-Recomp) ⚠️ | Xbox | 3.1 | 6 | 2026-10-23 |  | [release](https://github.com/bertibertig/SSX3-Recomp/releases/tag/v0.2.0) |
+| [Street Fighter EX 2 Plus](https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled) ⚠️ | PS1 | 3.1 | 27 | 2026-08-29 |  | [release](https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled/releases/tag/v0.1.0) |
 | [Suikoden](https://github.com/alexbeavs-ps1-ports/suikoden-recomp) ⚠️ | PS1 | 3.1 | 6 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/suikoden-recomp/releases/tag/v0.1.1) |
 | [Suikoden II](https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp) ⚠️ | PS1 | 3.1 | 8 | 2026-09-30 |  | [release](https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp/releases/tag/v0.1.0) |
 | [Tenchu: Stealth Assassins](https://github.com/Heromachine/Tenchu-SA-Recomp) ⚠️ | PS1 | 3.1 | 23 | 2026-08-24 |  | [release](https://github.com/Heromachine/Tenchu-SA-Recomp/releases/tag/v0.1.0) |
@@ -830,12 +834,12 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Burnout 3](https://github.com/mxmstr/Burnout3Recomp) ⚠️ | Xbox | 3.0 | 20 | 2026-05-23 |  | [release](https://github.com/mxmstr/Burnout3Recomp/releases/tag/poc) |
 | [Dragon Ball Z: Budokai Tenkaichi 3](https://github.com/z3xox/BT3-Recomp) | PS2 | 3.0 | 113 | 2026-10-01 |  |  |
 | [Flappy Bird (reFlappy)](https://github.com/THEN00P/reFlappy) | Mobile | 3.0 | 19 | 2025-09-04 |  | [release](https://github.com/THEN00P/reFlappy/releases/tag/v1.4.0) |
-| [God of War](https://github.com/KIexster/god-of-war-recomp) | PS2 | 3.0 | 187 | 2026-10-25 |  |  |
-| [Mario Kart 8 Deluxe](https://github.com/dougchansan/mk8-recomp) | Switch | 3.0 | 103 | 2026-10-24 |  |  |
+| [God of War](https://github.com/KIexster/god-of-war-recomp) | PS2 | 3.0 | 188 | 2026-10-25 |  |  |
+| [Mario Kart 8 Deluxe](https://github.com/dougchansan/mk8-recomp) | Switch | 3.0 | 105 | 2026-10-24 |  |  |
 | [Prince of Persia](https://github.com/mgrz18/sdlpop-android) ⚠️ | DOS | 3.0 | 4 | 2026-05-02 |  | [release](https://github.com/mgrz18/sdlpop-android/releases/tag/v1.0.0) |
 | [Star Wars: Rogue Squadron](https://github.com/MikeSemicolonD/RogueSquadron64Recomp) | N64 | 2.9 | 19 | 2026-10-22 |  |  |
 | [Burnout Dominator](https://github.com/literalynn/BurnoutDominatorReversed) | PS2 | 2.6 | 12 | 2026-10-25 |  |  |
-| [.hack//Infection (Recompilation)](https://github.com/dothacktranslate/dothack-recompilation) | PS2 | 2.6 | 46 | 2026-09-14 |  |  |
+| [.hack//Infection (Recompilation)](https://github.com/dothacktranslate/dothack-recompilation) | PS2 | 2.6 | 47 | 2026-09-14 |  |  |
 | [Buck Bumble ( project-bumble)](https://github.com/riseio/project-bumble) | N64 | 2.6 | 37 | 2026-09-29 |  |  |
 | [Colin McRae Rally 2.0](https://github.com/CMR2Decomp/CMR2Decomp) | PC | 2.6 | 42 | 2026-09-15 |  |  |
 | [Crackdown 2](https://github.com/matty45/Crackdown2-Recomp) | Xbox 360 | 2.6 | 36 | 2026-08-07 |  |  |
@@ -856,10 +860,10 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Tomodachi Life: Living the Dream (Tomodachi LTD Recomp)](https://github.com/RussoPhone/tomodachi-ltd-recomp) | Switch | 2.6 | 45 | 2026-10-17 |  |  |
 | [Yakuza: Dead Souls](https://github.com/canersaka/Yakuza-Dead-Souls-Recompiled) | PS3 | 2.6 | 44 | 2026-10-16 |  |  |
 | [GoldenEye 007 (XBLA Remaster)](https://github.com/Fable2Recomp/beanRecomp) | Xbox 360 | 2.5 | 114 | 2025-03-19 |  |  |
-| [Animal Crossing: New Horizons (ACNHRecomp)](https://github.com/Nycolazs/ACNHRecomp) ⚠️ | Switch | 2.4 | 78 | 2026-10-25 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xbxqan/ "u/Nycolazs · 290 upvotes · 48 comments") |
+| [Animal Crossing: New Horizons (ACNHRecomp)](https://github.com/Nycolazs/ACNHRecomp) ⚠️ | Switch | 2.4 | 82 | 2026-10-25 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xbxqan/ "u/Nycolazs · 290 upvotes · 48 comments") |
 | [Army of Two: The 40th Day](https://github.com/crabscrab650-sketch/ArmyOfTwo40thDay-Recomp) | Xbox 360 | 2.4 | 10 | 2026-10-15 |  |  |
 | [Astral Chain (recomp, Windows: AstralChain-PC)](https://github.com/Puddz/AstralChain-PC) ⚠️ | Switch | 2.4 | 51 | 2026-10-24 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xaf82e/ "u/Puddz · 220 upvotes · 46 comments") |
-| [Battlefield: Bad Company](https://github.com/crabinacrabic/BadCompanyRecomp) | Xbox 360 | 2.4 | 17 | 2026-10-15 |  |  |
+| [Battlefield: Bad Company](https://github.com/crabinacrabic/BadCompanyRecomp) | Xbox 360 | 2.4 | 18 | 2026-10-15 |  |  |
 | [Black & White](https://github.com/sp00nznet/bw) | PC | 2.4 | 19 | 2026-10-10 |  |  |
 | [Bloodborne](https://github.com/bloodborne-native/bloodborne-recomp) | PS4 | 2.4 | 18 | 2026-10-25 |  |  |
 | [Breath of Fire III](https://github.com/kerokline/BreathOfFire3Recomp) | PS1 | 2.4 | 17 | 2026-09-19 |  |  |
@@ -871,10 +875,10 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [flOw](https://github.com/sp00nznet/flow) | PS3 | 2.4 | 17 | 2026-10-14 |  |  |
 | [Forza Horizon 2](https://github.com/fabioap-cpu/Forza-Horizon-2-Recomp) | Xbox 360 | 2.4 | 17 | 2026-09-03 |  |  |
 | [Gears of War](https://github.com/SomeoneIsWorking/gears1) | Xbox 360 | 2.4 | 12 | 2026-10-13 |  |  |
-| [God Hand](https://github.com/LasVola/godhand-recomp) | PS2 | 2.4 | 16 | 2026-10-20 |  |  |
-| [God of War II](https://github.com/cxldsakeb/GoW2-nativo-PS2) | PS2 | 2.4 | 10 | 2026-10-23 |  |  |
+| [God Hand](https://github.com/LasVola/godhand-recomp) | PS2 | 2.4 | 17 | 2026-10-20 |  |  |
+| [God of War II](https://github.com/cxldsakeb/GoW2-nativo-PS2) | PS2 | 2.4 | 11 | 2026-10-23 |  |  |
 | [God of War: Chains of Olympus](https://github.com/Simeony2007/VibeRecomp-for-GoW-CoO) | PSP | 2.4 | 13 | 2026-10-19 |  |  |
-| [Gran Turismo 4](https://github.com/Kaezzey/gt4-staticrecomp) | PS2 | 2.4 | 10 | 2026-09-20 |  |  |
+| [Gran Turismo 4](https://github.com/Kaezzey/gt4-staticrecomp) | PS2 | 2.4 | 11 | 2026-09-20 |  |  |
 | [Grand Theft Auto / GTA: London](https://github.com/sp00nznet/gta) | PC | 2.4 | 13 | 2026-08-26 |  |  |
 | [Grand Theft Auto IV (LibertyRecomp)](https://github.com/hamishakl/LibertyRecomp) | Xbox 360 | 2.4 | 19 | 2026-10-11 |  |  |
 | [Grand Theft Auto V](https://github.com/OZORDI/SanRecomp) | Xbox 360 | 2.4 | 39 | 2026-01-05 |  |  |
@@ -883,7 +887,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Halo 3 Delta](https://github.com/twist84/halo3_cache_release_recomp) | Xbox 360 | 2.4 | 45 | 2026-06-22 |  |  |
 | [heavymetal](https://github.com/sp00nznet/heavymetal) | PC | 2.4 | 10 | 2026-09-27 |  |  |
 | [Jet Set Radio Future](https://github.com/andeecollard/jsrf-recomp) | Xbox | 2.4 | 25 | 2026-09-26 |  |  |
-| [Killzone 2 (Tokisaki Port)](https://github.com/YYOzcan/tokisaki-port) ⚠️ | PS3 | 2.4 | 64 | 2026-10-24 |  |  |
+| [Killzone 2 (Tokisaki Port)](https://github.com/YYOzcan/tokisaki-port) ⚠️ | PS3 | 2.4 | 65 | 2026-10-24 |  |  |
 | [King's Field](https://github.com/Voicedrew11/verdite1) | PS1 | 2.4 | 11 | 2026-10-18 |  |  |
 | [Mario Strikers Charged (Strikers-WiiCompiled)](https://github.com/BlackAndBlue95/Strikers-WiiCompiled) | Wii | 2.4 | 17 | 2026-10-03 |  |  |
 | [Metal Gear Solid: The Twin Snakes](https://github.com/alphanu1/msg-twinsnakes-recomp) | GameCube | 2.4 | 23 | 2026-09-26 |  |  |
@@ -896,9 +900,9 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Rayman Origins](https://github.com/XDanfr/RaymanOriginsRecomp) | Xbox 360 | 2.4 | 11 | 2026-09-27 |  |  |
 | [Saints Row](https://github.com/sp00nznet/saintsrow) | Xbox 360 | 2.4 | 17 | 2026-10-20 |  |  |
 | [SEGA Rally Championship 96](https://github.com/xandoxan65/segarally95-recomp) | Arcade | 2.4 | 14 | 2026-10-22 |  |  |
-| [Shadow of the Colossus](https://github.com/sp00nznet/shadowofthecolossus) | PS3 | 2.4 | 15 | 2026-10-21 |  |  |
+| [Shadow of the Colossus](https://github.com/sp00nznet/shadowofthecolossus) | PS3 | 2.4 | 16 | 2026-10-21 |  |  |
 | [SOCOM II: U.S. Navy SEALs](https://github.com/Scotho/socom-unzipped) | PS2 | 2.4 | 28 | 2026-10-19 |  |  |
-| [StarCraft: Ghost](https://github.com/aknavj/scghost-recomp) | Xbox | 2.4 | 17 | 2026-10-13 |  |  |
+| [StarCraft: Ghost](https://github.com/aknavj/scghost-recomp) | Xbox | 2.4 | 18 | 2026-10-13 |  |  |
 | [Streets of Rage](https://github.com/RuiNelson/StreetsOfRageProject) | Genesis | 2.4 | 14 | 2026-10-25 |  |  |
 | [Super Mario Bros.](https://github.com/nathsou/smb) | NES | 2.4 | 15 | 2026-10-24 |  |  |
 | [Super Mario Odyssey (smo-recomp)](https://github.com/Coz-0/smo-recomp) | Switch | 2.4 | 16 | 2026-10-23 |  |  |
@@ -908,9 +912,9 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Tokyo Jungle](https://github.com/sp00nznet/tokyojungle) | PS3 | 2.4 | 12 | 2026-09-06 |  |  |
 | [Trials HD](https://github.com/snufflyyy/trials-hd-recompiled) | Xbox 360 | 2.4 | 11 | 2026-10-23 |  |  |
 | [TwinBee PARADISE in Donburi Shima](https://github.com/Jhuyghue/donburi-recomp) | PS1 | 2.4 | 1 | 2026-10-17 |  |  |
-| [Twisted Metal](https://github.com/sp00nznet/twistedmetal) | PS3 | 2.4 | 13 | 2026-10-03 |  |  |
+| [Twisted Metal](https://github.com/sp00nznet/twistedmetal) | PS3 | 2.4 | 14 | 2026-10-03 |  |  |
 | [Viva Piñata](https://github.com/crabinacrabic/VivaPinataRecomp) | Xbox 360 | 2.4 | 16 | 2026-10-16 |  |  |
-| [War of the Monsters](https://github.com/yanm1103/War_of_the_Monsters_recomp) | PS2 | 2.4 | 16 | 2026-10-25 |  |  |
+| [War of the Monsters](https://github.com/yanm1103/War_of_the_Monsters_recomp) | PS2 | 2.4 | 17 | 2026-10-25 |  |  |
 | [Ace Combat 6: Fires of Liberation](https://github.com/rapidsamphire/AC6Recomp) | Xbox 360 | 2.2 | 14 | 2026-03-28 |  |  |
 | [Blue Dragon (reblue)](https://github.com/WeiGustavo/reblue) | Xbox 360 | 2.2 | 12 | 2026-02-19 |  |  |
 | [Call of Duty: Black Ops II](https://github.com/officialmelon/bo2-recompiled) | Xbox 360 | 2.2 | 10 | 2026-04-10 |  |  |
@@ -927,7 +931,7 @@ Console/PC binaries statically recompiled to native code (N64Recomp, XenonRecomp
 | [Test Drive Unlimited](https://github.com/testdriveupgrade/TDURE) | Xbox 360 | 2.2 | 21 | 2026-04-17 |  |  |
 | [The Legend of Zelda: The Wind Waker](https://github.com/sp00nznet/ww) ⚠️ | GameCube | 2.2 | 17 | 2026-08-23 |  |  |
 | [The Simpsons Arcade Game](https://github.com/sp00nznet/simpsonsarcade-ps3) ⚠️ | PS3 | 2.2 | 11 | 2026-10-14 |  |  |
-| [White Knight Chronicles II (White Knight Chronicles II Recomp)](https://github.com/WK2D/White-Knight-Chronicles-2-Recomp) ⚠️ | PS3 | 2.2 | 23 | 2026-10-22 |  |  |
+| [White Knight Chronicles II (White Knight Chronicles II Recomp)](https://github.com/WK2D/White-Knight-Chronicles-2-Recomp) ⚠️ | PS3 | 2.2 | 24 | 2026-10-22 |  |  |
 | [Mario Party 3](https://github.com/Rainchus/MarioParty3-Recomp) | N64 | 2.0 | 20 | 2025-03-17 |  |  |
 | [Halo 3 (Project Reclaimer)](https://recompiledgames.com/halo-3-project-reclaimer-recompiled) | Xbox 360 | 1.8 |  |  |  |  |
 
@@ -946,6 +950,7 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [OpenJK](https://github.com/JACoders/OpenJK) | PC | 4.5 | 2.3k | 2026-09-29 |  | [release](https://github.com/JACoders/OpenJK/releases/tag/latest) |
 | [Quake II](https://github.com/kondrak/vkQuake2) | PC | 4.5 | 1.0k | 2026-08-04 |  | [release](https://github.com/kondrak/vkQuake2/releases/tag/1.5.10) |
 | [Quake3e](https://github.com/ec-/Quake3e) | PC | 4.5 | 1.6k | 2026-10-14 |  | [release](https://github.com/ec-/Quake3e/releases/tag/latest) |
+| [The Legend of Zelda: Tears of the Kingdom / Breath of the Wild (MacNativeGames)](https://github.com/ly05010419/MacNativeGames) ⚠️ | Switch | 4.5 | 5.4k | 2026-10-25 |  | [release](https://github.com/ly05010419/MacNativeGames/releases/tag/v2026.10.25) · [reddit](https://www.reddit.com/r/decomps/comments/1xa082b/ "u/Twistymitten433 · 1391 upvotes · 197 comments") |
 | [vkQuake](https://github.com/Novum/vkQuake) | DOS | 4.5 | 2.3k | 2026-10-23 |  | [release](https://github.com/Novum/vkQuake/releases/tag/1.37.0) |
 | [Super Mario Galaxy (Galaxy Android)](https://github.com/OpenPort-Labs/Galaxy-Android) ⚠️ | Wii | 4.4 | 267 | 2026-10-25 |  | [release](https://github.com/OpenPort-Labs/Galaxy-Android/releases/tag/v0.0.4-gamma) |
 | [Animal Crossing](https://github.com/flyngmt/ACGC-PC-Port) ⚠️ | GameCube | 4.3 | 1.5k | 2026-08-01 |  | [play](https://rgc.zone/ports/ac-webport-main/index.html) |
@@ -959,74 +964,75 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [DoomRetro](https://github.com/bradharding/doomretro) | DOS | 4.3 | 781 | 2026-10-25 |  | [release](https://github.com/bradharding/doomretro/releases/tag/v6.3) |
 | [GeneralsGameCode](https://github.com/TheSuperHackers/GeneralsGameCode) ⚠️ | PC | 4.3 | 1.5k | 2026-10-25 |  | [release](https://github.com/TheSuperHackers/GeneralsGameCode/releases/tag/weekly-2026-10-23) |
 | [God of War III Remastered](https://github.com/FelipePrado0/SpartanPort) ⚠️ | PS4 | 4.3 | 4.1k | 2026-10-24 |  | [release](https://github.com/FelipePrado0/SpartanPort/releases/tag/windows-v2.7.0) |
-| [Gravity Rush Remastered (gravityrush_pc)](https://github.com/LucaPazienza/gravityrush_pc) | PS4 | 4.3 | 213 | 2026-10-23 |  | [release](https://github.com/LucaPazienza/gravityrush_pc/releases/tag/v0.1.8) · [reddit](https://www.reddit.com/r/decomps/comments/1xe81y2/ "u/chicagogamecollector · 26 upvotes · 1 comments") |
+| [Gravity Rush Remastered (gravityrush_pc)](https://github.com/LucaPazienza/gravityrush_pc) | PS4 | 4.3 | 220 | 2026-10-23 |  | [release](https://github.com/LucaPazienza/gravityrush_pc/releases/tag/v0.1.8) · [reddit](https://www.reddit.com/r/decomps/comments/1xe81y2/ "u/chicagogamecollector · 26 upvotes · 1 comments") |
 | [Half-Life (Lambda1VR (Xash3D VR port))](https://github.com/Team-Beef-Studios/Lambda1VR) | PC | 4.3 | 250 | 2026-09-02 |  | [release](https://github.com/Team-Beef-Studios/Lambda1VR/releases/tag/v1.7.4) |
 | [idTech4A++ (Harmattan Edition)](https://github.com/glKarin/com.n0n3m4.diii4a) | PC | 4.3 | 640 | 2026-09-30 |  | [release](https://github.com/glKarin/com.n0n3m4.diii4a/releases/tag/v1.1.0harmattan73) |
 | [LEGO Island (isle-portable)](https://github.com/isledecomp/isle-portable) ⚠️ | PC | 4.3 | 1.1k | 2026-10-18 |  | [release](https://github.com/isledecomp/isle-portable/releases/tag/continuous) · [video](https://www.youtube.com/watch?v=JUNdWnI5BTk) |
 | [MadnessPatch](https://github.com/Wemino/MadnessPatch) | PC | 4.3 | 453 | 2026-10-23 |  | [release](https://github.com/Wemino/MadnessPatch/releases/tag/4.0.2) |
 | [Marble Blast Gold](https://github.com/RandomityGuy/MBHaxe) | PC | 4.3 | 223 | 2026-10-23 |  | [release](https://github.com/RandomityGuy/MBHaxe/releases/tag/1.3.2-mbu) |
 | [Mario Kart 64 (SpaghettiKart)](https://github.com/HarbourMasters/SpaghettiKart) ⚠️ | N64 | 4.3 | 2.4k | 2026-10-22 |  | [release](https://github.com/HarbourMasters/SpaghettiKart/releases/tag/1.0.0) · [video](https://www.youtube.com/watch?v=EOWOtd8sZTQ) |
-| [Mario Kart Wii](https://github.com/patchzyy/Wiicompiled) ⚠️ | Wii | 4.3 | 1.3k | 2026-10-25 |  | [release](https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.2) |
-| [Mario Kart Wii (MKW-3DS)](https://github.com/MiniBandit/MKW-3DS) | Wii | 4.3 | 245 | 2026-10-24 |  | [release](https://github.com/MiniBandit/MKW-3DS/releases/tag/v0.6.0) |
-| [Minecraft: Java Edition (Minecraft PSP)](https://github.com/Pencea-Flavius/Minecraft-PE-PSP) | PC | 4.3 | 201 | 2026-09-25 |  | [release](https://github.com/Pencea-Flavius/Minecraft-PE-PSP/releases/tag/v1.9.9) |
-| [Nox (OpenNox)](https://github.com/opennox/opennox) | PC | 4.3 | 634 | 2026-09-21 |  | [release](https://github.com/opennox/opennox/releases/tag/v1.9.0-alpha13) |
+| [Mario Kart Wii](https://github.com/patchzyy/Wiicompiled) ⚠️ | Wii | 4.3 | 1.3k | 2026-10-25 |  | [release](https://github.com/patchzyy/Wiicompiled/releases/tag/v0.9.3) |
+| [Mario Kart Wii (MKW-3DS)](https://github.com/MiniBandit/MKW-3DS) | Wii | 4.3 | 246 | 2026-10-24 |  | [release](https://github.com/MiniBandit/MKW-3DS/releases/tag/v0.6.0) |
+| [Minecraft: Java Edition (Minecraft PSP)](https://github.com/Pencea-Flavius/Minecraft-PE-PSP) | PC | 4.3 | 202 | 2026-09-25 |  | [release](https://github.com/Pencea-Flavius/Minecraft-PE-PSP/releases/tag/v1.9.9) |
+| [Nox (OpenNox)](https://github.com/opennox/opennox) | PC | 4.3 | 635 | 2026-09-21 |  | [release](https://github.com/opennox/opennox/releases/tag/v1.9.0-alpha13) |
 | [Odamex](https://github.com/odamex/odamex) | DOS | 4.3 | 305 | 2026-10-25 |  | [release](https://github.com/odamex/odamex/releases/tag/12.3.0) |
-| [Pokémon Emerald](https://github.com/ZallaxDev/emerald-3ds) | GBA | 4.3 | 611 | 2026-10-17 |  | [release](https://github.com/ZallaxDev/emerald-3ds/releases/tag/v0.4.0) |
+| [Pokémon Emerald](https://github.com/ZallaxDev/emerald-3ds) | GBA | 4.3 | 612 | 2026-10-17 |  | [release](https://github.com/ZallaxDev/emerald-3ds/releases/tag/v0.4.0) |
 | [Shadow of the Colossus](https://github.com/AjncSystem/ShadowOfTheColossus-PC) ⚠️ | PS4 | 4.3 | 1.5k | 2026-10-22 |  | [release](https://github.com/AjncSystem/ShadowOfTheColossus-PC/releases/tag/v0.60.6) |
 | [Spelunky (ported build from released source))](https://github.com/yancharkin/SpelunkyClassicHD) | PC | 4.3 | 230 | 2026-08-25 |  | [release](https://github.com/yancharkin/SpelunkyClassicHD/releases/tag/1.2.2) |
-| [Super Mario 64 (Ghostship)](https://github.com/HarbourMasters/Ghostship) | N64 | 4.3 | 854 | 2026-10-25 |  | [release](https://github.com/HarbourMasters/Ghostship/releases/tag/3.0.0) |
+| [Super Mario 64 (Ghostship)](https://github.com/HarbourMasters/Ghostship) | N64 | 4.3 | 853 | 2026-10-25 |  | [release](https://github.com/HarbourMasters/Ghostship/releases/tag/3.0.0) |
 | [The Eternity Engine](https://github.com/team-eternity/eternity) | DOS | 4.3 | 274 | 2026-10-17 |  | [release](https://github.com/team-eternity/eternity/releases/tag/4.06.00) |
-| [The Legend of Zelda: A Link to the Past](https://github.com/EstebanPdN/zelda-alttp-3ds) | SNES | 4.3 | 730 | 2026-10-20 |  | [release](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.2) · [reddit](https://www.reddit.com/r/recomps/comments/1vmo3yj/ "u/ericarrache · 207 upvotes · 21 comments") |
-| [Uncharted: The Nathan Drake Collection](https://github.com/Supermedo/uncharted_pc) ⚠️ | PS4 | 4.3 | 1.9k | 2026-10-24 |  | [release](https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.9) |
+| [The Legend of Zelda: A Link to the Past](https://github.com/EstebanPdN/zelda-alttp-3ds) | SNES | 4.3 | 732 | 2026-10-20 |  | [release](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.2) · [reddit](https://www.reddit.com/r/recomps/comments/1vmo3yj/ "u/ericarrache · 207 upvotes · 21 comments") |
+| [Uncharted: The Nathan Drake Collection](https://github.com/Supermedo/uncharted_pc) ⚠️ | PS4 | 4.3 | 2.0k | 2026-10-24 |  | [release](https://github.com/Supermedo/uncharted_pc/releases/tag/v0.3.9) |
 | [Perfect Dark](https://github.com/perfect-dark-pc-port/perfect_dark) | N64 | 4.3 | 2.1k | 2026-08-13 |  | [play](https://perfectdark.royal-cake-5abc.workers.dev/) · [release](https://github.com/perfect-dark-pc-port/perfect_dark/releases/tag/ci-dev-build) |
 | [ioquake3](https://github.com/ioquake/ioq3) | PC | 4.2 | 2.9k | 2026-10-12 |  |  |
-| [The Legend of Zelda: Tears of the Kingdom / Breath of the Wild (MacNativeGames)](https://github.com/ly05010419/MacNativeGames) ⚠️ | Switch | 4.2 | 5.3k | 2026-10-23 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xa082b/ "u/Twistymitten433 · 1391 upvotes · 197 comments") |
 | [Yamagi Quake II](https://github.com/yquake2/yquake2) | PC | 4.2 | 1.0k | 2026-10-15 |  |  |
-| [Bloodborne (bbhost)](https://github.com/droogie/bbhost) ⚠️ | PS4 | 4.2 | 682 | 2026-10-25 |  | [release](https://github.com/droogie/bbhost/releases/tag/v0.2.19) |
-| [Bloodborne (bloodborne_pc_windows_port)](https://github.com/Mrsuss60/bloodborne_pc_windows_port) ⚠️ | PS4 | 4.2 | 528 | 2026-10-24 |  | [release](https://github.com/Mrsuss60/bloodborne_pc_windows_port/releases/tag/v0.7.0) |
+| [Bloodborne (bbhost)](https://github.com/droogie/bbhost) ⚠️ | PS4 | 4.2 | 685 | 2026-10-25 |  | [release](https://github.com/droogie/bbhost/releases/tag/v0.2.19) |
+| [Bloodborne (bloodborne_pc_windows_port)](https://github.com/Mrsuss60/bloodborne_pc_windows_port) ⚠️ | PS4 | 4.2 | 529 | 2026-10-25 |  | [release](https://github.com/Mrsuss60/bloodborne_pc_windows_port/releases/tag/v0.7.0) |
 | [BuildLauncher](https://github.com/fgsfds/BuildLauncher) | PC | 4.2 | 123 | 2026-09-22 |  | [release](https://github.com/fgsfds/BuildLauncher/releases/tag/1.19.0) |
 | [CatacombGL](https://github.com/ArnoAnsems/CatacombGL) | DOS | 4.2 | 196 | 2026-10-23 |  |  |
-| [Crash Team Racing Nitro-Fueled](https://github.com/GetLostIn/CTR-NitroFueled-PC) ⚠️ | PS4 | 4.2 | 631 | 2026-10-19 |  | [release](https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.4) |
-| [Crash Team Racing Nitro-Fueled (OCTR: Online CTR Nitro-Fueled PC)](https://github.com/Ryu7w7/OCTR-NitroFueled-PC) ⚠️ | PS4 | 4.2 | 492 | 2026-10-23 |  | [release](https://github.com/Ryu7w7/OCTR-NitroFueled-PC/releases/tag/v0.6.4) |
+| [Crash Team Racing Nitro-Fueled](https://github.com/GetLostIn/CTR-NitroFueled-PC) ⚠️ | PS4 | 4.2 | 633 | 2026-10-19 |  | [release](https://github.com/GetLostIn/CTR-NitroFueled-PC/releases/tag/v0.4) |
+| [Crash Team Racing Nitro-Fueled (OCTR: Online CTR Nitro-Fueled PC)](https://github.com/Ryu7w7/OCTR-NitroFueled-PC) ⚠️ | PS4 | 4.2 | 497 | 2026-10-23 |  | [release](https://github.com/Ryu7w7/OCTR-NitroFueled-PC/releases/tag/v0.6.4) |
 | [Descent 3](https://github.com/InsanityBringer/PiccuEngine) | PC | 4.2 | 165 | 2026-08-27 |  | [release](https://github.com/InsanityBringer/PiccuEngine/releases/tag/v1.2.2) |
 | [Doom (QuestZDoom)](https://github.com/Team-Beef-Studios/QuestZDoom) | DOS | 4.2 | 72 | 2026-08-03 |  | [release](https://github.com/Team-Beef-Studios/QuestZDoom/releases/tag/1.6.2) |
 | [Doom 3 (Doom3Quest)](https://github.com/Team-Beef-Studios/Doom3Quest) | PC | 4.2 | 136 | 2026-09-05 |  | [release](https://github.com/Team-Beef-Studios/Doom3Quest/releases/tag/v1.4.8) |
-| [Dragon's Crown Pro](https://github.com/saulob/dragons-crown-pro-pc) ⚠️ | PS4 | 4.2 | 218 | 2026-10-23 |  | [release](https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.7.1) |
+| [Dragon's Crown Pro](https://github.com/saulob/dragons-crown-pro-pc) ⚠️ | PS4 | 4.2 | 219 | 2026-10-23 |  | [release](https://github.com/saulob/dragons-crown-pro-pc/releases/tag/v0.7.1) |
 | [dxx-redux](https://github.com/dxx-redux/dxx-redux) | DOS | 4.2 | 77 | 2026-09-15 |  | [release](https://github.com/dxx-redux/dxx-redux/releases/tag/v1.1) |
-| [EarthBound (Phase Distorter)](https://github.com/TheRunaway5/Phase-Distorter) | SNES | 4.2 | 124 | 2026-10-19 |  | [release](https://github.com/TheRunaway5/Phase-Distorter/releases/tag/0.5) |
+| [EarthBound (Phase Distorter)](https://github.com/TheRunaway5/Phase-Distorter) | SNES | 4.2 | 125 | 2026-10-19 |  | [release](https://github.com/TheRunaway5/Phase-Distorter/releases/tag/0.5) |
 | [EDGE-classic](https://github.com/edge-classic/EDGE-classic) | DOS | 4.2 | 104 | 2026-10-19 |  | [release](https://github.com/edge-classic/EDGE-classic/releases/tag/1.53) |
 | [Fallout 2](https://github.com/alexbatalov/fallout2-ce) | PC | 4.2 | 2.5k | 2025-02-16 |  | [release](https://github.com/alexbatalov/fallout2-ce/releases/tag/v1.3.0) |
-| [FIFA Street](https://github.com/samuelit0davila/fifa-street-pc-port) ⚠️ | Xbox 360 | 4.2 | 423 | 2026-10-24 |  | [release](https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.1.1-online-beta) |
+| [FIFA Street](https://github.com/samuelit0davila/fifa-street-pc-port) ⚠️ | Xbox 360 | 4.2 | 424 | 2026-10-24 |  | [release](https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v2.1.1-online-beta) |
 | [FS2Open](https://github.com/scp-fs2open/fs2open.github.com) ⚠️ | PC | 4.2 | 496 | 2026-10-24 |  | [release](https://github.com/scp-fs2open/fs2open.github.com/releases/tag/release_26_2_0-RC2) |
 | [GoldenEye PC Port](https://github.com/jkdansereau/goldeneye-pc-port) ⚠️ | N64 | 4.2 | 290 | 2026-10-07 |  | [release](https://github.com/jkdansereau/goldeneye-pc-port/releases/tag/v0.5.0) |
-| [inFAMOUS Second Son](https://github.com/HayatoG/iss_pc) ⚠️ | PS4 | 4.2 | 880 | 2026-10-24 |  | [release](https://github.com/HayatoG/iss_pc/releases/tag/v1.0) |
-| [Killzone Shadow Fall (PC)](https://github.com/lesca-191204/killzone-shadowfall-pc) ⚠️ | PS4 | 4.2 | 274 | 2026-10-23 |  | [release](https://github.com/lesca-191204/killzone-shadowfall-pc/releases/tag/v0.5.0) |
-| [Kingdom Hearts 358/2 Days](https://github.com/Yokimitsuro/khdays-port) ⚠️ | DS | 4.2 | 201 | 2026-10-23 |  | [release](https://github.com/Yokimitsuro/khdays-port/releases/tag/v0.1.4) |
-| [Mario Kart Wii](https://github.com/chrissotraidis/kartpad) ⚠️ | Wii | 4.2 | 711 | 2026-10-25 |  | [release](https://github.com/chrissotraidis/kartpad/releases/tag/v0.8.5) |
+| [inFAMOUS Second Son](https://github.com/HayatoG/iss_pc) ⚠️ | PS4 | 4.2 | 885 | 2026-10-24 |  | [release](https://github.com/HayatoG/iss_pc/releases/tag/v1.0) |
+| [Killzone Shadow Fall (PC)](https://github.com/lesca-191204/killzone-shadowfall-pc) ⚠️ | PS4 | 4.2 | 276 | 2026-10-23 |  | [release](https://github.com/lesca-191204/killzone-shadowfall-pc/releases/tag/v0.5.0) |
+| [Kingdom Hearts 358/2 Days](https://github.com/Yokimitsuro/khdays-port) ⚠️ | DS | 4.2 | 203 | 2026-10-23 |  | [release](https://github.com/Yokimitsuro/khdays-port/releases/tag/v0.1.4) |
+| [Knack II (Knack-II-pc-port)](https://github.com/Hyant4/Knack-II-pc-port) | PS4 | 4.2 | 36 | 2026-10-25 |  | [release](https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.17.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xdy2kg/ "u/Inside_Kick8622 · 78 upvotes · 16 comments") |
+| [Mario Kart Wii](https://github.com/chrissotraidis/kartpad) ⚠️ | Wii | 4.2 | 712 | 2026-10-25 |  | [release](https://github.com/chrissotraidis/kartpad/releases/tag/v0.8.6) |
 | [Mario Strikers Charged (mscharged-port)](https://github.com/previouslevelgames/recharged) | Wii | 4.2 | 101 | 2026-10-24 |  | [release](https://github.com/previouslevelgames/recharged/releases/tag/v1.0.15) · [reddit](https://www.reddit.com/r/decomps/comments/1x2o470/ "u/Maleficent_Bit5503 · 59 upvotes · 21 comments") |
-| [Metroid Prime Port](https://github.com/Odrannnn/MetroidPrimePort) ⚠️ | GameCube | 4.2 | 518 | 2026-10-25 |  | [release](https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.33.0) |
+| [Metroid Prime Port](https://github.com/Odrannnn/MetroidPrimePort) ⚠️ | GameCube | 4.2 | 522 | 2026-10-25 |  | [release](https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.33.1) |
 | [Naughty Bear](https://github.com/MaxDeadBear/NaughtyBear_ReStuff) | Xbox 360 | 4.2 | 62 | 2026-10-22 |  | [release](https://github.com/MaxDeadBear/NaughtyBear_ReStuff/releases/tag/release_v1.5.1) |
-| [Pikmin & Pikmin 2 (Open Nectar)](https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port) ⚠️ | GameCube | 4.2 | 276 | 2026-10-25 |  | [release](https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/1.0.8) |
+| [Pikmin & Pikmin 2 (Open Nectar)](https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port) ⚠️ | GameCube | 4.2 | 276 | 2026-10-25 |  | [release](https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/1.0.9) |
 | [Quake (QuakeQuest)](https://github.com/Team-Beef-Studios/QuakeQuest) | DOS | 4.2 | 146 | 2026-08-01 |  | [release](https://github.com/Team-Beef-Studios/QuakeQuest/releases/tag/v1.6.0) |
-| [Ratchet & Clank (rac1-native)](https://github.com/RAC-Native/rac1-native-game) | PS2 | 4.2 | 76 | 2026-10-24 |  | [release](https://github.com/RAC-Native/rac1-native-game/releases/tag/v0.5.0) |
+| [Ratchet & Clank (2016) (RatchetPort)](https://github.com/shehab4546/RatchetPort) | PS4 | 4.2 | 76 | 2026-10-25 |  | [release](https://github.com/shehab4546/RatchetPort/releases/tag/v1.6-resolution-preview) · [reddit](https://www.reddit.com/r/decomps/comments/1xeljag/ "u/shehab4546 · 56 upvotes · 14 comments") |
+| [Ratchet & Clank (rac1-native)](https://github.com/RAC-Native/rac1-native-game) | PS2 | 4.2 | 76 | 2026-10-25 |  | [release](https://github.com/RAC-Native/rac1-native-game/releases/tag/v0.5.0) |
 | [Raze](https://github.com/ZDoom/Raze) | DOS | 4.2 | 891 | 2025-11-19 |  | [release](https://github.com/ZDoom/Raze/releases/tag/1.11.0) |
-| [Shadow of the Colossus (ShadowOfTheColossus-PC)](https://github.com/Oussama268/ShadowOfTheColossus-PC) ⚠️ | PS4 | 4.2 | 215 | 2026-10-24 |  | [release](https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.60.6-opt11) |
+| [Shadow of the Colossus (ShadowOfTheColossus-PC)](https://github.com/Oussama268/ShadowOfTheColossus-PC) ⚠️ | PS4 | 4.2 | 216 | 2026-10-24 |  | [release](https://github.com/Oussama268/ShadowOfTheColossus-PC/releases/tag/v0.60.6-opt11) |
 | [Shin Megami Tensei: Persona 3 Portable (P3P3DS)](https://github.com/endercodezz/P3P3DS) | PSP | 4.2 | 57 | 2026-10-11 |  | [release](https://github.com/endercodezz/P3P3DS/releases/tag/v0.3.1) |
 | [Star Fox Adventures (Foxhollow)](https://github.com/JackPriceBurns/foxhollow) | GameCube | 4.2 | 81 | 2026-10-25 |  | [release](https://github.com/JackPriceBurns/foxhollow/releases) |
 | [Star Wars: Episode III – Revenge of the Sith (SWROTS-PC)](https://github.com/jedijosh920/SWROTS-PC) | og xbox | 4.2 | 83 | 2026-10-24 |  |  |
 | [Starbound (OpenStarbound Mobile)](https://github.com/RohanBhattacharyya/oSBM) | PC | 4.2 | 100 | 2026-09-23 |  | [release](https://github.com/RohanBhattacharyya/oSBM/releases/tag/v1.1) |
 | [Super Mario 64 (libsm64-godot)](https://github.com/Brawmario/libsm64-godot) | N64 | 4.2 | 219 | 2026-04-04 |  | [release](https://github.com/Brawmario/libsm64-godot/releases/tag/v2.7.2) |
 | [Super Mario Strikers (PC Port)](https://github.com/new-coke/strikers) ⚠️ | GameCube | 4.2 | 357 | 2026-10-22 |  | [release](https://github.com/new-coke/strikers/releases/tag/v1.3.0) |
-| [Super Mario Sunshine (sms-pc-port)](https://github.com/TekRantGaming/sms-pc-port) ⚠️ | GameCube | 4.2 | 257 | 2026-10-11 |  | [release](https://github.com/TekRantGaming/sms-pc-port/releases/tag/v2.1.0) · [reddit](https://www.reddit.com/r/decomps/comments/1wybm9x/ "u/musicbabygirl · 568 upvotes · 177 comments") |
+| [Super Mario Sunshine (sms-pc-port)](https://github.com/TekRantGaming/sms-pc-port) ⚠️ | GameCube | 4.2 | 258 | 2026-10-11 |  | [release](https://github.com/TekRantGaming/sms-pc-port/releases/tag/v2.1.0) · [reddit](https://www.reddit.com/r/decomps/comments/1wybm9x/ "u/musicbabygirl · 568 upvotes · 177 comments") |
 | [Super Smash Bros. Melee](https://github.com/TechProGabe/Melee-X) | GameCube | 4.2 | 30 | 2026-10-06 |  | [release](https://github.com/TechProGabe/Melee-X/releases/tag/v4.1) |
-| [Tekken 6 (Tekken6-native-online)](https://github.com/Ekspym/Tekken6-native-online) ⚠️ | Xbox 360 | 4.2 | 373 | 2026-10-18 |  | [release](https://github.com/Ekspym/Tekken6-native-online/releases/tag/v2.4.2) |
-| [The Last Guardian](https://github.com/HayatoG/tlg_pc) ⚠️ | PS4 | 4.2 | 428 | 2026-10-24 |  | [release](https://github.com/HayatoG/tlg_pc/releases/tag/v2026.10.24-1a130dd) |
-| [The Legend of Zelda: The Wind Waker](https://github.com/centollOS/SwitchWaker) | GameCube | 4.2 | 81 | 2026-10-24 |  | [release](https://github.com/centollOS/SwitchWaker/releases/tag/v0.5.0) |
+| [Tekken 6 (Tekken6-native-online)](https://github.com/Ekspym/Tekken6-native-online) ⚠️ | Xbox 360 | 4.2 | 378 | 2026-10-18 |  | [release](https://github.com/Ekspym/Tekken6-native-online/releases/tag/v2.4.3) |
+| [The Last Guardian](https://github.com/HayatoG/tlg_pc) ⚠️ | PS4 | 4.2 | 432 | 2026-10-24 |  | [release](https://github.com/HayatoG/tlg_pc/releases/tag/v2026.10.24-1a130dd) |
+| [The Legend of Zelda: The Wind Waker](https://github.com/centollOS/SwitchWaker) | GameCube | 4.2 | 81 | 2026-10-25 |  | [release](https://github.com/centollOS/SwitchWaker/releases/tag/v0.5.0) |
 | [Tribal Trouble](https://github.com/Tribal-Trouble/tribaltrouble) | PC | 4.2 | 51 | 2026-10-25 |  | [release](https://github.com/Tribal-Trouble/tribaltrouble/releases/tag/v2.2.155-103.1010) |
-| [Uncharted: The Nathan Drake Collection](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port) ⚠️ | PS4 | 4.2 | 521 | 2026-10-25 |  | [release](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port/releases/tag/v0.6.2) |
+| [Uncharted: The Nathan Drake Collection](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port) ⚠️ | PS4 | 4.2 | 529 | 2026-10-25 |  | [release](https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port/releases/tag/v0.6.2) |
 | [Zero Hour Reforged](https://github.com/olcayseygan/CnCGeneralsZH-Reforged) ⚠️ | PC | 4.2 | 261 | 2026-10-25 |  | [release](https://github.com/olcayseygan/CnCGeneralsZH-Reforged/releases/tag/v3.3.0) |
 | [Driveclub (Driveclub-PC)](https://github.com/ondrejeder/Driveclub-pc-wrapper) | PS4 | 4.1 | 231 | 2026-10-23 |  | [release](https://github.com/ondrejeder/Driveclub-pc-wrapper/releases/tag/0.2.5) |
-| [Gran Turismo Sport (RyGT)](https://github.com/mlgprorektm8/RyGT) | PS4 | 4.1 | 532 | 2026-10-24 |  | [release](https://github.com/mlgprorektm8/RyGT/releases/tag/gt-sport-2026-10-18-2) |
+| [Gran Turismo Sport (RyGT)](https://github.com/mlgprorektm8/RyGT) | PS4 | 4.1 | 533 | 2026-10-24 |  | [release](https://github.com/mlgprorektm8/RyGT/releases/tag/gt-sport-2026-10-18-2) |
 | [Habitat (NeoHabitat)](https://github.com/frandallfarmer/neohabitat) | Commodore 64/8-bit | 4.1 | 252 | 2026-10-17 |  | [release](https://github.com/frandallfarmer/neohabitat/releases/tag/Stable-2020-09-08) |
 | [SimCity (Micropolis)](https://github.com/SimHacker/micropolis) | PC | 4.0 | 1.1k | 2026-02-10 |  |  |
 | [Vangers](https://github.com/KranX/Vangers) | PC | 4.0 | 740 | 2026-10-24 |  | [release](https://github.com/KranX/Vangers/releases/tag/2.0) |
@@ -1034,7 +1040,7 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Barony (Barony Android Port)](https://github.com/DifferentNet/barony-android-port) | PC | 4.0 | 12 | 2026-10-16 |  |  |
 | [Barrett](https://github.com/lunarmeadow/barrett) | DOS | 4.0 | 34 | 2026-06-07 |  | [release](https://github.com/lunarmeadow/barrett/releases/tag/v1.3-beta) |
 | [BLACK (BlackDefinitiveHDPC)](https://github.com/euspring1/BlackDefinitiveHDPC) | Xbox | 4.0 | 22 | 2026-10-23 |  | [release](https://github.com/euspring1/BlackDefinitiveHDPC/releases/tag/V1.4.2) · [reddit](https://www.reddit.com/r/decomps/comments/1xb02rh/ "u/ofcgustavorec · 110 upvotes · 28 comments") |
-| [Buffy the Vampire Slayer: Chaos Bleeds](https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc) ⚠️ | Xbox | 4.0 | 42 | 2026-10-02 |  | [release](https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc/releases/tag/v1.0.2) |
+| [Buffy the Vampire Slayer: Chaos Bleeds](https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc) ⚠️ | Xbox | 4.0 | 43 | 2026-10-02 |  | [release](https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc/releases/tag/v1.0.2) |
 | [Bugdom](https://github.com/jorio/Bugdom) | Mac | 4.0 | 516 | 2025-03-08 |  | [release](https://github.com/jorio/Bugdom/releases/tag/1.3.4) |
 | [Burnout 3: Takedown (Burnout 3: Takedown - PC port)](https://github.com/danielgomesvieira2000/burnout3-pc) ⚠️ | PS2 | 4.0 | 173 | 2026-10-23 |  |  |
 | [Crash Team Racing](https://github.com/NyperYuhgard/CTR-PC-Port) | PS1 | 4.0 | 16 | 2026-08-03 |  |  |
@@ -1044,42 +1050,41 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Dune II](https://github.com/gameflorist/dunedynasty) ⚠️ | DOS | 4.0 | 164 | 2026-10-24 |  | [release](https://github.com/gameflorist/dunedynasty/releases/tag/v1.6.4) |
 | [EA Sports UFC 3](https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS) ⚠️ | PS4 | 4.0 | 179 | 2026-10-24 |  | [release](https://github.com/GNSB/UFC-3-PS4-PORT-LINUX-WINDOWS/releases/tag/ufc3-v0.1.14) |
 | [God of War: Sons of Sparta (Sons Of Sparta PS5 Native)](https://github.com/OverkillLabs3/SoS-PS5) ⚠️ | PS5 | 4.0 | 152 | 2026-10-12 |  | [release](https://github.com/OverkillLabs3/SoS-PS5/releases/tag/sos-v0.4.2) |
-| [Gravity Rush 2](https://github.com/HayatoG/gr2_pc) ⚠️ | PS4 | 4.0 | 105 | 2026-10-24 |  | [release](https://github.com/HayatoG/gr2_pc/releases/tag/v2026.10.24-a2e69a1) |
+| [Gravity Rush 2](https://github.com/HayatoG/gr2_pc) ⚠️ | PS4 | 4.0 | 106 | 2026-10-24 |  | [release](https://github.com/HayatoG/gr2_pc/releases/tag/v2026.10.24-a2e69a1) |
 | [Hollow Knight: Silksong (Silksong Android)](https://github.com/jakobkhansen/SilksongAndroid) ⚠️ | Mobile | 4.0 | 97 | 2026-09-25 |  | [release](https://github.com/jakobkhansen/SilksongAndroid/releases/tag/v2.0.0) |
-| [Jet Set Radio Future (Jet Set Radio Future Unleashed)](https://github.com/JuMatt/JetSetRadioFuture-Unleashed) ⚠️ | og xbox | 4.0 | 161 | 2026-10-24 |  | [release](https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/tag/v0.5.5) |
-| [Knack II (Knack-II-pc-port)](https://github.com/Hyant4/Knack-II-pc-port) | PS4 | 4.0 | 29 | 2026-10-25 |  | [release](https://github.com/Hyant4/Knack-II-pc-port/releases/tag/knack2-Version-0.17.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xdy2kg/ "u/Inside_Kick8622 · 78 upvotes · 16 comments") |
+| [Jet Set Radio Future (Jet Set Radio Future Unleashed)](https://github.com/JuMatt/JetSetRadioFuture-Unleashed) ⚠️ | og xbox | 4.0 | 162 | 2026-10-25 |  | [release](https://github.com/JuMatt/JetSetRadioFuture-Unleashed/releases/tag/v0.5.6) |
 | [Mario Kart Wii - Service Pack (mkw-sp)](https://github.com/mkw-sp/mkw-sp) | Wii | 4.0 | 102 | 2025-12-11 |  | [release](https://github.com/mkw-sp/mkw-sp/releases/tag/v0.1.12) |
-| [Mario Party 4 (Party Board (zeranemesis port))](https://github.com/zeranemesis/Marioparty4) ⚠️ | GameCube | 4.0 | 55 | 2026-10-16 |  |  |
-| [Master of Magic (ReMoM)](https://github.com/jbalcomb/ReMoM) ⚠️ | DOS | 4.0 | 30 | 2026-08-31 |  | [release](https://github.com/jbalcomb/ReMoM/releases/tag/v0.0.8) |
-| [MediEvil](https://github.com/bc160201983/medievil_2019_pc_port) ⚠️ | PS4 | 4.0 | 165 | 2026-10-24 |  | [release](https://github.com/bc160201983/medievil_2019_pc_port/releases/tag/v1.3.7) |
+| [Mario Party 4 (Party Board (zeranemesis port))](https://github.com/zeranemesis/Marioparty4) ⚠️ | GameCube | 4.0 | 56 | 2026-10-16 |  |  |
+| [Master of Magic (ReMoM)](https://github.com/jbalcomb/ReMoM) ⚠️ | DOS | 4.0 | 31 | 2026-08-31 |  | [release](https://github.com/jbalcomb/ReMoM/releases/tag/v0.0.8) |
+| [MediEvil](https://github.com/bc160201983/medievil_2019_pc_port) ⚠️ | PS4 | 4.0 | 167 | 2026-10-24 |  | [release](https://github.com/bc160201983/medievil_2019_pc_port/releases/tag/v1.3.7) |
 | [Naruto Shippuden: Ultimate Ninja Storm Generations](https://github.com/Masterllgod/naruto-storm-generations-port-nativo) ⚠️ | Xbox 360 | 4.0 | 77 | 2026-10-18 |  | [release](https://github.com/Masterllgod/naruto-storm-generations-port-nativo/releases/tag/v0.3.5) |
-| [Need for Speed: Underground 2 (Switch port)](https://github.com/antoxa2584x/nfsu2-sw) ⚠️ | Xbox | 4.0 | 167 | 2026-10-18 |  | [release](https://github.com/antoxa2584x/nfsu2-sw/releases/tag/v0.5.13) |
+| [Need for Speed: Underground 2 (Switch port)](https://github.com/antoxa2584x/nfsu2-sw) ⚠️ | Xbox | 4.0 | 169 | 2026-10-18 |  | [release](https://github.com/antoxa2584x/nfsu2-sw/releases/tag/v0.5.13) |
 | [NetHack (NetHack (Android))](https://github.com/gurrhack/NetHack-Android) | PC | 4.0 | 160 | 2025-12-01 |  | [release](https://github.com/gurrhack/NetHack-Android/releases/tag/v3.6.6-1) |
 | [openQ4](https://github.com/themuffinator/openQ4) ⚠️ | PC | 4.0 | 167 | 2026-10-24 |  | [release](https://github.com/themuffinator/openQ4/releases/tag/v0.13.2) |
-| [Pokémon Black and White (eidos PC port)](https://github.com/Project-Holon/eidos) | DS | 4.0 | 14 | 2026-10-24 |  | [release](https://github.com/Project-Holon/eidos/releases/tag/v0.1.5) · [reddit](https://www.reddit.com/r/decomps/comments/1xdg4wt/ "u/_Ilias__ · 61 upvotes · 17 comments") |
+| [Pokémon Black and White (eidos PC port)](https://github.com/Project-Holon/eidos) | DS | 4.0 | 15 | 2026-10-24 |  | [release](https://github.com/Project-Holon/eidos/releases/tag/v0.1.5) · [reddit](https://www.reddit.com/r/decomps/comments/1xdg4wt/ "u/_Ilias__ · 61 upvotes · 17 comments") |
 | [Quake II (Quake2Quest)](https://github.com/Team-Beef-Studios/Quake2Quest) | PC | 4.0 | 98 | 2026-06-16 |  | [release](https://github.com/Team-Beef-Studios/Quake2Quest/releases/tag/v1.1.1) |
-| [Resident Evil Code: Veronica X (RECVX Enhanced Port)](https://github.com/aikatore/recvx-enhanced-port) ⚠️ | PS2 | 4.0 | 147 | 2026-10-24 |  |  |
+| [Resident Evil Code: Veronica X (RECVX Enhanced Port)](https://github.com/aikatore/recvx-enhanced-port) ⚠️ | PS2 | 4.0 | 152 | 2026-10-24 |  |  |
 | [Return to Castle Wolfenstein (RTCWQuest)](https://github.com/Team-Beef-Studios/RTCWQuest) | PC | 4.0 | 80 | 2026-06-15 |  | [release](https://github.com/Team-Beef-Studios/RTCWQuest/releases/tag/v1.4.1) |
-| [Saints Row](https://github.com/whompay/SaintsReborn) ⚠️ | Xbox 360 | 4.0 | 183 | 2026-10-25 |  | [release](https://github.com/whompay/SaintsReborn/releases/tag/V1.2.2) |
+| [Saints Row](https://github.com/whompay/SaintsReborn) ⚠️ | Xbox 360 | 4.0 | 184 | 2026-10-25 |  | [release](https://github.com/whompay/SaintsReborn/releases/tag/V1.2.2) |
 | [Speed-Academy](https://github.com/kugelrund/Speed-Academy) | PC | 4.0 | 21 | 2026-07-26 |  | [release](https://github.com/kugelrund/Speed-Academy/releases/tag/v1.10) |
 | [Star Trek: Voyager - Elite Force (Star Trek: Voyager - Elite Force (Android))](https://github.com/imjustadudegamer/VoyagerSP-Android) | PC | 4.0 | 18 | 2026-10-25 |  | [release](https://github.com/imjustadudegamer/VoyagerSP-Android/releases/tag/EF2) |
 | [Taradino](https://github.com/fabiangreffrath/taradino) | DOS | 4.0 | 59 | 2026-03-20 |  | [release](https://github.com/fabiangreffrath/taradino/releases/tag/20251222) |
 | [Tetris (Kirpich)](https://github.com/etroimcasso/Kirpich) | Game Boy | 4.0 | 14 | 2026-10-24 |  | [release](https://github.com/etroimcasso/Kirpich/releases/tag/v0.10.2) |
 | [The Legend of Zelda: A Link to the Past](https://github.com/YeOldPress/alttp-dx) | SNES | 4.0 | 17 | 2026-10-10 |  | [release](https://github.com/YeOldPress/alttp-dx/releases/tag/v1.6) |
-| [The Return of the King (Athelas)](https://github.com/Shagg88/Athelas) ⚠️ | PC | 4.0 | 112 | 2026-10-23 |  | [release](https://github.com/Shagg88/Athelas/releases/tag/1.5.1) |
+| [The Return of the King (Athelas)](https://github.com/Shagg88/Athelas) ⚠️ | PC | 4.0 | 114 | 2026-10-23 |  | [release](https://github.com/Shagg88/Athelas/releases/tag/1.5.1) |
 | [Vandal Hearts](https://github.com/HalmyLyseas/VandalHearts-PcPort) ⚠️ | PS1 | 4.0 | 53 | 2026-08-31 |  | [release](https://github.com/HalmyLyseas/VandalHearts-PcPort/releases/tag/v2.1.0) |
 | [Wipeout](https://github.com/jnmartin84/wipeout-dc) | PS1 | 4.0 | 180 | 2026-04-01 |  | [release](https://github.com/jnmartin84/wipeout-dc/releases/tag/v2-rescuebugfix) |
-| [Animal Crossing (ACGC-Android-Port)](https://github.com/zwaetschge/ACGC-Android-Port) | GameCube | 3.9 | 38 | 2026-10-06 |  | [release](https://github.com/zwaetschge/ACGC-Android-Port/releases/tag/v0.5.0) |
-| [Gears of War 2](https://github.com/santiquiroz/gears-of-war-2-pc-port) | Xbox 360 | 3.9 | 64 | 2026-10-24 |  | [release](https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.4) |
+| [Animal Crossing (ACGC-Android-Port)](https://github.com/zwaetschge/ACGC-Android-Port) | GameCube | 3.9 | 39 | 2026-10-06 |  | [release](https://github.com/zwaetschge/ACGC-Android-Port/releases/tag/v0.5.0) |
+| [Gears of War 2](https://github.com/santiquiroz/gears-of-war-2-pc-port) | Xbox 360 | 3.9 | 66 | 2026-10-24 |  | [release](https://github.com/santiquiroz/gears-of-war-2-pc-port/releases/tag/v0.3.4) |
 | [GoldenEye 007](https://github.com/chrissotraidis/goldenpad) | N64 | 3.9 | 189 | 2026-10-24 |  | [release](https://github.com/chrissotraidis/goldenpad/releases/tag/v0.2.2) |
 | [Hollow Knight (HK: Dual Souls)](https://github.com/igawa6/dualsouls) | Mobile | 3.9 | 47 | 2026-08-23 |  | [release](https://github.com/igawa6/dualsouls/releases/tag/1.0.3) |
 | [Metal Gear Solid (mgs-reintegral)](https://github.com/Drommedhar/mgs-reintegral) | PS1 | 3.9 | 43 | 2026-10-17 |  | [release](https://github.com/Drommedhar/mgs-reintegral/releases/tag/v0.3.0) |
 | [Mickey & Donald Collection (Castle of Illusion, QuackShot, World of Illusion)](https://github.com/Darhkfox/MickeyAndDonaldCollection) | Genesis | 3.9 | 41 | 2026-10-20 |  | [release](https://github.com/Darhkfox/MickeyAndDonaldCollection/releases/tag/v1.1) · [reddit](https://www.reddit.com/r/decomps/comments/1xaxcph/ "u/Darhkwing · 31 upvotes · 8 comments") |
 | [Mighty Mike](https://github.com/jorio/MightyMike) | Mac | 3.9 | 215 | 2025-12-07 |  | [release](https://github.com/jorio/MightyMike/releases/tag/v3.0.2) |
-| [No One Lives Forever 2 (nolf2src)](https://github.com/nolffan/nolf2src) | PC | 3.9 | 33 | 2026-10-18 |  |  |
+| [No One Lives Forever 2 (nolf2src)](https://github.com/nolffan/nolf2src) | PC | 3.9 | 34 | 2026-10-25 |  |  |
 | [Raptor: Call of the Shadows (skynettx raptor)](https://github.com/skynettx/raptor) | DOS | 3.9 | 133 | 2026-09-28 |  | [release](https://github.com/skynettx/raptor/releases/tag/v0.8.2) |
 | [Super Mario 64 (SM64-PC-Port-WebGL)](https://github.com/NotAn127/SM64-PC-Port-WebGL) | N64 | 3.9 | 31 | 2026-10-09 |  | [release](https://github.com/NotAn127/SM64-PC-Port-WebGL/releases/tag/Improved_Website) |
-| [The Order: 1886 (PC port)](https://github.com/mateussmeneses/theorder1886-port) ⚠️ | PS4 | 3.9 | 324 | 2026-10-22 |  | [release](https://github.com/mateussmeneses/theorder1886-port/releases/tag/windows-v0.7.7) |
+| [The Order: 1886 (PC port)](https://github.com/mateussmeneses/theorder1886-port) ⚠️ | PS4 | 3.9 | 325 | 2026-10-22 |  | [release](https://github.com/mateussmeneses/theorder1886-port/releases/tag/windows-v0.7.7) |
 | [The Terminator: SkyNET (skynet-godot)](https://github.com/nautilusbits/skynet-godot) | DOS | 3.9 | 41 | 2026-10-13 |  | [release](https://github.com/nautilusbits/skynet-godot/releases/tag/v0.5.0) |
 | [DXX-Rebirth](https://github.com/dxx-rebirth/dxx-rebirth) ⚠️ | DOS | 3.8 | 641 | 2026-10-11 |  |  |
 | [Super Mario 64](https://github.com/sm64pc/sm64ex) | N64 | 3.8 | 1.9k | 2024-12-17 |  |  |
@@ -1087,26 +1092,26 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Apocalypse (Project Repocalypse)](https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port) ⚠️ | PS1 | 3.8 | 20 | 2026-10-20 |  | [release](https://github.com/MustafaSamer93/Apocalypse-PC-Native-Port/releases/tag/v1.0) |
 | [BattleTanx: Global Assault (Native PC Port)](https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port) ⚠️ | N64 | 3.8 | 16 | 2026-10-15 |  | [release](https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port/releases/tag/v0.2.5) |
 | [Brave Fencer Musashi](https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port) ⚠️ | PS1 | 3.8 | 8 | 2026-10-16 |  | [release](https://github.com/Blizz127/Brave-Fencer-Musashi-decomp-port/releases/tag/bfm-r38-61c60516d) |
-| [Mario Party 6](https://github.com/iirg4x/mp6-native-port) ⚠️ | GameCube | 3.8 | 16 | 2026-10-23 |  | [release](https://github.com/iirg4x/mp6-native-port/releases/tag/v0.5.0) |
-| [Quake](https://github.com/DarkPlacesEngine/DarkPlaces) | DOS | 3.8 | 451 | 2026-10-21 |  | [release](https://github.com/DarkPlacesEngine/DarkPlaces/releases/tag/v20140513) |
+| [Mario Party 6](https://github.com/iirg4x/mp6-native-port) ⚠️ | GameCube | 3.8 | 17 | 2026-10-23 |  | [release](https://github.com/iirg4x/mp6-native-port/releases/tag/v0.5.0) |
+| [Quake](https://github.com/DarkPlacesEngine/DarkPlaces) | DOS | 3.8 | 452 | 2026-10-21 |  | [release](https://github.com/DarkPlacesEngine/DarkPlaces/releases/tag/v20140513) |
 | [Race into Space](https://github.com/raceintospace/raceintospace) | DOS | 3.8 | 235 | 2026-10-22 |  | [release](https://github.com/raceintospace/raceintospace/releases/tag/v2.0.0) |
 | [Speed-Outcast](https://github.com/kugelrund/Speed-Outcast) | PC | 3.8 | 18 | 2026-06-02 |  | [release](https://github.com/kugelrund/Speed-Outcast/releases/tag/v1.3-1) |
 | [Star Trek: Voyager - Elite Force (Star Trek: Voyager - Elite Force Holomatch)](https://github.com/imjustadudegamer/VoyagerHM-Android) | PC | 3.8 | 11 | 2026-07-11 |  | [release](https://github.com/imjustadudegamer/VoyagerHM-Android/releases/tag/v0.9.8) |
 | [Animal Crossing ( animalcrossing-visionos)](https://github.com/chrissotraidis/bellpad) ⚠️ | GameCube | 3.7 | 39 | 2026-10-24 |  | [release](https://github.com/chrissotraidis/bellpad/releases/tag/v0.2.2) |
 | [Armored Core: For Answer (ACFA-Port)](https://github.com/SulphurS16/ACFA-Port) ⚠️ | Xbox 360 | 3.7 | 54 | 2026-10-24 |  | [release](https://github.com/SulphurS16/ACFA-Port/releases/tag/v0.7.3) |
-| [Bloodborne (macOS)](https://github.com/Wooloomooloo2/bloodborne_mac_port) ⚠️ | PS4 | 3.7 | 161 | 2026-10-25 |  | [release](https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/tag/mac-v0.5.5) |
+| [Bloodborne (macOS)](https://github.com/Wooloomooloo2/bloodborne_mac_port) ⚠️ | PS4 | 3.7 | 163 | 2026-10-25 |  | [release](https://github.com/Wooloomooloo2/bloodborne_mac_port/releases/tag/mac-v0.5.6) |
 | [Breath of Fire III (Breath of Fire III - PC Port)](https://github.com/kerokline/BreathOfFire3PCPort) | PS1 | 3.7 | 19 | 2026-10-25 |  |  |
 | [Call of Duty 2: Big Red One](https://github.com/SmokeDoggy044/CoD2-BRO-Native-Loader) ⚠️ | Xbox | 3.7 | 38 | 2026-10-24 |  |  |
 | [Forza Motorsport 2 (hl360-Forza2)](https://github.com/0herculabs/hl360-Forza2) ⚠️ | Xbox 360 | 3.7 | 104 | 2026-10-20 |  | [release](https://github.com/0herculabs/hl360-Forza2/releases/tag/v0.3.1) |
 | [Forza Motorsport 3 (hl360-forza3)](https://github.com/0herculabs/hl360-forza3) ⚠️ | Xbox 360 | 3.7 | 92 | 2026-10-17 |  | [release](https://github.com/0herculabs/hl360-forza3/releases/tag/0.1.3) |
 | [King's Field II](https://github.com/Voicedrew11/verdite3) ⚠️ | PS1 | 3.7 | 30 | 2026-10-18 |  | [release](https://github.com/Voicedrew11/verdite3/releases/tag/v0.2.0) |
 | [Star Wars Jedi Knight II: Jedi Outcast (JK XR)](https://github.com/Team-Beef-Studios/JKXR) | PC | 3.7 | 164 | 2026-06-10 |  | [release](https://github.com/Team-Beef-Studios/JKXR/releases/tag/v1.2.0) |
-| [The Legend of Zelda: Oracle of Ages/Seasons](https://github.com/thibautbus/top) ⚠️ | Game Boy Color | 3.7 | 75 | 2026-10-25 |  | [release](https://github.com/thibautbus/top/releases/tag/v1.2.0) |
+| [The Legend of Zelda: Oracle of Ages/Seasons](https://github.com/thibautbus/top) ⚠️ | Game Boy Color | 3.7 | 75 | 2026-10-25 |  | [release](https://github.com/thibautbus/top/releases/tag/v1.3.0) |
 | [The Order: 1886 (TOport)](https://github.com/IgorAugustoHH/The-Order-1886-PC-Port) ⚠️ | PS4 | 3.7 | 42 | 2026-10-25 |  |  |
-| [Unicorn Overlord (unicorn_overlord_pc)](https://github.com/hachi23/unicorn_overlord_pc) ⚠️ | PS4 | 3.7 | 129 | 2026-10-20 |  | [release](https://github.com/hachi23/unicorn_overlord_pc/releases/tag/v1.2.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xa5yr4/ "u/HachiXYuki · 51 upvotes · 17 comments") |
+| [Unicorn Overlord (unicorn_overlord_pc)](https://github.com/hachi23/unicorn_overlord_pc) ⚠️ | PS4 | 3.7 | 132 | 2026-10-20 |  | [release](https://github.com/hachi23/unicorn_overlord_pc/releases/tag/v1.2.0) · [reddit](https://www.reddit.com/r/decomps/comments/1xa5yr4/ "u/HachiXYuki · 51 upvotes · 17 comments") |
 | [Area 51 (Area 51 (Source Restoration))](https://github.com/ProjectDreamland/area51) | PC | 3.6 | 581 | 2025-08-02 |  | [release](https://github.com/ProjectDreamland/area51/releases/tag/2005-03-31) |
-| [BLACK (black-pc)](https://github.com/Spark198rus/black-pc) ⚠️ | og xbox | 3.5 | 332 | 2026-10-24 |  | [release](https://github.com/Spark198rus/black-pc/releases/tag/v0.3.0) · [reddit](https://www.reddit.com/r/decomps/comments/1x5rbwl/ "u/Dry-Recognition-8837 · 98 upvotes · 28 comments") |
-| [Forza Motorsport 4 (hl360-forza4)](https://github.com/0herculabs/hl360-forza4) | Xbox 360 | 3.5 | 113 | 2026-10-18 |  | [release](https://github.com/0herculabs/hl360-forza4/releases/tag/v0.3.9) |
+| [BLACK (black-pc)](https://github.com/Spark198rus/black-pc) ⚠️ | og xbox | 3.5 | 335 | 2026-10-24 |  | [release](https://github.com/Spark198rus/black-pc/releases/tag/v0.3.0) · [reddit](https://www.reddit.com/r/decomps/comments/1x5rbwl/ "u/Dry-Recognition-8837 · 98 upvotes · 28 comments") |
+| [Forza Motorsport 4 (hl360-forza4)](https://github.com/0herculabs/hl360-forza4) | Xbox 360 | 3.5 | 115 | 2026-10-18 |  | [release](https://github.com/0herculabs/hl360-forza4/releases/tag/v0.3.9) |
 | [Legend of Doom (legend-of-doom-3ds)](https://github.com/EstebanPdN/legend-of-doom-3ds) | Others | 3.5 | 33 | 2026-10-20 |  | [release](https://github.com/EstebanPdN/legend-of-doom-3ds/releases/tag/v1.0) |
 | [Mario Kart 64 (3DS Port Complete)](https://github.com/Epic0522/MarioKart64-3DSPort-Complete) | N64 | 3.5 | 30 | 2026-10-07 |  | [release](https://github.com/Epic0522/MarioKart64-3DSPort-Complete/releases/tag/1.0) |
 | [Mario Party 4](https://github.com/mariopartyrd/partyboard) | GameCube | 3.5 | 52 | 2026-09-29 |  |  |
@@ -1117,7 +1122,7 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [The Legend of Zelda: Majora's Mask (MaskPad)](https://github.com/chrissotraidis/maskpad) | N64 | 3.5 | 51 | 2026-10-24 |  | [release](https://github.com/chrissotraidis/maskpad/releases/tag/v0.2.1) |
 | [The Legend of Zelda: Ocarina of Time (oot-PSP)](https://github.com/z2442/oot-PSP) | N64 | 3.5 | 91 | 2026-10-10 |  | [release](https://github.com/z2442/oot-PSP/releases/tag/1.0) |
 | [VanillaConquer](https://github.com/TheAssemblyArmada/Vanilla-Conquer) | DOS | 3.5 | 468 | 2026-07-16 |  |  |
-| [Diablo III](https://github.com/Boron853/Souls-of-the-Reaper) ⚠️ | Xbox 360 | 3.5 | 41 | 2026-07-25 |  | [release](https://github.com/Boron853/Souls-of-the-Reaper/releases/tag/beta-1.3) |
+| [Diablo III](https://github.com/Boron853/Souls-of-the-Reaper) ⚠️ | Xbox 360 | 3.5 | 42 | 2026-07-25 |  | [release](https://github.com/Boron853/Souls-of-the-Reaper/releases/tag/beta-1.3) |
 | [Naruto: Rise of a Ninja (Port Nativo)](https://github.com/Masterllgod/naruto-rise-of-a-ninja-port-nativo) ⚠️ | Xbox 360 | 3.5 | 25 | 2026-10-14 |  | [release](https://github.com/Masterllgod/naruto-rise-of-a-ninja-port-nativo/releases/tag/v0.2) |
 | [System Shock for Android (system-shock-android)](https://github.com/raposomiguel50/system-shock-android) ⚠️ | PC | 3.5 | 23 | 2026-09-08 |  | [release](https://github.com/raposomiguel50/system-shock-android/releases/tag/v1.0.0) |
 | [Doom](https://github.com/viciious/d32xr) | Atari Jaguar | 3.4 | 222 | 2026-10-23 |  |  |
@@ -1127,11 +1132,11 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Anodyne ( AnodyneFNA)](https://github.com/PixieCatSupreme/AnodyneSharp) | PC | 3.4 | 56 | 2026-02-04 |  |  |
 | [Armored Core 4 (AC4-Port)](https://github.com/SulphurS16/AC4-Port) ⚠️ | PS3 | 3.4 | 42 | 2026-10-16 |  | [release](https://github.com/SulphurS16/AC4-Port/releases/tag/v0.5.0) |
 | [Billy Frontier](https://github.com/jorio/BillyFrontier) | Mac | 3.4 | 40 | 2025-12-07 |  | [release](https://github.com/jorio/BillyFrontier/releases/tag/v1.1.1) |
-| [Call of Duty: Finest Hour (Finest Hour Remastered)](https://github.com/crazyriddler/FinestHourRemastered) ⚠️ | og xbox | 3.4 | 123 | 2026-10-24 |  | [release](https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update) |
+| [Call of Duty: Finest Hour (Finest Hour Remastered)](https://github.com/crazyriddler/FinestHourRemastered) ⚠️ | og xbox | 3.4 | 124 | 2026-10-25 |  | [release](https://github.com/crazyriddler/FinestHourRemastered/releases/tag/update) |
 | [Daikatana (Daikatana Restoration Project)](https://github.com/atsb/daikatana-restoration-project) | PC | 3.4 | 20 | 2026-10-18 |  | [release](https://github.com/atsb/daikatana-restoration-project/releases/tag/1.4) |
 | [EA Sports UFC 4 (UFC4-PC-Port)](https://github.com/schans-arg/UFC4-PC-Port) | PS4 | 3.4 | 13 | 2026-10-17 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xdou3d/ "u/gamer7799 · 16 upvotes · 7 comments") |
 | [Gish (freegish)](https://github.com/freegish/freegish) ⚠️ | PC | 3.4 | 90 | 2026-10-20 |  | [release](https://github.com/freegish/freegish/releases/tag/v2.0.0) |
-| [inFAMOUS Second Son (Castlesea)](https://github.com/Castlesea/infamous-second-son-pc-port) ⚠️ | PS4 | 3.4 | 131 | 2026-10-24 |  |  |
+| [inFAMOUS Second Son (Castlesea)](https://github.com/Castlesea/infamous-second-son-pc-port) ⚠️ | PS4 | 3.4 | 133 | 2026-10-24 |  |  |
 | [inFAMOUS Second Son (shadPS4-AYOUB1080p)](https://github.com/weshayoub92/shadPS4-AYOUB1080p) ⚠️ | PS4 | 3.4 | 81 | 2026-10-06 |  | [release](https://github.com/weshayoub92/shadPS4-AYOUB1080p/releases/tag/v1.0) |
 | [Mario Kart 64 (SpaghettiKart [Android Port])](https://github.com/izzy2lost/SpaghettiKart) ⚠️ | N64 | 3.4 | 114 | 2026-08-03 |  | [release](https://github.com/izzy2lost/SpaghettiKart/releases/tag/2.0.0) |
 | [Nanosaur 2: Hatchling (Nanosaur 2 (jorio))](https://github.com/jorio/Nanosaur2) | Mac | 3.4 | 108 | 2025-12-07 |  | [release](https://github.com/jorio/Nanosaur2/releases/tag/v2.1.0) |
@@ -1141,7 +1146,7 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Star Fox 64 (Starship [Android Port])](https://github.com/izzy2lost/Starship) | N64 | 3.4 | 111 | 2025-11-16 |  | [release](https://github.com/izzy2lost/Starship/releases/tag/v2.0.0) |
 | [Super Mario Bros. (UEFI_SuperMario)](https://github.com/MikeWuPing/UEFI_SuperMario) | NES | 3.4 | 36 | 2026-05-03 |  | [release](https://github.com/MikeWuPing/UEFI_SuperMario/releases/tag/0.5) |
 | [Super Mario Strikers (BallPad)](https://github.com/chrissotraidis/ballpad) | GameCube | 3.4 | 26 | 2026-10-24 |  | [release](https://github.com/chrissotraidis/ballpad/releases/tag/v1.1.1) |
-| [Super Mario Sunshine](https://github.com/chasem-dev/sms-pc-port) ⚠️ | GameCube | 3.4 | 177 | 2026-10-25 |  | [release](https://github.com/chasem-dev/sms-pc-port/releases/tag/hd-cutscenes-ai-v1) |
+| [Super Mario Sunshine](https://github.com/chasem-dev/sms-pc-port) ⚠️ | GameCube | 3.4 | 178 | 2026-10-25 |  | [release](https://github.com/chasem-dev/sms-pc-port/releases/tag/hd-cutscenes-ai-v1) |
 | [The Dishwasher: Dead Samurai (DishSoap)](https://github.com/Hdmaniak/DishSoap) | Xbox 360 | 3.4 | 10 | 2026-10-21 |  | [release](https://github.com/Hdmaniak/DishSoap/releases/tag/v1.0.1) |
 | [The Legend of Zelda: Skyward Sword (Skybreak)](https://github.com/Kyra422/skybreak) | Wii | 3.4 | 6 | 2026-10-05 |  |  |
 | [The Legend of Zelda: The Wind Waker (WindowWaker)](https://github.com/MaskeZenY/WindowWaker) ⚠️ | GameCube | 3.4 | 31 | 2026-10-10 |  | [release](https://github.com/MaskeZenY/WindowWaker/releases/tag/v1.0.0-win) · [reddit](https://www.reddit.com/r/decomps/comments/1x2r5fj/ "u/Mundane-Finding5637 · 347 upvotes · 36 comments") |
@@ -1161,25 +1166,25 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Hexen II (uHexen2 (Hammer of Thyrion))](https://github.com/sezero/uhexen2) | PC | 3.0 | 119 | 2026-09-04 |  |  |
 | [Super Smash Bros. Melee (OpenSmash (Melee engine: opensmash-melee-pc))](https://github.com/turtlesoupy/opensmash) | GameCube | 3.0 | 161 | 2026-10-24 |  |  |
 | [Duke Nukem 3D (JFDuke3D)](https://github.com/jonof/jfduke3d) | DOS | 2.8 | 142 | 2026-01-02 |  |  |
-| [Half-Life (webXash))](https://github.com/x8BitRain/webXash) | PC | 2.8 | 178 | 2026-01-28 |  |  |
+| [Half-Life (webXash))](https://github.com/x8BitRain/webXash) | PC | 2.8 | 177 | 2026-01-28 |  |  |
 | [jfsw](https://github.com/jonof/jfsw) | DOS | 2.8 | 102 | 2026-01-02 |  |  |
 | [Plants vs. Zombies (PlantsVsZombies.NET)](https://github.com/Mewnojs/PlantsVsZombies.NET) | Mobile | 2.8 | 160 | 2026-03-15 |  |  |
 | [Pokémon Brilliant Diamond / Shining Pearl (uDPR)](https://github.com/shatter9652/uDPR) ⚠️ | Switch | 2.8 | 127 | 2026-10-17 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x9ktl9/ "None · None upvotes · None comments") |
 | [Quake](https://github.com/Rinnegatamante/vitaQuake) | DOS | 2.8 | 143 | 2026-05-01 |  |  |
 | [Call of Duty 4: Modern Warfare (kisakcod-port (web))](https://github.com/slqntdevss/kisakcod-port) | PC | 2.6 | 38 | 2026-10-07 |  |  |
-| [Diablo (diablo_web))](https://github.com/JohnImril/diablo_web) | PC | 2.6 | 63 | 2026-10-20 |  |  |
+| [Diablo (diablo_web))](https://github.com/JohnImril/diablo_web) | PC | 2.6 | 64 | 2026-10-20 |  |  |
 | [Doom 3](https://github.com/Rinnegatamante/ldhewm3-rearmed) | PC | 2.6 | 56 | 2026-09-13 |  |  |
 | [God of War](https://github.com/Waffle565/God-Of-War-Native-Port) | PS2 | 2.6 | 40 | 2026-10-18 |  |  |
 | [NearChuckle](https://github.com/rohit-n/NearChuckle) | PC | 2.6 | 62 | 2026-08-04 |  |  |
-| [NHL 24 PC](https://github.com/HajDEO/nhl24pc) | PS4 | 2.6 | 61 | 2026-10-14 |  |  |
+| [NHL 24 PC](https://github.com/HajDEO/nhl24pc) | PS4 | 2.6 | 62 | 2026-10-14 |  |  |
 | [Plants vs. Zombies (pvz-ps2-wii)](https://github.com/OptiJuegos/pvz-ps2-wii) | PC | 2.6 | 56 | 2026-09-01 |  |  |
 | [Quake II Mission Pack: Ground Zero (Ground Zero for Yamagi Quake II)](https://github.com/yquake2/rogue) | PC | 2.6 | 53 | 2026-10-06 |  |  |
 | [Quake II Mission Pack: The Reckoning (The Reckoning for Yamagi Quake II)](https://github.com/yquake2/xatrix) | PC | 2.6 | 51 | 2026-10-04 |  |  |
 | [Quake II: Zaero (Zaero for Yamagi Quake II)](https://github.com/yquake2/zaero) | PC | 2.6 | 30 | 2026-10-04 |  |  |
-| [Sensible World of Soccer 96/97 (OpenSWOS)](https://github.com/benbaker76/OpenSWOS) | Amiga | 2.6 | 43 | 2026-10-25 |  |  |
-| [Super Smash Bros.](https://github.com/rockenrooster/Smash64DS_Port) | N64 | 2.6 | 30 | 2026-10-25 |  |  |
+| [Sensible World of Soccer 96/97 (OpenSWOS)](https://github.com/benbaker76/OpenSWOS) | Amiga | 2.6 | 44 | 2026-10-25 |  |  |
+| [Super Smash Bros.](https://github.com/rockenrooster/Smash64DS_Port) | N64 | 2.6 | 31 | 2026-10-25 |  |  |
 | [Tyrquake](https://github.com/libretro/tyrquake) | DOS | 2.6 | 49 | 2026-10-12 |  |  |
-| [Vagrant Story (VS-NativePort)](https://github.com/JEschete/VS-NativePort) | PS1 | 2.6 | 32 | 2026-10-25 |  |  |
+| [Vagrant Story (VS-NativePort)](https://github.com/JEschete/VS-NativePort) | PS1 | 2.6 | 33 | 2026-10-25 |  |  |
 | [Wolfenstein 3D (Iron Wolf)](https://github.com/Ragnaroek/iron-wolf) | DOS | 2.6 | 87 | 2026-09-19 |  |  |
 | [Animal Crossing](https://github.com/ACreTeam/forest) | GameCube | 2.4 | 93 | 2026-04-15 |  |  |
 | [Animal Forest (animal_forest_psp)](https://github.com/bruder-grimm/animal_forest_psp) | N64 | 2.4 | 13 | 2026-10-24 |  |  |
@@ -1191,7 +1196,8 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Dragon Ball Z: Budokai Tenkaichi 3 (Tenkaichi3Decomp, BT3 Online)](https://github.com/stufno102/Tenkaichi3Decomp) | PS2 | 2.4 | 29 | 2026-10-12 |  | [play](https://dragonballbt3.online/) |
 | [God of War](https://github.com/YYOzcan/Tobiichi-Port) ⚠️ | PS2 | 2.4 | 49 | 2026-10-15 |  |  |
 | [jfwhaven](https://github.com/jonof/jfwhaven) | DOS | 2.4 | 30 | 2025-12-27 |  |  |
-| [Monster Hunter 3 Ultimate](https://github.com/glinesbdev/mh3u-port) | Wii U | 2.4 | 11 | 2026-10-14 |  |  |
+| [Medal of Honor: European Assault (MOH-EuropeanAssault-PC-Port)](https://github.com/boodyandmustafa-create/MOH-EuropeanAssault-PC-Port) | Xbox | 2.4 | 15 | 2026-10-22 |  | [reddit](https://www.reddit.com/r/decomps/comments/1xegdei/ "u/No-King1197 · 70 upvotes · 26 comments") |
+| [Monster Hunter 3 Ultimate](https://github.com/glinesbdev/mh3u-port) | Wii U | 2.4 | 12 | 2026-10-14 |  |  |
 | [Quake II (Qwasm2)](https://github.com/GMH-Code/Qwasm2) | PC | 2.4 | 60 | 2026-04-18 |  |  |
 | [Quake II (Three Wave Capture The Flag for Yamagi Quake II)](https://github.com/yquake2/ctf) | PC | 2.4 | 23 | 2026-09-28 |  |  |
 | [Rayman (Rayverse)](https://github.com/Falcury/rayverse) | Atari Jaguar | 2.4 | 35 | 2026-02-12 |  |  |
@@ -1199,7 +1205,7 @@ Native PC/handheld ports built on top of a decompilation or released source code
 | [Scooby-Doo! Mystery Mayhem](https://github.com/Campfirecrucifix/scooby-doo-mystery-mayhem-pc) | PS2 | 2.4 | 14 | 2026-10-11 |  |  |
 | [Sonic CD (SonicCD-DC)](https://github.com/DCRSDK/SonicCD-DC) | PC | 2.4 | 15 | 2026-09-16 |  |  |
 | [Super Mario 64 (libsm64-rust)](https://github.com/nickmass/libsm64-rust) | N64 | 2.4 | 45 | 2025-11-16 |  |  |
-| [Super Mario 64 in Scratch (sm64-scratch)](https://github.com/naegoxdev/sm64-scratch) ⚠️ | N64 | 2.4 | 47 | 2026-10-16 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x6jw8a/ "u/Naegox · 49 upvotes · 5 comments") |
+| [Super Mario 64 in Scratch (sm64-scratch)](https://github.com/naegoxdev/sm64-scratch) ⚠️ | N64 | 2.4 | 48 | 2026-10-16 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x6jw8a/ "u/Naegox · 49 upvotes · 5 comments") |
 | [Super Mario Bros.](https://github.com/pwsqrd/lynx_smb) | NES | 2.4 | 23 | 2026-10-20 |  |  |
 | [Super Mario World (Hummer Team NES port)](https://github.com/palaceswitcher/SMW-NES-Disassembly) | NES | 2.4 | 20 | 2026-10-18 |  |  |
 | [Super Smash Bros.](https://github.com/beigeceleron/ssb64-dc) | N64 | 2.4 | 15 | 2026-10-10 |  |  |
@@ -1235,7 +1241,7 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [OpenSC2K](https://github.com/OpenSC2K/OpenSC2K) | PC | 4.8 | 5.3k | 2026-10-15 |  | [release](https://github.com/OpenSC2K/OpenSC2K/releases/tag/v0.3.0) |
 | [Transport Tycoon Deluxe (OpenTTD)](https://github.com/OpenTTD/OpenTTD) | PC | 4.8 | 8.4k | 2026-10-25 |  | [release](https://github.com/OpenTTD/OpenTTD/releases/tag/15.3) · [video](https://www.youtube.com/watch?v=ZBzRh6lD9J8) |
 | [Unciv](https://github.com/yairm210/Unciv) | PC | 4.8 | 11.5k | 2026-10-25 |  | [release](https://github.com/yairm210/Unciv/releases/tag/4.22.13-patch1) |
-| [Plants vs. Zombies (PvZ-Portable)](https://github.com/wszqkzqk/PvZ-Portable) | PC | 4.6 | 845 | 2026-10-25 |  | [play](https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html) · [release](https://github.com/wszqkzqk/PvZ-Portable/releases/tag/0.2.6) |
+| [Plants vs. Zombies (PvZ-Portable)](https://github.com/wszqkzqk/PvZ-Portable) | PC | 4.6 | 846 | 2026-10-25 |  | [play](https://wszqkzqk.github.io/PvZ-Portable/pvz-portable.html) · [release](https://github.com/wszqkzqk/PvZ-Portable/releases/tag/0.2.6) |
 | [C-Dogs SDL](https://github.com/cxong/cdogs-sdl) | DOS | 4.5 | 1.1k | 2026-10-24 |  | [release](https://github.com/cxong/cdogs-sdl/releases/tag/2.5.0) |
 | [Caesar III (Augustus)](https://github.com/Keriew/augustus) | PC | 4.5 | 2.1k | 2026-10-24 |  | [release](https://github.com/Keriew/augustus/releases/tag/v4.0.0) |
 | [Caesar III (Julius)](https://github.com/bvschaik/julius) | PC | 4.5 | 3.4k | 2026-09-12 |  | [release](https://github.com/bvschaik/julius/releases/tag/v1.8.0) · [video](https://www.youtube.com/watch?v=OXONBt5U-U0) |
@@ -1250,10 +1256,10 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Heroes of Might and Magic III (VCMI)](https://github.com/vcmi/vcmi) ⚠️ | PC | 4.5 | 6.0k | 2026-10-25 |  | [release](https://github.com/vcmi/vcmi/releases/tag/1.7.5) · [video](https://www.youtube.com/watch?v=zxC7wLITNpg) |
 | [ironwail](https://github.com/andrei-drexler/ironwail) | DOS | 4.5 | 1.1k | 2026-09-09 |  | [release](https://github.com/andrei-drexler/ironwail/releases/tag/v0.8.2) |
 | [Legend of Sword and Fairy (SDLPal)](https://github.com/sdlpal/sdlpal) | PC | 4.5 | 2.0k | 2026-10-14 |  | [release](https://github.com/sdlpal/sdlpal/releases/tag/v3.0.2025.0616) |
-| [openage](https://github.com/SFTtech/openage) ⚠️ |  | 4.5 | 14.5k | 2026-10-20 |  | [release](https://github.com/SFTtech/openage/releases/tag/v0.6.0) · [video](https://www.youtube.com/watch?v=fQGbXmkSArs) |
+| [openage](https://github.com/SFTtech/openage) ⚠️ |  | 4.5 | 14.6k | 2026-10-20 |  | [release](https://github.com/SFTtech/openage/releases/tag/v0.6.0) · [video](https://www.youtube.com/watch?v=fQGbXmkSArs) |
 | [openblack](https://github.com/openblack/openblack) | PC | 4.5 | 1.6k | 2026-10-18 |  | [release](https://github.com/openblack/openblack/releases/tag/v0.1.0) |
 | [OpenDUNE](https://github.com/OpenDUNE/OpenDUNE) | DOS | 4.5 | 1.7k | 2026-09-30 |  | [release](https://github.com/OpenDUNE/OpenDUNE/releases/tag/0.9) |
-| [OpenGothic](https://github.com/Try/OpenGothic) | PC | 4.5 | 1.6k | 2026-10-22 |  |  |
+| [OpenGothic](https://github.com/Try/OpenGothic) | PC | 4.5 | 1.6k | 2026-10-25 |  |  |
 | [OpenLoco](https://github.com/OpenLoco/OpenLoco) | PC | 4.5 | 2.0k | 2026-10-14 |  | [release](https://github.com/OpenLoco/OpenLoco/releases/tag/v26.09) |
 | [OpenTESArena](https://github.com/afritz1/OpenTESArena) | DOS | 4.5 | 1.4k | 2026-10-22 |  | [release](https://github.com/afritz1/OpenTESArena/releases/tag/opentesarena-0.18.0) |
 | [Rigel Engine](https://github.com/lethal-guitar/RigelEngine) | PC | 4.5 | 1.0k | 2026-09-28 |  | [release](https://github.com/lethal-guitar/RigelEngine/releases/tag/v0.9.1) |
@@ -1261,9 +1267,9 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Space Station 14](https://github.com/space-wizards/space-station-14) |  | 4.5 | 3.9k | 2026-10-24 |  | [release](https://github.com/space-wizards/space-station-14/releases/tag/v2026.07.27.1) |
 | [Star Wars: Dark Forces](https://github.com/TheForceEngine/TheForceEngine) | DOS | 4.5 | 1.2k | 2026-10-24 |  | [release](https://github.com/TheForceEngine/TheForceEngine/releases/tag/v1.22.420) |
 | [Super Mario Bros. [Remastered]](https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public) | NES | 4.5 | 3.3k | 2026-10-17 |  | [release](https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public/releases/tag/1.1-stable) |
-| [SurrealEngine](https://github.com/dpjudas/SurrealEngine) |  | 4.5 | 1.1k | 2026-10-24 |  | [release](https://github.com/dpjudas/SurrealEngine/releases/tag/nightly) |
+| [SurrealEngine](https://github.com/dpjudas/SurrealEngine) |  | 4.5 | 1.1k | 2026-10-25 |  | [release](https://github.com/dpjudas/SurrealEngine/releases/tag/nightly) |
 | [The Elder Scrolls III: Morrowind (OpenMW)](https://github.com/OpenMW/openmw) ⚠️ | PC | 4.5 | 6.7k | 2026-10-23 |  | [release](https://github.com/OpenMW/openmw/releases/tag/openmw-0.51.0) · [video](https://www.youtube.com/watch?v=bR-WZ8NOG_k) |
-| [Tomb Raider I & II](https://github.com/LostArtefacts/TRX) | PC | 4.5 | 1.0k | 2026-10-24 |  | [release](https://github.com/LostArtefacts/TRX/releases/tag/trx-1.11.1) |
+| [Tomb Raider I & II](https://github.com/LostArtefacts/TRX) | PC | 4.5 | 1.0k | 2026-10-25 |  | [release](https://github.com/LostArtefacts/TRX/releases/tag/trx-1.11.1) |
 | [triplea](https://github.com/triplea-game/triplea) |  | 4.5 | 1.6k | 2026-10-24 |  | [release](https://github.com/triplea-game/triplea/releases/tag/2026-10.16.15824) |
 | [Unvanquished](https://github.com/Unvanquished/Unvanquished) |  | 4.5 | 1.1k | 2026-10-20 |  | [release](https://github.com/Unvanquished/Unvanquished/releases/tag/v0.56.2) |
 | [xash3d-fwgs](https://github.com/FWGS/xash3d-fwgs) | PC | 4.5 | 2.9k | 2026-10-21 |  |  |
@@ -1275,11 +1281,11 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [dhewm3](https://github.com/dhewm/dhewm3) | PC | 4.3 | 2.2k | 2026-06-08 |  | [release](https://github.com/dhewm/dhewm3/releases/tag/1.5.5) |
 | [Diablo](https://github.com/diasurgical/devilution) | PC | 4.3 | 9.0k | 2025-09-15 |  |  |
 | [Dune-II---The-Maker](https://github.com/stefanhendriks/Dune-II---The-Maker) |  | 4.3 | 372 | 2026-10-25 |  | [release](https://github.com/stefanhendriks/Dune-II---The-Maker/releases/tag/v0.8.5) |
-| [Exult](https://github.com/exult/exult) | DOS | 4.3 | 695 | 2026-10-24 |  | [release](https://github.com/exult/exult/releases/tag/v1.12.1) |
+| [Exult](https://github.com/exult/exult) | DOS | 4.3 | 697 | 2026-10-24 |  | [release](https://github.com/exult/exult/releases/tag/v1.12.1) |
 | [ezQuake](https://github.com/QW-Group/ezquake-source) |  | 4.3 | 421 | 2026-10-24 |  | [release](https://github.com/QW-Group/ezquake-source/releases/tag/3.6.9) |
 | [GemRB](https://github.com/gemrb/gemrb) ⚠️ |  | 4.3 | 1.3k | 2026-10-24 |  | [release](https://github.com/gemrb/gemrb/releases/tag/v0.9.5) |
-| [Heretic2R](https://github.com/m-x-d/Heretic2R) | PC | 4.3 | 272 | 2026-08-21 |  | [release](https://github.com/m-x-d/Heretic2R/releases/tag/R6) |
-| [Jazz² Resurrection](https://github.com/deathkiller/jazz2) | PC | 4.3 | 583 | 2026-10-17 |  | [release](https://github.com/deathkiller/jazz2/releases/tag/3.9.0) |
+| [Heretic2R](https://github.com/m-x-d/Heretic2R) | PC | 4.3 | 273 | 2026-08-21 |  | [release](https://github.com/m-x-d/Heretic2R/releases/tag/R6) |
+| [Jazz² Resurrection](https://github.com/deathkiller/jazz2) | PC | 4.3 | 584 | 2026-10-17 |  | [release](https://github.com/deathkiller/jazz2/releases/tag/3.9.0) |
 | [KeeperFX](https://github.com/dkfans/keeperfx) ⚠️ | PC | 4.3 | 1.0k | 2026-10-24 |  | [release](https://github.com/dkfans/keeperfx/releases/tag/v1.4.0) |
 | [KeeperRL](https://github.com/miki151/keeperrl) |  | 4.3 | 1.0k | 2025-10-27 |  | [release](https://github.com/miki151/keeperrl/releases/tag/1_0_hotfix_19) |
 | [NXEngine-evo](https://github.com/nxengine/nxengine-evo) | PC | 4.3 | 553 | 2026-10-23 |  | [release](https://github.com/nxengine/nxengine-evo/releases/tag/v2.6.5-1) |
@@ -1296,7 +1302,7 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [ScummVM](https://github.com/scummvm/scummvm) ⚠️ |  | 4.3 | 2.9k | 2026-10-25 |  | [release](https://github.com/scummvm/scummvm/releases/tag/v2026.4.0) |
 | [sfall](https://github.com/sfall-team/sfall) |  | 4.3 | 445 | 2026-10-21 |  | [release](https://github.com/sfall-team/sfall/releases/tag/v4.5.1) |
 | [Shockolate](https://github.com/Interrupt/systemshock) | DOS | 4.3 | 909 | 2026-10-18 |  | [release](https://github.com/Interrupt/systemshock/releases/tag/v0.7.7) |
-| [Sonic 3 & Knuckles](https://github.com/Eukaryot/sonic3air) | Genesis | 4.3 | 666 | 2026-10-24 |  | [release](https://github.com/Eukaryot/sonic3air/releases/tag/v26.03.28.0-stable) |
+| [Sonic 3 & Knuckles](https://github.com/Eukaryot/sonic3air) | Genesis | 4.3 | 667 | 2026-10-24 |  | [release](https://github.com/Eukaryot/sonic3air/releases/tag/v26.03.28.0-stable) |
 | [Sonic and the Secret Rings (Project Reignition)](https://github.com/kumapauz/project-reignition) | Wii | 4.3 | 303 | 2026-09-25 |  | [release](https://github.com/kumapauz/project-reignition/releases/tag/v0.4.2) |
 | [Star Wars Jedi Knight: Dark Forces II (OpenJKDF2)](https://github.com/shinyquagsire23/OpenJKDF2) | PC | 4.3 | 778 | 2026-10-25 |  | [play](https://maxthomas.dev/openjkdf2/) |
 | [Syndicate Wars](https://github.com/swfans/syndwarsfx) | DOS | 4.3 | 265 | 2026-10-24 |  | [release](https://github.com/swfans/syndwarsfx/releases/tag/0.3.8.3283) |
@@ -1315,14 +1321,14 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Underworld Revisited](https://github.com/PQMarine/UnderworldRevisited) | DOS | 4.2 | 18 | 2026-10-24 |  | [release](https://github.com/PQMarine/UnderworldRevisited/releases/tag/v0.9.0) |
 | [Wipeout](https://github.com/phoboslab/wipeout-rewrite) | PS1 | 4.2 | 3.0k | 2026-09-27 |  |  |
 | [1oom](https://github.com/1oom-fork/1oom) | PC | 4.2 | 112 | 2026-09-02 |  | [release](https://github.com/1oom-fork/1oom/releases/tag/v1.11.9) |
-| [AM2R: Another Metroid 2 Remake (AM2R (Android))](https://github.com/am2r-android/AM2R-Autopatcher-Android) | PC | 4.2 | 70 | 2026-10-20 |  | [release](https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/tag/v1.5.5.12-hotfix-1) |
-| [Ambermoon](https://github.com/Pyrdacor/Ambermoon.net) ⚠️ | PC | 4.2 | 543 | 2026-10-22 |  | [release](https://github.com/Pyrdacor/Ambermoon.net/releases/tag/v1.14.2) |
+| [AM2R: Another Metroid 2 Remake (AM2R (Android))](https://github.com/am2r-android/AM2R-Autopatcher-Android) | PC | 4.2 | 70 | 2026-10-25 |  | [release](https://github.com/am2r-android/AM2R-Autopatcher-Android/releases/tag/v1.5.5.12-hotfix-1) |
+| [Ambermoon](https://github.com/Pyrdacor/Ambermoon.net) ⚠️ | PC | 4.2 | 544 | 2026-10-22 |  | [release](https://github.com/Pyrdacor/Ambermoon.net/releases/tag/v1.14.2) |
 | [Barony](https://github.com/TurningWheel/Barony) |  | 4.2 | 714 | 2026-02-21 |  | [release](https://github.com/TurningWheel/Barony/releases/tag/v5.0.2) |
 | [BStone](https://github.com/bibendovsky/bstone) | DOS | 4.2 | 373 | 2026-05-27 |  | [release](https://github.com/bibendovsky/bstone/releases/tag/v1.3.4) |
 | [Club Penguin (Waddle Forever)](https://github.com/nhaar/Waddle-Forever) | PC | 4.2 | 197 | 2026-10-24 |  | [release](https://github.com/nhaar/Waddle-Forever/releases/tag/v1.5.1) |
-| [Command & Conquer: Red Alert 2 / Yuri's Revenge (VERA20K)](https://github.com/YuriPlanet/vera20k) ⚠️ | PC | 4.2 | 216 | 2026-10-24 |  | [release](https://github.com/YuriPlanet/vera20k/releases/tag/v0.2.1) |
+| [Command & Conquer: Red Alert 2 / Yuri's Revenge (VERA20K)](https://github.com/YuriPlanet/vera20k) ⚠️ | PC | 4.2 | 218 | 2026-10-25 |  | [release](https://github.com/YuriPlanet/vera20k/releases/tag/v0.2.1) |
 | [GLSMAC](https://github.com/afwbkbc/glsmac) ⚠️ | PC | 4.2 | 646 | 2026-10-21 |  | [release](https://github.com/afwbkbc/glsmac/releases/tag/v0.3-db4dbc9) |
-| [Gran Turismo 2 (gt-2-pc)](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) | PS1 | 4.2 | 151 | 2026-09-30 |  | [play](https://ydubr-gt2.surge.sh/) · [release](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/tag/v0.8.1) |
+| [Gran Turismo 2 (gt-2-pc)](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc) | PS1 | 4.2 | 152 | 2026-09-30 |  | [play](https://ydubr-gt2.surge.sh/) · [release](https://github.com/dubrovskiy-yevhen-stakelogic/gt-2-pc/releases/tag/v0.8.1) |
 | [heretic2](https://github.com/0lvin/heretic2) |  | 4.2 | 32 | 2026-10-22 |  | [release](https://github.com/0lvin/heretic2/releases/tag/8.71H15) |
 | [Jagged Alliance Stracciatella](https://github.com/ja2-stracciatella/ja2-stracciatella) ⚠️ | PC | 4.2 | 545 | 2026-10-25 |  | [release](https://github.com/ja2-stracciatella/ja2-stracciatella/releases/tag/v0.22.1) |
 | [Katawa Shoujo (Katawa Shoujo: Re-Engineered)](https://github.com/fleetingheart/ksre) | PC | 4.2 | 118 | 2026-10-12 |  | [release](https://github.com/fleetingheart/ksre/releases/tag/v2.0.5) |
@@ -1332,13 +1338,13 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [MegaGlest](https://github.com/MegaGlest/megaglest-source) | PC | 4.2 | 420 | 2026-05-31 |  | [release](https://github.com/MegaGlest/megaglest-source/releases/tag/3.13.0) |
 | [Moon Child (Moon Child FE)](https://github.com/MorsGames/MoonChildFE) | PC | 4.2 | 83 | 2026-08-12 |  | [release](https://github.com/MorsGames/MoonChildFE/releases/tag/v1.1.1) |
 | [Need For Speed 1-6](https://github.com/OpenNFS/OpenNFS) | PC | 4.2 | 861 | 2026-06-21 |  |  |
-| [Need for Speed II: Special Edition](https://github.com/zaps166/NFSIISE) | PC | 4.2 | 776 | 2026-05-01 |  | [release](https://github.com/zaps166/NFSIISE/releases/tag/v1.4.0) |
+| [Need for Speed II: Special Edition](https://github.com/zaps166/NFSIISE) | PC | 4.2 | 777 | 2026-05-01 |  | [release](https://github.com/zaps166/NFSIISE/releases/tag/v1.4.0) |
 | [OmegA-engine](https://github.com/Bishop-333/OmegA-engine) | PC | 4.2 | 36 | 2026-10-23 |  | [release](https://github.com/Bishop-333/OmegA-engine/releases/tag/v3.4.1) |
 | [OpenCrystalCaves](https://github.com/OpenCrystalCaves/OpenCrystalCaves) | DOS | 4.2 | 93 | 2026-10-25 |  | [release](https://github.com/OpenCrystalCaves/OpenCrystalCaves/releases/tag/0.7.0) |
 | [OpenMoHAA](https://github.com/openmoh/openmohaa) | PC | 4.2 | 849 | 2026-04-23 |  | [release](https://github.com/openmoh/openmohaa/releases/tag/v0.82.1) |
-| [OpenReliant](https://github.com/OpenReliant/openreliant) | PC | 4.2 | 39 | 2026-10-24 |  | [release](https://github.com/OpenReliant/openreliant/releases/tag/v0.20.0) |
+| [OpenReliant](https://github.com/OpenReliant/openreliant) | PC | 4.2 | 40 | 2026-10-24 |  | [release](https://github.com/OpenReliant/openreliant/releases/tag/v0.20.0) |
 | [OpenSAGE](https://github.com/OpenSAGE/OpenSAGE) ⚠️ |  | 4.2 | 1.7k | 2025-12-16 |  |  |
-| [OpenTIE](https://github.com/elyosh/OpenTIE) ⚠️ | DOS | 4.2 | 341 | 2026-10-04 |  | [release](https://github.com/elyosh/OpenTIE/releases/tag/v0.0.7) |
+| [OpenTIE](https://github.com/elyosh/OpenTIE) ⚠️ | DOS | 4.2 | 342 | 2026-10-04 |  | [release](https://github.com/elyosh/OpenTIE/releases/tag/v0.0.7) |
 | [OPHD](https://github.com/OutpostUniverse/OPHD) |  | 4.2 | 146 | 2026-10-25 |  | [release](https://github.com/OutpostUniverse/OPHD/releases/tag/v0.8.10) |
 | [OutRun](https://github.com/ZgzInfinity/OutRun) | PC | 4.2 | 95 | 2026-10-11 |  | [release](https://github.com/ZgzInfinity/OutRun/releases/tag/v5.0-Windows) |
 | [Red Eclipse](https://github.com/redeclipse/base) ⚠️ | PC | 4.2 | 542 | 2026-10-24 |  | [release](https://github.com/redeclipse/base/releases/tag/v2.0.0) |
@@ -1353,12 +1359,12 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [The Settlers I](https://github.com/freeserf/freeserf) ⚠️ | DOS | 4.2 | 341 | 2026-10-23 |  | [release](https://github.com/freeserf/freeserf/releases/tag/v0.5) |
 | [World of Warcraft 1.12 (benilla)](https://github.com/samwhosung/benilla) ⚠️ | PC | 4.0 | 806 | 2026-10-25 |  | [release](https://github.com/samwhosung/benilla/releases/tag/v0.2.0) |
 | [SDLPoP](https://github.com/NagyD/SDLPoP) | DOS | 4.0 | 1.3k | 2025-12-24 |  |  |
-| [Bak-Again](https://github.com/stellargames/bakagain) | DOS | 4.0 | 3 | 2026-10-24 |  |  |
+| [Bak-Again](https://github.com/stellargames/bakagain) | DOS | 4.0 | 4 | 2026-10-24 |  |  |
 | [BetterSpades](https://github.com/xtreme8000/BetterSpades) | PC | 4.0 | 286 | 2025-07-30 |  | [release](https://github.com/xtreme8000/BetterSpades/releases/tag/v0.1.5) |
 | [Chasm-Reverse](https://github.com/Panzerschrek/Chasm-Reverse) | DOS | 4.0 | 180 | 2025-12-09 |  | [release](https://github.com/Panzerschrek/Chasm-Reverse/releases/tag/0.3) |
 | [Crimsonland](https://github.com/banteg/crimson) ⚠️ | PC | 4.0 | 192 | 2026-10-25 |  | [release](https://github.com/banteg/crimson/releases/tag/v0.22.0) |
 | [DGEngine](https://github.com/dgcor/DGEngine) |  | 4.0 | 270 | 2025-07-21 |  | [release](https://github.com/dgcor/DGEngine/releases/tag/v1.2) |
-| [freeserf.net](https://github.com/Pyrdacor/freeserf.net) ⚠️ | PC | 4.0 | 177 | 2026-10-24 |  | [release](https://github.com/Pyrdacor/freeserf.net/releases/tag/v2.2.11) |
+| [freeserf.net](https://github.com/Pyrdacor/freeserf.net) ⚠️ | PC | 4.0 | 178 | 2026-10-24 |  | [release](https://github.com/Pyrdacor/freeserf.net/releases/tag/v2.2.11) |
 | [FreeSO](https://github.com/riperiperi/FreeSO) | PC | 4.0 | 989 | 2025-08-22 |  | [release](https://github.com/riperiperi/FreeSO/releases/tag/beta-update-91a) |
 | [Keen Dreams (ReflectionHLE)](https://github.com/ReflectionHLE/ReflectionHLE) | PC | 4.0 | 140 | 2026-07-17 |  | [release](https://github.com/ReflectionHLE/ReflectionHLE/releases/tag/release-20260606) |
 | [Knytt Stories (YKnytt)](https://github.com/youkaicountry/yknytt) ⚠️ | PC | 4.0 | 105 | 2026-10-24 |  | [release](https://github.com/youkaicountry/yknytt/releases/tag/0.7.3) |
@@ -1366,20 +1372,21 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Mr.Boom](https://github.com/Javanaise/mrboom-libretro) ⚠️ | DOS | 4.0 | 230 | 2026-03-31 |  | [release](https://github.com/Javanaise/mrboom-libretro/releases/tag/5.5) |
 | [Open Annihilation](https://github.com/open-annihilation/open-annihilation) ⚠️ | PC | 4.0 | 67 | 2026-10-25 |  | [release](https://github.com/open-annihilation/open-annihilation/releases/tag/v0.8.6) |
 | [OpenKrush](https://github.com/IceReaper/OpenKrush) | PC | 4.0 | 128 | 2025-11-17 |  | [release](https://github.com/IceReaper/OpenKrush/releases/tag/playtest-20220222-3) |
-| [OpenXvT](https://github.com/elyosh/OpenXvT) ⚠️ | PC | 4.0 | 58 | 2026-10-10 |  | [release](https://github.com/elyosh/OpenXvT/releases/tag/v0.0.5) |
+| [OpenXvT](https://github.com/elyosh/OpenXvT) ⚠️ | PC | 4.0 | 59 | 2026-10-10 |  | [release](https://github.com/elyosh/OpenXvT/releases/tag/v0.0.5) |
 | [OutRun (CannonBall DX)](https://github.com/Endprodukt/cannonball-dx) ⚠️ | Arcade | 4.0 | 115 | 2026-10-07 |  | [release](https://github.com/Endprodukt/cannonball-dx/releases/tag/1.04) |
 | [Railroad Tycoon](https://github.com/bluddy/rails) | DOS | 4.0 | 25 | 2026-10-11 |  | [release](https://github.com/bluddy/rails/releases/tag/v0.1.4) |
-| [Ratchet & Clank (ReRAC)](https://github.com/re-rac/rerac) ⚠️ | PS2 | 4.0 | 81 | 2026-10-23 |  |  |
+| [Ratchet & Clank (ReRAC)](https://github.com/re-rac/rerac) ⚠️ | PS2 | 4.0 | 82 | 2026-10-23 |  |  |
 | [Romanov's Vengeance](https://github.com/MustaphaTR/Romanovs-Vengeance) |  | 4.0 | 345 | 2025-07-26 |  | [release](https://github.com/MustaphaTR/Romanovs-Vengeance/releases/tag/playtest-20241215) |
 | [Serious Sam: The First Encounter / Serious Sam: The Second Encounter](https://github.com/tx00100xt/SeriousSamClassic) | PC | 4.0 | 191 | 2026-01-13 |  | [release](https://github.com/tx00100xt/SeriousSamClassic/releases/tag/1.10.7) |
 | [SeriousSamClassic-VK](https://github.com/tx00100xt/SeriousSamClassic-VK) | PC | 4.0 | 161 | 2026-01-14 |  | [release](https://github.com/tx00100xt/SeriousSamClassic-VK/releases/tag/1.10.7) |
 | [Sopwith (SDL Sopwith)](https://github.com/fragglet/sdl-sopwith) | PC | 4.0 | 120 | 2026-04-15 |  | [release](https://github.com/fragglet/sdl-sopwith/releases/tag/sdl-sopwith-2.9.0) |
-| [The Legend of Zelda: Oracle of Ages (ooa-godot)](https://github.com/SHOEGAZEssb/ooa-godot) | Game Boy Color | 4.0 | 17 | 2026-10-24 |  | [release](https://github.com/SHOEGAZEssb/ooa-godot/releases/tag/v0.0.5) |
+| [The Legend of Zelda: Oracle of Ages (ooa-godot)](https://github.com/SHOEGAZEssb/ooa-godot) | Game Boy Color | 4.0 | 17 | 2026-10-25 |  | [release](https://github.com/SHOEGAZEssb/ooa-godot/releases/tag/v0.0.5) |
+| [The Lord of the Rings: The Battle for Middle-earth II (OpenBFME)](https://github.com/Open-BFME/openbfme-godot) ⚠️ | PC | 4.0 | 30 | 2026-10-25 |  | [release](https://github.com/Open-BFME/openbfme-godot/releases/tag/v0.4.11) · [reddit](https://www.reddit.com/r/decomps/comments/1xag8lk/ "u/DaisyHasaCat · 54 upvotes · 13 comments") |
 | [The Wing of Madoola](https://github.com/nfroggy/openmadoola) | NES | 4.0 | 24 | 2026-09-29 |  | [release](https://github.com/nfroggy/openmadoola/releases/tag/v1.26) |
 | [Total Annihilation: Kingdoms](https://github.com/OpenKingdoms/OpenKingdoms) | PC | 4.0 | 14 | 2026-10-22 |  | [release](https://github.com/OpenKingdoms/OpenKingdoms/releases/tag/v0.5.6) |
-| [Ultima 5](https://github.com/synthwave-pixel/ultima5) |  | 4.0 | 25 | 2026-10-25 |  | [release](https://github.com/synthwave-pixel/ultima5/releases/tag/v1.1.149) |
+| [Ultima 5](https://github.com/synthwave-pixel/ultima5) |  | 4.0 | 26 | 2026-10-25 |  | [release](https://github.com/synthwave-pixel/ultima5/releases/tag/v1.1.149) |
 | [Warcraft: Orcs & Humans (War1gus)](https://github.com/Wargus/war1gus) | PC | 4.0 | 136 | 2026-06-22 |  | [release](https://github.com/Wargus/war1gus/releases/tag/v3.3.2) |
-| [Zelda II: The Adventure of Link (z2rs)](https://github.com/troyedwardsjr/z2rs) ⚠️ | NES | 4.0 | 195 | 2026-10-22 |  | [play](https://z2rs.com/) · [release](https://github.com/troyedwardsjr/z2rs/releases/tag/v0.6.0) · [reddit](https://www.reddit.com/r/decomps/comments/1woyfph/ "u/RouXanthica · 13 upvotes · 142 comments") |
+| [Zelda II: The Adventure of Link (z2rs)](https://github.com/troyedwardsjr/z2rs) ⚠️ | NES | 4.0 | 196 | 2026-10-22 |  | [play](https://z2rs.com/) · [release](https://github.com/troyedwardsjr/z2rs/releases/tag/v0.6.0) · [reddit](https://www.reddit.com/r/decomps/comments/1woyfph/ "u/RouXanthica · 13 upvotes · 142 comments") |
 | [Zoo Tycoon 1 engine (zt1-engine)](https://github.com/AlexC1991/zt1-engine) | PC | 4.0 | 14 | 2026-10-18 |  | [release](https://github.com/AlexC1991/zt1-engine/releases/tag/v2026.10.20) · [reddit](https://www.reddit.com/r/decomps/comments/1x6gzxk/ "u/Batty25111 · 17 upvotes · 3 comments") |
 | [DOOM64-EX-Plus-Enhanced](https://github.com/Styd051/DOOM64-EX-Plus-Enhanced) | N64 | 3.9 | 46 | 2026-08-27 |  | [release](https://github.com/Styd051/DOOM64-EX-Plus-Enhanced/releases/tag/V1.0.0.1) |
 | [GLKeeper](https://github.com/codenamecpp/GLKeeper) | PC | 3.9 | 45 | 2026-10-17 |  |  |
@@ -1393,7 +1400,7 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [OpenZ](https://github.com/playopenz/OpenZ) | PC | 3.9 | 27 | 2026-10-22 |  | [release](https://github.com/playopenz/OpenZ/releases/tag/v1.1) |
 | [OpenEnroth](https://github.com/OpenEnroth/OpenEnroth) ⚠️ | PC | 3.8 | 875 | 2026-10-22 |  |  |
 | [OpenKeeper](https://github.com/tonihele/OpenKeeper) ⚠️ | PC | 3.8 | 510 | 2026-10-22 |  |  |
-| [Skate 3 (Skate 3 Rust Engine)](https://github.com/SK8-ENGINE/skate-3-rust-engine) ⚠️ | Xbox 360 | 3.8 | 779 | 2026-10-09 |  |  |
+| [Skate 3 (Skate 3 Rust Engine)](https://github.com/SK8-ENGINE/skate-3-rust-engine) ⚠️ | Xbox 360 | 3.8 | 780 | 2026-10-09 |  |  |
 | [Counter-Strike](https://github.com/FWGS/cs16-client) | PC | 3.8 | 471 | 2026-10-23 |  |  |
 | [EmperorReborn](https://github.com/azmawee/EmperorReborn) | PC | 3.8 | 29 | 2026-06-30 |  | [release](https://github.com/azmawee/EmperorReborn/releases/tag/v2.5) |
 | [Herculan](https://github.com/kevinfoley/Herculan) ⚠️ | PC | 3.8 | 11 | 2026-10-24 |  | [release](https://github.com/kevinfoley/Herculan/releases/tag/v1.0.1) |
@@ -1403,14 +1410,13 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Sheep, Dog 'n' Wolf](https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled) ⚠️ | PC | 3.8 | 28 | 2026-10-21 |  | [release](https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/tag/v1.1.3) |
 | [Street Fighter III: 3rd Strike [3SX]](https://github.com/crowded-street/3sx) | PS2 | 3.8 | 361 | 2026-10-23 |  |  |
 | [Super Mario 64 [Infinite Mario 64 Ever]](https://github.com/Brawmario/infinite-mario-64-ever) | N64 | 3.8 | 14 | 2026-01-18 |  | [release](https://github.com/Brawmario/infinite-mario-64-ever/releases/tag/v0.1.5) |
-| [The Lord of the Rings: The Battle for Middle-earth II (OpenBFME)](https://github.com/Open-BFME/openbfme-godot) ⚠️ | PC | 3.8 | 29 | 2026-10-25 |  | [release](https://github.com/Open-BFME/openbfme-godot/releases/tag/v0.4.11) · [reddit](https://www.reddit.com/r/decomps/comments/1xag8lk/ "u/DaisyHasaCat · 54 upvotes · 13 comments") |
 | [Urban Assault (UA_source)](https://github.com/Marisa-Chan/UA_source) | PC | 3.8 | 139 | 2025-03-11 |  | [release](https://github.com/Marisa-Chan/UA_source/releases/tag/2023-02-14) |
 | [Woody Woodpecker: Escape from Buzz Buzzard Park](https://github.com/jjmhalew/WoodyRE) ⚠️ | PC | 3.8 | 28 | 2026-10-18 |  | [release](https://github.com/jjmhalew/WoodyRE/releases/tag/v1.0.11) |
 | [CTW-Native](https://github.com/official-kryo-to/ctw-native) ⚠️ | DS | 3.7 | 54 | 2026-10-22 |  | [release](https://github.com/official-kryo-to/ctw-native/releases/tag/v0.3.0) |
 | [Lionheart Remake](https://github.com/b3dgs/lionheart-remake) | Mobile | 3.7 | 87 | 2026-05-24 |  | [release](https://github.com/b3dgs/lionheart-remake/releases/tag/v1.3.0) |
-| [MDK](https://github.com/nautilusbits/mdk-sdl) ⚠️ | PC | 3.7 | 52 | 2026-10-25 |  | [release](https://github.com/nautilusbits/mdk-sdl/releases/tag/v1.2.1) |
+| [MDK](https://github.com/nautilusbits/mdk-sdl) ⚠️ | PC | 3.7 | 54 | 2026-10-25 |  | [release](https://github.com/nautilusbits/mdk-sdl/releases/tag/v1.2.1) |
 | [q2tools-220](https://github.com/qbism/q2tools-220) |  | 3.7 | 82 | 2026-06-14 |  | [release](https://github.com/qbism/q2tools-220/releases/tag/v05-30-26) |
-| [Ratchet & Clank](https://github.com/re-rac/rerac-launcher) ⚠️ | PS2 | 3.7 | 142 | 2026-10-23 |  |  |
+| [Ratchet & Clank](https://github.com/re-rac/rerac-launcher) ⚠️ | PS2 | 3.7 | 144 | 2026-10-23 |  |  |
 | [Thirdeye](https://github.com/psi29a/thirdeye) |  | 3.7 | 27 | 2026-08-11 |  | [release](https://github.com/psi29a/thirdeye/releases/tag/thirdeye-0.89.0) |
 | [Command & Conquer: Generals / Zero Hour (Thyme)](https://github.com/TheAssemblyArmada/Thyme) | PC | 3.6 | 696 | 2024-10-31 |  |  |
 | [Ballance (Ballanced)](https://github.com/doyaGu/Ballanced) | PC | 3.5 | 47 | 2026-10-24 |  | [release](https://github.com/doyaGu/Ballanced/releases/tag/v0.1.0) |
@@ -1431,12 +1437,12 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [Call of Duty: Black Ops (WebGPU))](https://github.com/SwagSoftware/KisakBlack) | Xbox 360 | 3.4 | 237 | 2026-10-02 |  |  |
 | [Jazz Jackrabbit 2](https://github.com/deathkiller/jazz2-native) | PC | 3.4 | 720 | 2026-10-24 |  |  |
 | [Ryzom Core](https://github.com/ryzom/ryzomcore) |  | 3.4 | 473 | 2026-10-25 |  |  |
-| [Zero-K](https://github.com/ZeroK-RTS/Zero-K) |  | 3.4 | 876 | 2026-10-25 |  |  |
-| [Aces of the Pacific Enhanced](https://github.com/kylofon/acesofthepacific-enhanced) | DOS | 3.4 | 16 | 2026-10-14 |  | [release](https://github.com/kylofon/acesofthepacific-enhanced/releases/tag/v0.1.0) |
-| [Flipendo](https://github.com/kroplabeskidu/flipendo) | PC | 3.4 | 18 | 2026-10-25 |  | [release](https://github.com/kroplabeskidu/flipendo/releases/tag/hp1-stable-hp2-beta1) |
+| [Zero-K](https://github.com/ZeroK-RTS/Zero-K) |  | 3.4 | 877 | 2026-10-25 |  |  |
+| [Aces of the Pacific Enhanced](https://github.com/kylofon/acesofthepacific-enhanced) | DOS | 3.4 | 17 | 2026-10-14 |  | [release](https://github.com/kylofon/acesofthepacific-enhanced/releases/tag/v0.1.0) |
+| [Flipendo](https://github.com/kroplabeskidu/flipendo) | PC | 3.4 | 19 | 2026-10-25 |  | [release](https://github.com/kroplabeskidu/flipendo/releases/tag/hp1-stable-hp2-beta1) |
 | [FreeFT](https://github.com/nadult/FreeFT) | PC | 3.4 | 194 | 2025-11-29 |  | [release](https://github.com/nadult/FreeFT/releases/tag/linux-deps-1) |
 | [lilium-voyager](https://github.com/clover-moe/lilium-voyager) | PC | 3.4 | 59 | 2026-05-20 |  | [release](https://github.com/clover-moe/lilium-voyager/releases/tag/v1.40) |
-| [Midtown Madness (Open1560)](https://github.com/0x1F9F1/Open1560) | PC | 3.4 | 198 | 2026-04-20 |  | [release](https://github.com/0x1F9F1/Open1560/releases/tag/build) |
+| [Midtown Madness (Open1560)](https://github.com/0x1F9F1/Open1560) | PC | 3.4 | 199 | 2026-04-20 |  | [release](https://github.com/0x1F9F1/Open1560/releases/tag/build) |
 | [OpenMB](https://github.com/cookgreen/OpenMB) |  | 3.4 | 145 | 2026-07-21 |  | [release](https://github.com/cookgreen/OpenMB/releases/tag/googletransapi-2.2.1) |
 | [Sonic R (sonic-r (jnmartin84))](https://github.com/jnmartin84/sonic-r) ⚠️ | Saturn | 3.4 | 32 | 2026-09-19 |  | [release](https://github.com/jnmartin84/sonic-r/releases/tag/v1.0-bugfix1) |
 | [Stronghold Crusader (OpenSHC)](https://github.com/sourcehold/OpenSHC) ⚠️ | PC | 3.4 | 49 | 2026-10-25 |  | [release](https://github.com/sourcehold/OpenSHC/releases/tag/latest-sarif) |
@@ -1458,7 +1464,7 @@ Clean-room or reverse-engineered reimplementations of a game's engine; usually n
 | [qfusion](https://github.com/Warsow/qfusion) |  | 2.6 | 80 | 2026-10-24 |  |  |
 | [quakeforge](https://github.com/quakeforge/quakeforge) |  | 2.6 | 72 | 2026-10-10 |  |  |
 | [Ratchet & Clank](https://github.com/OpenRAC/rac1-decomp) | PS2 | 2.6 | 61 | 2026-10-25 |  |  |
-| [rebellion2](https://github.com/davidadas/rebellion2) | PC | 2.6 | 31 | 2026-10-24 |  |  |
+| [rebellion2](https://github.com/davidadas/rebellion2) | PC | 2.6 | 32 | 2026-10-24 |  |  |
 | [Silkroad Online (OpenSRO)](https://github.com/opensro-dev/opensro) | PC | 2.6 | 63 | 2026-10-25 |  | [play](https://opensro.online/) |
 | [Star Wars: Battlefront I + II (openbf)](https://github.com/sprucey149/openbf) ⚠️ | PS2 | 2.5 | 15 | 2026-10-24 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x9jake/ "None · None upvotes · None comments") |
 | [BtBuilder](https://github.com/dulsi/btbuilder) |  | 2.4 | 51 | 2026-06-05 |  |  |
@@ -1497,20 +1503,19 @@ Games that run in a browser tab (WebAssembly / JS ports).
 | [Command & Conquer: Red Alert 2](https://chronodivide.com) | PC | 4.0 |  |  |  | [play](https://chronodivide.com/) |
 | [Counter-Strike 1.6](https://csjs.live) | PC | 4.0 |  |  |  | [play](https://csjs.live) |
 | [Counter-Strike: Source Bunnyhop (bunnyhop.lol)](https://bunnyhop.lol) | PC | 4.0 |  |  |  | [play](https://bunnyhop.lol) |
-| [Counter-Strike: Source Surf (Surfd)](http://surfd.net) | PC | 4.0 |  |  |  | [play](http://surfd.net) |
+| [Counter-Strike: Source Surf (Surfd)](https://surfd.net) | PC | 4.0 |  |  |  | [play](https://surfd.net) |
 | [Crash Bash Online](https://crashbash.app) | PS1 | 4.0 |  |  |  | [play](https://crashbash.app/) |
 | [Cuphead](https://wasm.rip/files/cuphead/index.html) | PC | 4.0 |  |  |  | [play](https://wasm.rip/files/cuphead/index.html) |
 | [Cyberpunk 2077](https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5) | PC | 4.0 |  |  |  | [play](https://cyberpunk2077.lol/game?ioShared=1&amp;ioSharedMB=128&amp;ioInflight=4&amp;ioPersist=1&amp;ioPersistMB=6144&amp;binkRecycle=1&amp;psoWarm=0&amp;skipIntro=1&amp;ioLookahead=16&amp;behindLoad=0.5) |
-| [Diablo (diablo_web)](http://johnimril.github.io/diablo_web) | PC | 4.0 |  |  |  | [play](http://johnimril.github.io/diablo_web/) |
+| [Diablo (diablo_web)](https://johnimril.github.io/diablo_web) | PC | 4.0 |  |  |  | [play](https://johnimril.github.io/diablo_web/) |
 | [Doom Multiplayer (Silent Space Marine)](https://silentspacemarine.com) | PC | 4.0 |  |  |  | [play](https://silentspacemarine.com/) |
 | [FIFA Street 2 (FIFA Street 2 Online)](https://fifastreet2.fun) | PS2 | 4.0 |  |  |  | [play](https://fifastreet2.fun/) |
 | [Formula One 06](https://f12006.online) | PS2 | 4.0 |  |  |  | [play](https://f12006.online/) |
 | [GoldenEye 007 (GoldenWeb64)](https://goldenweb64.com) | N64 | 4.0 |  |  |  | [play](https://goldenweb64.com/) |
 | [Grand Theft Auto III](https://wasmarcade.com/gta3) | PC | 4.0 |  |  |  | [play](https://wasmarcade.com/gta3) |
-| [Grand Theft Auto V](https://web.archive.org/web/20261006055917/https://playgta5.com) | PC | 4.0 |  |  |  | [play](https://web.archive.org/web/20261006055917/https://playgta5.com/) |
 | [Grand Theft Auto: Vice City](https://joncodeofficial.github.io/gta-vice-city-wasm) | PC | 4.0 |  |  |  | [play](https://joncodeofficial.github.io/gta-vice-city-wasm/) |
-| [Half-Life (pixelsuft)](http://pixelsuft.github.io/hl) | PC | 4.0 |  |  |  | [play](http://pixelsuft.github.io/hl/) |
-| [Half-Life and Counter-Strike 1.6 (WebXash)](http://x8bitrain.github.io/webXash) | PC | 4.0 |  |  |  | [play](http://x8bitrain.github.io/webXash/) |
+| [Half-Life (pixelsuft)](https://pixelsuft.github.io/hl) | PC | 4.0 |  |  |  | [play](https://pixelsuft.github.io/hl/) |
+| [Half-Life and Counter-Strike 1.6 (WebXash)](https://x8bitrain.github.io/webXash) | PC | 4.0 |  |  |  | [play](https://x8bitrain.github.io/webXash/) |
 | [Halo: Combat Evolved](https://mitchellhynes.com/halo/halo.html) | Xbox | 4.0 |  |  |  | [play](https://mitchellhynes.com/halo/halo.html) |
 | [Halo: Combat Evolved Mobile (HCEMobile)](https://hcemobile.com) | Xbox | 4.0 |  |  |  | [play](https://hcemobile.com/) |
 | [Harry Potter and the Chamber of Secrets (hp2 web)](https://hp2.mihaimateias.com) | PC | 4.0 |  |  |  | [play](https://hp2.mihaimateias.com/) |
@@ -1525,13 +1530,13 @@ Games that run in a browser tab (WebAssembly / JS ports).
 | [Need for Speed: Underground 2 (Underground 2 Revived)](https://nfsu2.xyz) | PC | 4.0 |  |  |  | [play](https://nfsu2.xyz/) |
 | [NetQuake.io](https://www.netquake.io) | PC | 4.0 |  |  |  | [play](https://www.netquake.io/) |
 | [Portal (source-engine Emscripten port)](https://github.com/weliveinhell/source-engine) | PC | 4.0 | 85 | 2026-06-26 |  | [play](https://yikes.pw/portal/) |
-| [Pro Evolution Soccer 6](http://pes6.optijuegos.net) | PC | 4.0 |  |  |  | [play](http://pes6.optijuegos.net) |
-| [Quake II (q2.pieter.com)](http://q2.pieter.com) | PC | 4.0 |  |  |  | [play](http://q2.pieter.com) |
+| [Pro Evolution Soccer 6](https://pes6.optijuegos.net) | PC | 4.0 |  |  |  | [play](https://pes6.optijuegos.net) |
+| [Quake II (q2.pieter.com)](https://q2.pieter.com) | PC | 4.0 |  |  |  | [play](https://q2.pieter.com) |
 | [Quake III Arena (q3.pieter.com)](https://q3.pieter.com) | PC | 4.0 |  |  |  | [play](https://q3.pieter.com) |
 | [Quake III Arena (q3js)](https://q3js.com) | PC | 4.0 |  |  |  | [play](https://q3js.com/) · [video](https://www.youtube.com/watch?v=de7PNFRHNts) |
-| [QuakeWorld (q1.pieter.com)](http://q1.pieter.com) | PC | 4.0 |  |  |  | [play](http://q1.pieter.com) |
-| [Return to Castle Wolfenstein (rtcw.pieter.com)](http://rtcw.pieter.com) | PC | 4.0 |  |  |  | [play](http://rtcw.pieter.com) |
-| [Skate 3 (fan browser game)](http://skate.aaddpp.lol) | Xbox 360 | 4.0 |  |  |  | [play](http://skate.aaddpp.lol) |
+| [QuakeWorld (q1.pieter.com)](https://q1.pieter.com) | PC | 4.0 |  |  |  | [play](https://q1.pieter.com) |
+| [Return to Castle Wolfenstein (rtcw.pieter.com)](https://rtcw.pieter.com) | PC | 4.0 |  |  |  | [play](https://rtcw.pieter.com) |
+| [Skate 3 (fan browser game)](https://skate.aaddpp.lol) | Xbox 360 | 4.0 |  |  |  | [play](https://skate.aaddpp.lol) |
 | [SSX 3](https://ssx3.online) | PS2 | 4.0 |  |  |  | [play](https://ssx3.online/) |
 | [Star Wars Jedi Knight: Jedi Academy](https://jk.q3js.com) | PC | 4.0 |  |  |  | [play](https://jk.q3js.com) |
 | [Super Mario 64](https://recompiledgames.com/super-mario-64-recompiled) | N64 | 4.0 |  |  |  |  |
@@ -1543,8 +1548,8 @@ Games that run in a browser tab (WebAssembly / JS ports).
 | [Tekken 5: Dark Resurrection (tkdr recomp)](https://tkdr-recomp.pages.dev) | PSP | 4.0 |  |  |  | [play](https://tkdr-recomp.pages.dev/) |
 | [Terraria](https://playterraria.lol) | PC | 4.0 |  |  |  | [play](https://playterraria.lol/) |
 | [The Operative: No One Lives Forever (playnolf.com)](https://playnolf.com) | PC | 4.0 |  |  |  | [play](https://playnolf.com/) |
-| [The Simpsons: Hit & Run](http://shar-wasm.cjoseph.workers.dev/?skipmovie) | PC | 4.0 |  |  |  | [play](http://shar-wasm.cjoseph.workers.dev/?skipmovie) |
-| [Urban Terror (ut.pieter.com)](http://ut.pieter.com) | PC | 4.0 |  |  |  | [play](http://ut.pieter.com) |
+| [The Simpsons: Hit & Run](https://shar-wasm.cjoseph.workers.dev/?skipmovie) | PC | 4.0 |  |  |  | [play](https://shar-wasm.cjoseph.workers.dev/?skipmovie) |
+| [Urban Terror (ut.pieter.com)](https://ut.pieter.com) | PC | 4.0 |  |  |  | [play](https://ut.pieter.com) |
 | [WWE SmackDown! vs. RAW](https://smackdownvsraw.online) | PS2 | 4.0 |  |  |  | [play](https://smackdownvsraw.online/) |
 | [Banished (Un-Banished)](https://github.com/tanepiper/unbanished) ⚠️ | PC | 3.8 | 14 | 2026-10-24 |  | [play](https://tanepiper.github.io/unbanished/) · [release](https://github.com/tanepiper/unbanished/releases/tag/v0.5.0) · [reddit](https://www.reddit.com/r/decomps/comments/1x9w77w/ "None · None upvotes · None comments") |
 | [Claude of Duty: Vibe Slops II (froydinger mirror)](https://froydinger.github.io/claude-of-duty) ⚠️ | PC | 3.8 |  |  |  | [play](https://froydinger.github.io/claude-of-duty/) |
@@ -1556,6 +1561,7 @@ Games that run in a browser tab (WebAssembly / JS ports).
 | [Weltendämmerung (weltendaemmerung (spec-driven RE + web port))](https://github.com/s-macke/weltendaemmerung) ⚠️ | Commodore 64/8-bit | 3.5 | 20 | 2026-01-05 |  |  |
 | [Terraria (terraria-wasm / Terrarium)](https://github.com/MercuryWorkshop/terraria-wasm) | PC | 3.5 | 196 | 2025-06-15 |  | [play](https://terraria.mercurywork.shop/) · [release](https://github.com/MercuryWorkshop/terraria-wasm/releases/tag/1.0) |
 | [Doom (doom.wasm)](https://github.com/jacobenget/doom.wasm) | DOS | 3.3 | 12 | 2024-12-10 |  | [release](https://github.com/jacobenget/doom.wasm/releases/tag/v0.1.0) |
+| [Grand Theft Auto V](https://web.archive.org/web/20261006055917/https://playgta5.com) | PC | 2.5 |  |  |  | [play](https://web.archive.org/web/20261006055917/https://playgta5.com/) |
 
 ## Decompilations
 
@@ -1564,24 +1570,24 @@ Source-code reconstructions (matching or functional) of the original game binary
 | Game | Platform | Score | ⭐ | Last commit | Progress | Links |
 |---|---|---|---|---|---|---|
 | [Sonic the Hedgehog / Sonic the Hedgehog 2](https://github.com/RSDKModding/RSDKv4-Decompilation) | Android / iOS | 4.5 | 1.2k | 2026-09-06 |  | [release](https://github.com/RSDKModding/RSDKv4-Decompilation/releases/tag/1.3.3) |
-| [Resident Evil - Code: Veronica X](https://github.com/AshfordFamily/recvx-decomp) | PS2 | 4.2 | 297 | 2026-10-23 |  | [release](https://github.com/AshfordFamily/recvx-decomp/releases/tag/dependency) |
+| [Resident Evil - Code: Veronica X](https://github.com/AshfordFamily/recvx-decomp) | PS2 | 4.2 | 297 | 2026-10-25 |  | [release](https://github.com/AshfordFamily/recvx-decomp/releases/tag/dependency) |
 | [Sonic Mania](https://github.com/RSDKModding/RSDKv5-Decompilation) | PC | 4.2 | 571 | 2026-10-03 |  | [release](https://github.com/RSDKModding/RSDKv5-Decompilation/releases/tag/v1.1.1) |
 | [Castlevania: Symphony of the Night](https://github.com/Xeeynamo/sotn-decomp) | PS1 / PSP / Saturn | 4.2 | 1.2k | 2026-10-25 |  | [release](https://github.com/Xeeynamo/sotn-decomp/releases/tag/cc1-psx-26) |
 | [Jak & Daxter](https://github.com/open-goal/jak-project) | PS2 | 4.2 | 3.6k | 2026-10-24 |  | [release](https://github.com/open-goal/jak-project/releases/tag/v0.3.9) · [video](https://youtu.be/K84UUMnkJc4) |
 | [Lemuroid](https://github.com/Swordfish90/Lemuroid) | Mobile | 4.2 | 4.4k | 2026-10-16 |  | [release](https://github.com/Swordfish90/Lemuroid/releases/tag/1.17.0) |
-| [Pokémon Gold and Silver (Pokémon Polished Crystal)](https://github.com/Rangi42/polishedcrystal) | Game Boy Color | 4.2 | 1.7k | 2026-10-22 |  | [release](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3) |
+| [Pokémon Gold and Silver (Pokémon Polished Crystal)](https://github.com/Rangi42/polishedcrystal) | Game Boy Color | 4.2 | 1.7k | 2026-10-25 |  | [release](https://github.com/Rangi42/polishedcrystal/releases/tag/v3.2.3) |
 | [Star Fox 64 (Starship)](https://github.com/HarbourMasters/Starship) | N64 | 4.2 | 2.1k | 2026-09-15 |  | [release](https://github.com/HarbourMasters/Starship/releases/tag/v2.0.0) · [video](https://www.youtube.com/watch?v=FZ3o09an9_k) |
 | [The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)](https://github.com/2ship2harkinian/2ship2harkinian) | N64 / GameCube | 4.2 | 2.4k | 2026-10-24 |  | [release](https://github.com/2ship2harkinian/2ship2harkinian/releases/tag/5.0.1) |
 | [The Legend of Zelda: Ocarina of Time (Ship of Harkinian)](https://github.com/HarbourMasters/Shipwright) ⚠️ | N64 / GameCube | 4.2 | 5.8k | 2026-10-20 |  | [release](https://github.com/HarbourMasters/Shipwright/releases/tag/9.3.1) · [video](https://www.youtube.com/watch?v=u-EhRErOpHE) |
 | [Sonic Mania](https://github.com/RSDKModding/Sonic-Mania-Decompilation) | PC | 4.0 | 825 | 2026-05-12 |  | [release](https://github.com/RSDKModding/Sonic-Mania-Decompilation/releases/tag/v1.1.1) · [video](https://www.youtube.com/watch?v=CSPhyjHt79Y) |
 | [The Legend of Zelda: Ocarina of Time](https://github.com/zeldaret/oot) | N64 | 4.0 | 5.6k | 2026-10-18 |  |  |
-| [Command & Conquer: Red Alert 2 (Phobos)](https://github.com/Phobos-developers/Phobos) | PC | 4.0 | 474 | 2026-10-24 |  | [release](https://github.com/Phobos-developers/Phobos/releases/tag/v0.4.0.2) |
+| [Command & Conquer: Red Alert 2 (Phobos)](https://github.com/Phobos-developers/Phobos) | PC | 4.0 | 474 | 2026-10-25 |  | [release](https://github.com/Phobos-developers/Phobos/releases/tag/v0.4.0.2) |
 | [Counter-Strike (ReGameDLL_CS)](https://github.com/rehlds/ReGameDLL_CS) | PC | 4.0 | 801 | 2026-09-17 |  | [release](https://github.com/rehlds/ReGameDLL_CS/releases/tag/5.30.0.814) |
 | [Crash Team Racing](https://github.com/CTR-tools/ctr-native) | PS1 | 4.0 | 427 | 2026-10-20 |  |  |
 | [Half-Life (ReHLDS)](https://github.com/rehlds/ReHLDS) | PC | 4.0 | 867 | 2026-09-20 |  | [release](https://github.com/rehlds/ReHLDS/releases/tag/3.15.0.896) |
-| [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Severed-Chains) | PS1 | 4.0 | 569 | 2026-10-16 |  | [release](https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/tag/release-3.0.0) |
+| [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Severed-Chains) | PS1 | 4.0 | 569 | 2026-10-25 |  | [release](https://github.com/Legend-of-Dragoon-Modding/Severed-Chains/releases/tag/release-3.0.0) |
 | [Lego Island](https://github.com/isledecomp/isle) ⚠️ | PC | 4.0 | 3.5k | 2026-09-18 |  | [release](https://github.com/isledecomp/isle/releases/tag/continuous) |
-| [Mario Kart 64](https://github.com/EstebanPdN/mario-kart-64-3ds) | N64 | 4.0 | 230 | 2026-10-24 |  | [release](https://github.com/EstebanPdN/mario-kart-64-3ds/releases/tag/v2.0) |
+| [Mario Kart 64](https://github.com/EstebanPdN/mario-kart-64-3ds) | N64 | 4.0 | 232 | 2026-10-24 |  | [release](https://github.com/EstebanPdN/mario-kart-64-3ds/releases/tag/v2.0) |
 | [Mario Party 4](https://github.com/mariopartyrd/marioparty4) | GameCube | 4.0 | 881 | 2026-10-15 |  |  |
 | [Paper Mario 64 (PaperBoat)](https://github.com/HarbourMasters/PaperBoat) | N64 | 4.0 | 517 | 2026-10-22 |  | [release](https://github.com/HarbourMasters/PaperBoat/releases/tag/1.0.3) |
 | [SimCity 2000 (sc2kfix)](https://github.com/sc2kfix/sc2kfix) | DOS | 4.0 | 223 | 2026-10-16 |  | [release](https://github.com/sc2kfix/sc2kfix/releases/tag/r11b) |
@@ -1593,22 +1599,22 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Pokemon Emerald](https://github.com/pret/pokeemerald) | GBA | 3.9 | 3.6k | 2026-10-01 |  |  |
 | [Pokemon FireRed](https://github.com/pret/pokefirered) | GBA | 3.9 | 1.7k | 2026-10-20 |  |  |
 | [Pokemon Ruby](https://github.com/pret/pokeruby) | GBA | 3.9 | 1.0k | 2026-09-29 |  |  |
-| [Super Mario Galaxy 1](https://github.com/SMGCommunity/Petari) | Wii | 3.9 | 1.3k | 2026-10-24 |  |  |
+| [Super Mario Galaxy 1](https://github.com/SMGCommunity/Petari) | Wii | 3.9 | 1.3k | 2026-10-25 |  |  |
 | [The Legend of Zelda: Breath of the Wild](https://github.com/zeldaret/botw) | Switch | 3.9 | 2.4k | 2026-10-19 |  |  |
 | [The Legend of Zelda: Majora's Mask](https://github.com/zeldaret/mm) | N64 | 3.9 | 1.8k | 2026-10-21 |  |  |
 | [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww) | GameCube | 3.9 | 1.1k | 2026-10-23 |  |  |
 | [Banjo-Kazooie](https://github.com/HarbourMasters/Lighthouse) ⚠️ | N64 | 3.8 | 524 | 2026-10-23 |  | [release](https://github.com/HarbourMasters/Lighthouse/releases/tag/1.2.0) |
 | [Crash Team Racing](https://github.com/CTR-tools/CTR-ModSDK) | PS1 | 3.8 | 455 | 2026-07-05 |  | [release](https://github.com/CTR-tools/CTR-ModSDK/releases/tag/r11) |
-| [Dragon Ball Z: Budokai Tenkaichi 3](https://github.com/z3xox/Tenkaichi3Decomp) ⚠️ | PS2 | 3.8 | 576 | 2026-10-24 |  | [release](https://github.com/z3xox/Tenkaichi3Decomp/releases/tag/v0.1.38.7) |
+| [Dragon Ball Z: Budokai Tenkaichi 3](https://github.com/z3xox/Tenkaichi3Decomp) ⚠️ | PS2 | 3.8 | 578 | 2026-10-24 |  | [release](https://github.com/z3xox/Tenkaichi3Decomp/releases/tag/v0.1.38.7) |
 | [F-Zero X (G-Diffuser)](https://github.com/Zorkats/G-Diffuser) ⚠️ | N64 | 3.8 | 295 | 2026-10-22 |  | [release](https://github.com/Zorkats/G-Diffuser/releases/tag/v1.1.0) |
 | [Fallout](https://github.com/alexbatalov/fallout1-ce) | PC | 3.8 | 3.0k | 2025-01-15 |  | [release](https://github.com/alexbatalov/fallout1-ce/releases/tag/v1.1.0) |
 | [Namco 2x Systems (Namco 22 Decompile)](https://github.com/spacestate1/namco22-decompile) ⚠️ | Arcade | 3.8 | 253 | 2026-10-24 |  | [release](https://github.com/spacestate1/namco22-decompile/releases/tag/0.9.2) · [reddit](https://www.reddit.com/r/decomps/comments/1x2eo9v/ "u/soundastound · 43 upvotes · 18 comments") |
 | [Silent Hill](https://github.com/SlickAmogus/silent-hill-decomp) ⚠️ | PS1 | 3.8 | 763 | 2026-10-25 |  | [release](https://github.com/SlickAmogus/silent-hill-decomp/releases/tag/crossplatform-beta) |
 | [Supaplex](https://github.com/sergiou87/open-supaplex) ⚠️ | DOS | 3.8 | 312 | 2026-10-23 |  | [release](https://github.com/sergiou87/open-supaplex/releases/tag/v7.2.2) |
-| [Super Smash Bros.](https://github.com/JRickey/BattleShip) ⚠️ | N64 | 3.8 | 515 | 2026-10-24 |  | [release](https://github.com/JRickey/BattleShip/releases/tag/v1.6) |
+| [Super Smash Bros.](https://github.com/JRickey/BattleShip) ⚠️ | N64 | 3.8 | 515 | 2026-10-25 |  | [release](https://github.com/JRickey/BattleShip/releases/tag/v1.6) |
 | [Touhou PC-98](https://github.com/nmlgc/ReC98) | PC-98 | 3.8 | 882 | 2026-03-16 |  | [release](https://github.com/nmlgc/ReC98/releases/tag/P0335) |
 | [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp) | N64 | 3.8 | 224 | 2026-10-14 |  | [release](https://github.com/harvestwhisperer/hm64-decomp/releases/tag/sprite-editor-v0.1.0) |
-| [Resident Evil 4](https://github.com/adonis-singh/re4) ⚠️ | GameCube | 3.7 | 358 | 2026-10-02 |  |  |
+| [Resident Evil 4](https://github.com/adonis-singh/re4) ⚠️ | GameCube | 3.7 | 359 | 2026-10-02 |  |  |
 | [Super Mario Galaxy (GalaxyQuest (Meta Quest 3 VR))](https://github.com/bigmak94/GalaxyQuest) | Wii | 3.7 | 118 | 2026-10-19 |  | [release](https://github.com/bigmak94/GalaxyQuest/releases/tag/v0.1.9) |
 | [Animal Crossing](https://github.com/ACreTeam/ac-decomp) | GameCube | 3.6 | 1.4k | 2026-07-18 |  |  |
 | [Super Smash Bros. Melee](https://github.com/doldecomp/melee) ⚠️ | GameCube | 3.6 | 2.4k | 2026-10-23 |  |  |
@@ -1617,8 +1623,8 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [RuneScape (2006scape)](https://github.com/2006-Scape/2006Scape) | PC | 3.6 | 246 | 2024-12-28 |  | [release](https://github.com/2006-Scape/2006Scape/releases/tag/v1.10) |
 | [GoldenEye 007 (Project Midas)](https://github.com/murkantor/Project-Midas) ⚠️ | N64 | 3.5 | 341 | 2026-10-23 |  | [release](https://github.com/murkantor/Project-Midas/releases/tag/v1.0.1) |
 | [Need for Speed: Most Wanted](https://github.com/dbalatoni13/nfsmw) ⚠️ | GameCube | 3.5 | 236 | 2026-10-10 |  | [release](https://github.com/dbalatoni13/nfsmw/releases/tag/extension_0.1.0) |
-| [Sly Cooper and the Thievius Raccoonus (ProjectCane)](https://github.com/theclub654/ProjectCane) ⚠️ | PS2 | 3.5 | 315 | 2026-10-22 |  | [release](https://github.com/theclub654/ProjectCane/releases/tag/decompilation) |
-| [Super Mario Galaxy (Nebula)](https://github.com/keepvaibin/nebula) ⚠️ | Wii | 3.5 | 342 | 2026-10-25 |  | [release](https://github.com/keepvaibin/nebula/releases/tag/v1.0.1) |
+| [Sly Cooper and the Thievius Raccoonus (ProjectCane)](https://github.com/theclub654/ProjectCane) ⚠️ | PS2 | 3.5 | 317 | 2026-10-22 |  | [release](https://github.com/theclub654/ProjectCane/releases/tag/decompilation) |
+| [Super Mario Galaxy (Nebula)](https://github.com/keepvaibin/nebula) ⚠️ | Wii | 3.5 | 343 | 2026-10-25 |  | [release](https://github.com/keepvaibin/nebula/releases/tag/v1.0.1) |
 | [Super Smash Bros.](https://github.com/VetriTheRetri/ssb-decomp-re) ⚠️ | N64 | 3.5 | 271 | 2026-10-20 |  |  |
 | [The Legend of Zelda: The Minish Cap](https://github.com/MatheoVignaud/tmc) | GBA | 3.5 | 403 | 2026-05-17 |  | [release](https://github.com/MatheoVignaud/tmc/releases/tag/0.2.0-pre) |
 | [The Legend of Zelda: The Minish Cap (Project Picori)](https://github.com/999sian/tmc) ⚠️ | GBA | 3.5 | 499 | 2026-10-20 |  | [release](https://github.com/999sian/tmc/releases/tag/v0.9.6) |
@@ -1636,13 +1642,13 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Kingdom Hearts 358/2 Days](https://github.com/Yokimitsuro/khdays-decomp) | DS | 3.5 | 100 | 2026-10-11 |  |  |
 | [Lego Star Wars: The Complete Saga](https://github.com/opensagadev/saga) | Xbox 360 | 3.5 | 74 | 2026-10-23 |  |  |
 | [Medieval II: Total War (M2TWEOP)](https://github.com/EOP-Labs/M2TWEOP-library) | PC | 3.5 | 101 | 2026-10-19 |  | [release](https://github.com/EOP-Labs/M2TWEOP-library/releases/tag/M2TWEOP-3.3.1) |
-| [Monster Hunter 4 Ultimate (MH4UltimateDC)](https://github.com/CompaLarios18/MH4UltimateDC) | 3DS | 3.5 | 50 | 2026-10-24 |  | [release](https://github.com/CompaLarios18/MH4UltimateDC/releases/tag/v0.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xdgajj/ "u/FarYou3163 · 39 upvotes · 12 comments") |
+| [Monster Hunter 4 Ultimate (MH4UltimateDC)](https://github.com/CompaLarios18/MH4UltimateDC) | 3DS | 3.5 | 51 | 2026-10-24 |  | [release](https://github.com/CompaLarios18/MH4UltimateDC/releases/tag/v0.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xdgajj/ "u/FarYou3163 · 39 upvotes · 12 comments") |
 | [Neverwinter Nights: Enhanced Edition (NWNX:EE unified)](https://github.com/nwnxee/unified) | PC | 3.5 | 151 | 2026-10-25 |  | [release](https://github.com/nwnxee/unified/releases/tag/latest) |
-| [Paper Mario](https://github.com/SecondaryLifer/StarHaven) | N64 | 3.5 | 73 | 2026-10-25 |  | [release](https://github.com/SecondaryLifer/StarHaven/releases/tag/v1.2.9) |
+| [Paper Mario](https://github.com/SecondaryLifer/StarHaven) | N64 | 3.5 | 74 | 2026-10-25 |  | [release](https://github.com/SecondaryLifer/StarHaven/releases/tag/v1.2.11) |
 | [Pokemon Platinum (pokeplatinum)](https://github.com/cybervisi0n/pokeplatinum) | DS | 3.5 | 132 | 2026-10-10 |  | [release](https://github.com/cybervisi0n/pokeplatinum/releases/tag/v0.1.12) |
 | [Pokémon Emerald](https://github.com/Pokabbie/pokeemerald-rogue) | GBA | 3.5 | 143 | 2026-09-08 |  | [release](https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v2.1) |
 | [Pokémon Mystery Dungeon: Explorers of Sky (pmdsky-debug (symbol database))](https://github.com/UsernameFodder/pmdsky-debug) | DS | 3.5 | 55 | 2026-10-24 |  | [release](https://github.com/UsernameFodder/pmdsky-debug/releases/tag/v0.11.0%2B86c5f93928) |
-| [Ratchet & Clank (OpenRAC (umbrella))](https://github.com/OpenRAC/OpenRAC) | PS2 | 3.5 | 38 | 2026-10-25 |  | [release](https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v0.8.4) |
+| [Ratchet & Clank (OpenRAC (umbrella))](https://github.com/OpenRAC/OpenRAC) | PS2 | 3.5 | 39 | 2026-10-25 |  | [release](https://github.com/OpenRAC/OpenRAC/releases/tag/launcher-v0.8.4) |
 | [Resident Evil (resident-evil-pc-decomp)](https://github.com/ecruells/resident-evil-pc-decomp) | PS1 | 3.5 | 152 | 2026-10-23 |  | [release](https://github.com/ecruells/resident-evil-pc-decomp/releases/tag/residentevil-v1.4.1) |
 | [Stronghold Crusader (Unofficial Crusader Patch)](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch) | PC | 3.5 | 85 | 2026-09-11 |  | [release](https://github.com/UnofficialCrusaderPatch/UnofficialCrusaderPatch/releases/tag/alpha-v1.0.14) |
 | [Super Mario Strikers (Quest 3 Strikers)](https://github.com/LanceSweatpants/Strikers-Quest-MR) | GameCube | 3.5 | 30 | 2026-10-21 |  | [release](https://github.com/LanceSweatpants/Strikers-Quest-MR/releases/tag/v0.1.13-alpha1) |
@@ -1653,11 +1659,11 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [BattleTanx: Global Assault](https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PS1) | PS1 | 3.2 | 5 | 2026-10-21 |  |  |
 | [Call of Duty: United Offensive (Multiplayer)](https://github.com/opencoduo/coduomp) |  | 3.2 | 13 | 2026-10-18 |  | [release](https://github.com/opencoduo/coduomp/releases/tag/7) |
 | [Chrono Cross](https://github.com/jdperos/chrono-cross-decomp) | PS1 | 3.2 | 81 | 2026-04-14 |  |  |
-| [Colin McRae Rally 2.0 (OpenCMR2)](https://github.com/pablocpas/OpenCMR2) ⚠️ | PC | 3.2 | 86 | 2026-10-24 |  | [release](https://github.com/pablocpas/OpenCMR2/releases/tag/v1.6.2) |
-| [Crash Twinsanity](https://github.com/GioPixelGH/Crash-Twinsanity-Windows) | PS2 | 3.2 | 21 | 2026-10-25 |  | [release](https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/tag/v1.0.17) |
+| [Colin McRae Rally 2.0 (OpenCMR2)](https://github.com/pablocpas/OpenCMR2) ⚠️ | PC | 3.2 | 87 | 2026-10-24 |  | [release](https://github.com/pablocpas/OpenCMR2/releases/tag/v1.6.2) |
+| [Crash Twinsanity](https://github.com/GioPixelGH/Crash-Twinsanity-Windows) | PS2 | 3.2 | 22 | 2026-10-25 |  | [release](https://github.com/GioPixelGH/Crash-Twinsanity-Windows/releases/tag/v1.0.17) |
 | [Diddy Kong Racing](https://github.com/akratch/goldenballoon) ⚠️ | N64 | 3.2 | 185 | 2026-10-13 |  | [play](https://akratch.github.io/golden-balloon/) · [release](https://github.com/akratch/goldenballoon/releases/tag/v1.8.0) |
 | [Digimon World 2](https://github.com/Wyrelade/DW2-PC) | PS1 | 3.2 | 26 | 2026-10-15 |  | [release](https://github.com/Wyrelade/DW2-PC/releases/tag/v1.0.0-beta) |
-| [Downhill Domination](https://github.com/skuza-oss/downhill-revived) ⚠️ | PS2 | 3.2 | 38 | 2026-10-24 |  | [release](https://github.com/skuza-oss/downhill-revived/releases/tag/v0.3.1) |
+| [Downhill Domination](https://github.com/skuza-oss/downhill-revived) ⚠️ | PS2 | 3.2 | 41 | 2026-10-24 |  | [release](https://github.com/skuza-oss/downhill-revived/releases/tag/v0.3.1) |
 | [Kingdom Hearts 358/2 Days (khdays-vita)](https://github.com/ggdrn/KH-DAYS-VITA) | DS | 3.2 | 19 | 2026-10-21 |  | [release](https://github.com/ggdrn/KH-DAYS-VITA/releases/tag/1.0) |
 | [Kingdom Hearts Re:coded](https://github.com/kh-recoded-decomp/kh-recoded-decomp) | DS | 3.2 | 15 | 2026-10-23 |  |  |
 | [Kingdom Hearts: Chain of Memories](https://github.com/MatyMeatBoy/ReKHCoM) ⚠️ | GBA | 3.2 | 63 | 2026-10-25 |  | [release](https://github.com/MatyMeatBoy/ReKHCoM/releases/tag/v1.9.14) |
@@ -1667,14 +1673,14 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Parasite Eve II](https://github.com/GabeRealB/parasite-eve-2-decomp) ⚠️ | PS1 | 3.2 | 74 | 2026-10-25 |  |  |
 | [Pilotwings 64](https://github.com/NoahVl/Birdman64) ⚠️ | N64 | 3.2 | 38 | 2026-10-25 |  | [release](https://github.com/NoahVl/Birdman64/releases/tag/v1.5.1) |
 | [Pizza Tower](https://github.com/setupwitch/Pizza-Tower-EXtracted) | PC | 3.2 | 27 | 2026-09-20 |  | [release](https://github.com/setupwitch/Pizza-Tower-EXtracted/releases/tag/0.9.8) |
-| [Pokémon SoulSilver (pokeheartgold-single-screen)](https://github.com/ClickingMaster/pokeheartgold-single-screen) ⚠️ | DS | 3.2 | 42 | 2026-10-22 |  | [release](https://github.com/ClickingMaster/pokeheartgold-single-screen/releases/tag/v0.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xbz193/ "u/Jimbo1230 · 390 upvotes · 49 comments") |
+| [Pokémon SoulSilver (pokeheartgold-single-screen)](https://github.com/ClickingMaster/pokeheartgold-single-screen) ⚠️ | DS | 3.2 | 43 | 2026-10-22 |  | [release](https://github.com/ClickingMaster/pokeheartgold-single-screen/releases/tag/v0.1.4) · [reddit](https://www.reddit.com/r/decomps/comments/1xbz193/ "u/Jimbo1230 · 390 upvotes · 49 comments") |
 | [Rage Racer (Rage Racer PC)](https://github.com/khasinski/rage-racer-pc) ⚠️ | PS1 | 3.2 | 132 | 2026-10-20 |  | [release](https://github.com/khasinski/rage-racer-pc/releases/tag/0.6.10-alpha) |
 | [RMG-K](https://github.com/Jay-Day/RMG-K) ⚠️ | N64 | 3.2 | 176 | 2026-10-24 |  | [release](https://github.com/Jay-Day/RMG-K/releases/tag/v0.9.15) |
 | [Silent Hill (silent-hill-pc-nightly)](https://github.com/SlickAmogus/silent-hill-pc-nightly) | PS1 | 3.2 | 104 | 2026-05-18 |  | [release](https://github.com/SlickAmogus/silent-hill-pc-nightly/releases/tag/beta-2026.10.16.1) |
 | [Silent Hill 2 (sh23ds)](https://github.com/ankushKun/sh23ds) | PS2 | 3.2 | 28 | 2026-10-21 |  | [release](https://github.com/ankushKun/sh23ds/releases/tag/v0.2.2) |
 | [Sonic R (Sonic R Android)](https://github.com/ZinexDa/sonic-r-android) ⚠️ | PC | 3.2 | 31 | 2026-10-20 |  | [release](https://github.com/ZinexDa/sonic-r-android/releases/tag/v1.3.1) |
 | [Space Rangers HD: A War Apart (SpaceRangersHD_FPC)](https://github.com/pakompom/SpaceRangersHD_FPC) ⚠️ | PC | 3.2 | 87 | 2026-10-15 |  | [release](https://github.com/pakompom/SpaceRangersHD_FPC/releases/tag/build-20261015-163828-1d1835a1e6b3) |
-| [Star Fox](https://github.com/kandowontu2/starfox-enhanced) ⚠️ | SNES | 3.2 | 111 | 2026-10-23 |  | [release](https://github.com/kandowontu2/starfox-enhanced/releases/tag/v0.0.8.8.1) |
+| [Star Fox](https://github.com/kandowontu2/starfox-enhanced) ⚠️ | SNES | 3.2 | 112 | 2026-10-23 |  | [release](https://github.com/kandowontu2/starfox-enhanced/releases/tag/v0.0.8.8.1) |
 | [Star Wars Episode 1: Racer](https://github.com/tim-tim707/SW_RACER_RE) ⚠️ | PC | 3.2 | 83 | 2026-10-05 |  | [release](https://github.com/tim-tim707/SW_RACER_RE/releases/tag/v0.17) |
 | [Stunt Car Racer (Vesuri stuntcarracer (Framerate Unleashed))](https://github.com/Vesuri/stuntcarracer) | Amiga | 3.2 | 45 | 2026-06-01 |  | [release](https://github.com/Vesuri/stuntcarracer/releases/tag/1.1) |
 | [Test Drive Unlimited](https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited) ⚠️ | PC | 3.2 | 146 | 2026-10-23 |  | [release](https://github.com/opentestdriveunlimited/OpenTestDriveUnlimited/releases/tag/nightly_573d3d5) |
@@ -1684,7 +1690,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Way of the Samurai 2](https://github.com/acklavidian/decomp_wots2) | PS2 | 3.2 | 18 | 2026-10-16 |  | [release](https://github.com/acklavidian/decomp_wots2/releases/tag/v0.3.10) |
 | [Animal Forest](https://github.com/zeldaret/af) | N64 | 3.0 | 303 | 2026-08-16 |  |  |
 | [Banjo-Kazooie](https://github.com/n64decomp/banjo-kazooie) | N64 | 3.0 | 659 | 2026-09-28 |  |  |
-| [Call of Duty: Black Ops (bo1-zombies-decompiled)](https://github.com/MisaDev4/bo1-zombies-decompiled) | Xbox 360 | 3.0 | 295 | 2026-10-04 |  |  |
+| [Call of Duty: Black Ops (bo1-zombies-decompiled)](https://github.com/MisaDev4/bo1-zombies-decompiled) | Xbox 360 | 3.0 | 296 | 2026-10-04 |  |  |
 | [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR) | PC | 3.0 | 326 | 2026-10-24 |  |  |
 | [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing) | N64 | 3.0 | 424 | 2026-10-01 |  |  |
 | [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet) | N64 | 3.0 | 218 | 2026-10-24 |  |  |
@@ -1694,7 +1700,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Grand Theft Auto: Vice City](https://github.com/mrxenginner/reVC) | PC | 3.0 | 450 | 2026-10-02 |  |  |
 | [Guitar Hero: Warriors of Rock](https://github.com/kernaltrap8/WoR-Plus) | Xbox 360 | 3.0 | 57 | 2024-12-05 |  | [release](https://github.com/kernaltrap8/WoR-Plus/releases/tag/v0.8b) |
 | [Kirby 64: The Crystal Shards](https://github.com/Kirby64Ret/kirby64) | N64 | 3.0 | 235 | 2026-10-24 |  |  |
-| [Mario Kart: Double Dash!!](https://github.com/doldecomp/mkdd) | GameCube | 3.0 | 206 | 2026-10-24 |  |  |
+| [Mario Kart: Double Dash!!](https://github.com/doldecomp/mkdd) | GameCube | 3.0 | 206 | 2026-10-25 |  |  |
 | [Metal Gear Solid 1](https://github.com/FoxdieTeam/mgs_reversing) | PS1 | 3.0 | 822 | 2026-10-22 |  |  |
 | [Minecraft: Nintendo Switch Edition](https://github.com/GRAnimated/MinecraftLCE) | Switch | 3.0 | 624 | 2026-10-03 |  |  |
 | [PaRappa the Rapper 2](https://github.com/parappadev/parappa2) | PS2 | 3.0 | 207 | 2026-09-17 |  |  |
@@ -1703,7 +1709,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Pokemon Diamond](https://github.com/pret/pokediamond) | DS | 3.0 | 544 | 2026-10-11 |  |  |
 | [Pokemon HeartGold](https://github.com/pret/pokeheartgold) | DS | 3.0 | 740 | 2026-10-19 |  |  |
 | [Pokemon MD Red](https://github.com/pret/pmd-red) | GBA | 3.0 | 290 | 2026-10-16 |  |  |
-| [Pokemon Platinum](https://github.com/pret/pokeplatinum) | DS | 3.0 | 586 | 2026-10-25 |  |  |
+| [Pokemon Platinum](https://github.com/pret/pokeplatinum) | DS | 3.0 | 587 | 2026-10-25 |  |  |
 | [Silent Hill](https://github.com/shdecompilations/silent-hill-decomp) | PS1 | 3.0 | 958 | 2026-10-25 |  |  |
 | [Star Fox 64](https://github.com/sonicdcer/sf64) | N64 | 3.0 | 355 | 2026-09-28 |  |  |
 | [The Legend of Zelda: Skyward Sword](https://github.com/zeldaret/ss) | Wii | 3.0 | 216 | 2026-10-20 |  |  |
@@ -1722,7 +1728,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Fatal Frame 1](https://github.com/Mikompilation/Himuro) | PS2 | 2.9 | 133 | 2026-10-24 |  | [release](https://github.com/Mikompilation/Himuro/releases/tag/FullMatch) |
 | [Final Fantasy VII](https://github.com/Xeeynamo/ff7-decomp) | PS1 | 2.9 | 178 | 2026-10-24 |  | [release](https://github.com/Xeeynamo/ff7-decomp/releases/tag/init) |
 | [Geometry Dash](https://github.com/aloaf812/GD) | Mobile | 2.9 | 36 | 2026-10-20 |  |  |
-| [Golden Sun](https://github.com/PascalPixel/alchemy) | GBA | 2.9 | 174 | 2026-10-24 |  |  |
+| [Golden Sun](https://github.com/PascalPixel/alchemy) | GBA | 2.9 | 175 | 2026-10-24 |  |  |
 | [Half-Life (halflife_dc)](https://github.com/maximqaxd/halflife_dc) | PC | 2.9 | 48 | 2026-09-16 |  | [release](https://github.com/maximqaxd/halflife_dc/releases/tag/HLDC_MP) |
 | [Lego Racers](https://github.com/isledecomp/racers) | PC | 2.9 | 102 | 2026-10-23 |  | [release](https://github.com/isledecomp/racers/releases/tag/continuous) |
 | [Plants vs Zombies GOTY](https://github.com/Patoke/re-plants-vs-zombies) | PC | 2.9 | 241 | 2026-07-11 |  |  |
@@ -1730,7 +1736,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Sly Cooper and the Thievius Raccoonus](https://github.com/TheOnlyZac/sly1) ⚠️ | PS2 | 2.9 | 279 | 2026-10-22 |  |  |
 | [Sonic Advance 2](https://github.com/SAT-R/sa2) | GBA | 2.9 | 686 | 2026-07-21 |  |  |
 | [Soul Blazer](https://github.com/hellow554/RustyBlazer) | SNES | 2.9 | 5 | 2025-04-01 |  |  |
-| [Splatterhouse](https://github.com/0c0de/splatterhouse-decomp) | Xbox 360 | 2.9 | 53 | 2026-10-20 |  | [release](https://github.com/0c0de/splatterhouse-decomp/releases/tag/v0.3) |
+| [Splatterhouse](https://github.com/0c0de/splatterhouse-decomp) | Xbox 360 | 2.9 | 57 | 2026-10-20 |  | [release](https://github.com/0c0de/splatterhouse-decomp/releases/tag/v0.3) |
 | [Star Fox (UltraStarFox)](https://github.com/Sunlitspace542/ultrastarfox) | SNES | 2.9 | 66 | 2026-10-03 |  | [release](https://github.com/Sunlitspace542/ultrastarfox/releases/tag/2.2) |
 | [Starflight](https://github.com/s-macke/starflight-reverse) | DOS | 2.9 | 242 | 2026-03-09 |  |  |
 | [Street Fighter III: 3rd Strike](https://github.com/crowded-street/3s-decomp) | PS2 | 2.9 | 283 | 2026-04-03 |  |  |
@@ -1741,7 +1747,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Another Mind](https://github.com/halkuncode/anothermind-decomp) | PS1 | 2.6 | 14 | 2026-10-18 |  | [release](https://github.com/halkuncode/anothermind-decomp/releases/tag/init) |
 | [Boss Rally](https://github.com/jeff-strutb/brally) | PC | 2.6 | 12 | 2026-10-25 |  | [release](https://github.com/jeff-strutb/brally/releases/tag/v0.89) |
 | [Bumpy's Arcade Fantasy](https://github.com/GeReV/bumpy-reverse) | DOS | 2.6 | 1 | 2026-10-07 |  | [release](https://github.com/GeReV/bumpy-reverse/releases/tag/latest) |
-| [Carmageddon 2](https://github.com/Link4Electronics/Carpocalypse2) | PC | 2.6 | 14 | 2026-10-24 |  | [release](https://github.com/Link4Electronics/Carpocalypse2/releases/tag/0.60) |
+| [Carmageddon 2](https://github.com/Link4Electronics/Carpocalypse2) | PC | 2.6 | 15 | 2026-10-24 |  | [release](https://github.com/Link4Electronics/Carpocalypse2/releases/tag/0.60) |
 | [Doom 64](https://github.com/Erick194/DOOM64-RE) | N64 | 2.6 | 237 | 2025-05-30 |  |  |
 | [Duke Nukem II](https://github.com/lethal-guitar/Duke2Reconstructed) | DOS | 2.6 | 373 | 2025-04-13 |  |  |
 | [Dungeon Master II: Skullkeep (skproject)](https://github.com/gbsphenx/skproject) | DOS | 2.6 | 27 | 2026-08-29 |  |  |
@@ -1750,9 +1756,10 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Hitman: Codename 47 (ReHitman)](https://github.com/ReGlacier/ReHitman) | PC | 2.6 | 73 | 2026-05-23 |  | [release](https://github.com/ReGlacier/ReHitman/releases/tag/1.0.35) |
 | [King's Field 2](https://github.com/snzhkhd/King-s-Field-PC) | PC | 2.6 | 1 | 2026-10-14 |  | [release](https://github.com/snzhkhd/King-s-Field-PC/releases/tag/v0.3) |
 | [Mario Kart Wii](https://github.com/snailspeed3/mkw) | Wii | 2.6 | 476 | 2025-09-16 |  |  |
+| [Mirror's Edge (iPad) (Glassline)](https://github.com/MoonCellar-Team/Glassline) | Mobile | 2.6 | 13 | 2026-10-24 |  | [release](https://github.com/MoonCellar-Team/Glassline/releases/tag/v1.2) · [reddit](https://www.reddit.com/r/decomps/comments/1xeakor/ "u/alexgrist133 · 75 upvotes · 17 comments") |
 | [Mortal Kombat 4](https://github.com/nathan-casabieille/mk4decomp) | PC | 2.6 | 10 | 2026-09-16 |  | [release](https://github.com/nathan-casabieille/mk4decomp/releases/tag/v0.1) |
 | [OutRun 2006: Coast 2 Coast (outrun2-decomp)](https://github.com/r4dius/outrun2-decomp) ⚠️ | PC | 2.6 | 38 | 2026-10-07 |  |  |
-| [Parasite Eve](https://github.com/khasinski/parasite-eve-pc) | PS1 | 2.6 | 11 | 2026-10-25 |  | [release](https://github.com/khasinski/parasite-eve-pc/releases/tag/0.3-alpha) |
+| [Parasite Eve](https://github.com/khasinski/parasite-eve-pc) | PS1 | 2.6 | 20 | 2026-10-25 |  | [release](https://github.com/khasinski/parasite-eve-pc/releases/tag/0.3-alpha) |
 | [Perfect Dark](https://github.com/n64decomp/perfect_dark) | N64 | 2.6 | 876 | 2025-03-14 |  |  |
 | [Quake 4](https://github.com/cyberheater/Xbox-360-Quake4-decomp) | Xbox 360 | 2.6 | 14 | 2026-10-22 |  | [release](https://github.com/cyberheater/Xbox-360-Quake4-decomp/releases/tag/v0.2.0) |
 | [Sheep, Dog 'n' Wolf](https://github.com/SDW-Community/sdw-decomp) | PC | 2.6 | 19 | 2026-09-27 |  | [release](https://github.com/SDW-Community/sdw-decomp/releases/tag/v0.1) |
@@ -1763,7 +1770,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Terraria Xbox 360 Edition (TerrariaXDK)](https://github.com/dptug/TerrariaXDK) | Xbox 360 | 2.6 | 36 | 2026-05-15 |  | [release](https://github.com/dptug/TerrariaXDK/releases/tag/0.6.7) |
 | [The Legend of Zelda: Oracle of Ages / Oracle of Seasons (Oracles Decomp)](https://github.com/kirby-letsgo/oracles-decomp) ⚠️ | Game Boy Color | 2.6 | 95 | 2026-10-24 |  | [release](https://github.com/kirby-letsgo/oracles-decomp/releases/tag/v1.0.2) · [reddit](https://www.reddit.com/r/decomps/comments/1wzutsd/ "u/Specialist-Onion1998 · 240 upvotes · 109 comments") |
 | [The Legend of Zelda: Twilight Princess](https://github.com/BgbrhrWatchinOVO/dusklight-ps4) | GameCube | 2.6 | 18 | 2026-10-11 |  | [release](https://github.com/BgbrhrWatchinOVO/dusklight-ps4/releases/tag/Release) |
-| [The Operative: No One Lives Forever (nolfsrc)](https://github.com/nolffan/nolfsrc) ⚠️ | PC | 2.6 | 97 | 2026-10-20 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x2ey3u/ "u/nolffan · 72 upvotes · 30 comments") |
+| [The Operative: No One Lives Forever (nolfsrc)](https://github.com/nolffan/nolfsrc) ⚠️ | PC | 2.6 | 97 | 2026-10-25 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x2ey3u/ "u/nolffan · 72 upvotes · 30 comments") |
 | [Touhou 6: The Embodiment of Scarlet Devil (th06-sdl2)](https://github.com/CNTianQi233/th06-sdl2) | PC | 2.6 | 49 | 2026-05-13 |  | [release](https://github.com/CNTianQi233/th06-sdl2/releases/tag/Archived-fix1.1.0) |
 | [Touhou 8: Imperishable Night (th08)](https://github.com/N0zoM1z0/th08) ⚠️ | PC | 2.6 | 53 | 2026-10-15 |  | [release](https://github.com/N0zoM1z0/th08/releases/tag/v0.2.1-linux-64bit) |
 | [Touhou 8: Imperishable Night (th08-web)](https://github.com/N0zoM1z0/th08-web) | PC | 2.6 | 13 | 2026-09-11 |  | [release](https://github.com/N0zoM1z0/th08-web/releases/tag/v0.1.0) |
@@ -1777,11 +1784,11 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Brave Fencer Musashi](https://github.com/Druthulu/BFM-decomp) | PS1 | 2.6 | 83 | 2026-10-17 |  |  |
 | [Carmageddon II: Carpocalypse Now (rec2 (Carmageddon 2, revisited))](https://github.com/madebr/rec2) | PC | 2.6 | 53 | 2026-10-24 |  |  |
 | [Conker's Bad Fur Day (DevOldSchool)](https://github.com/DevOldSchool/conkers-bfd-decomp) | N64 | 2.6 | 32 | 2026-10-25 |  |  |
-| [Crash Twinsanity (twinsanity-reversed)](https://github.com/Smartkin/twinsanity-reversed) | PS2 | 2.6 | 40 | 2026-10-05 |  |  |
+| [Crash Twinsanity (twinsanity-reversed)](https://github.com/Smartkin/twinsanity-reversed) | PS2 | 2.6 | 41 | 2026-10-05 |  |  |
 | [Dance Central 3](https://github.com/rjkiv/dc3-decomp) | Xbox 360 | 2.6 | 43 | 2026-10-25 |  |  |
 | [Dark Chronicle](https://github.com/TheMoonPeople/ChronicleTwo) | PS2 | 2.6 | 35 | 2026-10-24 |  |  |
 | [Dark Cloud](https://github.com/TheMoonPeople/Chronicle) | PS2 | 2.6 | 104 | 2026-10-24 |  |  |
-| [Digimon World](https://github.com/jype0/dw_decomp) | PS1 | 2.6 | 85 | 2026-10-19 |  |  |
+| [Digimon World](https://github.com/jype0/dw_decomp) | PS1 | 2.6 | 86 | 2026-10-19 |  |  |
 | [Dr. Mario 64](https://github.com/AngheloAlf/drmario64) | N64 | 2.6 | 81 | 2026-08-13 |  |  |
 | [Dragon Quest IX](https://github.com/DQIX/dqix-decomp) | DS | 2.6 | 53 | 2026-10-23 |  |  |
 | [EarthBound / Mother 2](https://github.com/Herringway/ebsrc) | SNES | 2.6 | 187 | 2026-10-24 |  |  |
@@ -1794,8 +1801,8 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Elite (elite-source-code-bbc-micro-disc (Mark Moxon))](https://github.com/markmoxon/elite-source-code-bbc-micro-disc) | BBC Micro/Acorn | 2.6 | 53 | 2026-10-08 |  |  |
 | [F-Zero X](https://github.com/inspectredc/fzerox) | N64 | 2.6 | 109 | 2026-09-17 |  |  |
 | [Fallout: New Vegas](https://github.com/ieee802dot11ac/fnv) | Xbox 360 | 2.6 | 36 | 2026-08-30 |  |  |
-| [Final Fantasy VIII](https://github.com/roengstrom/ff8-decomp) | PS1 | 2.6 | 60 | 2026-10-24 |  |  |
-| [God Hand](https://github.com/LucasPicoli/god-hand-decomp) | PS2 | 2.6 | 75 | 2026-10-25 |  |  |
+| [Final Fantasy VIII](https://github.com/roengstrom/ff8-decomp) | PS1 | 2.6 | 60 | 2026-10-25 |  |  |
+| [God Hand](https://github.com/LucasPicoli/god-hand-decomp) | PS2 | 2.6 | 77 | 2026-10-25 |  |  |
 | [Golden Sun](https://github.com/Coaltergeist/goldensun-decomp) | GBA | 2.6 | 30 | 2026-10-14 |  |  |
 | [Gran Turismo 4](https://github.com/gustavocanepa/gt4-decomp) | PS2 | 2.6 | 91 | 2026-10-25 |  |  |
 | [Half-Life (half-life1_win32_722)](https://github.com/ScriptedSnark/half-life1_win32_722) | PC | 2.6 | 62 | 2026-08-02 |  |  |
@@ -1819,7 +1826,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Mario Party 3](https://github.com/mariopartyrd/marioparty3) | N64 | 2.6 | 76 | 2026-10-23 |  |  |
 | [Mario Party 5](https://github.com/mariopartyrd/marioparty5) | GameCube | 2.6 | 41 | 2026-10-21 |  |  |
 | [Mario Strikers Charged](https://github.com/yannicksuter/mscharged-decomp) | Wii | 2.6 | 38 | 2026-10-25 |  |  |
-| [Mega Man X4](https://github.com/sozud/mmx4) | PS1 | 2.6 | 36 | 2026-10-23 |  |  |
+| [Mega Man X4](https://github.com/sozud/mmx4) | PS1 | 2.6 | 36 | 2026-10-25 |  |  |
 | [Metroid Fusion](https://github.com/metroidret/mf) | GBA | 2.6 | 76 | 2026-10-19 |  |  |
 | [Metroid: Zero Mission](https://github.com/metroidret/mzm) | GBA | 2.6 | 158 | 2026-10-19 |  |  |
 | [Mischief Makers](https://github.com/Drahsid/mischief-makers) | N64 | 2.6 | 72 | 2026-10-22 |  |  |
@@ -1833,7 +1840,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Panzer Dragoon Saga](https://github.com/yaz0r/Azel) | Saturn | 2.6 | 184 | 2026-09-07 |  |  |
 | [Paper Mario (papermario-dx (engine fork))](https://github.com/bates64/papermario-dx) | N64 | 2.6 | 125 | 2026-10-23 |  |  |
 | [Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd) | GameCube | 2.6 | 149 | 2026-09-27 |  |  |
-| [Parasite Eve](https://github.com/khasinski/parasite-eve-decomp) | PS1 | 2.6 | 68 | 2026-10-15 |  |  |
+| [Parasite Eve](https://github.com/khasinski/parasite-eve-decomp) | PS1 | 2.6 | 69 | 2026-10-15 |  |  |
 | [Peggle Deluxe](https://github.com/teampopwork/Thunderball) | PC | 2.6 | 54 | 2026-10-18 |  |  |
 | [Phoenix Wright: Ace Attorney](https://github.com/atasro2/pwaa1) | GBA | 2.6 | 56 | 2026-09-12 |  |  |
 | [Pilotwings 64](https://github.com/n64decomp/pw64) | N64 | 2.6 | 83 | 2026-10-24 |  |  |
@@ -1841,32 +1848,32 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Pokemon MD Sky](https://github.com/pret/pmd-sky) | DS | 2.6 | 148 | 2026-10-14 |  |  |
 | [Pokemon Pinball Ruby & Sapphire](https://github.com/pret/pokepinballrs) | GBA | 2.6 | 149 | 2026-10-11 |  |  |
 | [Pokemon Puzzle League](https://github.com/AngheloAlf/puzzleleague64) | Game Boy Color | 2.6 | 42 | 2026-10-20 |  |  |
-| [Pokémon Black 2 / Pokémon White 2](https://github.com/fuddlesworth/pokebw2) | DS | 2.6 | 56 | 2026-10-25 |  |  |
-| [Rage Racer](https://github.com/khasinski/rage-racer-decomp) | PS1 | 2.6 | 33 | 2026-09-05 |  |  |
+| [Pokémon Black 2 / Pokémon White 2](https://github.com/fuddlesworth/pokebw2) | DS | 2.6 | 57 | 2026-10-25 |  |  |
+| [Rage Racer](https://github.com/khasinski/rage-racer-decomp) | PS1 | 2.6 | 33 | 2026-10-25 |  |  |
 | [Ratchet & Clank](https://github.com/lombyte-project/Lombyte) | PS2 | 2.6 | 47 | 2026-10-24 |  |  |
 | [Ratchet & Clank: Up Your Arsenal](https://github.com/vetusmagnus/rac3-uya-decomp) | PS2 | 2.6 | 35 | 2026-10-22 |  |  |
 | [Resident Evil – Code: Veronica X](https://github.com/fmil95/recvx-gc-decomp) | GameCube | 2.6 | 37 | 2026-08-05 |  |  |
 | [Revs (revs-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/revs-source-code-bbc-micro) | BBC Micro/Acorn | 2.6 | 42 | 2026-10-01 |  |  |
-| [Rock Band 3](https://github.com/DarkRTA/rb3) | Wii | 2.6 | 125 | 2026-10-20 |  |  |
+| [Rock Band 3](https://github.com/DarkRTA/rb3) | Wii | 2.6 | 126 | 2026-10-20 |  |  |
 | [San Andreas Multiplayer (SA-MP)](https://github.com/dashr9230/SA-MP) | PC | 2.6 | 152 | 2026-10-10 |  |  |
 | [Shin Megami Tensei: Digital Devil Saga / Shin Megami Tensei: Digital Devil Saga 2](https://github.com/Megami-Decomps/dds-decomp) | PS2 | 2.6 | 35 | 2026-10-25 |  |  |
 | [Shin Megami Tensei: Persona 3 FES (Persona3-FES-Decompilation)](https://github.com/snaku/Persona3-FES-Decompilation) | PS2 | 2.6 | 70 | 2026-09-04 |  |  |
 | [Shin Megami Tensei: Persona 4](https://github.com/Raikaru/Persona4-Decompilation) | PS2 | 2.6 | 49 | 2026-10-24 |  |  |
 | [Silent Hill 3](https://github.com/dreamingmoths/memory-of-alessa) | PS2 | 2.6 | 160 | 2026-10-24 |  |  |
 | [Snowboard Kids](https://github.com/cdlewis/snowboardkids-decomp) | N64 | 2.6 | 58 | 2026-10-25 |  |  |
-| [Sonic Advance 3](https://github.com/SAT-R/sa3) | GBA | 2.6 | 88 | 2026-10-24 |  |  |
+| [Sonic Advance 3](https://github.com/SAT-R/sa3) | GBA | 2.6 | 88 | 2026-10-25 |  |  |
 | [Sonic CD (RSDKv3-Script-Decompilation)](https://github.com/RSDKModding/RSDKv3-Script-Decompilation) | PC | 2.6 | 139 | 2026-08-13 |  |  |
-| [Sonic Heroes](https://github.com/Jovinull/sonicheroes) | GameCube | 2.6 | 33 | 2026-10-25 |  |  |
+| [Sonic Heroes](https://github.com/Jovinull/sonicheroes) | GameCube | 2.6 | 34 | 2026-10-25 |  |  |
 | [Sonic Rush Adventure](https://github.com/RushRE/SonicRushAdventure-Decomp) | DS | 2.6 | 46 | 2026-09-23 |  |  |
 | [Sonic the Hedgehog (2013) (RSDKv4-Script-Decompilation)](https://github.com/RSDKModding/RSDKv4-Script-Decompilation) | Mobile | 2.6 | 140 | 2026-10-24 |  |  |
 | [Space Rangers HD: A War Apart](https://github.com/pakompom/SpaceRangersHD_decomp) | PC | 2.6 | 58 | 2026-10-16 |  |  |
-| [Space Station Silicon Valley](https://github.com/mkst/sssv) | N64 | 2.6 | 66 | 2026-08-10 |  |  |
+| [Space Station Silicon Valley](https://github.com/mkst/sssv) | N64 | 2.6 | 66 | 2026-10-25 |  |  |
 | [Spider-Man](https://github.com/krystalgamer/spidey-decomp) | PS1 | 2.6 | 142 | 2026-10-07 |  |  |
 | [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb) | GameCube | 2.6 | 195 | 2026-10-21 |  |  |
 | [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1) | PS1 | 2.6 | 179 | 2026-10-21 |  |  |
 | [SSX 3](https://github.com/ssxdecomp/ssx3) | PS2 | 2.6 | 38 | 2026-10-18 |  |  |
 | [Star Fox 64](https://github.com/jnmartin84/sf64-dc) | N64 | 2.6 | 49 | 2026-08-24 |  |  |
-| [Super Mario Galaxy 2](https://github.com/SMGCommunity/Garigari) | Wii | 2.6 | 87 | 2026-10-25 |  |  |
+| [Super Mario Galaxy 2](https://github.com/SMGCommunity/Garigari) | Wii | 2.6 | 88 | 2026-10-25 |  |  |
 | [Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp) | GameCube | 2.6 | 106 | 2026-09-17 |  |  |
 | [Super Paper Mario](https://github.com/SeekyCt/spm-decomp) | Wii | 2.6 | 104 | 2026-10-04 |  |  |
 | [Super Smash Bros. Brawl](https://github.com/doldecomp/brawl) | Wii | 2.6 | 108 | 2026-10-25 |  |  |
@@ -1876,7 +1883,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [The Legend of Zelda: Spirit Tracks](https://github.com/zeldaret/st) | DS | 2.6 | 72 | 2026-10-25 |  |  |
 | [The Sentinel (the-sentinel-source-code-bbc-micro (Mark Moxon))](https://github.com/markmoxon/the-sentinel-source-code-bbc-micro) | BBC Micro/Acorn | 2.6 | 59 | 2026-10-01 |  |  |
 | [Tokyo Bus Guide](https://github.com/lhsazevedo/tbg-decomp) | Dreamcast | 2.6 | 36 | 2026-10-25 |  |  |
-| [Total Annihilation (TA: Byte Tactics)](https://github.com/HectorBailey/byte-tactics) | PC | 2.6 | 48 | 2026-10-25 |  |  |
+| [Total Annihilation (TA: Byte Tactics)](https://github.com/HectorBailey/byte-tactics) | PC | 2.6 | 49 | 2026-10-25 |  |  |
 | [Touhou Youyoumu ~ Perfect Cherry Blossom](https://github.com/some100/th07) | PC | 2.6 | 63 | 2026-10-07 |  |  |
 | [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp) | GameCube | 2.6 | 37 | 2026-10-08 |  |  |
 | [Ultima Online (OUO)](https://github.com/draxinar/ouo) | PC | 2.6 | 173 | 2026-09-05 |  |  |
@@ -1899,7 +1906,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Ultima Online (uo-client)](https://github.com/xrip/uo-client) | PC | 2.5 | 20 | 2026-06-01 |  | [release](https://github.com/xrip/uo-client/releases/tag/1.1.0) |
 | [AeroGauge](https://github.com/LLONSIT/AeroGauge) | N64 | 2.4 | 32 | 2026-01-23 |  |  |
 | [Alice in Wonderland](https://github.com/Alice-2010/Decomp) | Wii | 2.4 | 14 | 2026-10-22 |  |  |
-| [Aliens versus Predator 2](https://github.com/lemiur/AVP2-Reconstructed) | PC | 2.4 | 17 | 2026-10-10 |  |  |
+| [Aliens versus Predator 2](https://github.com/lemiur/AVP2-Reconstructed) | PC | 2.4 | 18 | 2026-10-10 |  |  |
 | [Animal Crossing: Wild World](https://github.com/7ucina/acww-decomp) | DS | 2.4 | 15 | 2026-10-14 |  |  |
 | [Arcanum: Of Steamworks and Magick Obscura](https://github.com/alexbatalov/arcanum-ce) | PC | 2.4 | 172 | 2026-05-13 |  |  |
 | [Azure Dreams](https://github.com/forestbelton/azure) | PS1 | 2.4 | 8 | 2026-10-24 |  |  |
@@ -1907,8 +1914,8 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Beetle Adventure Racing!](https://github.com/synamaxmusic/bar-decomp) | N64 | 2.4 | 18 | 2026-10-20 |  |  |
 | [Beyblade VForce: Ultimate Blader Jam](https://github.com/marijnvdwerf/gba-beyblade-vforce) | GBA | 2.4 | 8 | 2026-09-24 |  |  |
 | [Biohazard Outbreak / Biohazard Outbreak File 2](https://github.com/GalaxyNostalgia/Outbreak-decomp) | PS2 | 2.4 | 15 | 2026-10-25 |  |  |
-| [Black and White](https://github.com/openblack/bw1-decomp) ⚠️ | PC | 2.4 | 113 | 2026-10-23 |  |  |
-| [Blast Corps](https://github.com/SlaveOfIDO/blastcorps) | N64 | 2.4 | 16 | 2026-10-22 |  |  |
+| [Black and White](https://github.com/openblack/bw1-decomp) ⚠️ | PC | 2.4 | 113 | 2026-10-25 |  |  |
+| [Blast Corps](https://github.com/SlaveOfIDO/blastcorps) | N64 | 2.4 | 17 | 2026-10-22 |  |  |
 | [Body Harvest](https://github.com/jaytheham/body-harvest-decompilation) ⚠️ | N64 | 2.4 | 46 | 2026-10-25 |  |  |
 | [Bomberman 64](https://github.com/Bomberhackers/bm64) | N64 | 2.4 | 35 | 2026-03-08 |  |  |
 | [Bomberman Hero](https://github.com/Bomberhackers/bmhero) | N64 | 2.4 | 62 | 2026-04-24 |  |  |
@@ -1921,7 +1928,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Chulip](https://github.com/aaaaaaaaaaway/chulip-decomp) | PS2 | 2.4 | 2 | 2026-09-29 |  |  |
 | [Colin McRae Rally 2.0](https://github.com/pablocpas/CMR2Decomp) | PC | 2.4 | 27 | 2026-10-21 |  |  |
 | [Costume Quest](https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp) | PC | 2.4 | 1 | 2026-10-19 |  |  |
-| [Crash Bandicoot: The Wrath of Cortex (PS2)](https://github.com/denzi-gh/crashwoc-decomp-ps2) | PS2 | 2.4 | 20 | 2026-10-24 |  |  |
+| [Crash Bandicoot: The Wrath of Cortex (PS2)](https://github.com/denzi-gh/crashwoc-decomp-ps2) | PS2 | 2.4 | 21 | 2026-10-25 |  |  |
 | [Crash Bandicoot: XS (The Huge Adventure)](https://github.com/Almamu/CrashBandicootXS-decomp) | GBA | 2.4 | 20 | 2026-10-21 |  |  |
 | [Crash Tag Team Racing](https://github.com/bluisblu/cttr) | GameCube | 2.4 | 16 | 2026-10-15 |  |  |
 | [Creatures 2](https://github.com/adamcolquhoun/Creatures-2-Decompilation) | PC | 2.4 | 3 | 2026-10-07 |  |  |
@@ -1937,7 +1944,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Dragon Ball Z: Budokai Tenkaichi 3](https://github.com/z3xox/BT3-Decompiled) | PS2 | 2.4 | 26 | 2026-10-08 |  |  |
 | [Dragon Quest IV](https://github.com/GoldieLeGenie/DQIV-DECOMP) | DS | 2.4 | 15 | 2026-10-18 |  |  |
 | [DS Protect](https://github.com/taxicat1/dsprot) | DS | 2.4 | 31 | 2026-01-22 |  |  |
-| [DX-Ball (dx-ball (REA showcase))](https://github.com/N0zoM1z0/dx-ball) ⚠️ | PC | 2.4 | 76 | 2026-10-22 |  |  |
+| [DX-Ball (dx-ball (REA showcase))](https://github.com/N0zoM1z0/dx-ball) ⚠️ | PC | 2.4 | 77 | 2026-10-22 |  |  |
 | [Eternal Darkness: Sanity's Requiem](https://github.com/PattyTrish/unending-occlusion) | GameCube | 2.4 | 8 | 2026-10-16 |  |  |
 | [Eternal Darkness: Sanity's Requiem](https://github.com/psdwizzard/Eternal-Darkness---Decompile) | GameCube | 2.4 | 26 | 2026-10-18 |  |  |
 | [Excite Truck](https://github.com/orangedude27/excite-truck) | Wii | 2.4 | 2 | 2026-10-24 |  |  |
@@ -1959,7 +1966,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [HOVER!](https://github.com/Link4Electronics/FlyingDodgem) | PC | 2.4 | 2 | 2026-10-20 |  |  |
 | [Icewind Dale II (iwd2r (Icewind Dale 2 Resurrected))](https://github.com/thierbig/iwd2r) | PC | 2.4 | 12 | 2026-10-25 |  |  |
 | [Ico](https://github.com/RossyDoubleUnderscore/ICO-decomp) | PS2 | 2.4 | 33 | 2026-01-08 |  |  |
-| [Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!](https://github.com/CacaBueno64/ie3ogres) | DS | 2.4 | 17 | 2026-10-17 |  |  |
+| [Inazuma Eleven 3 - Sekai e no Chousen: The Ogre!!](https://github.com/CacaBueno64/ie3ogres) | DS | 2.4 | 18 | 2026-10-25 |  |  |
 | [Insaniquarium Deluxe](https://github.com/Vindirect/WinFish) | PC | 2.4 | 24 | 2026-10-08 |  |  |
 | [Jumping Flash](https://github.com/NotExactlySiev/aloha) | PS1 | 2.4 | 23 | 2026-10-11 |  |  |
 | [Jurassic Park: Operation Genesis](https://github.com/AdventureT/OpenJPOG) | PC | 2.4 | 42 | 2026-01-20 |  |  |
@@ -1975,8 +1982,8 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Legoland](https://github.com/marijnvdwerf/legoland) | PC | 2.4 | 11 | 2026-09-26 |  |  |
 | [Lode Runner (lode_runner_reveng (literate programming))](https://github.com/XekriRedmane/lode_runner_reveng) | Apple II | 2.4 | 97 | 2026-07-09 |  |  |
 | [LSD: Dream Emulator](https://github.com/brian-oblivion/lsddecomp) | PS1 | 2.4 | 19 | 2026-10-17 |  |  |
-| [Luigi's Mansion](https://github.com/SomeJakeGuy/lm-decomp) | GameCube | 2.4 | 12 | 2026-10-21 |  |  |
-| [Mafia: The City of Lost Heaven](https://github.com/Marvisak/mafia-re) | PC | 2.4 | 26 | 2026-10-25 |  |  |
+| [Luigi's Mansion](https://github.com/SomeJakeGuy/lm-decomp) | GameCube | 2.4 | 13 | 2026-10-21 |  |  |
+| [Mafia: The City of Lost Heaven](https://github.com/Marvisak/mafia-re) | PC | 2.4 | 27 | 2026-10-25 |  |  |
 | [Magic: The Gathering (microprose-shandalar-source)](https://github.com/benprew/microprose-shandalar-source) | PC | 2.4 | 16 | 2026-09-01 |  |  |
 | [Maniac Mansion](https://github.com/pditincho/mm-explained) | Commodore 64/8-bit | 2.4 | 50 | 2025-12-11 |  |  |
 | [Mario & Luigi - Partners in Time](https://github.com/Rainchus/PartnersInTime-Decomp) | DS | 2.4 | 14 | 2026-09-29 |  |  |
@@ -1991,7 +1998,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [MediEvil](https://github.com/MediEvilDecompilation/medievil-decomp) | PS1 | 2.4 | 73 | 2026-02-23 |  |  |
 | [Megami Ibunroku Persona](https://github.com/daanhenke/persona-psx) | PS1 | 2.4 | 14 | 2026-10-03 |  |  |
 | [Metal Gear Solid 3](https://github.com/GirianSeed/mgs3) | PS2 | 2.4 | 29 | 2026-09-20 |  |  |
-| [Monster Hunter 4 Ultimate](https://github.com/mhvuze/mh4u-decomp) | 3DS | 2.4 | 24 | 2026-10-23 |  |  |
+| [Monster Hunter 4 Ultimate](https://github.com/mhvuze/mh4u-decomp) | 3DS | 2.4 | 24 | 2026-10-25 |  |  |
 | [Mortal Kombat: Deception](https://github.com/ShulkMaster/mk-deception) | GameCube | 2.4 | 16 | 2026-10-18 |  |  |
 | [Need for Speed: High Stakes (PS1)](https://github.com/Caesar0007/NFSHS-PSX-decomp) ⚠️ | PS1 | 2.4 | 56 | 2026-10-24 |  |  |
 | [Need for Speed: Underground](https://github.com/dbalatoni13/nfsug) | GameCube | 2.4 | 39 | 2026-02-04 |  |  |
@@ -2021,7 +2028,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Severance: Blade of Darkness (BldMystery)](https://github.com/smartblade/BldMystery) | PC | 2.4 | 57 | 2025-12-27 |  |  |
 | [Shadow of the Colossus](https://github.com/Fantaskink/SOTC) | PS2 | 2.4 | 143 | 2026-02-15 |  |  |
 | [Shaun Palmer's Pro Snowboarder](https://github.com/Daniel-McCarthy/SPPS) | PS2 | 2.4 | 7 | 2026-10-12 |  |  |
-| [Sid Meier's Civilization (civd)](https://github.com/sjmelia/civd) | DOS | 2.4 | 16 | 2026-10-21 |  |  |
+| [Sid Meier's Civilization (civd)](https://github.com/sjmelia/civd) | DOS | 2.4 | 18 | 2026-10-21 |  |  |
 | [Silent Hill 2](https://github.com/dreamingmoths/mirror-of-alessa) | PS2 | 2.4 | 16 | 2026-10-24 |  |  |
 | [Silent Storm (Silent Storm source reconstruction)](https://github.com/met-nikita/Silent-Storm-Reconstruction) | PC | 2.4 | 13 | 2026-10-25 |  |  |
 | [Sinistar](https://github.com/synamaxmusic/sinistar) | Arcade | 2.4 | 45 | 2025-11-16 |  |  |
@@ -2036,7 +2043,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Spyro 2: Ripto's Rage!](https://github.com/TheMobyCollective/spyro-2) | PS1 | 2.4 | 10 | 2026-10-23 |  |  |
 | [Spyro: Year of the Dragon](https://github.com/TheMobyCollective/spyro-3) | PS1 | 2.4 | 26 | 2026-10-25 |  |  |
 | [SSX](https://github.com/ssxdecomp/ssx) | PS2 | 2.4 | 21 | 2026-10-06 |  |  |
-| [SSX 3 (ssx3-decomp)](https://github.com/andersfischernielsen/ssx3-decomp) | PS2 | 2.4 | 26 | 2026-10-25 |  |  |
+| [SSX 3 (ssx3-decomp)](https://github.com/andersfischernielsen/ssx3-decomp) | PS2 | 2.4 | 27 | 2026-10-25 |  |  |
 | [SSX Tricky](https://github.com/ssxdecomp/ssxtricky) | PS2 | 2.4 | 11 | 2026-10-17 |  |  |
 | [Star Fox Adventures (Retail)](https://github.com/zcanann/SFA-Decomp) ⚠️ | GameCube | 2.4 | 80 | 2026-10-07 |  |  |
 | [Star Ocean: Till the End of Time](https://github.com/celophi/so3-decomp) | PS2 | 2.4 | 15 | 2026-10-24 |  |  |
@@ -2047,7 +2054,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [The Incredibles](https://github.com/seilc/incredibles) | GameCube | 2.4 | 24 | 2026-10-25 |  |  |
 | [The Italian Job](https://github.com/dashr9230/Caper) | PS2 | 2.4 | 4 | 2026-08-28 |  |  |
 | [The Legend of Zelda: Ocarina of Time (oot-dc)](https://github.com/jnmartin84/oot-dc) | N64 | 2.4 | 27 | 2026-09-11 |  |  |
-| [The Legend of Zelda: Spirit Tracks](https://github.com/Yanis002/st) | DS | 2.4 | 13 | 2026-10-14 |  |  |
+| [The Legend of Zelda: Spirit Tracks](https://github.com/Yanis002/st) | DS | 2.4 | 13 | 2026-10-25 |  |  |
 | [The Legend of Zelda: The Wind Waker HD (wwhd (verified decompilation))](https://github.com/ZeldaWWHDDecomp/wwhd) ⚠️ | Wii U | 2.4 | 31 | 2026-10-14 |  |  |
 | [The World Ends with You](https://github.com/Yotona/twewy) ⚠️ | DS | 2.4 | 33 | 2026-10-18 |  |  |
 | [Tiger Woods PGA Tour 2004](https://github.com/mitsevox/tw2004) | GameCube | 2.4 | 18 | 2026-10-25 |  |  |
@@ -2059,7 +2066,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Twisted Metal: Black](https://github.com/OpenTrac/tmb_Re-Arc) | PS2 | 2.4 | 22 | 2026-10-25 |  |  |
 | [Twisted Metal: Harbor City](https://github.com/jacobleeharris/tmhc) | PS2 | 2.4 | 19 | 2026-08-30 |  |  |
 | [Uridium (uridium (+ UridiumFraktion))](https://github.com/mwenge/uridium) | Commodore 64/8-bit | 2.4 | 26 | 2026-10-03 |  |  |
-| [Vagrant Story](https://github.com/ser-pounce/rood-reverse) ⚠️ | PS1 | 2.4 | 186 | 2026-10-24 |  |  |
+| [Vagrant Story](https://github.com/ser-pounce/rood-reverse) ⚠️ | PS1 | 2.4 | 186 | 2026-10-25 |  |  |
 | [Vagrant Story](https://github.com/noprompt/rood-boi) | PS1 | 2.4 | 25 | 2026-10-25 |  |  |
 | [Wii Play](https://github.com/akiramusic000/Rhae) | Wii | 2.4 | 16 | 2026-10-03 |  |  |
 | [Wild 9](https://github.com/plinkr/Wild9-Decompilation) | PS1 | 2.4 | 5 | 2026-10-25 |  |  |
@@ -2084,7 +2091,6 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [Burnout Paradise](https://github.com/BurnoutDecomp/b5-decomp) ⚠️ | Xbox 360 | 2.2 | 17 | 2026-10-24 |  | [reddit](https://www.reddit.com/r/recomps/comments/1wl9zis/ "u/Wise-Difficulty8221 · 86 upvotes · 43 comments") |
 | [Castlevania](https://github.com/k64ret/cv64) | N64 | 2.2 | 67 | 2025-09-08 |  |  |
 | [Castlevania: Order of Ecclesia](https://github.com/LagoLunatic/ooe) | DS | 2.2 | 34 | 2025-05-04 |  |  |
-| [Choplifter (ChoplifterReverse (Blondihacks))](https://github.com/blondie7575/ChoplifterReverse) | Apple II | 2.2 | 100 | 2024-10-24 |  |  |
 | [Cobra (Paul Hughes ZXSpectrumCobra)](https://github.com/Paulie68000/ZXSpectrumCobra) | ZX Spectrum | 2.2 | 47 | 2024-11-17 |  |  |
 | [Crash Bandicoot: The Wrath of Cortex](https://github.com/denzi-gh/crashwoc-decomp-gc) ⚠️ | GameCube | 2.2 | 17 | 2026-10-12 |  |  |
 | [Dark Rift](https://github.com/Unnunu/darkrift) | N64 | 2.2 | 4 | 2026-06-23 |  |  |
@@ -2228,7 +2234,7 @@ Source-code reconstructions (matching or functional) of the original game binary
 | [The Sims 2](https://github.com/natebag/Sims2DECOMP) ⚠️ | GameCube | 2.0 | 23 | 2026-06-10 |  |  |
 | [Tomb Raider: Legend](https://github.com/TheIndra55/cdcEngine) | PC | 2.0 | 24 | 2024-12-24 |  |  |
 | [UnderTale Yellow](https://github.com/burnedpopcorn/UnderTale-Yellow-Decompilation) | PC | 2.0 | 12 | 2025-08-27 |  |  |
-| [Wario World](https://github.com/sabishii-bit/wwdcmp) | GameCube | 2.0 | 6 | 2025-08-28 |  |  |
+| [Wario World](https://github.com/sabishii-bit/wwdcmp) | GameCube | 2.0 | 7 | 2025-08-28 |  |  |
 | [WCW Nitro](https://github.com/martinbean/nitro) | PS1 | 2.0 | 4 | 2025-04-09 |  |  |
 | [WCW/nWo Thunder](https://github.com/martinbean/thunder) | N64 | 2.0 | 8 | 2025-04-07 |  |  |
 | [World of Goo](https://github.com/Fancy2209/wog-wiiware) | Wii | 2.0 | 3 | 2025-01-21 |  |  |
@@ -2368,7 +2374,6 @@ Annotated assembly that rebuilds the original ROM, mostly 8/16-bit games.
 | [The Sims 2 (GBA)](https://github.com/SimsAdvanceRet/S2GBADecomp) | GBA | 2.4 | 6 | 2025-06-12 |  |  |
 | [The Sims: Bustin' Out](https://github.com/SimsAdvanceRet/BustinOutGBADecomp) | GBA | 2.4 | 6 | 2025-06-12 |  |  |
 | [The Urbz: Sims in the City](https://github.com/SimsAdvanceRet/UrbzGBADecomp) | GBA | 2.4 | 9 | 2025-06-12 |  |  |
-| [Harry Potter and the Sorcerer's Stone (HPSS-Disassembly)](https://github.com/terinjokes/HPSS-Disassembly) | Game Boy Color | 2.1 | 21 | 2024-10-24 |  |  |
 
 ## Tools & launchers
 
@@ -2376,16 +2381,16 @@ Recompilers, launchers and helpers around these projects.
 
 | Game | Platform | Score | ⭐ | Last commit | Progress | Links |
 |---|---|---|---|---|---|---|
-| [AnyPS5](https://github.com/boykopovar/AnyPS5) | PS5 | 3.4 | 48.0k | 2026-10-25 |  | [release](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.3) · [reddit](https://www.reddit.com/r/decomps/comments/1x9ykwg/ "u/Startup_BG · 64 upvotes · 14 comments") |
-| [nxnative](https://github.com/seedds/nxnative) | Switch | 3.1 | 3.4k | 2026-10-25 |  | [reddit](https://www.reddit.com/r/NativePortsOniOS/comments/1xck57y/ "u/jadonokoh86 · 19 upvotes · 7 comments") |
+| [AnyPS5](https://github.com/boykopovar/AnyPS5) | PS5 | 3.4 | 48.1k | 2026-10-25 |  | [release](https://github.com/boykopovar/AnyPS5/releases/tag/v0.1.3) · [reddit](https://www.reddit.com/r/decomps/comments/1x9ykwg/ "u/Startup_BG · 64 upvotes · 14 comments") |
+| [nxnative](https://github.com/seedds/nxnative) | Switch | 3.1 | 3.6k | 2026-10-25 |  | [reddit](https://www.reddit.com/r/NativePortsOniOS/comments/1xck57y/ "u/jadonokoh86 · 19 upvotes · 7 comments") |
 | [PS2Recomp](https://github.com/ran-j/PS2Recomp) | PS2 | 3.1 | 3.7k | 2026-10-23 |  | [reddit](https://www.reddit.com/r/decomps/comments/1x37frv/ "u/TrashCollector1337 · 2 upvotes · 0 comments") |
 | [Quiver Launcher](https://github.com/tgeorgiadis/quiver-launcher) | PC | 3.1 | 3.0k | 2026-10-15 |  | [release](https://github.com/tgeorgiadis/quiver-launcher/releases/tag/v3.5.1) |
-| [xrevive](https://github.com/Teraflopping/xrevive) | Xbox | 3.0 | 493 | 2026-10-20 |  | [release](https://github.com/Teraflopping/xrevive/releases/tag/v0.1.23) |
-| [Crash Bandicoot (Matteo842 Recomp)](https://github.com/Matteo842/CrashBandicoot-Launcher) ⚠️ | PS1 | 2.8 | 297 | 2026-10-21 |  | [release](https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.3.1) |
-| [xboxrecomp](https://github.com/sp00nznet/xboxrecomp) ⚠️ | Xbox | 2.8 | 292 | 2026-10-21 |  | [release](https://github.com/sp00nznet/xboxrecomp/releases/tag/v0.16.0) · [reddit](https://www.reddit.com/r/recomps/comments/1wynho8/ "u/DiscordFul · 102 upvotes · 4 comments") |
+| [xrevive](https://github.com/Teraflopping/xrevive) | Xbox | 3.0 | 496 | 2026-10-20 |  | [release](https://github.com/Teraflopping/xrevive/releases/tag/v0.1.23) |
+| [Crash Bandicoot (Matteo842 Recomp)](https://github.com/Matteo842/CrashBandicoot-Launcher) ⚠️ | PS1 | 2.8 | 297 | 2026-10-25 |  | [release](https://github.com/Matteo842/CrashBandicoot-Launcher/releases/tag/2.3.1) |
+| [xboxrecomp](https://github.com/sp00nznet/xboxrecomp) ⚠️ | Xbox | 2.8 | 295 | 2026-10-21 |  | [release](https://github.com/sp00nznet/xboxrecomp/releases/tag/v0.16.0) · [reddit](https://www.reddit.com/r/recomps/comments/1wynho8/ "u/DiscordFul · 102 upvotes · 4 comments") |
 | [RecompOne](https://github.com/BlackLabelHQ/RecompOne) | PS1 | 2.7 | 597 | 2026-10-21 |  | [reddit](https://www.reddit.com/r/recomps/comments/1x1g9ae/ "u/voicedrew · 16 upvotes · 4 comments") |
 | [libsm64](https://github.com/libsm64/libsm64) | N64 | 2.5 | 972 | 2026-02-13 |  |  |
-| [Ports Launcher](https://github.com/Nyaldee/Ports-Launcher) | PC | 2.5 | 79 | 2026-10-23 |  | [release](https://github.com/Nyaldee/Ports-Launcher/releases/tag/10/23/26) · [reddit](https://www.reddit.com/r/decomps/comments/1wed854/ "u/Nyaldi · 371 upvotes · 81 comments") |
+| [Ports Launcher](https://github.com/Nyaldee/Ports-Launcher) | PC | 2.5 | 79 | 2026-10-25 |  | [release](https://github.com/Nyaldee/Ports-Launcher/releases/tag/10/23/26) · [reddit](https://www.reddit.com/r/decomps/comments/1wed854/ "u/Nyaldi · 371 upvotes · 81 comments") |
 | [3dsrecomp](https://github.com/fearkov/3dsrecomp) | 3DS | 2.2 | 52 | 2026-10-25 |  | [reddit](https://www.reddit.com/r/decomps/comments/1wvclpc/ "u/fearkov_ · 324 upvotes · 77 comments") |
 
 ## Mods & mashups
@@ -2414,7 +2419,7 @@ Recompilers, launchers and helpers around these projects.
 
 | Mod | Runs in | Brings in | ⭐ | Last commit | Links |
 |---|---|---|---|---|---|
-| [2010 Rust Rewrite Mashup](https://github.com/chasmlol/2010-rust-rewrite-mashup)<br><sub>MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map</sub> | Call of Duty: Modern Warfare 2 via IW4L | Skate 3, Minecraft | 917 | 2026-10-02 | [release](https://github.com/chasmlol/2010-rust-rewrite-mashup/releases/tag/v0.4.0) |
+| [2010 Rust Rewrite Mashup](https://github.com/chasmlol/2010-rust-rewrite-mashup)<br><sub>MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map</sub> | Call of Duty: Modern Warfare 2 via IW4L | Skate 3, Minecraft | 918 | 2026-10-02 | [release](https://github.com/chasmlol/2010-rust-rewrite-mashup/releases/tag/v0.4.0) |
 | [SkateGM](https://github.com/the-schwilliam/SkateGM)<br><sub>Skate 3 in Garry's Mod</sub> | Garry's Mod | Skate 3 | 44 | 2026-10-21 | [release](https://github.com/the-schwilliam/SkateGM/releases/tag/9.0) |
 
 ### Other mods & mashups
@@ -2437,7 +2442,7 @@ Recompilers, launchers and helpers around these projects.
 
 ## Inactive / unmaintained
 
-354 projects that are archived or have had no commits since 2024-10-24 (2 years). They may still work, but don't expect fixes. Browser-playable games and hand-picked top picks stay in the main lists, marked 🕰️.
+356 projects that are archived or have had no commits since 2024-10-25 (2 years). They may still work, but don't expect fixes. Browser-playable games and hand-picked top picks stay in the main lists, marked 🕰️.
 
 <details><summary><b>Static recompilations</b> (7)</summary>
 
@@ -2462,7 +2467,7 @@ Recompilers, launchers and helpers around these projects.
 | [Cortex Command Community Project Source](https://github.com/cortex-command-community/Cortex-Command-Community-Project-Source) 🗄️ |  | 3.5 | 202 | 2024-01-05 |  |  |
 | [Descent (DXX Retro)](https://github.com/CDarrow/DXX-Retro) | DOS | 3.5 | 52 | 2022-12-16 |  | [release](https://github.com/CDarrow/DXX-Retro/releases/tag/v1.3.1) |
 | [Doom 64 (Doom 64 EX+)](https://github.com/atsb/Doom64EX-Plus) 🗄️ | N64 | 3.5 | 230 | 2025-11-05 |  | [release](https://github.com/atsb/Doom64EX-Plus/releases/tag/5.2.0.0) |
-| [Super Mario World (SMAS_Launcher)](https://github.com/stephini/SMAS_Launcher) | SNES | 3.5 | 63 | 2023-07-20 |  |  |
+| [Super Mario World (SMAS_Launcher)](https://github.com/stephini/SMAS_Launcher) | SNES | 3.5 | 62 | 2023-07-20 |  |  |
 | [Doomsday Engine](https://github.com/skyjake/Doomsday-Engine) | DOS | 3.5 | 306 | 2024-01-23 |  | [release](https://github.com/skyjake/Doomsday-Engine/releases/tag/v2.3.0) |
 | [The Legend of Zelda: A Link to the Past](https://github.com/Waterdish/zelda3-android) | SNES | 3.5 | 208 | 2024-06-03 |  | [release](https://github.com/Waterdish/zelda3-android/releases/tag/v1.0.1) |
 | [Cube 2: Sauerbraten (BananaBread)](https://github.com/kripken/BananaBread) | PC | 3.4 | 1.4k | 2021-10-29 |  |  |
@@ -2509,20 +2514,20 @@ Recompilers, launchers and helpers around these projects.
 | [OpenSpades](https://github.com/yvt/openspades) | PC | 4.0 | 1.2k | 2024-06-02 |  | [release](https://github.com/yvt/openspades/releases/tag/v0.1.3) |
 | [Grand Theft Auto: San Andreas (San Andreas Unity)](https://github.com/in0finite/SanAndreasUnity) | PC | 3.8 | 2.7k | 2022-09-30 |  | [release](https://github.com/in0finite/SanAndreasUnity/releases/tag/v4.0) |
 | [Final Fantasy VII (Braver)](https://github.com/ficed/Braver) | PS1 | 3.5 | 40 | 2023-12-04 |  | [release](https://github.com/ficed/Braver/releases/tag/v0.1.7) |
-| [Librelancer](https://github.com/Librelancer/Librelancer) 🗄️ |  | 3.5 | 612 | 2026-10-10 |  | [release](https://github.com/Librelancer/Librelancer/releases/tag/2025.11) |
+| [Librelancer](https://github.com/Librelancer/Librelancer) 🗄️ |  | 3.5 | 613 | 2026-10-10 |  | [release](https://github.com/Librelancer/Librelancer/releases/tag/2025.11) |
 | [OpenSA](https://github.com/Dzierzan/OpenSA) |  | 3.5 | 124 | 2023-09-29 |  | [release](https://github.com/Dzierzan/OpenSA/releases/tag/20230905) |
 | [Out Run](https://github.com/djyt/cannonball) | Arcade | 3.5 | 887 | 2022-01-30 |  | [release](https://github.com/djyt/cannonball/releases/tag/v0.34) |
 | [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5) | PC | 3.5 | 520 | 2021-03-07 |  |  |
-| [Super Mario World](https://github.com/snesrev/smw) | SNES | 3.4 | 648 | 2023-08-16 |  | [release](https://github.com/snesrev/smw/releases/tag/v0.1) |
+| [Super Mario World](https://github.com/snesrev/smw) | SNES | 3.4 | 647 | 2023-08-16 |  | [release](https://github.com/snesrev/smw/releases/tag/v0.1) |
 | [Evolution-RTS](https://github.com/EvolutionRTS/Evolution-RTS) |  | 3.4 | 152 | 2022-03-07 |  | [release](https://github.com/EvolutionRTS/Evolution-RTS/releases/tag/v17.07) |
 | [Doom RPG (DoomRPG-RE)](https://github.com/Erick194/DoomRPG-RE) | Mobile | 3.3 | 161 | 2024-04-23 |  | [release](https://github.com/Erick194/DoomRPG-RE/releases/tag/v.0.2.2) |
-| [Open Kick-Off](https://github.com/ssenegas/kickoff) |  | 3.3 | 61 | 2024-08-01 |  |  |
+| [Open Kick-Off](https://github.com/ssenegas/kickoff) |  | 3.3 | 62 | 2024-08-01 |  |  |
 | [Falltergeist](https://github.com/falltergeist/falltergeist) | PC | 3.2 | 886 | 2022-07-15 |  | [release](https://github.com/falltergeist/falltergeist/releases/tag/0.4.0) |
 | [dRally](https://github.com/urxp/dRally) | DOS | 3.0 | 74 | 2023-07-26 |  | [release](https://github.com/urxp/dRally/releases/tag/v0.2) |
 | [Fatal Frame II: Crimson Butterfly (Mikompilation (FF2 engine))](https://github.com/Mikompilation/Mikompilation) | PS2 | 3.0 | 58 | 2024-02-06 |  | [release](https://github.com/Mikompilation/Mikompilation/releases/tag/v0.0.1) |
 | [ForsakenX](https://github.com/ForsakenX/forsaken) | PC | 3.0 | 181 | 2024-07-16 |  | [release](https://github.com/ForsakenX/forsaken/releases/tag/v.1.18.2547) |
 | [Midnight Club II (OpenMC2)](https://github.com/OpenMC2/OpenMC2) | PS2 | 3.0 | 174 | 2023-06-16 |  | [release](https://github.com/OpenMC2/OpenMC2/releases/tag/v0.0.2) |
-| [Reburn 3](https://github.com/reburndev/reburn3) |  | 3.0 | 195 | 2023-12-07 |  | [release](https://github.com/reburndev/reburn3/releases/tag/proof-of-concept) |
+| [Reburn 3](https://github.com/reburndev/reburn3) |  | 3.0 | 196 | 2023-12-07 |  | [release](https://github.com/reburndev/reburn3/releases/tag/proof-of-concept) |
 | [Super Mario World (Super Mario World Remastered)](https://github.com/JHDev2006/Super-Mario-World-Remastered-Public) 🗄️ | SNES | 3.0 | 281 | 2025-05-14 |  | [release](https://github.com/JHDev2006/Super-Mario-World-Remastered-Public/releases/tag/v1.0.1) |
 | [Abyss Engine](https://github.com/AbyssEngine/AbyssEngine) |  | 2.8 | 320 | 2024-04-20 |  |  |
 | [Sourcehold](https://github.com/sourcehold/Sourcehold) |  | 2.8 | 281 | 2024-07-08 |  |  |
@@ -2550,12 +2555,12 @@ Recompilers, launchers and helpers around these projects.
 |---|---|---|---|---|---|---|
 | [Doom (doom-wasm)](https://github.com/cloudflare/doom-wasm) | DOS | 3.8 | 418 | 2024-09-20 |  |  |
 | [Urban Terror (ut.pieter.com (ioUrbanTerror -> WebAssembly))](https://github.com/FrozenSand/ioq3-for-UrbanTerror-4) | PC | 3.5 | 152 | 2023-02-03 |  | [release](https://github.com/FrozenSand/ioq3-for-UrbanTerror-4/releases/tag/release-4.3.4) |
-| [Half-Life (hl (Xash3D FWGS Emscripten port))](https://github.com/Pixelsuft/hl) | PC | 3.4 | 120 | 2021-06-22 |  |  |
+| [Half-Life (hl (Xash3D FWGS Emscripten port))](https://github.com/Pixelsuft/hl) | PC | 3.4 | 119 | 2021-06-22 |  |  |
 | [Half-Life (Xash3D-Emscripten)](https://github.com/btarg/Xash3D-Emscripten) | PC | 3.4 | 146 | 2019-10-23 |  |  |
 
 </details>
 
-<details><summary><b>Decompilations</b> (139)</summary>
+<details><summary><b>Decompilations</b> (140)</summary>
 
 | Game | Platform | Score | ⭐ | Last commit | Progress | Links |
 |---|---|---|---|---|---|---|
@@ -2574,6 +2579,7 @@ Recompilers, launchers and helpers around these projects.
 | [Age of Wonders (aow-patch)](https://github.com/int19h/aow-patch) | PC | 2.2 | 45 | 2022-12-14 |  | [release](https://github.com/int19h/aow-patch/releases/tag/v3) |
 | [Angry Birds](https://github.com/jooapa/Angry_Birds_Decompilation) | Mobile | 2.2 | 54 | 2024-07-05 |  | [release](https://github.com/jooapa/Angry_Birds_Decompilation/releases/tag/1.0.2) |
 | [Conker's Bad Fur Day](https://github.com/mkst/conker) 🗄️ | N64 | 2.2 | 239 | 2026-05-10 |  |  |
+| [Choplifter (ChoplifterReverse (Blondihacks))](https://github.com/blondie7575/ChoplifterReverse) | Apple II | 2.2 | 100 | 2024-10-24 |  |  |
 | [Dragon Ball Legends](https://github.com/GodkuHacking/Dragon-Ball-Legends) | Mobile | 2.0 | 16 | 2024-05-09 |  | [release](https://github.com/GodkuHacking/Dragon-Ball-Legends/releases/tag/apk5.1.0) |
 | [Lotus Esprit Turbo Challenge (lotus-ste)](https://github.com/jonathanopalise/lotus-ste) | Atari ST | 2.0 | 42 | 2021-04-10 |  | [release](https://github.com/jonathanopalise/lotus-ste/releases/tag/v1.0) |
 | [Skylanders Cloud Patrol](https://github.com/spyrosadventure/cloud-patrol-decomp) | Mobile | 2.0 | 4 | 2024-07-22 |  |  |
@@ -2701,7 +2707,7 @@ Recompilers, launchers and helpers around these projects.
 
 </details>
 
-<details><summary><b>Disassemblies</b> (127)</summary>
+<details><summary><b>Disassemblies</b> (128)</summary>
 
 | Game | Platform | Score | ⭐ | Last commit | Progress | Links |
 |---|---|---|---|---|---|---|
@@ -2748,6 +2754,7 @@ Recompilers, launchers and helpers around these projects.
 | [Final Fantasy II](https://github.com/everything8215/ff2) | NES | 2.1 | 22 | 2022-12-06 |  |  |
 | [Final Fantasy IV](https://github.com/everything8215/ff4) | SNES | 2.1 | 35 | 2022-08-02 |  |  |
 | [Fire Emblem: The Blazing Blade (fe7_us)](https://github.com/StanHash/fe7_us) | GBA | 2.1 | 18 | 2024-05-29 |  |  |
+| [Harry Potter and the Sorcerer's Stone (HPSS-Disassembly)](https://github.com/terinjokes/HPSS-Disassembly) | Game Boy Color | 2.1 | 21 | 2024-10-24 |  |  |
 | [Harvest Moon (HM-Decomp)](https://github.com/ElisaS-Codes/HM-Decomp) | SNES | 2.1 | 19 | 2024-06-10 |  |  |
 | [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl) | GameCube | 2.1 | 24 | 2022-11-22 |  |  |
 | [Harvest Moon: Friends of Mineral Town (hmfomt)](https://github.com/not-alons/hmfomt) | GBA | 2.1 | 47 | 2021-05-27 |  |  |
