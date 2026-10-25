@@ -104,6 +104,8 @@ def main():
         g = r.get("github") or {}
         ok = 200 <= (r.get("link_status") or 0) < 400 or (r.get("link_status") in (401, 403, 429) and not r.get("github"))  # bot-protected pages count as alive
         if r.get("play_url"): ok = ok or 200 <= r.get("links_checked", {}).get("play_url", 0) < 400
+        if r.get("link_status") == -1 or (r.get("play_url") and r.get("links_checked", {}).get("play_url") == -1): ok = True  # unknown (host unreachable from the checker, e.g. web.archive.org), not dead
+        if (oset.get(nk(r["url"])) or {}).get("link_ok") is True: ok = True  # manual override: known alive
         url = g.get("repo") and f"https://github.com/{g['repo']}" or r["url"]
         if re.search(r"/tree/", r["url"]): url = r["url"]  # monorepo sub-folder entries
         key = url.lower()
@@ -169,7 +171,7 @@ def main():
         e["screenshot_score"] = int(m.get("screenshot_score") or (3 if e["screenshot"] else 0))
         e["note"] = m.get("note")
         pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
-        e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and (bst.get("ok", True) or bool(bver))  # browser_verified overrides a false-positive headless check
+        e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429, -1) or ov.get("link_ok") is True) and (bst.get("ok", True) or bool(bver))  # browser_verified overrides a false-positive headless check
         seen[key] = e; out.append(e)
     # mods & mashups built on decomps: own section, kept out of topics, counts, picks, browser and inactive lists
     mods = sorted([e for e in out if e["type"] == "mod"], key=lambda e: (MOD_GROUPS.index(e.get("mod_group")) if e.get("mod_group") in MOD_GROUPS else 99, -(e["stars"] or 0)))

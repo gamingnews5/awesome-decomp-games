@@ -6,7 +6,7 @@ import json, re, os, subprocess, sys, time, concurrent.futures as cf
 import requests
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GH = re.compile(r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+)", re.I)
-UA = {"User-Agent": "awesome-decomp-games-linkcheck/1.0 (+https://github.com/aigamedevs/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-linkcheck/1.0 (+https://github.com/gamingnews5/awesome-decomp-games)"}
 
 FIELDS = """nameWithOwner url stargazerCount forkCount isArchived isFork isDisabled pushedAt description homepageUrl
  openGraphImageUrl usesCustomOpenGraphImage licenseInfo{spdxId}
@@ -55,10 +55,12 @@ def fetch_github(pairs, batch=30):
 
 BROWSER_UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"}
 
+UNKNOWN = -1  # link status: check couldn't run (unreachable host), keep previous verdict
+
 def check_url(u):
     """Return (status, working_url). Falls back to https:// for plain-http links."""
     st = _check(u)
-    if (st == 0 or st >= 400) and u.startswith("http://"):
+    if (st == 0 or st >= 400) and u.startswith("http://"):  # UNKNOWN (-1) is never retried
         u2 = "https://" + u[len("http://"):]
         st2 = _check(u2)
         if st2: return st2, u2
@@ -71,6 +73,9 @@ def _check(u):
             r = requests.get(u, headers=BROWSER_UA, timeout=25, allow_redirects=True, stream=True); r.close()
         return r.status_code
     except Exception as e:
+        # the box (and sometimes CI) can't reach web.archive.org: a connection failure there is
+        # "unknown" (-1), not dead, so archived browser ports aren't dropped on a network blip
+        if "web.archive.org" in u: return UNKNOWN
         return 0
 
 def main():
@@ -122,7 +127,7 @@ def main():
         r["links_checked"] = checked
         r["checked_at"] = now
     json.dump(recs, open(os.path.join(ROOT, "data", "enriched.json"), "w"), indent=1, ensure_ascii=False)
-    dead = sum(1 for r in recs if not (200 <= (r["link_status"] or 0) < 400))
+    dead = sum(1 for r in recs if not (200 <= (r["link_status"] or 0) < 400) and r["link_status"] != UNKNOWN)
     print(f"enriched {len(recs)} records; dead/unreachable main links: {dead}", file=sys.stderr)
 
 if __name__ == "__main__": main()

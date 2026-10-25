@@ -69,6 +69,7 @@
   "https://wz2100.net/news/warzone-2100-web-edition",
   "https://github.com/SubmitGame/awesome-decomp-games",
   "https://github.com/aigamedevs/awesome-decomp-games",
+  "https://github.com/gamingnews5/awesome-decomp-games",
   "https://foxhollow.dev",
   "https://github.com/LightVelox/sotc-vibe-pc",
   "https://github.com/bwapi/bwapi",
@@ -545,6 +546,10 @@
   },
   "https://github.com/Masterllgod/naruto-storm-3-full-burst-port-nativo": {
    "type": "static-recomp"
+  },
+  "https://web.archive.org/web/20261006055917/https://playgta5.com": {
+   "link_ok": true,
+   "link_status": 200
   }
  },
  "browser_verified": {
