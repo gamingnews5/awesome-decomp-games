@@ -8,7 +8,7 @@ Downloads are retried (SSL EOFs happen) and on failure the previous raw/recompen
 import io, json, os, re, sys, tarfile, time, requests, yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL = "https://codeload.github.com/Nio03/unricopie/tar.gz/refs/heads/main"
-UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/aigamedevs/awesome-decomp-games)"}
+UA = {"User-Agent": "awesome-decomp-games-refresh (+https://github.com/gamingnews5/awesome-decomp-games)"}
 HINT = {"recomps": "recomp", "decomps": "decomp", "ports": "port", "tools": "tool"}
 PORT_HINT = {"fan-remake": "remake", "game-engine": "remake", "decomp-port": "port", "source-port": "port", "native-layer": "port"}
 TOOLS = {"Matteo842/CrashBandicoot-Launcher"}  # game-specific tools only; general recompilers/launchers/libraries are skipped
