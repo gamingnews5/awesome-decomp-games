@@ -1439,5 +1439,14 @@
    276
   ],
   "screenshot_score": 2
+ },
+ "https://github.com/flyngmt/Nookery": {
+  "screenshot": "screenshots/browser-flyngmt-nookery.jpg",
+  "screenshot_source": "live capture of https://rgc.zone/ports/ac-webport-main/index.html",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }
